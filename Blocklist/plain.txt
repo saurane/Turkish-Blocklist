@@ -113,3 +113,4 @@ webeyo.com
 webstats.garanti.com.tr
 xenn.io
 yenimedya.com.tr
+stats.blutv.com
