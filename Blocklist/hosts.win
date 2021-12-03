@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 115
-# Updated: 03 Dec 2021 5:14:42 PM
+# Entries: 116
+# Updated: 03 Dec 2021 5:48:02 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -123,3 +123,4 @@
 127.0.0.1 webeyo.com
 127.0.0.1 webstats.garanti.com.tr
 127.0.0.1 xenn.io
+127.0.0.1 yenimedya.com.tr
