@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
 # Entries: 114
-# Updated: 07 Dec 2021 9:09:24 PM
+# Updated: 07 Dec 2021 10:15:55 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -56,7 +56,6 @@ geoloc.hurriyet.com.tr
 hepsiads-bff.hepsiburada.com
 hepsiads-gw.hepsiburada.com
 hepsiads-ui.hepsiburada.com
-hepsiburada01.webtrekk.net
 hit.demirorenteknoloji.com
 hit.mynet.com
 hits.acunn.com
@@ -119,3 +118,4 @@ webeyo.com
 webstats.garanti.com.tr
 xenn.io
 yenimedya.com.tr
+nativespot.com
