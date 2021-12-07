@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 114
-# Updated: 07 Dec 2021 10:15:55 PM
+# Entries: 121
+# Updated: 08 Dec 2021 12:01:41 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -28,13 +28,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 adbuzz.com.tr
 0.0.0.0 adhouse.pro
 0.0.0.0 adklik.com.tr
+0.0.0.0 adl.mynetreklam.com
 0.0.0.0 admatic.com.tr
 0.0.0.0 admost.com
+0.0.0.0 adn.bursadabugun.com
 0.0.0.0 adnboost.com
 0.0.0.0 adplus.yaani.com.tr
 0.0.0.0 adreact.com
 0.0.0.0 ads.dygdigital.com
 0.0.0.0 adserve.donanimhaber.com
+0.0.0.0 adserver.a24.com.tr
 0.0.0.0 adsp.haberturk.com
 0.0.0.0 adtarget.com.tr
 0.0.0.0 adworld.com.tr
@@ -45,6 +48,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.poeticmetric.com
 0.0.0.0 asgs12.yaani.com.tr
 0.0.0.0 athena-event-provider.n11.com
+0.0.0.0 banner.tmgrup.com.tr
 0.0.0.0 bildirt.com
 0.0.0.0 c.gazetevatan.com
 0.0.0.0 cdn3.tooplay.com
@@ -85,6 +89,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 medyanetads.com
 0.0.0.0 mynetreklam.com
 0.0.0.0 n.tooplay.com
+0.0.0.0 nativespot.com
+0.0.0.0 netmera-web.com
 0.0.0.0 o.gez.io
 0.0.0.0 orsis.net
 0.0.0.0 personaclick.com
@@ -113,6 +119,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sociaplus.com
 0.0.0.0 socket.donanimhaber.com
 0.0.0.0 sqgz.generalmobile.com
+0.0.0.0 st.tmgrup.com.tr
 0.0.0.0 stats.acunn.com
 0.0.0.0 stats.blutv.com
 0.0.0.0 stats.ganipara.com
@@ -129,7 +136,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 visilabs.net
 0.0.0.0 visitorlab.com
 0.0.0.0 webeyo.com
+0.0.0.0 webinstats.com
 0.0.0.0 webstats.garanti.com.tr
 0.0.0.0 xenn.io
 0.0.0.0 yenimedya.com.tr
-0.0.0.0 nativespot.com
