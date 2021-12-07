@@ -7,13 +7,16 @@ ad01.tmgrup.com.tr
 adbuzz.com.tr
 adhouse.pro
 adklik.com.tr
+adl.mynetreklam.com
 admatic.com.tr
 admost.com
+adn.bursadabugun.com
 adnboost.com
 adplus.yaani.com.tr
 adreact.com
 ads.dygdigital.com
 adserve.donanimhaber.com
+adserver.a24.com.tr
 adsp.haberturk.com
 adtarget.com.tr
 adworld.com.tr
@@ -24,6 +27,7 @@ analytics.halkbank.com.tr
 api.poeticmetric.com
 asgs12.yaani.com.tr
 athena-event-provider.n11.com
+banner.tmgrup.com.tr
 bildirt.com
 c.gazetevatan.com
 cdn3.tooplay.com
@@ -64,6 +68,8 @@ marketing.turkiyefinans.com.tr
 medyanetads.com
 mynetreklam.com
 n.tooplay.com
+nativespot.com
+netmera-web.com
 o.gez.io
 orsis.net
 personaclick.com
@@ -92,6 +98,7 @@ smetrics.vodafone.com.tr
 sociaplus.com
 socket.donanimhaber.com
 sqgz.generalmobile.com
+st.tmgrup.com.tr
 stats.acunn.com
 stats.blutv.com
 stats.ganipara.com
@@ -108,7 +115,7 @@ visilabs.com
 visilabs.net
 visitorlab.com
 webeyo.com
+webinstats.com
 webstats.garanti.com.tr
 xenn.io
 yenimedya.com.tr
-nativespot.com
