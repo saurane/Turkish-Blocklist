@@ -49,7 +49,6 @@ geoloc.hurriyet.com.tr
 hepsiads-bff.hepsiburada.com
 hepsiads-gw.hepsiburada.com
 hepsiads-ui.hepsiburada.com
-hepsiburada01.webtrekk.net
 hit.demirorenteknoloji.com
 hit.mynet.com
 hits.acunn.com
@@ -112,3 +111,4 @@ webeyo.com
 webstats.garanti.com.tr
 xenn.io
 yenimedya.com.tr
+nativespot.com
