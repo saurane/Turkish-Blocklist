@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 116
-# Updated: 05 Dec 2021 1:07:08 PM
+# Entries: 114
+# Updated: 07 Dec 2021 9:09:24 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -32,6 +32,7 @@
 127.0.0.1 analytic.turkiyefinans.com.tr
 127.0.0.1 analytics.dugun.com
 127.0.0.1 analytics.halkbank.com.tr
+127.0.0.1 api.poeticmetric.com
 127.0.0.1 asgs12.yaani.com.tr
 127.0.0.1 athena-event-provider.n11.com
 127.0.0.1 bildirt.com
@@ -95,8 +96,6 @@
 127.0.0.1 revotas.com
 127.0.0.1 rt.nesine.com
 127.0.0.1 s.fullhdfilmizlesene.com
-127.0.0.1 saccest.com
-127.0.0.1 saccest.lidyana.com
 127.0.0.1 say.ac
 127.0.0.1 sdkapi.netmera.com
 127.0.0.1 searchanalytics.turkcell.com.tr
@@ -106,6 +105,7 @@
 127.0.0.1 socket.donanimhaber.com
 127.0.0.1 sqgz.generalmobile.com
 127.0.0.1 stats.acunn.com
+127.0.0.1 stats.blutv.com
 127.0.0.1 stats.ganipara.com
 127.0.0.1 stats.vidyome.com
 127.0.0.1 subservis.com
@@ -113,7 +113,6 @@
 127.0.0.1 t.lidyana.com
 127.0.0.1 track.tooplay.com
 127.0.0.1 tracker.blutv.com
-127.0.0.1 tuttur.ladesk.com
 127.0.0.1 useinsider.com
 127.0.0.1 veloxity.net
 127.0.0.1 virgul.com
@@ -124,4 +123,3 @@
 127.0.0.1 webstats.garanti.com.tr
 127.0.0.1 xenn.io
 127.0.0.1 yenimedya.com.tr
-127.0.0.1 stats.blutv.com
