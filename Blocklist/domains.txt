@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 116
-# Updated: 05 Dec 2021 1:07:08 PM
+# Entries: 114
+# Updated: 07 Dec 2021 9:09:24 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -28,6 +28,7 @@ aip-cdn.sozcu.com.tr
 analytic.turkiyefinans.com.tr
 analytics.dugun.com
 analytics.halkbank.com.tr
+api.poeticmetric.com
 asgs12.yaani.com.tr
 athena-event-provider.n11.com
 bildirt.com
@@ -91,8 +92,6 @@ revenueflex.com
 revotas.com
 rt.nesine.com
 s.fullhdfilmizlesene.com
-saccest.com
-saccest.lidyana.com
 say.ac
 sdkapi.netmera.com
 searchanalytics.turkcell.com.tr
@@ -102,6 +101,7 @@ sociaplus.com
 socket.donanimhaber.com
 sqgz.generalmobile.com
 stats.acunn.com
+stats.blutv.com
 stats.ganipara.com
 stats.vidyome.com
 subservis.com
@@ -109,7 +109,6 @@ t.enuygun.com
 t.lidyana.com
 track.tooplay.com
 tracker.blutv.com
-tuttur.ladesk.com
 useinsider.com
 veloxity.net
 virgul.com
@@ -120,4 +119,3 @@ webeyo.com
 webstats.garanti.com.tr
 xenn.io
 yenimedya.com.tr
-stats.blutv.com
