@@ -1,6 +1,6 @@
 ! Title: Saurane - Turkish Blocklist
-! Entries: 121
-! Updated: 08 Dec 2021 12:01:41 AM
+! Entries: 125
+! Updated: 08 Dec 2021 5:35:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -57,6 +57,7 @@
 ||gelirartisi.com^
 ||geoim.bloomberght.com^
 ||geoloc.hurriyet.com.tr^
+||h.n11.com^
 ||hepsiads-bff.hepsiburada.com^
 ||hepsiads-gw.hepsiburada.com^
 ||hepsiads-ui.hepsiburada.com^
@@ -64,6 +65,7 @@
 ||hit.mynet.com^
 ||hits.acunn.com^
 ||hstats.hepsiburada.com^
+||ipr.n11.com^
 ||istatistik.arabam.com^
 ||istatistik.gazetevatan.com^
 ||istatistik.trthaber.com^
@@ -87,6 +89,7 @@
 ||pozitron.com^
 ||programattik.com^
 ||psabah.tmgrup.com.tr^
+||r.cdn.acunn.com^
 ||r.tooplay.com^
 ||reklam.turkmmo.com^
 ||reklamagaci.com^
@@ -113,6 +116,7 @@
 ||subservis.com^
 ||t.enuygun.com^
 ||t.lidyana.com^
+||t.onedio.com^
 ||track.tooplay.com^
 ||tracker.blutv.com^
 ||useinsider.com^
