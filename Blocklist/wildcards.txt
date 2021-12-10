@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 125
-# Updated: 08 Dec 2021 5:35:01 PM
+# Entries: 128
+# Updated: 10 Dec 2021 10:11:56 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -12,6 +12,7 @@
 *.ad.yemeksepeti.com
 *.ad01.tmgrup.com.tr
 *.adbuzz.com.tr
+*.addata.exxen.com
 *.adhouse.pro
 *.adklik.com.tr
 *.adl.mynetreklam.com
@@ -74,6 +75,7 @@
 *.log.haberturk.com
 *.makroo.com
 *.marketing.turkiyefinans.com.tr
+*.medya.ilan.gov.tr
 *.medyanetads.com
 *.mynetreklam.com
 *.n.tooplay.com
@@ -89,6 +91,7 @@
 *.pozitron.com
 *.programattik.com
 *.psabah.tmgrup.com.tr
+*.pushs.euromsg.com
 *.r.cdn.acunn.com
 *.r.tooplay.com
 *.reklam.turkmmo.com
