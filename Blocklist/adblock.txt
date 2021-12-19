@@ -1,6 +1,6 @@
 ! Title: Saurane - Turkish Blocklist
 ! Entries: 128
-! Updated: 10 Dec 2021 10:11:56 AM
+! Updated: 19 Dec 2021 9:45:02 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
