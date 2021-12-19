@@ -1,6 +1,6 @@
 ! Title: Saurane - Turkish Blocklist
-! Entries: 128
-! Updated: 19 Dec 2021 9:45:02 PM
+! Entries: 130
+! Updated: 19 Dec 2021 9:47:21 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -20,6 +20,7 @@
 ||admost.com^
 ||adn.bursadabugun.com^
 ||adnboost.com^
+||adplay.com.tr^
 ||adplus.yaani.com.tr^
 ||adreact.com^
 ||ads.dygdigital.com^
@@ -81,6 +82,7 @@
 ||n.tooplay.com^
 ||nativespot.com^
 ||netmera-web.com^
+||networkad.net^
 ||o.gez.io^
 ||orsis.net^
 ||personaclick.com^
