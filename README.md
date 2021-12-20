@@ -1,4 +1,4 @@
-![alt text](https://github.com/saurane/Turkish-Blocklist/blob/master/banner2.png)
+![alt text](https://github.com/saurane/Turkish-Blocklist/blob/master/srnbanner.png)
 
 
 | Client | RAW |
