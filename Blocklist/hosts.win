@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 130
-# Updated: 19 Dec 2021 9:47:21 PM
+# Entries: 131
+# Updated: 20 Dec 2021 2:29:09 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -97,6 +97,7 @@
 127.0.0.1 pozitron.com
 127.0.0.1 programattik.com
 127.0.0.1 psabah.tmgrup.com.tr
+127.0.0.1 pushr.euromsg.com
 127.0.0.1 pushs.euromsg.com
 127.0.0.1 r.cdn.acunn.com
 127.0.0.1 r.tooplay.com
