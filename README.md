@@ -31,6 +31,11 @@
 | Windows Hosts | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.win "Link") | - |
 | Plain List | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/plain.txt "Link") | - |
 
+> Adblock Filtresi: Alan adının adres bölümlerine göre engeller.<br/>
+> DNS Filtresi: Alan adı tabanlı engeller.<br/>
+> Not: AdGuard, uBlock Origin gibi adblock söz dizimini kullanan reklam engelleyiciler için iki filtreyi de kullanmanız tavsiye edilir.
+
+
 ## Tespit ve araştırma yöntemleri
 [AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/fiddler), [HTTP Debugger](https://www.httpdebugger.com/), Subdomain Finder, URL Scan
 
