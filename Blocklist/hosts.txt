@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 135
-# Updated: 20 Dec 2021 3:30:57 PM
+# Entries: 131
+# Updated: 23 Dec 2021 3:32:10 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -49,7 +49,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytic.turkiyefinans.com.tr
 0.0.0.0 analytics.dugun.com
 0.0.0.0 analytics.halkbank.com.tr
-0.0.0.0 api.poeticmetric.com
 0.0.0.0 asgs12.yaani.com.tr
 0.0.0.0 athena-event-provider.n11.com
 0.0.0.0 banner.tmgrup.com.tr
@@ -76,7 +75,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gelirartisi.com
 0.0.0.0 geoim.bloomberght.com
 0.0.0.0 geoloc.hurriyet.com.tr
-0.0.0.0 h.n11.com
 0.0.0.0 hepsiads-bff.hepsiburada.com
 0.0.0.0 hepsiads-gw.hepsiburada.com
 0.0.0.0 hepsiads-ui.hepsiburada.com
@@ -84,12 +82,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 hit.mynet.com
 0.0.0.0 hits.acunn.com
 0.0.0.0 hstats.hepsiburada.com
-0.0.0.0 ipr.n11.com
 0.0.0.0 istatistik.arabam.com
 0.0.0.0 istatistik.gazetevatan.com
 0.0.0.0 istatistik.trthaber.com
 0.0.0.0 lg.nesine.com
-0.0.0.0 lidy.lidyana.com
 0.0.0.0 log.haberturk.com
 0.0.0.0 makroo.com
 0.0.0.0 marketing.turkiyefinans.com.tr
@@ -106,6 +102,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 perzonalization.com
 0.0.0.0 pixels.ingbank.com.tr
 0.0.0.0 poczta.generalmobile.com
+0.0.0.0 poeticmetric.com
 0.0.0.0 poltio.com
 0.0.0.0 pozitron.com
 0.0.0.0 programattik.com
@@ -130,7 +127,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 segmentify.com
 0.0.0.0 smetrics.vodafone.com.tr
 0.0.0.0 sociaplus.com
-0.0.0.0 socket.donanimhaber.com
 0.0.0.0 sqgz.generalmobile.com
 0.0.0.0 st.tmgrup.com.tr
 0.0.0.0 stats.acunn.com
