@@ -20,16 +20,16 @@
 
 ------------
 
-| İstemci | DNS Filtresi | Adblock Filtresi |
-| ------------ | ------------ | ------------ |
+| İstemci | DNS Filtresi | Adblock Filtresi | Kozmetik Filtresi |
+| ------------ | ------------ | ------------ | ------------ |
 | Pi-hole | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/domains.txt "Link") | - |
-| uBlock Origin ~ AdGuard | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "Link") | Yakında|
-| DNSCloak | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/wildcards.txt "Link") | - |
-| Unbound | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/unbound.conf "Link") | - |
-| dnsmasq | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/dnsmasq.conf "Link") | - |
-| AdAway | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.txt "Link") | - |
-| Windows Hosts | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.win "Link") | - |
-| Plain List | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/plain.txt "Link") | - |
+| uBlock Origin ~ AdGuard | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "Link") | Yakında | Yakında |
+| DNSCloak | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/wildcards.txt "Link") | - | - |
+| Unbound | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/unbound.conf "Link") | - | - |
+| dnsmasq | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/dnsmasq.conf "Link") | - | - |
+| AdAway | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.txt "Link") | - | - |
+| Windows Hosts | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.win "Link") | - | - |
+| Plain List | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/plain.txt "Link") | - | - |
 
 > ***Adblock Filtresi:*** Alan adının adres bölümlerine göre engeller. Örnek: example.com/javascript/ads.js - example.com/haber/analytics.js<br/>
 > ***DNS Filtresi:*** Alan adı tabanlı engeller. Örnek: example.com - ads.example.com - analytics.example.com<br/>
