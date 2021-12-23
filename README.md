@@ -1,6 +1,10 @@
-![alt text](https://github.com/saurane/Turkish-Blocklist/blob/master/srnbanner.png)
+<div align="center">
+  <h1>DNS ve Adblock için Türkçe Tabanlı Engelleme Projesi</h1>
+</div>
 
+[![GitHub stars](https://img.shields.io/github/stars/saurane/Turkish-Blocklist?style=flat-square)](https://github.com/saurane/Turkish-Blocklist/stargazers) [![GitHub forks](https://img.shields.io/github/forks/saurane/Turkish-Blocklist?style=flat-square)](https://github.com/saurane/Turkish-Blocklist/network)
 
+*DNS filtre listesi*
 | Client | RAW |
 | ------------ | ------------ |
 | Pi-hole | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/domains.txt "Link") |
@@ -16,7 +20,7 @@
 TR: Türkçe tabanlı reklam ve izleyici listesi.<br/>
 EN: Turkish based ad and tracker blocklist.
 
-## Detection and research methods
+## Tespit ve araştırma yöntemleri
 [AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/fiddler), [HTTP Debugger](https://www.httpdebugger.com/), Subdomain Finder, URL Scan
 
 ## Listenin Temel Amacı
