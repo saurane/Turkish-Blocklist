@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 135
-# Updated: 20 Dec 2021 3:30:57 PM
+# Entries: 131
+# Updated: 23 Dec 2021 3:32:10 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -39,7 +39,6 @@
 127.0.0.1 analytic.turkiyefinans.com.tr
 127.0.0.1 analytics.dugun.com
 127.0.0.1 analytics.halkbank.com.tr
-127.0.0.1 api.poeticmetric.com
 127.0.0.1 asgs12.yaani.com.tr
 127.0.0.1 athena-event-provider.n11.com
 127.0.0.1 banner.tmgrup.com.tr
@@ -66,7 +65,6 @@
 127.0.0.1 gelirartisi.com
 127.0.0.1 geoim.bloomberght.com
 127.0.0.1 geoloc.hurriyet.com.tr
-127.0.0.1 h.n11.com
 127.0.0.1 hepsiads-bff.hepsiburada.com
 127.0.0.1 hepsiads-gw.hepsiburada.com
 127.0.0.1 hepsiads-ui.hepsiburada.com
@@ -74,12 +72,10 @@
 127.0.0.1 hit.mynet.com
 127.0.0.1 hits.acunn.com
 127.0.0.1 hstats.hepsiburada.com
-127.0.0.1 ipr.n11.com
 127.0.0.1 istatistik.arabam.com
 127.0.0.1 istatistik.gazetevatan.com
 127.0.0.1 istatistik.trthaber.com
 127.0.0.1 lg.nesine.com
-127.0.0.1 lidy.lidyana.com
 127.0.0.1 log.haberturk.com
 127.0.0.1 makroo.com
 127.0.0.1 marketing.turkiyefinans.com.tr
@@ -96,6 +92,7 @@
 127.0.0.1 perzonalization.com
 127.0.0.1 pixels.ingbank.com.tr
 127.0.0.1 poczta.generalmobile.com
+127.0.0.1 poeticmetric.com
 127.0.0.1 poltio.com
 127.0.0.1 pozitron.com
 127.0.0.1 programattik.com
@@ -120,7 +117,6 @@
 127.0.0.1 segmentify.com
 127.0.0.1 smetrics.vodafone.com.tr
 127.0.0.1 sociaplus.com
-127.0.0.1 socket.donanimhaber.com
 127.0.0.1 sqgz.generalmobile.com
 127.0.0.1 st.tmgrup.com.tr
 127.0.0.1 stats.acunn.com
