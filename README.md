@@ -31,9 +31,9 @@
 | Windows Hosts | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.win "Link") | - |
 | Plain List | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/plain.txt "Link") | - |
 
-> ***Adblock Filtresi:*** Alan adının adres bölümlerine göre engeller. Örnek: example.com/javascript/ads.js - example.com/haber/reklam.js<br/>
+> ***Adblock Filtresi:*** Alan adının adres bölümlerine göre engeller. Örnek: example.com/javascript/ads.js - example.com/haber/analytics.js<br/>
 > ***DNS Filtresi:*** Alan adı tabanlı engeller. Örnek: example.com - ads.example.com - analytics.example.com<br/>
-> ***Not:*** AdGuard, uBlock Origin gibi adblock söz dizimini kullanan reklam engelleyiciler için iki filtreyi de kullanmanız tavsiye edilir.
+> ***Not:*** AdGuard ve uBlock Origin gibi adblock söz dizimini kullanan reklam engelleyiciler için iki filtreyi de kullanmanız tavsiye edilir.
 
 
 ## Tespit ve araştırma yöntemleri
