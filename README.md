@@ -13,6 +13,12 @@
 </div>
 
 ------------
+<div align="center">
+  <h1>DNS ve Adblock Tabanlı Engelleme Projesi</h1>
+</div>
+
+
+------------
 
 | İstemci | DNS Filtresi | Adblock Filtresi |
 | ------------ | ------------ | ------------ |
