@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 135
-# Updated: 20 Dec 2021 3:30:57 PM
+# Entries: 131
+# Updated: 23 Dec 2021 3:32:10 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -35,7 +35,6 @@ aip-cdn.sozcu.com.tr
 analytic.turkiyefinans.com.tr
 analytics.dugun.com
 analytics.halkbank.com.tr
-api.poeticmetric.com
 asgs12.yaani.com.tr
 athena-event-provider.n11.com
 banner.tmgrup.com.tr
@@ -62,7 +61,6 @@ evs.data.ciceksepeti.com
 gelirartisi.com
 geoim.bloomberght.com
 geoloc.hurriyet.com.tr
-h.n11.com
 hepsiads-bff.hepsiburada.com
 hepsiads-gw.hepsiburada.com
 hepsiads-ui.hepsiburada.com
@@ -70,12 +68,10 @@ hit.demirorenteknoloji.com
 hit.mynet.com
 hits.acunn.com
 hstats.hepsiburada.com
-ipr.n11.com
 istatistik.arabam.com
 istatistik.gazetevatan.com
 istatistik.trthaber.com
 lg.nesine.com
-lidy.lidyana.com
 log.haberturk.com
 makroo.com
 marketing.turkiyefinans.com.tr
@@ -92,6 +88,7 @@ personaclick.com
 perzonalization.com
 pixels.ingbank.com.tr
 poczta.generalmobile.com
+poeticmetric.com
 poltio.com
 pozitron.com
 programattik.com
@@ -116,7 +113,6 @@ searchanalytics.turkcell.com.tr
 segmentify.com
 smetrics.vodafone.com.tr
 sociaplus.com
-socket.donanimhaber.com
 sqgz.generalmobile.com
 st.tmgrup.com.tr
 stats.acunn.com
