@@ -1,8 +1,21 @@
 <div align="center">
-  <h1>DNS ve Adblock için Türkçe Tabanlı Engelleme Projesi</h1>
+  <h1>DNS ve Adblock Tabanlı Engelleme</h1>
 </div>
 
-[![GitHub stars](https://img.shields.io/github/stars/saurane/Turkish-Blocklist?style=flat-square)](https://github.com/saurane/Turkish-Blocklist/stargazers) [![GitHub forks](https://img.shields.io/github/forks/saurane/Turkish-Blocklist?style=flat-square)](https://github.com/saurane/Turkish-Blocklist/network)
+<div align="center">
+  <!-- Star -->
+    <img src="https://img.shields.io/badge/Star-1-blue.svg?longCache=true&style=for-the-badge"
+      alt="21.12.357.20" />
+    <!-- Fork -->
+    <img src="https://img.shields.io/badge/Fork-0-yellow.svg?longCache=true&style=for-the-badge"
+      alt="_time_stamp_" />
+  <!-- Last Updated -->
+    <img src="https://img.shields.io/badge/Updated-Dec 23, 2021-orange.svg?longCache=true&style=for-the-badge"
+      alt="_time_stamp_" />
+  <!-- Status -->
+    <img src="https://img.shields.io/badge/Status-Stable-green.svg?longCache=true&style=for-the-badge"
+      alt="_time_stamp_" />
+</div>
 
 *DNS filtre listesi*
 | Client | RAW |
