@@ -16,7 +16,7 @@
 TR: Türkçe tabanlı reklam ve izleyici listesi.<br/>
 EN: Turkish based ad and tracker blocklist.
 
-## Detection methods
+## Detection and research methods
 [AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/), [HTTP Debugger](https://www.httpdebugger.com/), [Subdomain Finder](https://www.nmmapper.com/), [URL Scan](https://urlscan.io/)
 
 ## Listenin Temel Amacı
