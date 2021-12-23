@@ -17,7 +17,7 @@ TR: Türkçe tabanlı reklam ve izleyici listesi.<br/>
 EN: Turkish based ad and tracker blocklist.
 
 ## Detection and research methods
-[AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/), [HTTP Debugger](https://www.httpdebugger.com/), [Subdomain Finder](https://www.nmmapper.com/), [URL Scan](https://urlscan.io/)
+[AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/), [HTTP Debugger](https://www.httpdebugger.com/), Subdomain Finder, URL Scan
 
 ## Listenin Temel Amacı
 Bu listede sadece yerel reklam ve izleyici adresleri bulunmaktadır, eğer tam bir koruma sağlamak istiyorsanız [1Hosts](https://github.com/badmojr/1Hosts), [Energized](https://github.com/EnergizedProtection/block) veya [oisd](https://github.com/ookangzheng/dbl-oisd-nl) listeleri arasından en az birisiyle beraber kullanmanız tavsiye edilir.
