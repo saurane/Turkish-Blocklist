@@ -1,6 +1,4 @@
-<div align="center">
-  <h1>DNS ve Adblock Tabanlı Engelleme</h1>
-</div>
+![Cover](https://github.com/saurane/Turkish-Blocklist/blob/master/srnsss.png)
 
 <div align="center">
   <!-- Star -->
