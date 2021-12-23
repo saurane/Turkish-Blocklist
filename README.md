@@ -1,17 +1,14 @@
 ![Cover](https://github.com/saurane/Turkish-Blocklist/blob/master/srnsss.png)
 
 <div align="center">
-  <!-- Star -->
-    <img src="https://img.shields.io/badge/Star-1-blue.svg?longCache=true&style=for-the-badge"
-      alt="21.12.357.20" />
-    <!-- Fork -->
-    <img src="https://img.shields.io/badge/Fork-0-yellow.svg?longCache=true&style=for-the-badge"
-      alt="_time_stamp_" />
+    <!-- License -->
+    <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
+      alt="License-MPL-2.0" />
   <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-Dec 23, 2021-orange.svg?longCache=true&style=for-the-badge"
+    <img src="https://img.shields.io/badge/Updated-Dec 23, 2021-green.svg?longCache=true&style=for-the-badge"
       alt="_time_stamp_" />
-  <!-- Status -->
-    <img src="https://img.shields.io/badge/Status-Stable-green.svg?longCache=true&style=for-the-badge"
+    <!-- Status -->
+    <img src="https://img.shields.io/badge/Status-Stable-blue.svg?longCache=true&style=for-the-badge"
       alt="_time_stamp_" />
 </div>
 
@@ -26,10 +23,6 @@
 | AdAway | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.txt "Link") |
 | Windows Hosts | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.win "Link") |
 | Plain List | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/plain.txt "Link") |
-
-## Proje Açıklaması / Project Description
-TR: Türkçe tabanlı reklam ve izleyici listesi.<br/>
-EN: Turkish based ad and tracker blocklist.
 
 ## Tespit ve araştırma yöntemleri
 [AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/fiddler), [HTTP Debugger](https://www.httpdebugger.com/), Subdomain Finder, URL Scan
