@@ -23,7 +23,7 @@
 | İstemci | DNS Filtresi | Adblocker Filtresi | Kozmetik Filtresi | Regex Filtresi |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Pi-hole | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/domains.txt "Link") | - | - |
-| uBlock Origin ~ AdGuard | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "Link") | Yakında | Yakında | Yakında |
+| uBlock Origin ~ AdGuard | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "Link") | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblockfilter.txt "Link") | Yakında | Yakında |
 | DNSCloak | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/wildcards.txt "Link") | - | - | - |
 | Unbound | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/unbound.conf "Link") | - | - | - |
 | dnsmasq | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/dnsmasq.conf "Link") | - | - | - |
