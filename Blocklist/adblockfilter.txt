@@ -1,11 +1,9 @@
 ! Title: Saurane Turkish Filter
-! Syntax: Adblock
-! Entries: 25
+! Description: Turkish Filter List
 ! Updated: 25 Dec 2021 3:32:10 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
-! E-mail: saurane@protonmail.com
-
+!
 !sozcu.com.tr (Sözcü)
 sozcu.com.tr##div.currencyAdArea
 sozcu.com.tr##.adInitRemove
