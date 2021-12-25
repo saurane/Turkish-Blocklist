@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
 # Entries: 131
-# Updated: 23 Dec 2021 3:32:10 PM
+# Updated: 25 Dec 2021 5:26:07 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -96,7 +96,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nativespot.com
 0.0.0.0 netmera-web.com
 0.0.0.0 networkad.net
-0.0.0.0 o.gez.io
+0.0.0.0 gez.io
 0.0.0.0 orsis.net
 0.0.0.0 personaclick.com
 0.0.0.0 perzonalization.com
