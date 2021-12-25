@@ -1,6 +1,4 @@
-! Checksum: asdzxc665132
 ! Title: Saurane - Turkish Filter
-! Description: Turkish Filter List
 ! Updated: 25 Dec 2021 3:32:10 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
