@@ -1,4 +1,4 @@
-! Title: Saurane - Turkish Blocklist
+! Title: Saurane - Turkish Filter
 ! Syntax: Adblock
 ! Entries: 25
 ! Updated: 25 Dec 2021 3:32:10 PM
