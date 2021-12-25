@@ -1,0 +1,29 @@
+!sozcu.com.tr (Sözcü)
+sozcu.com.tr##div.currencyAdArea
+sozcu.com.tr##.adInitRemove
+sozcu.com.tr##.sidebar-banner
+sozcu.com.tr##.sidebar-related
+sozcu.com.tr##.nativo
+sozcu.com.tr##.masthead, .load_masthead
+sozcu.com.tr##.content-inner-ad
+sozcu.com.tr##.ad, .sticky
+||aip-cdn.sozcu.com.tr^$domain=sozcu.com.tr
+!atv.com.tr (ATV)
+atv.com.tr##.billBoardFrame
+atv.com.tr##.pageSkinLeft
+atv.com.tr##.pageSkinRight
+atv.com.tr##.advert
+!Third Party
+||medya.ilan.gov.tr^$third-party
+||pcdn.dengage.com^$third-party
+||admatic.com.tr^$third-party
+||i.tmgrup.com.tr/videojs/adblockDetect.js$third-party
+||ad*.tmgrup.com.tr^$third-party
+||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js^$third-party
+||useinsider.com^$third-party
+||daioncdn.net/*/ad^$third-party
+||daioncdn.net/events^$third-party
+||gez.io^$domain=showtv.com.tr|showturk.com.tr|haberturk.com|bloomberght.com|kuzeyanadolugazetesi.com
+||collector.blupoint.io^$third-party
+!Single rule
+||tracker.blutv.com^$domain=blutv.com
