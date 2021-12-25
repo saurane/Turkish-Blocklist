@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Filter
-! Updated: 25 Dec 2021 3:32:10 PM
+! Updated: 25 Dec 2021 0:0:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -32,6 +32,7 @@ yaani.com.tr##[advicetype="News"]
 ||adplus.yaani.com.tr^$domain=yaani.com.tr
 !
 !Haberturk (Ciner Grup)
+||log.haberturk.com^$domain=haberturk.com
 ||haberturk.com/*/adscbg^$domain=haberturk.com
 ||haberturk.com/adscbg/*^$domain=haberturk.com
 ||gez.io^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
@@ -41,9 +42,20 @@ yaani.com.tr##[advicetype="News"]
 ||haberturk.com/scripts/webpush.js^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
 ||im.haberturk.com/assets/js/prebid*.js^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
 !
+!
+!Memoryhackers
+memoryhackers.org##.ads-header
+memoryhackers.org##.ads
+memoryhackers.org##.ads-konu
+memorydownloader.net##.contentads
+ui.memoryhackers.org##.gameadsh
+ui.memoryhackers.org##.gameads
+memoryhackers.org##.u-bottomFixer, .js-bottomFixTarget
+||memoryhackers.org/js/DBTech/Security/3rdParty/fingerprint*.js$domain=memoryhackers.org
+!
 !Third Party
 ||medya.ilan.gov.tr^$third-party
-||pcdn.dengage.com^$third-party
+||dengage.com^$third-party
 ||admatic.com.tr^$third-party
 ||i.tmgrup.com.tr/videojs/adblockDetect.js$third-party
 ||ad*.tmgrup.com.tr^$third-party
@@ -52,5 +64,8 @@ yaani.com.tr##[advicetype="News"]
 ||daioncdn.net/*/ad^$third-party
 ||daioncdn.net/events^$third-party
 ||collector.blupoint.io^$third-party
+||relateddigital.com^$third-party
+||visilabs.net^$third-party
 !Single rule
 ||tracker.blutv.com^$domain=blutv.com
+||puhutv.com/relatedpush_sw.js^
