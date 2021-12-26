@@ -32,6 +32,12 @@ yaani.com.tr##[advicetype="News"]
 ||adplus.yaani.com.tr^$domain=yaani.com.tr
 !
 !Haberturk (Ciner Grup)
+haberturk.com##.adv
+haberturk.com###divMhBlock
+haberturk.com##.ads-zone, .MustHead
+haberturk.com##.ad-ver-ti-se-ment-ucyuz-small
+haberturk.com##.ad-ver-ti-se-ment, .adv300250
+haberturk.com##.ads-300x600, .ad-ver-ti-se-ment-300, .adv-600
 ||log.haberturk.com^$domain=haberturk.com
 ||haberturk.com/*/adscbg^$domain=haberturk.com
 ||haberturk.com/adscbg/*^$domain=haberturk.com
@@ -41,7 +47,6 @@ yaani.com.tr##[advicetype="News"]
 ||im.haberturk.com/assets/js/ads-prebid.js^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
 ||haberturk.com/scripts/webpush.js^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
 ||im.haberturk.com/assets/js/prebid*.js^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
-!
 !
 !Memoryhackers
 memoryhackers.org##.ads-header
