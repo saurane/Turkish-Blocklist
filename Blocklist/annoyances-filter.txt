@@ -1,1 +1,15 @@
-
+! Title: Saurane - Turkish Annoyances Filter
+! Updated: 26 Dec 2021 0:0:00 PM
+! Homepage: https://github.com/saurane/Turkish-Blocklist
+! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
+!
+!Haberturk (Ciner Grup)
+haberturk.com###SosyalMediaLinksWidget
+haberturk.com###YolDurumuWidget
+haberturk.com###HavaDurumu
+haberturk.com###DepoKacaDolarWidget
+haberturk.com###KrediHesaplamaWidget
+haberturk.com###KurCeviriciWidget
+haberturk.com###GunlukKarZararWidget
+haberturk.com##.widget-economy-list-data
+!
