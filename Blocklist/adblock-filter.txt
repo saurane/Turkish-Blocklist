@@ -1,4 +1,4 @@
-! Title: Saurane - Turkish Filter
+! Title: Saurane - Turkish Adblock Filter
 ! Updated: 26 Dec 2021 0:0:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
