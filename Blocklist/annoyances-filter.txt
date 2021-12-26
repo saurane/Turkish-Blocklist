@@ -9,6 +9,7 @@ haberturk.com###YolDurumuWidget
 haberturk.com###HavaDurumu
 haberturk.com###DepoKacaDolarWidget
 haberturk.com###KrediHesaplamaWidget
+haberturk.com##.widget-newsletter
 haberturk.com###KurCeviriciWidget
 haberturk.com###GunlukKarZararWidget
 haberturk.com##.widget-economy-list-data
