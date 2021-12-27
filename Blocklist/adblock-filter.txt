@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 27 Dec 2021 9:8:01 PM
+! Updated: 27 Dec 2021 9:38:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -12,13 +12,13 @@ sozcu.com.tr##.nativo
 sozcu.com.tr##.masthead, .load_masthead
 sozcu.com.tr##.content-inner-ad
 sozcu.com.tr##.ad, .sticky
-||aip-cdn.sozcu.com.tr^$domain=sozcu.com.tr
 !
 !atv.com.tr (ATV)
 atv.com.tr##.billBoardFrame
 atv.com.tr##.pageSkinLeft
 atv.com.tr##.pageSkinRight
 atv.com.tr##.advert
+||atv.com.tr/ads.txt$domain=atv.com.tr
 !ahaber.com.tr
 !
 ahaber.com.tr##.bandReklam
@@ -29,7 +29,6 @@ ahaber.com.tr##.advert
 !yaani.com.tr (Yaani: TR Search Engine)
 ||api.yaani.com.tr/engine/v1/useraction^$domain=yaani.com.tr
 ||yaani.com.tr/log^$domain=yaani.com.tr
-||adplus.yaani.com.tr^$domain=yaani.com.tr
 !
 !Haberturk (Ciner Grup)
 haberturk.com##.adv
@@ -38,10 +37,8 @@ haberturk.com##.ads-zone, .MustHead
 haberturk.com##.ad-ver-ti-se-ment-ucyuz-small
 haberturk.com##.ad-ver-ti-se-ment, .adv300250
 haberturk.com##.ads-300x600, .ad-ver-ti-se-ment-300, .adv-600
-||log.haberturk.com^$domain=haberturk.com
 ||haberturk.com/*/adscbg^$domain=haberturk.com
 ||haberturk.com/adscbg/*^$domain=haberturk.com
-||gez.io^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
 ||adsp.haberturk.com^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
 ||im.haberturk.com/assets/js/adblock.js^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
 ||im.haberturk.com/assets/js/ads-prebid.js^$domain=haberturk.com|showturk.com.tr|showtv.com.tr|bloomberght.com
@@ -66,6 +63,7 @@ ui.memoryhackers.org##.gameads
 !
 !Single rule
 ||puhutv.com/relatedpush_sw.js^
+||nesine.com/Site/LogClient$domain=nesine.com
 !
 !DNS Filter
 ||8digits.com^
