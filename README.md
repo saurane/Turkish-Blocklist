@@ -37,7 +37,7 @@
 
 
 ## Tespit ve araştırma yöntemleri
-[AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/fiddler), [HTTP Debugger](https://www.httpdebugger.com/), Subdomain Finder, URL Scan
+[AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/fiddler), [HTTP Debugger](https://www.httpdebugger.com/), [Portmaster](https://safing.io/portmaster/), Subdomain Finder, URL Scan
 
 ## Listenin Temel Amacı
 Bu listede sadece yerel reklam ve izleyici adresleri bulunmaktadır, eğer tam bir koruma sağlamak istiyorsanız [1Hosts](https://github.com/badmojr/1Hosts), [Energized](https://github.com/EnergizedProtection/block) veya [oisd](https://github.com/ookangzheng/dbl-oisd-nl) listeleri arasından en az birisiyle beraber kullanmanız tavsiye edilir.
