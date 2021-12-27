@@ -20,7 +20,7 @@
 
 ------------
 
-| İstemci | DNS filtresi | Adblocker filtresi | Can Sıkıcı Öğeler filtresi |
+| İstemci | DNS filtresi | Adblock filtresi | Can Sıkıcı Öğeler filtresi |
 | ------------ | ------------ | ------------ | ------------ |
 | Pi-hole | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/domains.txt "Link") | - |
 | uBlock Origin ~ AdGuard | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "Link") | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock-filter.txt "Link") | [Link](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/annoyances-filter.txt"Link") | 
