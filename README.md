@@ -14,7 +14,7 @@
 
 ------------
 <div align="center">
-  <h1>DNS ve Adblocker Tabanlı Engelleme Projesi</h1>
+  <h1>DNS ve Adblocker için Türkçe Tabanlı Reklam ve İzleyici Engelleme</h1>
 </div>
 
 
