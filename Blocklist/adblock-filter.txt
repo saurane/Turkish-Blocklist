@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 27 Dec 2021 9:0:01 PM
+! Updated: 27 Dec 2021 9:8:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -134,7 +134,6 @@ ui.memoryhackers.org##.gameads
 ||istatistik.arabam.com^
 ||istatistik.gazetevatan.com^
 ||istatistik.trthaber.com^
-||lg.nesine.com^
 ||log.haberturk.com^
 ||makroo.com^
 ||marketing.turkiyefinans.com.tr^
@@ -168,7 +167,6 @@ ui.memoryhackers.org##.gameads
 ||relateddigital.com^
 ||revenueflex.com^
 ||revotas.com^
-||rt.nesine.com^
 ||s.fullhdfilmizlesene.com^
 ||say.ac^
 ||sdkapi.netmera.com^
