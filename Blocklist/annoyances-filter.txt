@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 27 Dec 2021 8:59:00 PM
+! Updated: 27 Dec 2021 9:49:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -20,7 +20,6 @@ ahaber.com.tr##.shareBtn
 !
 !yaani.com.tr (Yaani: TR Search Engine)
 yaani.com.tr##.preSearchContent
-yaani.com.tr##[advicetype="SponsoredListings"]
 yaani.com.tr##[class="periodicalsWidget widget"]
 yaani.com.tr##[advicetype="BusinessListings"]
 yaani.com.tr##[advicetype="Twitter"]
