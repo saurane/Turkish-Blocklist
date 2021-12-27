@@ -19,6 +19,12 @@ atv.com.tr##.billBoardFrame
 atv.com.tr##.pageSkinLeft
 atv.com.tr##.pageSkinRight
 atv.com.tr##.advert
+!ahaber.com.tr
+!
+ahaber.com.tr##.bandReklam
+ahaber.com.tr##.billBoardFrame
+ahaber.com.tr##.ad-control-full
+ahaber.com.tr##.advert
 !
 !yaani.com.tr (Yaani: TR Search Engine)
 ||api.yaani.com.tr/engine/v1/useraction^$domain=yaani.com.tr
@@ -52,13 +58,13 @@ ui.memoryhackers.org##.gameads
 ||memoryhackers.org/js/DBTech/Security/3rdParty/fingerprint*.js$domain=memoryhackers.org
 !
 !Third Party
+||i.tmgrup.com.tr/tmd-consent/j/tmd-kvkk.js$third-party
 ||i.tmgrup.com.tr/videojs/adblockDetect.js$third-party
 ||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js^$third-party
 ||daioncdn.net/*/ad^$third-party
 ||daioncdn.net/events^$third-party
 !
 !Single rule
-||tracker.blutv.com^$domain=blutv.com
 ||puhutv.com/relatedpush_sw.js^
 !
 !DNS Filter
