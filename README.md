@@ -33,7 +33,7 @@
 
 > ***Adblock Filtresi:*** Alan adının adres bölümlerine göre engeller. Örnek: example.com/javascript/ads.js - example.com/haber/analytics.js<br/>
 > ***DNS Filtresi:*** Alan adı tabanlı engeller. Örnek: example.com - ads.example.com - analytics.example.com<br/>
-> ***Can Sıkıcı Öğeler Filtresi:*** Sitelerdeki gereksiz araç gereçleri engeller. Örneğin; açılır bildirimler ve widget'lar.<br/>
+> ***Can Sıkıcı Öğeler Filtresi:*** Sitelerdeki gereksiz araçları engeller. Örneğin; açılır bildirimler, widget'lar, vb. gibi.<br/>
 > ***Not:*** AdGuard ve uBlock Origin gibi adblock söz dizimini kullanan reklam engelleyiciler için iki filtreyi de kullanmanız tavsiye edilir.
 
 
