@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 131
-# Updated: 25 Dec 2021 5:26:07 PM
+# Entries: 129
+# Updated: 27 Dec 2021 9:07:02 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -71,7 +71,6 @@
 *.istatistik.arabam.com
 *.istatistik.gazetevatan.com
 *.istatistik.trthaber.com
-*.lg.nesine.com
 *.log.haberturk.com
 *.makroo.com
 *.marketing.turkiyefinans.com.tr
@@ -105,7 +104,6 @@
 *.relateddigital.com
 *.revenueflex.com
 *.revotas.com
-*.rt.nesine.com
 *.s.fullhdfilmizlesene.com
 *.say.ac
 *.sdkapi.netmera.com
