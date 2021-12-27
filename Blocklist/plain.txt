@@ -64,7 +64,6 @@ hstats.hepsiburada.com
 istatistik.arabam.com
 istatistik.gazetevatan.com
 istatistik.trthaber.com
-lg.nesine.com
 log.haberturk.com
 makroo.com
 marketing.turkiyefinans.com.tr
@@ -98,7 +97,6 @@ reklamstore.com
 relateddigital.com
 revenueflex.com
 revotas.com
-rt.nesine.com
 s.fullhdfilmizlesene.com
 say.ac
 sdkapi.netmera.com
