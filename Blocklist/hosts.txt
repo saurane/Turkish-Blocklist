@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Blocklist
-# Entries: 129
-# Updated: 27 Dec 2021 9:07:02 PM
+# Entries: 130
+# Updated: 31 Dec 2021 7:04:29 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -46,6 +46,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adtarget.com.tr
 0.0.0.0 adworld.com.tr
 0.0.0.0 aip-cdn.sozcu.com.tr
+0.0.0.0 aip2.sozcu.com.tr
 0.0.0.0 analytic.turkiyefinans.com.tr
 0.0.0.0 analytics.dugun.com
 0.0.0.0 analytics.halkbank.com.tr
@@ -75,6 +76,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gelirartisi.com
 0.0.0.0 geoim.bloomberght.com
 0.0.0.0 geoloc.hurriyet.com.tr
+0.0.0.0 gez.io
 0.0.0.0 hepsiads-bff.hepsiburada.com
 0.0.0.0 hepsiads-gw.hepsiburada.com
 0.0.0.0 hepsiads-ui.hepsiburada.com
@@ -95,7 +97,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 nativespot.com
 0.0.0.0 netmera-web.com
 0.0.0.0 networkad.net
-0.0.0.0 gez.io
 0.0.0.0 orsis.net
 0.0.0.0 personaclick.com
 0.0.0.0 perzonalization.com
