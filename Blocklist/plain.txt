@@ -25,6 +25,7 @@ adsp.haberturk.com
 adtarget.com.tr
 adworld.com.tr
 aip-cdn.sozcu.com.tr
+aip2.sozcu.com.tr
 analytic.turkiyefinans.com.tr
 analytics.dugun.com
 analytics.halkbank.com.tr
@@ -54,6 +55,7 @@ evs.data.ciceksepeti.com
 gelirartisi.com
 geoim.bloomberght.com
 geoloc.hurriyet.com.tr
+gez.io
 hepsiads-bff.hepsiburada.com
 hepsiads-gw.hepsiburada.com
 hepsiads-ui.hepsiburada.com
@@ -74,7 +76,6 @@ n.tooplay.com
 nativespot.com
 netmera-web.com
 networkad.net
-gez.io
 orsis.net
 personaclick.com
 perzonalization.com
