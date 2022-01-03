@@ -1,6 +1,6 @@
-# Title: Saurane - Turkish Blocklist
-# Entries: 130
-# Updated: 31 Dec 2021 7:04:29 PM
+# Title: Saurane - Turkish DNS Filter
+# Entries: 132
+# Updated: 03 Jan 2022 5:17:50 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -88,6 +88,7 @@
 127.0.0.1 netmera-web.com
 127.0.0.1 networkad.net
 127.0.0.1 orsis.net
+127.0.0.1 outstream.cdn.vidyome.com
 127.0.0.1 personaclick.com
 127.0.0.1 perzonalization.com
 127.0.0.1 pixels.ingbank.com.tr
@@ -137,5 +138,6 @@
 127.0.0.1 webeyo.com
 127.0.0.1 webinstats.com
 127.0.0.1 webstats.garanti.com.tr
+127.0.0.1 widget.cdn.vidyome.com
 127.0.0.1 xenn.io
 127.0.0.1 yenimedya.com.tr
