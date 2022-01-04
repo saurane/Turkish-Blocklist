@@ -50,6 +50,7 @@ doganburda.com
 dogus-ads-cdn.dygdigital.com
 dygassets.dygdigital.com
 efilli.com
+event-collector.analytics.onedio.com
 events.bitaksi.com
 evs.data.ciceksepeti.com
 gelirartisi.com
