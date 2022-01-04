@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 132
-# Updated: 03 Jan 2022 5:30:23 PM
+# Entries: 133
+# Updated: 04 Jan 2022 2:55:58 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -57,6 +57,7 @@
 *.dogus-ads-cdn.dygdigital.com
 *.dygassets.dygdigital.com
 *.efilli.com
+*.event-collector.analytics.onedio.com
 *.events.bitaksi.com
 *.evs.data.ciceksepeti.com
 *.gelirartisi.com
