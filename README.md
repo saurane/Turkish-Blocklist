@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
       alt="Lisans-MPL-2.0" />
   <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-Jan 03, 2022-green.svg?longCache=true&style=for-the-badge"
+    <img src="https://img.shields.io/badge/Updated-Jan 04, 2022-green.svg?longCache=true&style=for-the-badge"
       alt="_time_stamp_" />
     <!-- Status -->
     <img src="https://img.shields.io/badge/Status-Stable-blue.svg?longCache=true&style=for-the-badge"
