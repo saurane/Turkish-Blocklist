@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 27 Dec 2021 9:49:01 PM
+! Updated: 04 Jan 2021 3:17:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -96,6 +96,7 @@ ui.memoryhackers.org##.gameads
 ||adtarget.com.tr^
 ||adworld.com.tr^
 ||aip-cdn.sozcu.com.tr^
+||aip2.sozcu.com.tr^
 ||analytic.turkiyefinans.com.tr^
 ||analytics.dugun.com^
 ||analytics.halkbank.com.tr^
@@ -120,11 +121,13 @@ ui.memoryhackers.org##.gameads
 ||dogus-ads-cdn.dygdigital.com^
 ||dygassets.dygdigital.com^
 ||efilli.com^
+||event-collector.analytics.onedio.com^
 ||events.bitaksi.com^
 ||evs.data.ciceksepeti.com^
 ||gelirartisi.com^
 ||geoim.bloomberght.com^
 ||geoloc.hurriyet.com.tr^
+||gez.io^
 ||hepsiads-bff.hepsiburada.com^
 ||hepsiads-gw.hepsiburada.com^
 ||hepsiads-ui.hepsiburada.com^
@@ -145,8 +148,8 @@ ui.memoryhackers.org##.gameads
 ||nativespot.com^
 ||netmera-web.com^
 ||networkad.net^
-||gez.io^
 ||orsis.net^
+||outstream.cdn.vidyome.com^
 ||personaclick.com^
 ||perzonalization.com^
 ||pixels.ingbank.com.tr^
@@ -196,5 +199,6 @@ ui.memoryhackers.org##.gameads
 ||webeyo.com^
 ||webinstats.com^
 ||webstats.garanti.com.tr^
+||widget.cdn.vidyome.com^
 ||xenn.io^
 ||yenimedya.com.tr^
