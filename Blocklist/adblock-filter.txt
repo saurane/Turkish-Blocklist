@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 04 Jan 2021 3:17:01 PM
+! Updated: 09 Jan 2021 1:07:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -20,6 +20,13 @@ atv.com.tr##.pageSkinRight
 atv.com.tr##.advert
 ||atv.com.tr/ads.txt$domain=atv.com.tr
 !ahaber.com.tr
+!
+!hurriyet.com.tr
+hurriyet.com.tr##.medyanet-inline-adv
+hurriyet.com.tr##.advMasthead
+hurriyet.com.tr##.news-tb-adv
+hurriyet.com.tr##.adv, .adv-desktop, .adv-mobile
+||hurriyet.com.tr/api/static/getadblockpopup$domain=hurriyet.com.tr
 !
 ahaber.com.tr##.bandReklam
 ahaber.com.tr##.billBoardFrame
