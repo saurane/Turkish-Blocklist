@@ -105,6 +105,7 @@ say.ac
 sdkapi.netmera.com
 searchanalytics.turkcell.com.tr
 segmentify.com
+signals.teknosa.com
 smetrics.vodafone.com.tr
 sociaplus.com
 sortext.com
