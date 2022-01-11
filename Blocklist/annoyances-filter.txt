@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 09 Jan 2021 1:08:01 PM
+! Updated: 11 Jan 2021 3:49:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -38,3 +38,8 @@ yaani.com.tr##[advicetype="News"]
 !
 !Single Rule
 memoryhackers.org##.u-bottomFixer, .js-bottomFixTarget
+technopat.net##.u-bottomFixer, .js-bottomFixTarget
+osxinfo.net##.u-bottomFixer, .js-bottomFixTarget
+osxinfo.net##.onesignal-bell-container, .onesignal-reset, .onesignal-bell-container-bottom-left
+nesine.com##.footer-cookies-bar
+osxinfo.net###onesignal-slidedown-container
