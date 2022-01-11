@@ -1,6 +1,6 @@
-# Title: Saurane - Turkish DNS Filter
-# Entries: 133
-# Updated: 04 Jan 2022 2:55:58 PM
+# Title: Saurane - Turkish Adblock Filter
+# Entries: 135
+# Updated: 11 Jan 2022 4:36:52 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -114,6 +114,7 @@ searchanalytics.turkcell.com.tr
 segmentify.com
 smetrics.vodafone.com.tr
 sociaplus.com
+sortext.com
 sqgz.generalmobile.com
 st.tmgrup.com.tr
 stats.acunn.com
@@ -132,6 +133,7 @@ virgul.com
 visilabs.com
 visilabs.net
 visitorlab.com
+wawlabs.com
 webeyo.com
 webinstats.com
 webstats.garanti.com.tr
