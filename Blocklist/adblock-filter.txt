@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 11 Jan 2021 3:58:02 PM
+! Updated: 11 Jan 2021 4:59:02 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -12,6 +12,8 @@ sozcu.com.tr##.nativo
 sozcu.com.tr##.masthead, .load_masthead
 sozcu.com.tr##.content-inner-ad
 sozcu.com.tr##.ad, .sticky
+||i01.sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*$domain=sozcu.com.tr
+||i01.sozcucdn.com/wp-content/themes/Sozcu_V4/script/js/public/sozcuHomeDesktopClient.js^$domain=sozcu.com.tr
 !
 !atv.com.tr (ATV)
 atv.com.tr##.billBoardFrame
@@ -63,18 +65,29 @@ ui.memoryhackers.org##.gameadsh
 ui.memoryhackers.org##.gameads
 ||memoryhackers.org/js/DBTech/Security/3rdParty/fingerprint*.js$domain=memoryhackers.org
 !
+!hepsiburada.com
+||static.hepsiburada.net/assets/sfvoltranstatic/*/project/assets/Advertisement*.js$domain=hepsiburada.com
+||images.hepsiburada.net/webtrekk/webtrekk.js$domain=hepsiburada.com
+!
 !Third Party
 ||i.tmgrup.com.tr/tmd-consent/j/tmd-kvkk.js$third-party
 ||i.tmgrup.com.tr/videojs/adblockDetect.js$third-party
 ||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js^$third-party
 ||daioncdn.net/*/ad^$third-party
 ||daioncdn.net/events^$third-party
+||img2-digitouch.mncdn.com/include/dynamic_click_tag.js$third-party
 !
 !Single rule
 ||puhutv.com/relatedpush_sw.js^
 ||nesine.com/Site/LogClient$domain=nesine.com
+||kalekilit.com.tr/sites/kalekilit.com.tr/files/google_tag/google_tag/gtm_kalekilit/google_tag.script.js^$domain=kalekilit.com.tr
+||itopya.com/cdn-cgi/bm/cv/*/api.js$domain=itopya.com #Canvas Fingerprint
+||vatanbilgisayar.com/Basket/PushBasketProductsToVisilabs$domain=vatanbilgisayar.com
 osxinfo.net##.adsbygoogle
 technopat.net##.samBannerUnit, .samAlignCenter
+!
+!TR Cookie banner
+##.cerez-politikasi-container
 !
 !DNS Filter
 ||8digits.com^
@@ -184,8 +197,10 @@ technopat.net##.samBannerUnit, .samAlignCenter
 ||sdkapi.netmera.com^
 ||searchanalytics.turkcell.com.tr^
 ||segmentify.com^
+||signals.teknosa.com^
 ||smetrics.vodafone.com.tr^
 ||sociaplus.com^
+||sortext.com^
 ||sqgz.generalmobile.com^
 ||st.tmgrup.com.tr^
 ||stats.acunn.com^
@@ -204,6 +219,7 @@ technopat.net##.samBannerUnit, .samAlignCenter
 ||visilabs.com^
 ||visilabs.net^
 ||visitorlab.com^
+||wawlabs.com^
 ||webeyo.com^
 ||webinstats.com^
 ||webstats.garanti.com.tr^
