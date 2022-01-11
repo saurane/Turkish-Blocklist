@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 09 Jan 2021 1:07:01 PM
+! Updated: 11 Jan 2021 3:53:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -74,6 +74,7 @@ ui.memoryhackers.org##.gameads
 !Single rule
 ||puhutv.com/relatedpush_sw.js^
 ||nesine.com/Site/LogClient$domain=nesine.com
+osxinfo.net##.adsbygoogle
 !
 !DNS Filter
 ||8digits.com^
