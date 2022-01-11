@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Adblock Filter
-# Entries: 135
-# Updated: 11 Jan 2022 4:36:52 PM
+# Entries: 136
+# Updated: 11 Jan 2022 4:54:30 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -126,6 +126,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sdkapi.netmera.com
 0.0.0.0 searchanalytics.turkcell.com.tr
 0.0.0.0 segmentify.com
+0.0.0.0 signals.teknosa.com
 0.0.0.0 smetrics.vodafone.com.tr
 0.0.0.0 sociaplus.com
 0.0.0.0 sortext.com
