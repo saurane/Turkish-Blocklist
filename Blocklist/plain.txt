@@ -107,6 +107,7 @@ searchanalytics.turkcell.com.tr
 segmentify.com
 smetrics.vodafone.com.tr
 sociaplus.com
+sortext.com
 sqgz.generalmobile.com
 st.tmgrup.com.tr
 stats.acunn.com
@@ -125,6 +126,7 @@ virgul.com
 visilabs.com
 visilabs.net
 visitorlab.com
+wawlabs.com
 webeyo.com
 webinstats.com
 webstats.garanti.com.tr
