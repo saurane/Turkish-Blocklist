@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 13 Jan 2021 3:51:01 PM
+! Updated: 13 Jan 2021 3:52:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -33,15 +33,16 @@ atv.com.tr##.billBoardFrame
 atv.com.tr###videoPop
 atv.com.tr##.detail-google-news
 !Third Party
-||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
-||iatv.tmgrup.com.tr/site/*/*/survey-answer.js$third-party
-||iatv.tmgrup.com.tr/site/*/*/smartbanner.js$third-party
-||iatv.tmgrup.com.tr/site/*/*/jquery.smartbanner.js$third-party
-||i.tmgrup.com.tr/uyelik/popupauth/j/popupauthentication.js$third-party
-||i.tmgrup.com.tr/i/i.gif$third-party
-||iatv.tmgrup.com.tr/site/*/*/blocker-style.css$third-party
-||iatv.tmgrup.com.tr/site/*/*/geo-blokaj.css$third-party
-||i.tmgrup.com.tr/contactus/*/popupform.css$third-party
+||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.*$third-party
+||iatv.tmgrup.com.tr/site/*/*/survey-answer.*$third-party
+||iatv.tmgrup.com.tr/site/*/*/smartbanner.*$third-party
+||iatv.tmgrup.com.tr/site/*/*/jquery.smartbanner.*$third-party
+||i.tmgrup.com.tr/uyelik/popupauth/*/popupauthentication.*$third-party
+||i.tmgrup.com.tr/*/*.gif$third-party
+||iatv.tmgrup.com.tr/site/*/*/blocker-style.*$third-party
+||iatv.tmgrup.com.tr/site/*/*/geo-blokaj.*$third-party
+||i.tmgrup.com.tr/contactus/*/popupform.*$third-party
+||iatv.tmgrup.com.tr/site/*/*/video-popup.*$third-party
 !
 !Single Rule
 memoryhackers.org##.u-bottomFixer, .js-bottomFixTarget
