@@ -1,9 +1,10 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 14 Jan 2021 10:33:00 PM
+! Updated: 14 Jan 2021 12:47:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
 !donanimhaber.com
+||donanimhaber.com/ads/$script
 donanimhaber.com##.dh-advice
 donanimhaber.com##.tepe-alan
 donanimhaber.com##.reklam-fix
@@ -11,33 +12,43 @@ donanimhaber.com##.reklam-kare
 donanimhaber.com##.detay-gecis
 donanimhaber.com##.arkaplan-giydirme
 donanimhaber.com##[partial-name="Reklam"]
-||donanimhaber.com/ads/$domain=donanimhaber.com,script
 !
+forum.donanimhaber.com##.sagreklam
 forum.donanimhaber.com##.DH-Reklam-4
 forum.donanimhaber.com##.DH-Reklam-8
-forum.donanimhaber.com##.sagreklam
-forum.donanimhaber.com##.reklamup-sticky-footer
-forum.donanimhaber.com##.reklamkullanicikapsam
 forum.donanimhaber.com###trend-link
+forum.donanimhaber.com##.reklamkullanicikapsam
+forum.donanimhaber.com##.reklamup-sticky-footer
 forum.donanimhaber.com##a[onclick^="adThisAfterSet"]
+||forum.donanimhaber.com/bundles/kelimeReklam^$domain=forum.donanimhaber.com
 !
 !atv.com.tr
-atv.com.tr##.adPop #Pop adblock uyarı ve fligrani
+atv.com.tr##.adPop
 atv.com.tr##.maskPop
 atv.com.tr##.detayPops
-atv.com.tr##.rmp-ad-container  #Reklam butonları, reklam bildirimi
+atv.com.tr##.rmp-ad-container
 atv.com.tr###daion-overlay
 atv.com.tr##.daion-overlay
 ||atv.com.tr/ads.txt$domain=atv.com.tr
-||i.tmgrup.com.tr/videojs/adblockDetect.js$third-party
+||i.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
+!
+!ahaber.com.tr
+ahaber.com.tr##.adControl
+ahaber.com.tr##.ligatusAdvert
+ahaber.com.tr##.adModelsGravity
+ahaber.com.tr##.ad-control-full
+||ahaber.com.tr/webpush-sw.js^
 !
 !Third Party
 ||daioncdn.net/events$third-party
 ||cdn.eksiup.com/api/$script,third-party
 ||daion-static.ercdn.net/omsdk^$third-party
 !
+!Single rule
+atv.com.tr,ahaber.com.tr##.advert
+!
 !TR Cookie banner
-##.cerez-politikasi-container
+!##.cerez-politikasi-container
 !
 !DNS Filter
 ||8digits.com^
