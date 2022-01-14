@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 14 Jan 2021 10:37:00 PM
+! Updated: 14 Jan 2021 12:48:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -23,29 +23,38 @@ donanimhaber.com##[partial-name="PopularLinksForum"]
 forum.donanimhaber.com##.takip
 forum.donanimhaber.com##.yazilim-sponsor
 forum.donanimhaber.com##.push-notification-content
-forum.donanimhaber.com##.baglan #FB, Google ile giriş butonu
+!forum.donanimhaber.com##.baglan #FB, Google ile giriş butonu
 !
-giris.donanimhaber.com###SocialMediaButtonsArea #FB, Google ile kayıt butonu
-giris.donanimhaber.com##.login-social #FB, Google ile giriş butonu
+!giris.donanimhaber.com###SocialMediaButtonsArea #FB, Google ile kayıt butonu
+!giris.donanimhaber.com##.login-social #FB, Google ile giriş butonu
 !
 !atv.com.tr
-atv.com.tr##.billBoardFrame
 atv.com.tr###videoPop
-atv.com.tr##.detail-google-news
+||atv.com.tr/ajax/homepagevideopopup$domain=atv.com.tr
+!
+!ahaber.com.tr
+ahaber.com.tr##.topIcons
+ahaber.com.tr##.exchangeFrame
+ahaber.com.tr##.modal-closing-btn
+ahaber.com.tr##.application-widget
+ahaber.com.tr##.manset-button-widget
+ahaber.com.tr##.pageTools, .haberDetayTools
 !
 !Third Party
-||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.*$third-party
-||iatv.tmgrup.com.tr/site/*/*/survey-answer.*$third-party
-||iatv.tmgrup.com.tr/site/*/*/smartbanner.*$third-party
-||iatv.tmgrup.com.tr/site/*/*/jquery.smartbanner.*$third-party
-||i.tmgrup.com.tr/uyelik/popupauth/*/popupauthentication.*$third-party
-||i.tmgrup.com.tr/*/*.gif$third-party
-||iatv.tmgrup.com.tr/site/*/*/blocker-style.*$third-party
-||iatv.tmgrup.com.tr/site/*/*/geo-blokaj.*$third-party
-||i.tmgrup.com.tr/contactus/*/popupform.*$third-party
-||iatv.tmgrup.com.tr/site/*/*/video-popup.*$third-party
+||*.tmgrup.com.tr/tmd/usercountry.js^$third-party
+||*.tmgrup.com.tr/site/*/*/advertItems.css$third-party
+||*.tmgrup.com.tr/site/*/*/geo-blokaj.css$third-party
+||*.tmgrup.com.tr/site/*/*/smartbanner.js$third-party
+||*.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
+||*.tmgrup.com.tr/site/*/*/video-popup.css$third-party
+||*.tmgrup.com.tr/tmd-consent/*/tmd-kvkk.js$third-party
+||*.tmgrup.com.tr/contactus/*/popupform.css$third-party
+||*.tmgrup.com.tr/site/*/*/survey-answer.js$third-party
+||*.tmgrup.com.tr/tmd-consent/*/tmd-kvkk.css$third-party
+||*.tmgrup.com.tr/site/*/*/blocker-style.css$third-party
+||*.tmgrup.com.tr/site/*/*/jquery.smartbanner.js$third-party
+||*.tmgrup.com.tr/site/*/*/jquery.smartbanner.css$third-party
 !
 !Single Rule
-memoryhackers.org##.u-bottomFixer, .js-bottomFixTarget
-technopat.net##.u-bottomFixer, .js-bottomFixTarget
-osxinfo.net##.u-bottomFixer, .js-bottomFixTarget
+atv.com.tr,ahaber.com.tr##.billBoardFrame
+atv.com.tr,ahaber.com.tr##.detail-google-news
