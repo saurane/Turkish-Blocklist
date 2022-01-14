@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 13 Jan 2021 12:06:01 PM
+! Updated: 14 Jan 2021 12:06:01 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -25,7 +25,7 @@ forum.donanimhaber.com##.yazilim-sponsor
 forum.donanimhaber.com##.push-notification-content
 forum.donanimhaber.com##.baglan !FB, Google ile giris butonu
 !
-giris.donanimhaber.com###SocialMediaButtonsArea !FB, Google ile kayıt butonu
+giris.donanimhaber.com###SocialMediaButtonsArea !FB, Google ile kayit butonu
 giris.donanimhaber.com##.login-social !FB, Google ile giris butonu
 !
 !atv.com.tr
