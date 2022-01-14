@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 13 Jan 2021 12:05:02 PM
+! Updated: 14 Jan 2021 12:05:02 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -22,10 +22,10 @@ forum.donanimhaber.com###trend-link
 forum.donanimhaber.com##a[onclick^="adThisAfterSet"]
 !
 !atv.com.tr
-atv.com.tr##.adPop !Pop adblock uyarı ve fligranı
+atv.com.tr##.adPop !Pop adblock uyari ve fligrani
 atv.com.tr##.maskPop
 atv.com.tr##.detayPops
-atv.com.tr##.rmp-ad-container  !reklam butonları, reklam bildirimi
+atv.com.tr##.rmp-ad-container  !reklam butonlari, reklam bildirimi
 atv.com.tr###daion-overlay
 atv.com.tr##.daion-overlay
 ||atv.com.tr/ads.txt$domain=atv.com.tr
