@@ -1,8 +1,8 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 14 Jan 2021 12:47:00 PM
+! Updated: 15 Jan 2021 10:33:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
-!
+#
 !donanimhaber.com
 ||donanimhaber.com/ads/$script
 donanimhaber.com##.dh-advice
@@ -12,7 +12,7 @@ donanimhaber.com##.reklam-kare
 donanimhaber.com##.detay-gecis
 donanimhaber.com##.arkaplan-giydirme
 donanimhaber.com##[partial-name="Reklam"]
-!
+#
 forum.donanimhaber.com##.sagreklam
 forum.donanimhaber.com##.DH-Reklam-4
 forum.donanimhaber.com##.DH-Reklam-8
@@ -21,7 +21,7 @@ forum.donanimhaber.com##.reklamkullanicikapsam
 forum.donanimhaber.com##.reklamup-sticky-footer
 forum.donanimhaber.com##a[onclick^="adThisAfterSet"]
 ||forum.donanimhaber.com/bundles/kelimeReklam^$domain=forum.donanimhaber.com
-!
+#
 !atv.com.tr
 atv.com.tr##.adPop
 atv.com.tr##.maskPop
@@ -31,25 +31,33 @@ atv.com.tr###daion-overlay
 atv.com.tr##.daion-overlay
 ||atv.com.tr/ads.txt$domain=atv.com.tr
 ||i.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
-!
+#
 !ahaber.com.tr
+ahaber.com.tr##.video-ads
 ahaber.com.tr##.adControl
 ahaber.com.tr##.ligatusAdvert
 ahaber.com.tr##.adModelsGravity
 ahaber.com.tr##.ad-control-full
 ||ahaber.com.tr/webpush-sw.js^
-!
+||ahaber.com.tr/ads.txt$domain=ahaber.com.tr
+||ipcheck.tmgrup.com.tr^$domain=ahaber.com.tr
+#
+!Turkuvaz Medya (complicated)
+||*.tmgrup.com.tr/tmd/usercountry.js^$third-party
+||*.tmgrup.com.tr/json/getLiveAdsTimer^$third-party
+||*.tmgrup.com.tr/site/*/*/advertItems.css$third-party
+||*.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
+#
 !Third Party
 ||daioncdn.net/events$third-party
 ||cdn.eksiup.com/api/$script,third-party
 ||daion-static.ercdn.net/omsdk^$third-party
-!
-!Single rule
+#
+!Other rule
 atv.com.tr,ahaber.com.tr##.advert
-!
-!TR Cookie banner
-!##.cerez-politikasi-container
-!
+||cdn.e-devlet.gov.tr/themes/*/js/analitik*.js$domain=turkiye.gov.tr
+||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
+#
 !DNS Filter
 ||8digits.com^
 ||ad-cdn.bilgin.pro^
