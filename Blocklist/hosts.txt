@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Adblock Filter
-# Entries: 138
-# Updated: 15 Jan 2022 9:55:59 AM
+# Entries: 139
+# Updated: 15 Jan 2022 12:09:53 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -85,6 +85,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hit.demirorenteknoloji.com
 0.0.0.0 hit.mynet.com
 0.0.0.0 hits.acunn.com
+0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
 0.0.0.0 istatistik.arabam.com
 0.0.0.0 istatistik.gazetevatan.com
