@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 15 Jan 2021 10:33:00 PM
+! Updated: 15 Jan 2021 12:09:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -30,7 +30,6 @@ atv.com.tr##.rmp-ad-container
 atv.com.tr###daion-overlay
 atv.com.tr##.daion-overlay
 ||atv.com.tr/ads.txt$domain=atv.com.tr
-||i.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
 #
 !ahaber.com.tr
 ahaber.com.tr##.video-ads
@@ -40,7 +39,7 @@ ahaber.com.tr##.adModelsGravity
 ahaber.com.tr##.ad-control-full
 ||ahaber.com.tr/webpush-sw.js^
 ||ahaber.com.tr/ads.txt$domain=ahaber.com.tr
-||ipcheck.tmgrup.com.tr^$domain=ahaber.com.tr
+||ipcheck.tmgrup.com.tr^$domain=ahaber.com.tr,important
 #
 !Turkuvaz Medya (complicated)
 ||*.tmgrup.com.tr/tmd/usercountry.js^$third-party
@@ -56,12 +55,17 @@ ahaber.com.tr##.ad-control-full
 !Other rule
 atv.com.tr,ahaber.com.tr##.advert
 ||cdn.e-devlet.gov.tr/themes/*/js/analitik*.js$domain=turkiye.gov.tr
-||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
+||ekstat.com/js/ek$i-defer.js^$domain=eksisozluk.com
+||images.hepsiburada.net/webtrekk/webtrekk.js$domain=hepsiburada.com
+||mavi.com/_ui/shared/js/analyticsmediator.js$domain=mavi.com
+||*.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
+||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
 #
 !DNS Filter
 ||8digits.com^
 ||ad-cdn.bilgin.pro^
 ||ad.bilgin.pro^
+||ad.donanimhaber.com^
 ||ad.reyazilim.com^
 ||ad.yemeksepeti.com^
 ||ad01.tmgrup.com.tr^
@@ -124,6 +128,7 @@ atv.com.tr,ahaber.com.tr##.advert
 ||hit.demirorenteknoloji.com^
 ||hit.mynet.com^
 ||hits.acunn.com^
+||hodor-collect.arabam.com^
 ||hstats.hepsiburada.com^
 ||istatistik.arabam.com^
 ||istatistik.gazetevatan.com^
@@ -163,6 +168,7 @@ atv.com.tr,ahaber.com.tr##.advert
 ||revotas.com^
 ||s.fullhdfilmizlesene.com^
 ||say.ac^
+||sayac.tmgrup.com.tr^
 ||sdkapi.netmera.com^
 ||searchanalytics.turkcell.com.tr^
 ||segmentify.com^
