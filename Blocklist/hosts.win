@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Adblock Filter
-# Entries: 136
-# Updated: 11 Jan 2022 4:54:30 PM
+# Entries: 138
+# Updated: 15 Jan 2022 9:55:59 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -12,6 +12,7 @@
 127.0.0.1 8digits.com
 127.0.0.1 ad-cdn.bilgin.pro
 127.0.0.1 ad.bilgin.pro
+127.0.0.1 ad.donanimhaber.com
 127.0.0.1 ad.reyazilim.com
 127.0.0.1 ad.yemeksepeti.com
 127.0.0.1 ad01.tmgrup.com.tr
@@ -113,6 +114,7 @@
 127.0.0.1 revotas.com
 127.0.0.1 s.fullhdfilmizlesene.com
 127.0.0.1 say.ac
+127.0.0.1 sayac.tmgrup.com.tr
 127.0.0.1 sdkapi.netmera.com
 127.0.0.1 searchanalytics.turkcell.com.tr
 127.0.0.1 segmentify.com
