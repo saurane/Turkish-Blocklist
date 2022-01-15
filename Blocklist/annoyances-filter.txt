@@ -1,10 +1,9 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 14 Jan 2021 12:48:00 PM
+! Updated: 15 Jan 2021 10:34:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
-!
+#
 !donanimhaber.com
-donanimhaber.com##.cookie-kutu
 donanimhaber.com##.paylas-kapsam
 donanimhaber.com##.sosyal-aglar
 donanimhaber.com##.geri-bildirim
@@ -19,33 +18,42 @@ donanimhaber.com##[partial-name="CryptoCurrency"]
 donanimhaber.com##[partial-name="SistemTercihleri"]
 donanimhaber.com##[partial-name="SosyalAgVerileri"]
 donanimhaber.com##[partial-name="PopularLinksForum"]
-!
+#
 forum.donanimhaber.com##.takip
 forum.donanimhaber.com##.yazilim-sponsor
 forum.donanimhaber.com##.push-notification-content
 !forum.donanimhaber.com##.baglan #FB, Google ile giriş butonu
-!
+#
 !giris.donanimhaber.com###SocialMediaButtonsArea #FB, Google ile kayıt butonu
 !giris.donanimhaber.com##.login-social #FB, Google ile giriş butonu
-!
+#
 !atv.com.tr
 atv.com.tr###videoPop
 ||atv.com.tr/ajax/homepagevideopopup$domain=atv.com.tr
-!
+#
 !ahaber.com.tr
+ahaber.com.tr##.tag
+ahaber.com.tr##.shareBtn
 ahaber.com.tr##.topIcons
+ahaber.com.tr##.menu-timer
+ahaber.com.tr##.footerLogos
 ahaber.com.tr##.exchangeFrame
+ahaber.com.tr##.resolutionFrame
+ahaber.com.tr##.secret-news-btn
 ahaber.com.tr##.modal-closing-btn
 ahaber.com.tr##.application-widget
+ahaber.com.tr##.shareFrameContainer
 ahaber.com.tr##.manset-button-widget
 ahaber.com.tr##.pageTools, .haberDetayTools
-!
-!Third Party
-||*.tmgrup.com.tr/tmd/usercountry.js^$third-party
-||*.tmgrup.com.tr/site/*/*/advertItems.css$third-party
+ahaber.com.tr##.stickyLink, .recentnewssticky
+#
+!Cookie Banner
+donanimhaber.com##.cookie-kutu
+incehesap.com##.cerez-politikasi-container
+#
+!Turkuvaz Medya (complicated)
 ||*.tmgrup.com.tr/site/*/*/geo-blokaj.css$third-party
 ||*.tmgrup.com.tr/site/*/*/smartbanner.js$third-party
-||*.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
 ||*.tmgrup.com.tr/site/*/*/video-popup.css$third-party
 ||*.tmgrup.com.tr/tmd-consent/*/tmd-kvkk.js$third-party
 ||*.tmgrup.com.tr/contactus/*/popupform.css$third-party
@@ -54,7 +62,12 @@ ahaber.com.tr##.pageTools, .haberDetayTools
 ||*.tmgrup.com.tr/site/*/*/blocker-style.css$third-party
 ||*.tmgrup.com.tr/site/*/*/jquery.smartbanner.js$third-party
 ||*.tmgrup.com.tr/site/*/*/jquery.smartbanner.css$third-party
-!
+||*.tmgrup.com.tr/site/*/*/application-widget.css$third-party
+||*.tmgrup.com.tr/site/*/*/social-detail-extra.css$third-party
+#
+!Third Party
+#
 !Single Rule
 atv.com.tr,ahaber.com.tr##.billBoardFrame
 atv.com.tr,ahaber.com.tr##.detail-google-news
+||cdn.e-devlet.gov.tr/themes/*/js/lib/popups/anket*.js$domain=turkiye.gov.tr
