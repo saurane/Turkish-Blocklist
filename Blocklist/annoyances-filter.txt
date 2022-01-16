@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 16 Jan 2021 10:02:00 PM
+! Updated: 16 Jan 2021 11:03:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -30,6 +30,9 @@ forum.donanimhaber.com##.push-notification-content
 !atv.com.tr
 atv.com.tr###videoPop
 atv.com.tr##.tekFooter
+atv.com.tr###contactLink
+atv.com.tr##.rmp-sharing
+atv.com.tr##.detail-social, .social-link
 ||atv.com.tr/ajax/homepagevideopopup$domain=atv.com.tr
 #
 !ahaber.com.tr
@@ -79,6 +82,21 @@ teknobiyotik.com##.tibrr-cookie-consent-container
 !Third Party
 #
 !Other Rules
+programindir.cafe###better-social-counter-2
+programindir.cafe###custom_html-2
+programindir.cafe,fullindir.cafe##.post-share, .single-post-share, .top-share
+||programindir.cafe/wp-content/plugins/better-social-counter/js/script.min.js$domain=programindir.cafe
+||fullindir.cafe/wp-content/plugins/better-social-counter/js/script.min.js$domain=fullindir.cafe
+oneindir.com##.robot
+oneindir.com##.fmSocial
+oneindir.com##.share
+oneindir.com##.enCokIndirilenler #"Bizi Takip Edin" Facebook sayfası
+oneindir.com##.footerSocial
+buyurindir.org###vote-layer
+buyurindir.org##.etiket_bolumu
+buyurindir.org##.ust_sol_kisim
+fullprogramlarindir.net##.sosyal
+fullprogramlarindir.net##.widget_text
 atv.com.tr,ahaber.com.tr##.billBoardFrame
 atv.com.tr,ahaber.com.tr##.detail-google-news
 ||cdn.e-devlet.gov.tr/themes/*/js/lib/popups/anket*.js$domain=turkiye.gov.tr
