@@ -1,7 +1,17 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 16 Jan 2021 10:01:00 PM
+! Updated: 16 Jan 2021 11:02:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
+#
+!Experimental
+###reklam
+###Reklam
+###reklamlar
+###Reklamlar
+###solreklam
+###sagreklam
+###SolReklam
+###SagReklam
 #
 !donanimhaber.com
 ||donanimhaber.com/ads/$script
@@ -67,7 +77,10 @@ memurlar.net##.widget-article
 ||daion-static.ercdn.net/omsdk^$third-party
 #
 !Other Rules
+buyurindir.org##.premium_kismi
 atv.com.tr,ahaber.com.tr##.advert
+fullprogramlarindir.net##.single-ust
+fullprogramlarindir.net##.single-alt
 ||cdn.e-devlet.gov.tr/themes/*/js/analitik*.js$domain=turkiye.gov.tr
 ||ekstat.com/js/ek$i-defer.js^$domain=eksisozluk.com
 ||images.hepsiburada.net/webtrekk/webtrekk.js$domain=hepsiburada.com
