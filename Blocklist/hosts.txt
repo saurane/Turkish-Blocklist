@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Adblock Filter
-# Entries: 149
-# Updated: 16 Jan 2022 1:17:54 PM
+# Entries: 160
+# Updated: 16 Jan 2022 4:58:47 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -20,10 +20,9 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 0.0.0.0 8digits.com
-0.0.0.0 ad-cdn.bilgin.pro
-0.0.0.0 ad.bilgin.pro
 0.0.0.0 ad.donanimhaber.com
 0.0.0.0 ad.reyazilim.com
+0.0.0.0 ad.sigortagundem.biz
 0.0.0.0 ad.yemeksepeti.com
 0.0.0.0 ad01.tmgrup.com.tr
 0.0.0.0 adbreak.com
@@ -33,7 +32,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adhouse.pro
 0.0.0.0 adimage.media
 0.0.0.0 adklik.com.tr
-0.0.0.0 adl.mynetreklam.com
 0.0.0.0 admatic.com.tr
 0.0.0.0 admost.com
 0.0.0.0 adn.bursadabugun.com
@@ -42,6 +40,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 adplus.yaani.com.tr
 0.0.0.0 adreact.com
 0.0.0.0 ads.dygdigital.com
+0.0.0.0 ads.macskorlari.net
+0.0.0.0 ads.macsonuclari.mobi
 0.0.0.0 adserve.donanimhaber.com
 0.0.0.0 adserver.a24.com.tr
 0.0.0.0 adsp.haberturk.com
@@ -52,12 +52,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytic.turkiyefinans.com.tr
 0.0.0.0 analytics.dugun.com
 0.0.0.0 analytics.halkbank.com.tr
+0.0.0.0 analytics.rasyotek.com.tr
+0.0.0.0 analytics.tebilisim.com
 0.0.0.0 api-stg.ensonhaber.com
 0.0.0.0 asgs12.yaani.com.tr
 0.0.0.0 athena-event-provider.n11.com
 0.0.0.0 banner.tmgrup.com.tr
 0.0.0.0 bildirnet.com
 0.0.0.0 bildirt.com
+0.0.0.0 bilgin.pro
 0.0.0.0 c.gazetevatan.com
 0.0.0.0 cdn3.tooplay.com
 0.0.0.0 clicks.hurriyet.com.tr
@@ -65,6 +68,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 collect.arabam.com
 0.0.0.0 collect.trendyol.com
 0.0.0.0 collector.blupoint.io
+0.0.0.0 cookiebar.eticaret.com
 0.0.0.0 cookieseal.com
 0.0.0.0 countly.fibabanka.com.tr
 0.0.0.0 d.haberler.com
@@ -119,6 +123,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pozitron.com
 0.0.0.0 programattik.com
 0.0.0.0 psabah.tmgrup.com.tr
+0.0.0.0 push.ilan365.net
 0.0.0.0 r.cdn.acunn.com
 0.0.0.0 r.tooplay.com
 0.0.0.0 reklam.turkmmo.com
@@ -143,10 +148,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 sortext.com
 0.0.0.0 sqgz.generalmobile.com
 0.0.0.0 st.tmgrup.com.tr
+0.0.0.0 statistics.daktilo.com
 0.0.0.0 stats.acunn.com
 0.0.0.0 stats.blutv.com
 0.0.0.0 stats.ganipara.com
 0.0.0.0 stats.vidyome.com
+0.0.0.0 stats.yenicaggazetesi.com.tr
 0.0.0.0 subservis.com
 0.0.0.0 t.enuygun.com
 0.0.0.0 t.lidyana.com
@@ -155,7 +162,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.tooplay.com
 0.0.0.0 tracker.blutv.com
 0.0.0.0 useinsider.com
+0.0.0.0 v.ajanshaber.com.tr
+0.0.0.0 v.dunya.com
+0.0.0.0 v.haber3.com
 0.0.0.0 v.internethaber.com
+0.0.0.0 v.superhaber.tv
 0.0.0.0 veloxity.net
 0.0.0.0 virgul.com
 0.0.0.0 visilabs.com
