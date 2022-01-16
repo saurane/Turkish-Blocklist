@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 15 Jan 2021 12:10:00 PM
+! Updated: 16 Jan 2021 10:02:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -48,9 +48,19 @@ ahaber.com.tr##.manset-button-widget
 ahaber.com.tr##.pageTools, .haberDetayTools
 ahaber.com.tr##.stickyLink, .recentnewssticky
 #
+!memurlar.net
+memurlar.net##.spc\:4x
+memurlar.net###finance-band
+memurlar.net##[target="_social"]
+forum.memurlar.net##.default-widget
+forum.memurlar.net##[title="Whatsapp İhbar Hattı"]
+#
 !Cookie Banner
+gain.tv###cookie-consent
 donanimhaber.com##.cookie-kutu
+arabam.com##.cookie-policy-banner
 incehesap.com##.cerez-politikasi-container
+teknobiyotik.com##.tibrr-cookie-consent-container
 #
 !Turkuvaz Medya (complicated)
 ||*.tmgrup.com.tr/site/*/*/geo-blokaj.css$third-party
@@ -68,7 +78,7 @@ incehesap.com##.cerez-politikasi-container
 #
 !Third Party
 #
-!Single Rule
+!Other Rules
 atv.com.tr,ahaber.com.tr##.billBoardFrame
 atv.com.tr,ahaber.com.tr##.detail-google-news
 ||cdn.e-devlet.gov.tr/themes/*/js/lib/popups/anket*.js$domain=turkiye.gov.tr
