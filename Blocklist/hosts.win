@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Adblock Filter
-# Entries: 139
-# Updated: 15 Jan 2022 12:09:53 PM
+# Entries: 149
+# Updated: 16 Jan 2022 1:17:54 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -21,6 +21,7 @@
 127.0.0.1 adbuzz.com.tr
 127.0.0.1 addata.exxen.com
 127.0.0.1 adhouse.pro
+127.0.0.1 adimage.media
 127.0.0.1 adklik.com.tr
 127.0.0.1 adl.mynetreklam.com
 127.0.0.1 admatic.com.tr
@@ -41,6 +42,7 @@
 127.0.0.1 analytic.turkiyefinans.com.tr
 127.0.0.1 analytics.dugun.com
 127.0.0.1 analytics.halkbank.com.tr
+127.0.0.1 api-stg.ensonhaber.com
 127.0.0.1 asgs12.yaani.com.tr
 127.0.0.1 athena-event-provider.n11.com
 127.0.0.1 banner.tmgrup.com.tr
@@ -49,6 +51,7 @@
 127.0.0.1 c.gazetevatan.com
 127.0.0.1 cdn3.tooplay.com
 127.0.0.1 clicks.hurriyet.com.tr
+127.0.0.1 code.com.tr
 127.0.0.1 collect.arabam.com
 127.0.0.1 collect.trendyol.com
 127.0.0.1 collector.blupoint.io
@@ -62,6 +65,7 @@
 127.0.0.1 dogus-ads-cdn.dygdigital.com
 127.0.0.1 dygassets.dygdigital.com
 127.0.0.1 efilli.com
+127.0.0.1 euromsg.com
 127.0.0.1 event-collector.analytics.onedio.com
 127.0.0.1 events.bitaksi.com
 127.0.0.1 evs.data.ciceksepeti.com
@@ -69,6 +73,7 @@
 127.0.0.1 geoim.bloomberght.com
 127.0.0.1 geoloc.hurriyet.com.tr
 127.0.0.1 gez.io
+127.0.0.1 gmgreklam.com
 127.0.0.1 hepsiads-bff.hepsiburada.com
 127.0.0.1 hepsiads-gw.hepsiburada.com
 127.0.0.1 hepsiads-ui.hepsiburada.com
@@ -77,6 +82,8 @@
 127.0.0.1 hits.acunn.com
 127.0.0.1 hodor-collect.arabam.com
 127.0.0.1 hstats.hepsiburada.com
+127.0.0.1 indirads.org
+127.0.0.1 indirads.work
 127.0.0.1 istatistik.arabam.com
 127.0.0.1 istatistik.gazetevatan.com
 127.0.0.1 istatistik.trthaber.com
@@ -85,6 +92,7 @@
 127.0.0.1 marketing.turkiyefinans.com.tr
 127.0.0.1 medya.ilan.gov.tr
 127.0.0.1 medyanetads.com
+127.0.0.1 metrics.egencia.com.tr
 127.0.0.1 mynetreklam.com
 127.0.0.1 n.tooplay.com
 127.0.0.1 nativespot.com
@@ -101,9 +109,6 @@
 127.0.0.1 pozitron.com
 127.0.0.1 programattik.com
 127.0.0.1 psabah.tmgrup.com.tr
-127.0.0.1 push.euromsg.com
-127.0.0.1 pushr.euromsg.com
-127.0.0.1 pushs.euromsg.com
 127.0.0.1 r.cdn.acunn.com
 127.0.0.1 r.tooplay.com
 127.0.0.1 reklam.turkmmo.com
@@ -114,12 +119,15 @@
 127.0.0.1 revenueflex.com
 127.0.0.1 revotas.com
 127.0.0.1 s.fullhdfilmizlesene.com
+127.0.0.1 sanalytics.boomerangtv.com.tr
+127.0.0.1 sanalytics.cartoonnetwork.com.tr
 127.0.0.1 say.ac
 127.0.0.1 sayac.tmgrup.com.tr
 127.0.0.1 sdkapi.netmera.com
 127.0.0.1 searchanalytics.turkcell.com.tr
 127.0.0.1 segmentify.com
 127.0.0.1 signals.teknosa.com
+127.0.0.1 smetrics.kone.com.tr
 127.0.0.1 smetrics.vodafone.com.tr
 127.0.0.1 sociaplus.com
 127.0.0.1 sortext.com
@@ -133,9 +141,11 @@
 127.0.0.1 t.enuygun.com
 127.0.0.1 t.lidyana.com
 127.0.0.1 t.onedio.com
+127.0.0.1 tagm.tchibo.com.tr
 127.0.0.1 track.tooplay.com
 127.0.0.1 tracker.blutv.com
 127.0.0.1 useinsider.com
+127.0.0.1 v.internethaber.com
 127.0.0.1 veloxity.net
 127.0.0.1 virgul.com
 127.0.0.1 visilabs.com
