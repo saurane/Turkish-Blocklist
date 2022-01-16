@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 16 Jan 2021 13:19:00 PM
+! Updated: 16 Jan 2021 4:59:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -91,10 +91,9 @@ fullprogramlarindir.net##.single-alt
 #
 !DNS Filter
 ||8digits.com^
-||ad-cdn.bilgin.pro^
-||ad.bilgin.pro^
 ||ad.donanimhaber.com^
 ||ad.reyazilim.com^
+||ad.sigortagundem.biz^
 ||ad.yemeksepeti.com^
 ||ad01.tmgrup.com.tr^
 ||adbreak.com^
@@ -104,7 +103,6 @@ fullprogramlarindir.net##.single-alt
 ||adhouse.pro^
 ||adimage.media^
 ||adklik.com.tr^
-||adl.mynetreklam.com^
 ||admatic.com.tr^
 ||admost.com^
 ||adn.bursadabugun.com^
@@ -113,6 +111,8 @@ fullprogramlarindir.net##.single-alt
 ||adplus.yaani.com.tr^
 ||adreact.com^
 ||ads.dygdigital.com^
+||ads.macskorlari.net^
+||ads.macsonuclari.mobi^
 ||adserve.donanimhaber.com^
 ||adserver.a24.com.tr^
 ||adsp.haberturk.com^
@@ -123,12 +123,15 @@ fullprogramlarindir.net##.single-alt
 ||analytic.turkiyefinans.com.tr^
 ||analytics.dugun.com^
 ||analytics.halkbank.com.tr^
+||analytics.rasyotek.com.tr^
+||analytics.tebilisim.com^
 ||api-stg.ensonhaber.com^
 ||asgs12.yaani.com.tr^
 ||athena-event-provider.n11.com^
 ||banner.tmgrup.com.tr^
 ||bildirnet.com^
 ||bildirt.com^
+||bilgin.pro^
 ||c.gazetevatan.com^
 ||cdn3.tooplay.com^
 ||clicks.hurriyet.com.tr^
@@ -136,6 +139,7 @@ fullprogramlarindir.net##.single-alt
 ||collect.arabam.com^
 ||collect.trendyol.com^
 ||collector.blupoint.io^
+||cookiebar.eticaret.com^
 ||cookieseal.com^
 ||countly.fibabanka.com.tr^
 ||d.haberler.com^
@@ -190,6 +194,7 @@ fullprogramlarindir.net##.single-alt
 ||pozitron.com^
 ||programattik.com^
 ||psabah.tmgrup.com.tr^
+||push.ilan365.net^
 ||r.cdn.acunn.com^
 ||r.tooplay.com^
 ||reklam.turkmmo.com^
@@ -214,10 +219,12 @@ fullprogramlarindir.net##.single-alt
 ||sortext.com^
 ||sqgz.generalmobile.com^
 ||st.tmgrup.com.tr^
+||statistics.daktilo.com^
 ||stats.acunn.com^
 ||stats.blutv.com^
 ||stats.ganipara.com^
 ||stats.vidyome.com^
+||stats.yenicaggazetesi.com.tr^
 ||subservis.com^
 ||t.enuygun.com^
 ||t.lidyana.com^
@@ -226,7 +233,11 @@ fullprogramlarindir.net##.single-alt
 ||track.tooplay.com^
 ||tracker.blutv.com^
 ||useinsider.com^
+||v.ajanshaber.com.tr^
+||v.dunya.com^
+||v.haber3.com^
 ||v.internethaber.com^
+||v.superhaber.tv^
 ||veloxity.net^
 ||virgul.com^
 ||visilabs.com^
