@@ -10,6 +10,7 @@ adbreak.net
 adbuzz.com.tr
 addata.exxen.com
 adhouse.pro
+adimage.media
 adklik.com.tr
 adl.mynetreklam.com
 admatic.com.tr
@@ -30,6 +31,7 @@ aip2.sozcu.com.tr
 analytic.turkiyefinans.com.tr
 analytics.dugun.com
 analytics.halkbank.com.tr
+api-stg.ensonhaber.com
 asgs12.yaani.com.tr
 athena-event-provider.n11.com
 banner.tmgrup.com.tr
@@ -38,6 +40,7 @@ bildirt.com
 c.gazetevatan.com
 cdn3.tooplay.com
 clicks.hurriyet.com.tr
+code.com.tr
 collect.arabam.com
 collect.trendyol.com
 collector.blupoint.io
@@ -51,6 +54,7 @@ doganburda.com
 dogus-ads-cdn.dygdigital.com
 dygassets.dygdigital.com
 efilli.com
+euromsg.com
 event-collector.analytics.onedio.com
 events.bitaksi.com
 evs.data.ciceksepeti.com
@@ -58,6 +62,7 @@ gelirartisi.com
 geoim.bloomberght.com
 geoloc.hurriyet.com.tr
 gez.io
+gmgreklam.com
 hepsiads-bff.hepsiburada.com
 hepsiads-gw.hepsiburada.com
 hepsiads-ui.hepsiburada.com
@@ -66,6 +71,8 @@ hit.mynet.com
 hits.acunn.com
 hodor-collect.arabam.com
 hstats.hepsiburada.com
+indirads.org
+indirads.work
 istatistik.arabam.com
 istatistik.gazetevatan.com
 istatistik.trthaber.com
@@ -74,6 +81,7 @@ makroo.com
 marketing.turkiyefinans.com.tr
 medya.ilan.gov.tr
 medyanetads.com
+metrics.egencia.com.tr
 mynetreklam.com
 n.tooplay.com
 nativespot.com
@@ -90,9 +98,6 @@ poltio.com
 pozitron.com
 programattik.com
 psabah.tmgrup.com.tr
-push.euromsg.com
-pushr.euromsg.com
-pushs.euromsg.com
 r.cdn.acunn.com
 r.tooplay.com
 reklam.turkmmo.com
@@ -103,12 +108,15 @@ relateddigital.com
 revenueflex.com
 revotas.com
 s.fullhdfilmizlesene.com
+sanalytics.boomerangtv.com.tr
+sanalytics.cartoonnetwork.com.tr
 say.ac
 sayac.tmgrup.com.tr
 sdkapi.netmera.com
 searchanalytics.turkcell.com.tr
 segmentify.com
 signals.teknosa.com
+smetrics.kone.com.tr
 smetrics.vodafone.com.tr
 sociaplus.com
 sortext.com
@@ -122,9 +130,11 @@ subservis.com
 t.enuygun.com
 t.lidyana.com
 t.onedio.com
+tagm.tchibo.com.tr
 track.tooplay.com
 tracker.blutv.com
 useinsider.com
+v.internethaber.com
 veloxity.net
 virgul.com
 visilabs.com
