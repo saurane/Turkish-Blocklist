@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish Adblock Filter
-# Entries: 139
-# Updated: 15 Jan 2022 12:09:53 PM
+# Entries: 149
+# Updated: 16 Jan 2022 1:17:54 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -31,6 +31,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adbuzz.com.tr
 0.0.0.0 addata.exxen.com
 0.0.0.0 adhouse.pro
+0.0.0.0 adimage.media
 0.0.0.0 adklik.com.tr
 0.0.0.0 adl.mynetreklam.com
 0.0.0.0 admatic.com.tr
@@ -51,6 +52,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytic.turkiyefinans.com.tr
 0.0.0.0 analytics.dugun.com
 0.0.0.0 analytics.halkbank.com.tr
+0.0.0.0 api-stg.ensonhaber.com
 0.0.0.0 asgs12.yaani.com.tr
 0.0.0.0 athena-event-provider.n11.com
 0.0.0.0 banner.tmgrup.com.tr
@@ -59,6 +61,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.gazetevatan.com
 0.0.0.0 cdn3.tooplay.com
 0.0.0.0 clicks.hurriyet.com.tr
+0.0.0.0 code.com.tr
 0.0.0.0 collect.arabam.com
 0.0.0.0 collect.trendyol.com
 0.0.0.0 collector.blupoint.io
@@ -72,6 +75,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dogus-ads-cdn.dygdigital.com
 0.0.0.0 dygassets.dygdigital.com
 0.0.0.0 efilli.com
+0.0.0.0 euromsg.com
 0.0.0.0 event-collector.analytics.onedio.com
 0.0.0.0 events.bitaksi.com
 0.0.0.0 evs.data.ciceksepeti.com
@@ -79,6 +83,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 geoim.bloomberght.com
 0.0.0.0 geoloc.hurriyet.com.tr
 0.0.0.0 gez.io
+0.0.0.0 gmgreklam.com
 0.0.0.0 hepsiads-bff.hepsiburada.com
 0.0.0.0 hepsiads-gw.hepsiburada.com
 0.0.0.0 hepsiads-ui.hepsiburada.com
@@ -87,6 +92,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 hits.acunn.com
 0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
+0.0.0.0 indirads.org
+0.0.0.0 indirads.work
 0.0.0.0 istatistik.arabam.com
 0.0.0.0 istatistik.gazetevatan.com
 0.0.0.0 istatistik.trthaber.com
@@ -95,6 +102,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 marketing.turkiyefinans.com.tr
 0.0.0.0 medya.ilan.gov.tr
 0.0.0.0 medyanetads.com
+0.0.0.0 metrics.egencia.com.tr
 0.0.0.0 mynetreklam.com
 0.0.0.0 n.tooplay.com
 0.0.0.0 nativespot.com
@@ -111,9 +119,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pozitron.com
 0.0.0.0 programattik.com
 0.0.0.0 psabah.tmgrup.com.tr
-0.0.0.0 push.euromsg.com
-0.0.0.0 pushr.euromsg.com
-0.0.0.0 pushs.euromsg.com
 0.0.0.0 r.cdn.acunn.com
 0.0.0.0 r.tooplay.com
 0.0.0.0 reklam.turkmmo.com
@@ -124,12 +129,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 revenueflex.com
 0.0.0.0 revotas.com
 0.0.0.0 s.fullhdfilmizlesene.com
+0.0.0.0 sanalytics.boomerangtv.com.tr
+0.0.0.0 sanalytics.cartoonnetwork.com.tr
 0.0.0.0 say.ac
 0.0.0.0 sayac.tmgrup.com.tr
 0.0.0.0 sdkapi.netmera.com
 0.0.0.0 searchanalytics.turkcell.com.tr
 0.0.0.0 segmentify.com
 0.0.0.0 signals.teknosa.com
+0.0.0.0 smetrics.kone.com.tr
 0.0.0.0 smetrics.vodafone.com.tr
 0.0.0.0 sociaplus.com
 0.0.0.0 sortext.com
@@ -143,9 +151,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.enuygun.com
 0.0.0.0 t.lidyana.com
 0.0.0.0 t.onedio.com
+0.0.0.0 tagm.tchibo.com.tr
 0.0.0.0 track.tooplay.com
 0.0.0.0 tracker.blutv.com
 0.0.0.0 useinsider.com
+0.0.0.0 v.internethaber.com
 0.0.0.0 veloxity.net
 0.0.0.0 virgul.com
 0.0.0.0 visilabs.com
