@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 15 Jan 2021 12:09:00 PM
+! Updated: 16 Jan 2021 10:01:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -41,24 +41,39 @@ ahaber.com.tr##.ad-control-full
 ||ahaber.com.tr/ads.txt$domain=ahaber.com.tr
 ||ipcheck.tmgrup.com.tr^$domain=ahaber.com.tr,important
 #
+!memurlar.net
+memurlar.net##.left
+memurlar.net##.right
+memurlar.net###masth
+memurlar.net##.adsbygoogle
+memurlar.net##.adm-ads-area
+memurlar.net##.masthead-panel
+memurlar.net##a[onclick^="gtag"]
+memurlar.net##.widget-336x280
+memurlar.net##.widget-580x400
+memurlar.net##.widget-970x250
+memurlar.net##.widget-article
+#
 !Turkuvaz Medya (complicated)
 ||*.tmgrup.com.tr/tmd/usercountry.js^$third-party
 ||*.tmgrup.com.tr/json/getLiveAdsTimer^$third-party
 ||*.tmgrup.com.tr/site/*/*/advertItems.css$third-party
 ||*.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
+||*.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 #
 !Third Party
 ||daioncdn.net/events$third-party
 ||cdn.eksiup.com/api/$script,third-party
 ||daion-static.ercdn.net/omsdk^$third-party
 #
-!Other rule
+!Other Rules
 atv.com.tr,ahaber.com.tr##.advert
 ||cdn.e-devlet.gov.tr/themes/*/js/analitik*.js$domain=turkiye.gov.tr
 ||ekstat.com/js/ek$i-defer.js^$domain=eksisozluk.com
 ||images.hepsiburada.net/webtrekk/webtrekk.js$domain=hepsiburada.com
 ||mavi.com/_ui/shared/js/analyticsmediator.js$domain=mavi.com
 ||*.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
+||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js$domain=atam.gov.tr
 ||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
 #
 !DNS Filter
