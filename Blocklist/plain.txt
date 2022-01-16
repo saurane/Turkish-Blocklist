@@ -1,8 +1,7 @@
 8digits.com
-ad-cdn.bilgin.pro
-ad.bilgin.pro
 ad.donanimhaber.com
 ad.reyazilim.com
+ad.sigortagundem.biz
 ad.yemeksepeti.com
 ad01.tmgrup.com.tr
 adbreak.com
@@ -12,7 +11,6 @@ addata.exxen.com
 adhouse.pro
 adimage.media
 adklik.com.tr
-adl.mynetreklam.com
 admatic.com.tr
 admost.com
 adn.bursadabugun.com
@@ -21,6 +19,8 @@ adplay.com.tr
 adplus.yaani.com.tr
 adreact.com
 ads.dygdigital.com
+ads.macskorlari.net
+ads.macsonuclari.mobi
 adserve.donanimhaber.com
 adserver.a24.com.tr
 adsp.haberturk.com
@@ -31,12 +31,15 @@ aip2.sozcu.com.tr
 analytic.turkiyefinans.com.tr
 analytics.dugun.com
 analytics.halkbank.com.tr
+analytics.rasyotek.com.tr
+analytics.tebilisim.com
 api-stg.ensonhaber.com
 asgs12.yaani.com.tr
 athena-event-provider.n11.com
 banner.tmgrup.com.tr
 bildirnet.com
 bildirt.com
+bilgin.pro
 c.gazetevatan.com
 cdn3.tooplay.com
 clicks.hurriyet.com.tr
@@ -44,6 +47,7 @@ code.com.tr
 collect.arabam.com
 collect.trendyol.com
 collector.blupoint.io
+cookiebar.eticaret.com
 cookieseal.com
 countly.fibabanka.com.tr
 d.haberler.com
@@ -98,6 +102,7 @@ poltio.com
 pozitron.com
 programattik.com
 psabah.tmgrup.com.tr
+push.ilan365.net
 r.cdn.acunn.com
 r.tooplay.com
 reklam.turkmmo.com
@@ -122,10 +127,12 @@ sociaplus.com
 sortext.com
 sqgz.generalmobile.com
 st.tmgrup.com.tr
+statistics.daktilo.com
 stats.acunn.com
 stats.blutv.com
 stats.ganipara.com
 stats.vidyome.com
+stats.yenicaggazetesi.com.tr
 subservis.com
 t.enuygun.com
 t.lidyana.com
@@ -134,7 +141,11 @@ tagm.tchibo.com.tr
 track.tooplay.com
 tracker.blutv.com
 useinsider.com
+v.ajanshaber.com.tr
+v.dunya.com
+v.haber3.com
 v.internethaber.com
+v.superhaber.tv
 veloxity.net
 virgul.com
 visilabs.com
