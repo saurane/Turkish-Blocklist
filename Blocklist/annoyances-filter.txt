@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 16 Jan 2021 11:03:00 PM
+! Updated: 17 Jan 2021 3:33:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -59,8 +59,13 @@ forum.memurlar.net##.default-widget
 forum.memurlar.net##[title="Whatsapp İhbar Hattı"]
 #
 !Cookie Banner
+tppd.com.tr##.cookiemsg
 gain.tv###cookie-consent
+turkcell.com.tr##.m-cookie
+hepsiburada.com##.cookie-info
 donanimhaber.com##.cookie-kutu
+isbank.com.tr##.blogCookieCover
+mavi.com###CybotCookiebotDialog
 arabam.com##.cookie-policy-banner
 incehesap.com##.cerez-politikasi-container
 teknobiyotik.com##.tibrr-cookie-consent-container
