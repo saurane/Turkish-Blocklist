@@ -1,6 +1,6 @@
-# Title: Saurane - Turkish Adblock Filter
+# Title: Saurane - Turkish DNS Filter
 # Entries: 160
-# Updated: 16 Jan 2022 4:58:47 PM
+# Updated: 17 Jan 2022 11:27:56 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
