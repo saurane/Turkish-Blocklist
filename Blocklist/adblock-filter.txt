@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 16 Jan 2021 4:59:00 PM
+! Updated: 17 Jan 2021 3:34:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -51,6 +51,9 @@ ahaber.com.tr##.ad-control-full
 ||ahaber.com.tr/ads.txt$domain=ahaber.com.tr
 ||ipcheck.tmgrup.com.tr^$domain=ahaber.com.tr,important
 #
+!mavi.com
+mavi.com##.custom-banner
+#
 !memurlar.net
 memurlar.net##.left
 memurlar.net##.right
@@ -64,6 +67,13 @@ memurlar.net##.widget-580x400
 memurlar.net##.widget-970x250
 memurlar.net##.widget-article
 #
+!hepsiburada.com
+hepsiburada.com##.Advertisement
+||images.hepsiburada.net/hbus^$domain=hepsiburada.com
+||static.hepsiburada.net/favicon.ico$domain=static.hepsiburada.net
+||images.hepsiburada.net/privacy/privacy*.js$domain=hepsiburada.com
+||static.hepsiburada.net/assets/sfvoltranstatic/*/project/assets/Advertisement*.js$domain=hepsiburada.com
+#
 !Turkuvaz Medya (complicated)
 ||*.tmgrup.com.tr/tmd/usercountry.js^$third-party
 ||*.tmgrup.com.tr/json/getLiveAdsTimer^$third-party
@@ -75,6 +85,7 @@ memurlar.net##.widget-article
 ||daioncdn.net/events$third-party
 ||cdn.eksiup.com/api/$script,third-party
 ||daion-static.ercdn.net/omsdk^$third-party
+||mncdn.com/include/dynamic_click_tag.js$third-party
 #
 !Other Rules
 buyurindir.org##.premium_kismi
