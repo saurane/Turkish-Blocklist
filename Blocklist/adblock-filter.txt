@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 18 Jan 2021 10:24:00 PM
+! Updated: 18 Jan 2021 11:11:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -82,12 +82,13 @@ hepsiburada.com##.Advertisement
 ||*.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 #
 !setfilmizle.cc
+||setfilmizle.cc/ads^
+||setfilmizle.cc/yurt.js
 setfilmizle.cc###footadskpt
 setfilmizle.cc##.set-pageskin-link
 setfilmizle.cc##.menu_alti_reklam
 setfilmizle.cc##.menu_alti_reklam_mobil
-||setfilmizle.cc/yurt.js$domain=setfilmizle.cc
-@@||stfplay.xyz/player/$stealth,domain=setfilmizle.cc
+@@||stfplay.xyz/player/$stealth
 #
 !Third Party
 ||daioncdn.net/events$third-party
