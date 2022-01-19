@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 160
-# Updated: 17 Jan 2022 11:27:56 AM
+# Entries: 162
+# Updated: 19 Jan 2022 9:37:11 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -11,6 +11,7 @@ ad.reyazilim.com
 ad.sigortagundem.biz
 ad.yemeksepeti.com
 ad01.tmgrup.com.tr
+adbetnetwork.com
 adbreak.com
 adbreak.net
 adbuzz.com.tr
@@ -91,6 +92,7 @@ log.haberturk.com
 makroo.com
 marketing.turkiyefinans.com.tr
 medya.ilan.gov.tr
+medyanative.com
 medyanetads.com
 metrics.egencia.com.tr
 mynetreklam.com
