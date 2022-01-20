@@ -1,15 +1,15 @@
 ![Cover](https://github.com/saurane/Turkish-Blocklist/blob/master/srnsss.png)
 
 <div align="center">
-    <!-- License -->
-    <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
-      alt="Lisans-MPL-2.0" />
-  <!-- Last Updated -->
+    <!-- Last Updated -->
     <img src="https://img.shields.io/badge/Updated-Jan 20, 2022-green.svg?longCache=true&style=for-the-badge"
       alt="_time_stamp_" />
     <!-- Status -->
     <img src="https://img.shields.io/badge/Status-Stable-blue.svg?longCache=true&style=for-the-badge"
       alt="_time_stamp_" />
+    <!-- License -->
+    <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
+      alt="Lisans-MPL-2.0" />
 </div>
 
 ------------
