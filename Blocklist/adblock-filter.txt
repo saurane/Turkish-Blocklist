@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 20 Jan 2021 3:14:00 PM
+! Updated: 20 Jan 2021 5:40:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -74,7 +74,7 @@ hepsiburada.com##.Advertisement
 ||*.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 #
 !ticimax.com
-/ticimax/analytics.js #Third Party
+/ticimax/analytics.js
 ||ticimax.com/cdn-cgi/rum^
 ||ticimax.com/api/Content/ReklamCookie^
 #
@@ -102,6 +102,9 @@ tv8.com.tr##.fixed_160, .racunn-160, .racunn-160-left
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
 #
 !Other Rules
+!Bitrix24 Tracker
+/tag/call.tracker.js
+!
 buyurindir.org##.premium_kismi
 atv.com.tr,ahaber.com.tr##.advert
 fullprogramlarindir.net##.single-ust
@@ -111,6 +114,7 @@ fullprogramlarindir.net##.single-alt
 ||fns.modanisa.com/al/j/analytics.js
 ||images.hepsiburada.net/webtrekk/webtrekk.js
 ||mavi.com/_ui/shared/js/analyticsmediator.js
+||arcelik.com.tr/_ui/shared/js/analyticsmediator.js
 ||tepehome.com.tr/srv/service/site/get-cookie-law
 ||bolgehastanesi.com/www.google-analytics.com/analytics.js
 ||*.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
@@ -276,6 +280,7 @@ fullprogramlarindir.net##.single-alt
 ||istatistik.trthaber.com^
 ||log.haberturk.com^
 ||makroo.com^
+||makroo.haber7.net^
 ||marketing.turkiyefinans.com.tr^
 ||medya.ilan.gov.tr^
 ||medyanative.com^
@@ -314,6 +319,7 @@ fullprogramlarindir.net##.single-alt
 ||sdkapi.netmera.com^
 ||searchanalytics.turkcell.com.tr^
 ||segmentify.com^
+||setrowid.com^
 ||signals.teknosa.com^
 ||smetrics.kone.com.tr^
 ||smetrics.vodafone.com.tr^
