@@ -42,7 +42,6 @@ bildirnet.com
 bildirt.com
 bilgin.pro
 c.gazetevatan.com
-cdn3.tooplay.com
 clicks.hurriyet.com.tr
 code.com.tr
 collect.arabam.com
@@ -89,7 +88,6 @@ medyanative.com
 medyanetads.com
 metrics.egencia.com.tr
 mynetreklam.com
-n.tooplay.com
 nativespot.com
 netmera-web.com
 networkad.net
