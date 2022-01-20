@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 162
-# Updated: 19 Jan 2022 9:37:11 AM
+# Entries: 160
+# Updated: 20 Jan 2022 10:06:34 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -49,7 +49,6 @@ bildirnet.com
 bildirt.com
 bilgin.pro
 c.gazetevatan.com
-cdn3.tooplay.com
 clicks.hurriyet.com.tr
 code.com.tr
 collect.arabam.com
@@ -96,7 +95,6 @@ medyanative.com
 medyanetads.com
 metrics.egencia.com.tr
 mynetreklam.com
-n.tooplay.com
 nativespot.com
 netmera-web.com
 networkad.net
