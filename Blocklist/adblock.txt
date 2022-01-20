@@ -1,6 +1,6 @@
 ! Title: Saurane - Turkish DNS Filter
-! Entries: 160
-! Updated: 20 Jan 2022 10:06:34 AM
+! Entries: 161
+! Updated: 20 Jan 2022 3:11:43 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -136,6 +136,7 @@
 ||st.tmgrup.com.tr^
 ||statistics.daktilo.com^
 ||stats.acunn.com^
+||stats.birgun.net^
 ||stats.blutv.com^
 ||stats.ganipara.com^
 ||stats.vidyome.com^
