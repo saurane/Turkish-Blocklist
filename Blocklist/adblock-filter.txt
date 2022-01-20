@@ -1,17 +1,7 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 20 Jan 2021 12:25:00 PM
+! Updated: 20 Jan 2021 2:14:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
-#
-!Experimental
-###reklam
-###Reklam
-###reklamlar
-###Reklamlar
-###solreklam
-###sagreklam
-###SolReklam
-###SagReklam
 #
 !donanimhaber.com
 ||donanimhaber.com/ads/$script
@@ -83,8 +73,8 @@ hepsiburada.com##.Advertisement
 ||*.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
 ||*.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 #
-!ticimax.com.tr
-/ticimax/analytics.js
+!ticimax.com
+/ticimax/analytics.js #Third Party
 ||ticimax.com/cdn-cgi/rum^
 ||ticimax.com/api/Content/ReklamCookie^
 #
@@ -122,6 +112,85 @@ fullprogramlarindir.net##.single-alt
 ||*.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js
 ||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
+#
+!Fanboy Turkish List/Turkish Generic Element Hiding Rules
+###kayan_reklam
+###kayan_reklam_sol
+###kayan_reklamsag
+###kayan_reklamsol
+###leftreklam1div
+###leftreklam2div
+###PopWin
+###rectangleBannerJack
+###reklam2
+###reklam300x250
+###reklam300x600
+###reklam_sol
+###reklamdetay
+###reklamdiv
+###reklamg
+###reklamgoster
+###reklami
+###reklamlar
+###reklamm
+###rightreklam2div
+###sagreklam
+###sagReklamAlani
+###sol_kayan_reklam
+###sreklam
+###tatiladvertorial
+###Ust-Reklam-Piyasa
+###ust_ara_reklam
+###ustReklam
+###ustreklam
+###ustreklamlar
+###video_reklam2
+###video_reklam3
+##.adnet_baslik
+##.adnetDetay
+##.adsindirim
+##.adsortalaindirim
+##.adsVideo
+##.adsVideoAlti
+##.degisenalti_reklam
+##.detayreklam
+##.dikeyreklam
+##.gogads
+##.gogads4
+##.kutu_reklam
+##.logoyani_reklam
+##.ortaReklam
+##.reklam-1
+##.reklam-2
+##.reklam-3
+##.reklam-4
+##.Reklam-Alani-300x250
+##.reklam-ucuzu
+##.reklam1
+##.reklam2
+##.reklam728x90
+##.reklam_300_250
+##.reklam_300_250_Ana
+##.reklam_300x250
+##.reklam_728_90
+##.ReklamBandi
+##.ReklamBandi2
+##.ReklamBir
+##.reklamDiv
+##.reklamlar
+##.reklamoynama
+##.reklamUst
+##.reklamyatay
+##.sag_reklam
+##.sag_reklam2
+##.sagreklam
+##.sagReklam300x250
+##.sRightAdSpace
+##.start__advertising_container
+##.ustOrtaSolReklam
+##.vSagReklam-1
+##.vSagReklam-2
+##.yediyuzads
 #
 !DNS Filter
 ||8digits.com^
