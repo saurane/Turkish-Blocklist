@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 20 Jan 2021 3:15:00 PM
+! Updated: 20 Jan 2021 5:41:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -65,12 +65,14 @@ tv8.com.tr##.footer-bold-title
 #
 !Cookie Banner
 ###cerekKullanimUyari
+kigili.com##.cookie
 tppd.com.tr##.cookiemsg
 ticimax.com##.cookienoty
 gain.tv###cookie-consent
 tv8.com.tr###cookie-policy
 turkcell.com.tr##.m-cookie
 tsoft.com.tr###cookieConsent
+sikayetvar.com###cookie-policy
 hepsiburada.com##.cookie-info
 donanimhaber.com##.cookie-kutu
 isbank.com.tr##.blogCookieCover
@@ -81,6 +83,7 @@ ing.com.tr##.kvk-footer-warning
 arabam.com##.cookie-policy-banner
 modanisa.com##.cookieNotification
 hangikredi.com##.cookiepolicypopup
+tv8bucuk.com##.cookie-notification
 arzusabanci.com.tr##.cerezPopupUyari
 incehesap.com##.cerez-politikasi-container
 teknobiyotik.com##.tibrr-cookie-consent-container
