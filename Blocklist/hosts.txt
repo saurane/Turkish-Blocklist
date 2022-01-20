@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 161
-# Updated: 20 Jan 2022 3:11:43 PM
+# Entries: 163
+# Updated: 20 Jan 2022 5:39:23 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -103,6 +103,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 istatistik.trthaber.com
 0.0.0.0 log.haberturk.com
 0.0.0.0 makroo.com
+0.0.0.0 makroo.haber7.net
 0.0.0.0 marketing.turkiyefinans.com.tr
 0.0.0.0 medya.ilan.gov.tr
 0.0.0.0 medyanative.com
@@ -141,6 +142,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sdkapi.netmera.com
 0.0.0.0 searchanalytics.turkcell.com.tr
 0.0.0.0 segmentify.com
+0.0.0.0 setrowid.com
 0.0.0.0 signals.teknosa.com
 0.0.0.0 smetrics.kone.com.tr
 0.0.0.0 smetrics.vodafone.com.tr
