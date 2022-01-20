@@ -82,6 +82,7 @@ istatistik.gazetevatan.com
 istatistik.trthaber.com
 log.haberturk.com
 makroo.com
+makroo.haber7.net
 marketing.turkiyefinans.com.tr
 medya.ilan.gov.tr
 medyanative.com
@@ -120,6 +121,7 @@ sayac.tmgrup.com.tr
 sdkapi.netmera.com
 searchanalytics.turkcell.com.tr
 segmentify.com
+setrowid.com
 signals.teknosa.com
 smetrics.kone.com.tr
 smetrics.vodafone.com.tr
