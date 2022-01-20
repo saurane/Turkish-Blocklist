@@ -111,6 +111,8 @@ tv8.com.tr##.fixed_160, .racunn-160, .racunn-160-left
 ||cdn.tooplay.com/network/player/comscore.js$third-party
 #
 !Other Rules
+ertanhaber.com###custom_html-87
+ertanhaber.com###custom_html-31
 buyurindir.org##.premium_kismi
 atv.com.tr,ahaber.com.tr##.advert
 fullprogramlarindir.net##.single-ust
