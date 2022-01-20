@@ -129,6 +129,7 @@ sqgz.generalmobile.com
 st.tmgrup.com.tr
 statistics.daktilo.com
 stats.acunn.com
+stats.birgun.net
 stats.blutv.com
 stats.ganipara.com
 stats.vidyome.com
