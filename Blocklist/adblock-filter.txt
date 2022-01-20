@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 20 Jan 2021 2:14:00 PM
+! Updated: 20 Jan 2021 3:14:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -99,6 +99,7 @@ tv8.com.tr##.fixed_160, .racunn-160, .racunn-160-left
 ||mncdn.com/include/dynamic_click_tag.js$third-party
 ||n.tooplay.com/s^$third-party #ADS
 ||cdn.tooplay.com/network/player/comscore.js$third-party
+||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
 #
 !Other Rules
 buyurindir.org##.premium_kismi
@@ -107,10 +108,14 @@ fullprogramlarindir.net##.single-ust
 fullprogramlarindir.net##.single-alt
 ||cdn.e-devlet.gov.tr/themes/*/js/analitik*.js
 ||ekstat.com/js/ek$i-defer.js^
+||fns.modanisa.com/al/j/analytics.js
 ||images.hepsiburada.net/webtrekk/webtrekk.js
 ||mavi.com/_ui/shared/js/analyticsmediator.js
+||tepehome.com.tr/srv/service/site/get-cookie-law
+||bolgehastanesi.com/www.google-analytics.com/analytics.js
 ||*.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js
+||projesoft.com.tr/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js
 ||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
 #
 !Fanboy Turkish List/Turkish Generic Element Hiding Rules
@@ -120,8 +125,6 @@ fullprogramlarindir.net##.single-alt
 ###kayan_reklamsol
 ###leftreklam1div
 ###leftreklam2div
-###PopWin
-###rectangleBannerJack
 ###reklam2
 ###reklam300x250
 ###reklam300x600
@@ -155,8 +158,6 @@ fullprogramlarindir.net##.single-alt
 ##.degisenalti_reklam
 ##.detayreklam
 ##.dikeyreklam
-##.gogads
-##.gogads4
 ##.kutu_reklam
 ##.logoyani_reklam
 ##.ortaReklam
@@ -185,8 +186,6 @@ fullprogramlarindir.net##.single-alt
 ##.sag_reklam2
 ##.sagreklam
 ##.sagReklam300x250
-##.sRightAdSpace
-##.start__advertising_container
 ##.ustOrtaSolReklam
 ##.vSagReklam-1
 ##.vSagReklam-2
@@ -324,6 +323,7 @@ fullprogramlarindir.net##.single-alt
 ||st.tmgrup.com.tr^
 ||statistics.daktilo.com^
 ||stats.acunn.com^
+||stats.birgun.net^
 ||stats.blutv.com^
 ||stats.ganipara.com^
 ||stats.vidyome.com^
