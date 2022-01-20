@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 20 Jan 2021 10:12:00 PM
+! Updated: 20 Jan 2021 12:25:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -66,6 +66,7 @@ memurlar.net##.widget-336x280
 memurlar.net##.widget-580x400
 memurlar.net##.widget-970x250
 memurlar.net##.widget-article
+memurlar.net##.teads-inread, .sm-screen
 #
 !hepsiburada.com
 hepsiburada.com##.Advertisement
@@ -81,6 +82,11 @@ hepsiburada.com##.Advertisement
 ||*.tmgrup.com.tr/site/*/*/advertItems.css$third-party
 ||*.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
 ||*.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
+#
+!ticimax.com.tr
+/ticimax/analytics.js
+||ticimax.com/cdn-cgi/rum^
+||ticimax.com/api/Content/ReklamCookie^
 #
 !setfilmizle.cc
 ||setfilmizle.cc/ads^
@@ -101,9 +107,8 @@ tv8.com.tr##.fixed_160, .racunn-160, .racunn-160-left
 ||cdn.eksiup.com/api/$script,third-party
 ||daion-static.ercdn.net/omsdk^$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
-||n.tooplay.com/s^$third-party
+||n.tooplay.com/s^$third-party #ADS
 ||cdn.tooplay.com/network/player/comscore.js$third-party
-||cdn.ticimax.com/Version/*/*/ticimax/analytics.js$third-party
 #
 !Other Rules
 buyurindir.org##.premium_kismi
