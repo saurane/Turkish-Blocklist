@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 20 Jan 2021 5:40:00 PM
+! Updated: 22 Jan 2021 9:07:00 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -61,7 +61,6 @@ memurlar.net##.teads-inread, .sm-screen
 !hepsiburada.com
 hepsiburada.com##.Advertisement
 ||hepsiburada.com/akam^
-||images.hepsiburada.net/hbus^
 ||static.hepsiburada.net/favicon.ico
 ||images.hepsiburada.net/privacy/privacy*.js
 ||static.hepsiburada.net/assets/sfvoltranstatic/*/project/assets/Advertisement*.js
@@ -220,6 +219,7 @@ fullprogramlarindir.net##.single-alt
 ||ads.dygdigital.com^
 ||ads.macskorlari.net^
 ||ads.macsonuclari.mobi^
+||datacollection.beymen.com^
 ||adserve.donanimhaber.com^
 ||adserver.a24.com.tr^
 ||adsp.haberturk.com^
@@ -249,6 +249,7 @@ fullprogramlarindir.net##.single-alt
 ||cookieseal.com^
 ||countly.fibabanka.com.tr^
 ||d.haberler.com^
+||collect.dolap.com^
 ||dacs.generalmobile.com^
 ||dataroid.com^
 ||dengage.com^
