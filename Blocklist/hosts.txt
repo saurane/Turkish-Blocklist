@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 163
-# Updated: 20 Jan 2022 5:39:23 PM
+# Entries: 165
+# Updated: 22 Jan 2022 9:05:39 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -43,6 +43,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.dygdigital.com
 0.0.0.0 ads.macskorlari.net
 0.0.0.0 ads.macsonuclari.mobi
+0.0.0.0 datacollection.beymen.com
 0.0.0.0 adserve.donanimhaber.com
 0.0.0.0 adserver.a24.com.tr
 0.0.0.0 adsp.haberturk.com
@@ -72,6 +73,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cookieseal.com
 0.0.0.0 countly.fibabanka.com.tr
 0.0.0.0 d.haberler.com
+0.0.0.0 collect.dolap.com
 0.0.0.0 dacs.generalmobile.com
 0.0.0.0 dataroid.com
 0.0.0.0 dengage.com
