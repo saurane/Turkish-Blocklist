@@ -22,6 +22,7 @@ adreact.com
 ads.dygdigital.com
 ads.macskorlari.net
 ads.macsonuclari.mobi
+datacollection.beymen.com
 adserve.donanimhaber.com
 adserver.a24.com.tr
 adsp.haberturk.com
@@ -51,6 +52,7 @@ cookiebar.eticaret.com
 cookieseal.com
 countly.fibabanka.com.tr
 d.haberler.com
+collect.dolap.com
 dacs.generalmobile.com
 dataroid.com
 dengage.com
