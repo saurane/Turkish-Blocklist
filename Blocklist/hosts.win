@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 165
-# Updated: 22 Jan 2022 9:05:39 AM
+# Entries: 176
+# Updated: 24 Jan 2022 10:45:48 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -33,7 +33,6 @@
 127.0.0.1 ads.dygdigital.com
 127.0.0.1 ads.macskorlari.net
 127.0.0.1 ads.macsonuclari.mobi
-127.0.0.1 datacollection.beymen.com
 127.0.0.1 adserve.donanimhaber.com
 127.0.0.1 adserver.a24.com.tr
 127.0.0.1 adsp.haberturk.com
@@ -54,21 +53,27 @@
 127.0.0.1 bildirt.com
 127.0.0.1 bilgin.pro
 127.0.0.1 c.gazetevatan.com
+127.0.0.1 cdn-netmeraprod.turktelekom.com.tr
 127.0.0.1 clicks.hurriyet.com.tr
 127.0.0.1 code.com.tr
 127.0.0.1 collect.arabam.com
+127.0.0.1 collect.dolap.com
 127.0.0.1 collect.trendyol.com
 127.0.0.1 collector.blupoint.io
+127.0.0.1 collector.puhutv.com
+127.0.0.1 console.yapaytech.com
 127.0.0.1 cookiebar.eticaret.com
 127.0.0.1 cookieseal.com
 127.0.0.1 countly.fibabanka.com.tr
+127.0.0.1 countly.iyzico.com
 127.0.0.1 d.haberler.com
-127.0.0.1 collect.dolap.com
 127.0.0.1 dacs.generalmobile.com
+127.0.0.1 datacollection.beymen.com
 127.0.0.1 dataroid.com
 127.0.0.1 dengage.com
 127.0.0.1 doganburda.com
 127.0.0.1 dogus-ads-cdn.dygdigital.com
+127.0.0.1 dygadtech.com
 127.0.0.1 dygassets.dygdigital.com
 127.0.0.1 efilli.com
 127.0.0.1 euromsg.com
@@ -86,6 +91,7 @@
 127.0.0.1 hit.demirorenteknoloji.com
 127.0.0.1 hit.mynet.com
 127.0.0.1 hits.acunn.com
+127.0.0.1 hits.tv8.com.tr
 127.0.0.1 hodor-collect.arabam.com
 127.0.0.1 hstats.hepsiburada.com
 127.0.0.1 indirads.org
@@ -94,8 +100,11 @@
 127.0.0.1 istatistik.gazetevatan.com
 127.0.0.1 istatistik.trthaber.com
 127.0.0.1 log.haberturk.com
+127.0.0.1 log.newsbreak.com.tr
+127.0.0.1 log.yapaytech.com
 127.0.0.1 makroo.com
 127.0.0.1 makroo.haber7.net
+127.0.0.1 mark.isbank.com.tr
 127.0.0.1 marketing.turkiyefinans.com.tr
 127.0.0.1 medya.ilan.gov.tr
 127.0.0.1 medyanative.com
@@ -104,12 +113,14 @@
 127.0.0.1 mynetreklam.com
 127.0.0.1 nativespot.com
 127.0.0.1 netmera-web.com
+127.0.0.1 netmera.com
 127.0.0.1 networkad.net
 127.0.0.1 orsis.net
 127.0.0.1 outstream.cdn.vidyome.com
 127.0.0.1 personaclick.com
 127.0.0.1 perzonalization.com
 127.0.0.1 pixels.ingbank.com.tr
+127.0.0.1 pnsdkapi.turktelekom.com.tr
 127.0.0.1 poczta.generalmobile.com
 127.0.0.1 poeticmetric.com
 127.0.0.1 poltio.com
@@ -131,7 +142,6 @@
 127.0.0.1 sanalytics.cartoonnetwork.com.tr
 127.0.0.1 say.ac
 127.0.0.1 sayac.tmgrup.com.tr
-127.0.0.1 sdkapi.netmera.com
 127.0.0.1 searchanalytics.turkcell.com.tr
 127.0.0.1 segmentify.com
 127.0.0.1 setrowid.com
@@ -147,6 +157,7 @@
 127.0.0.1 stats.birgun.net
 127.0.0.1 stats.blutv.com
 127.0.0.1 stats.ganipara.com
+127.0.0.1 stats.tv8.com.tr
 127.0.0.1 stats.vidyome.com
 127.0.0.1 stats.yenicaggazetesi.com.tr
 127.0.0.1 subservis.com
