@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 165
-# Updated: 22 Jan 2022 9:05:39 AM
+# Entries: 176
+# Updated: 24 Jan 2022 10:45:48 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -43,7 +43,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.dygdigital.com
 0.0.0.0 ads.macskorlari.net
 0.0.0.0 ads.macsonuclari.mobi
-0.0.0.0 datacollection.beymen.com
 0.0.0.0 adserve.donanimhaber.com
 0.0.0.0 adserver.a24.com.tr
 0.0.0.0 adsp.haberturk.com
@@ -64,21 +63,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 bildirt.com
 0.0.0.0 bilgin.pro
 0.0.0.0 c.gazetevatan.com
+0.0.0.0 cdn-netmeraprod.turktelekom.com.tr
 0.0.0.0 clicks.hurriyet.com.tr
 0.0.0.0 code.com.tr
 0.0.0.0 collect.arabam.com
+0.0.0.0 collect.dolap.com
 0.0.0.0 collect.trendyol.com
 0.0.0.0 collector.blupoint.io
+0.0.0.0 collector.puhutv.com
+0.0.0.0 console.yapaytech.com
 0.0.0.0 cookiebar.eticaret.com
 0.0.0.0 cookieseal.com
 0.0.0.0 countly.fibabanka.com.tr
+0.0.0.0 countly.iyzico.com
 0.0.0.0 d.haberler.com
-0.0.0.0 collect.dolap.com
 0.0.0.0 dacs.generalmobile.com
+0.0.0.0 datacollection.beymen.com
 0.0.0.0 dataroid.com
 0.0.0.0 dengage.com
 0.0.0.0 doganburda.com
 0.0.0.0 dogus-ads-cdn.dygdigital.com
+0.0.0.0 dygadtech.com
 0.0.0.0 dygassets.dygdigital.com
 0.0.0.0 efilli.com
 0.0.0.0 euromsg.com
@@ -96,6 +101,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hit.demirorenteknoloji.com
 0.0.0.0 hit.mynet.com
 0.0.0.0 hits.acunn.com
+0.0.0.0 hits.tv8.com.tr
 0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
 0.0.0.0 indirads.org
@@ -104,8 +110,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 istatistik.gazetevatan.com
 0.0.0.0 istatistik.trthaber.com
 0.0.0.0 log.haberturk.com
+0.0.0.0 log.newsbreak.com.tr
+0.0.0.0 log.yapaytech.com
 0.0.0.0 makroo.com
 0.0.0.0 makroo.haber7.net
+0.0.0.0 mark.isbank.com.tr
 0.0.0.0 marketing.turkiyefinans.com.tr
 0.0.0.0 medya.ilan.gov.tr
 0.0.0.0 medyanative.com
@@ -114,12 +123,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 mynetreklam.com
 0.0.0.0 nativespot.com
 0.0.0.0 netmera-web.com
+0.0.0.0 netmera.com
 0.0.0.0 networkad.net
 0.0.0.0 orsis.net
 0.0.0.0 outstream.cdn.vidyome.com
 0.0.0.0 personaclick.com
 0.0.0.0 perzonalization.com
 0.0.0.0 pixels.ingbank.com.tr
+0.0.0.0 pnsdkapi.turktelekom.com.tr
 0.0.0.0 poczta.generalmobile.com
 0.0.0.0 poeticmetric.com
 0.0.0.0 poltio.com
@@ -141,7 +152,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 sanalytics.cartoonnetwork.com.tr
 0.0.0.0 say.ac
 0.0.0.0 sayac.tmgrup.com.tr
-0.0.0.0 sdkapi.netmera.com
 0.0.0.0 searchanalytics.turkcell.com.tr
 0.0.0.0 segmentify.com
 0.0.0.0 setrowid.com
@@ -157,6 +167,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.birgun.net
 0.0.0.0 stats.blutv.com
 0.0.0.0 stats.ganipara.com
+0.0.0.0 stats.tv8.com.tr
 0.0.0.0 stats.vidyome.com
 0.0.0.0 stats.yenicaggazetesi.com.tr
 0.0.0.0 subservis.com
