@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 165
-# Updated: 22 Jan 2022 9:05:39 AM
+# Entries: 176
+# Updated: 24 Jan 2022 10:45:48 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -29,7 +29,6 @@
 *.ads.dygdigital.com
 *.ads.macskorlari.net
 *.ads.macsonuclari.mobi
-*.datacollection.beymen.com
 *.adserve.donanimhaber.com
 *.adserver.a24.com.tr
 *.adsp.haberturk.com
@@ -50,21 +49,27 @@
 *.bildirt.com
 *.bilgin.pro
 *.c.gazetevatan.com
+*.cdn-netmeraprod.turktelekom.com.tr
 *.clicks.hurriyet.com.tr
 *.code.com.tr
 *.collect.arabam.com
+*.collect.dolap.com
 *.collect.trendyol.com
 *.collector.blupoint.io
+*.collector.puhutv.com
+*.console.yapaytech.com
 *.cookiebar.eticaret.com
 *.cookieseal.com
 *.countly.fibabanka.com.tr
+*.countly.iyzico.com
 *.d.haberler.com
-*.collect.dolap.com
 *.dacs.generalmobile.com
+*.datacollection.beymen.com
 *.dataroid.com
 *.dengage.com
 *.doganburda.com
 *.dogus-ads-cdn.dygdigital.com
+*.dygadtech.com
 *.dygassets.dygdigital.com
 *.efilli.com
 *.euromsg.com
@@ -82,6 +87,7 @@
 *.hit.demirorenteknoloji.com
 *.hit.mynet.com
 *.hits.acunn.com
+*.hits.tv8.com.tr
 *.hodor-collect.arabam.com
 *.hstats.hepsiburada.com
 *.indirads.org
@@ -90,8 +96,11 @@
 *.istatistik.gazetevatan.com
 *.istatistik.trthaber.com
 *.log.haberturk.com
+*.log.newsbreak.com.tr
+*.log.yapaytech.com
 *.makroo.com
 *.makroo.haber7.net
+*.mark.isbank.com.tr
 *.marketing.turkiyefinans.com.tr
 *.medya.ilan.gov.tr
 *.medyanative.com
@@ -100,12 +109,14 @@
 *.mynetreklam.com
 *.nativespot.com
 *.netmera-web.com
+*.netmera.com
 *.networkad.net
 *.orsis.net
 *.outstream.cdn.vidyome.com
 *.personaclick.com
 *.perzonalization.com
 *.pixels.ingbank.com.tr
+*.pnsdkapi.turktelekom.com.tr
 *.poczta.generalmobile.com
 *.poeticmetric.com
 *.poltio.com
@@ -127,7 +138,6 @@
 *.sanalytics.cartoonnetwork.com.tr
 *.say.ac
 *.sayac.tmgrup.com.tr
-*.sdkapi.netmera.com
 *.searchanalytics.turkcell.com.tr
 *.segmentify.com
 *.setrowid.com
@@ -143,6 +153,7 @@
 *.stats.birgun.net
 *.stats.blutv.com
 *.stats.ganipara.com
+*.stats.tv8.com.tr
 *.stats.vidyome.com
 *.stats.yenicaggazetesi.com.tr
 *.subservis.com
