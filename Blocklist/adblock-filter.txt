@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 25 Jan 2021 09:10:00
+! Updated: 25 Jan 2021 11:20:00
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 #
@@ -265,6 +265,7 @@ fullprogramlarindir.net##.single-alt
 ||euromsg.com^
 ||event-collector.analytics.onedio.com^
 ||events.bitaksi.com^
+||events.getirapi.com^
 ||evs.data.ciceksepeti.com^
 ||gelirartisi.com^
 ||geoim.bloomberght.com^
@@ -282,9 +283,12 @@ fullprogramlarindir.net##.single-alt
 ||hstats.hepsiburada.com^
 ||indirads.org^
 ||indirads.work^
+||iplocation-api.wp.trt.com.tr^
 ||istatistik.arabam.com^
 ||istatistik.gazetevatan.com^
 ||istatistik.trthaber.com^
+||lightning.boomerangtv.com.tr^
+||lightning.cartoonnetwork.com.tr^
 ||log.haberturk.com^
 ||log.newsbreak.com.tr^
 ||log.yapaytech.com^
