@@ -47,7 +47,11 @@
 ||*pixel*.*.com.tr^
 ||*metric*.*.com.tr^
 ||*cookie*.*.com.tr^
+!
 ||*collect*.*.com.tr^
+![WHITELIST]
+@@||collections.yandex.com.tr^
+!
 ||*analytic*.*.com.tr^
 ||*statistic*.*.com.tr^
 !
