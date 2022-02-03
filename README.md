@@ -11,14 +11,7 @@
     <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
       alt="Lisans-MPL-2.0" />
 </div>
-
-------------
-<div align="center">
-  <h1>DNS ve Adblocker için Türkçe Tabanlı Reklam ve İzleyici Engelleme Projesi</h1>
-</div>
-
-
-------------
+<br/>
 
 | İstemci | DNS filtresi | Xtreme DNS filtresi | Adblock filtresi | Can Sıkıcı Öğeler filtresi |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
