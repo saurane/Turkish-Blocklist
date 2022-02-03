@@ -1,6 +1,5 @@
 ! Title: Saurane - Turkish Xtreme DNS Filter
-! Entries: 24
-! Updated: 2 Feb 2022 10:22:15 AM
+! Updated: 3 Feb 2022 09:49:39 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -10,11 +9,20 @@
 ![TR] Türkçe diline özgü engelleme kuralları
 ![EN] Turkish language specific blocking rules
 !
-||*cerez*.*.com*^
-||*sayac*.*.com*^
-||*reklam*.*.com*^
-||*analitik*.*.com*^
-||*istatistik*.*.com*^
+||*cerez*.*.*^
+||*sayac*.*.*^
+!
+||*analiz*.*.*^
+![WHITELIST]
+@@||analiz.r10.net^
+!
+||*reklam*.*.*^
+!
+||*analitik*.*.*^
+![WHITELIST]
+@@||analitik*.edevlet.gov.tr^
+!
+||*istatistik*.*.*^
 !
 ![TR] TR uzantılı alan adları için genel engelleme kuralları
 ![EN] General blocking rules for TR domain names
@@ -22,12 +30,17 @@
 ||ad.*.com.tr^
 ||ads*.*.com.tr^
 ||adv*.*.com.tr^
+!
 ||*log.*.com.tr^
-||*logs*.*.com.tr^
-||*stat.*.com.tr^
+![WHITELIST]
+@@||*login*.*.com.tr^
+!
 ||*hit*.*.com.tr^
-||*stat.*.com.tr^
-||*stats.*.com.tr^
+!
+||*stat*.*.com.tr^
+![WHITELIST]
+@@||*static*.*.com.tr^
+!
 ||*track*.*.com.tr^
 ||*count*.*.com.tr^
 ||*event*.*.com.tr^
@@ -36,6 +49,7 @@
 ||*cookie*.*.com.tr^
 ||*collect*.*.com.tr^
 ||*analytic*.*.com.tr^
+||*statistic*.*.com.tr^
 !
 ![TR] Yanlış engelleme oranı yüksek kurallar
 ![EN] Rules with a high rate of false blocking
