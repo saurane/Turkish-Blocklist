@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 180
-# Updated: 25 Jan 2022 11:19:50 AM
+# Entries: 186
+# Updated: 05 Feb 2022 11:03:30 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -48,6 +48,7 @@
 *.bildirnet.com
 *.bildirt.com
 *.bilgin.pro
+*.buysoci.al
 *.c.gazetevatan.com
 *.cdn-netmeraprod.turktelekom.com.tr
 *.clicks.hurriyet.com.tr
@@ -94,6 +95,8 @@
 *.indirads.org
 *.indirads.work
 *.iplocation-api.wp.trt.com.tr
+*.istat.izlesene.com
+*.istat.nktcdn.com
 *.istatistik.arabam.com
 *.istatistik.gazetevatan.com
 *.istatistik.trthaber.com
@@ -115,6 +118,7 @@
 *.netmera-web.com
 *.netmera.com
 *.networkad.net
+*.organikhit.com
 *.orsis.net
 *.outstream.cdn.vidyome.com
 *.personaclick.com
@@ -137,6 +141,7 @@
 *.relateddigital.com
 *.revenueflex.com
 *.revotas.com
+*.rum.ibb.gov.tr
 *.s.fullhdfilmizlesene.com
 *.sanalytics.boomerangtv.com.tr
 *.sanalytics.cartoonnetwork.com.tr
@@ -158,6 +163,7 @@
 *.stats.blutv.com
 *.stats.ganipara.com
 *.stats.tv8.com.tr
+*.stats.videoseyred.in
 *.stats.vidyome.com
 *.stats.yenicaggazetesi.com.tr
 *.subservis.com
