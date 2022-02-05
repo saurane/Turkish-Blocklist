@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 180
-# Updated: 25 Jan 2022 11:19:50 AM
+# Entries: 186
+# Updated: 05 Feb 2022 11:03:30 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -52,6 +52,7 @@
 127.0.0.1 bildirnet.com
 127.0.0.1 bildirt.com
 127.0.0.1 bilgin.pro
+127.0.0.1 buysoci.al
 127.0.0.1 c.gazetevatan.com
 127.0.0.1 cdn-netmeraprod.turktelekom.com.tr
 127.0.0.1 clicks.hurriyet.com.tr
@@ -98,6 +99,8 @@
 127.0.0.1 indirads.org
 127.0.0.1 indirads.work
 127.0.0.1 iplocation-api.wp.trt.com.tr
+127.0.0.1 istat.izlesene.com
+127.0.0.1 istat.nktcdn.com
 127.0.0.1 istatistik.arabam.com
 127.0.0.1 istatistik.gazetevatan.com
 127.0.0.1 istatistik.trthaber.com
@@ -119,6 +122,7 @@
 127.0.0.1 netmera-web.com
 127.0.0.1 netmera.com
 127.0.0.1 networkad.net
+127.0.0.1 organikhit.com
 127.0.0.1 orsis.net
 127.0.0.1 outstream.cdn.vidyome.com
 127.0.0.1 personaclick.com
@@ -141,6 +145,7 @@
 127.0.0.1 relateddigital.com
 127.0.0.1 revenueflex.com
 127.0.0.1 revotas.com
+127.0.0.1 rum.ibb.gov.tr
 127.0.0.1 s.fullhdfilmizlesene.com
 127.0.0.1 sanalytics.boomerangtv.com.tr
 127.0.0.1 sanalytics.cartoonnetwork.com.tr
@@ -162,6 +167,7 @@
 127.0.0.1 stats.blutv.com
 127.0.0.1 stats.ganipara.com
 127.0.0.1 stats.tv8.com.tr
+127.0.0.1 stats.videoseyred.in
 127.0.0.1 stats.vidyome.com
 127.0.0.1 stats.yenicaggazetesi.com.tr
 127.0.0.1 subservis.com
