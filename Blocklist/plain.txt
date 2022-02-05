@@ -41,6 +41,7 @@ banner.tmgrup.com.tr
 bildirnet.com
 bildirt.com
 bilgin.pro
+buysoci.al
 c.gazetevatan.com
 cdn-netmeraprod.turktelekom.com.tr
 clicks.hurriyet.com.tr
@@ -87,6 +88,8 @@ hstats.hepsiburada.com
 indirads.org
 indirads.work
 iplocation-api.wp.trt.com.tr
+istat.izlesene.com
+istat.nktcdn.com
 istatistik.arabam.com
 istatistik.gazetevatan.com
 istatistik.trthaber.com
@@ -108,6 +111,7 @@ nativespot.com
 netmera-web.com
 netmera.com
 networkad.net
+organikhit.com
 orsis.net
 outstream.cdn.vidyome.com
 personaclick.com
@@ -130,6 +134,7 @@ reklamstore.com
 relateddigital.com
 revenueflex.com
 revotas.com
+rum.ibb.gov.tr
 s.fullhdfilmizlesene.com
 sanalytics.boomerangtv.com.tr
 sanalytics.cartoonnetwork.com.tr
@@ -151,6 +156,7 @@ stats.birgun.net
 stats.blutv.com
 stats.ganipara.com
 stats.tv8.com.tr
+stats.videoseyred.in
 stats.vidyome.com
 stats.yenicaggazetesi.com.tr
 subservis.com
