@@ -1,63 +1,54 @@
 ! Title: Saurane - Turkish Xtreme DNS Filter
-! Updated: 3 Feb 2022 09:49:39 AM
+! Updated: 6 Feb 2022 10:10:39 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
 !
 ![ÖNEMLİ] Filtre henüz geliştirme aşamasındadır, bu filtreden dolayı herhangi bir sorunla karşılaşırsanız E-posta veya GitHub üzerinden bildirebilirsiniz.
-!
-![TR] Türkçe diline özgü engelleme kuralları
-![EN] Turkish language specific blocking rules
-!
+#
 ||*cerez*.*.*^
 ||*sayac*.*.*^
-!
-||*analiz*.*.*^
-![WHITELIST]
-@@||analiz.r10.net^
-!
 ||*reklam*.*.*^
-!
-||*analitik*.*.*^
-![WHITELIST]
-@@||analitik*.edevlet.gov.tr^
-!
 ||*istatistik*.*.*^
-!
-![TR] TR uzantılı alan adları için genel engelleme kuralları
-![EN] General blocking rules for TR domain names
-!
-||ad.*.com.tr^
-||ads*.*.com.tr^
-||adv*.*.com.tr^
-!
-||*log.*.com.tr^
-![WHITELIST]
-@@||*login*.*.com.tr^
-!
-||*hit*.*.com.tr^
-!
-||*stat*.*.com.tr^
-![WHITELIST]
-@@||*static*.*.com.tr^
-!
-||*track*.*.com.tr^
-||*count*.*.com.tr^
-||*event*.*.com.tr^
-||*pixel*.*.com.tr^
-||*metric*.*.com.tr^
-||*cookie*.*.com.tr^
-!
-||*collect*.*.com.tr^
-![WHITELIST]
+#
+||*analiz*.*.*.tr^
+![WHITE RULE]
+@@||analiz.r10.net^
+#
+||*analitik*.*.*.tr^
+![WHITE RULE]
+@@||analitik*.edevlet.gov.tr^
+#
+||*log.*.*.tr^
+![WHITE RULE]
+@@||*login*.*.*.tr^
+#
+||*stat*.*.*.tr^
+![WHITE RULE]
+@@||*static*.*.*.tr^
+@@||*statik*.*.*.tr^
+@@||*status*.*.*.tr^
+#
+||*collect*.*.*.tr^
+![WHITE RULE]
 @@||collections.yandex.com.tr^
-!
-||*analytic*.*.com.tr^
-||*statistic*.*.com.tr^
-!
+#
+||ad.*.*.tr^
+||ads*.*.*.tr^
+||adv*.*.*.tr^
+||*hit*.*.*.tr^
+||*track*.*.*.tr^
+||*count*.*.*.tr^
+||*event*.*.*.tr^
+||*pixel*.*.*.tr^
+||*metric*.*.*.tr^
+||*cookie*.*.*.tr^
+||*analytic*.*.*.tr^
+||*statistic*.*.*.tr^
+#
 ![TR] Yanlış engelleme oranı yüksek kurallar
 ![EN] Rules with a high rate of false blocking
-!
-||*tag*.*.com.tr^
-||*market*.*.com.tr^
-!
+#
+||*tag*.*.*.tr^
+||*market*.*.*.tr^
+#
