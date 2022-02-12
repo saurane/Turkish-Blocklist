@@ -35,7 +35,6 @@ analytics.halkbank.com.tr
 analytics.rasyotek.com.tr
 analytics.tebilisim.com
 api-stg.ensonhaber.com
-asgs12.yaani.com.tr
 athena-event-provider.n11.com
 banner.tmgrup.com.tr
 bildirnet.com
@@ -46,7 +45,6 @@ c.gazetevatan.com
 cdn-netmeraprod.turktelekom.com.tr
 clicks.hurriyet.com.tr
 code.com.tr
-collect.arabam.com
 collect.dolap.com
 collect.trendyol.com
 collector.blupoint.io
@@ -182,5 +180,6 @@ webeyo.com
 webinstats.com
 webstats.garanti.com.tr
 widget.cdn.vidyome.com
+widget.haberler.com
 xenn.io
 yenimedya.com.tr
