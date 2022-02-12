@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 186
-# Updated: 05 Feb 2022 11:03:30 AM
+# Entries: 185
+# Updated: 12 Feb 2022 10:58:29 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -42,7 +42,6 @@
 *.analytics.rasyotek.com.tr
 *.analytics.tebilisim.com
 *.api-stg.ensonhaber.com
-*.asgs12.yaani.com.tr
 *.athena-event-provider.n11.com
 *.banner.tmgrup.com.tr
 *.bildirnet.com
@@ -53,7 +52,6 @@
 *.cdn-netmeraprod.turktelekom.com.tr
 *.clicks.hurriyet.com.tr
 *.code.com.tr
-*.collect.arabam.com
 *.collect.dolap.com
 *.collect.trendyol.com
 *.collector.blupoint.io
@@ -189,5 +187,6 @@
 *.webinstats.com
 *.webstats.garanti.com.tr
 *.widget.cdn.vidyome.com
+*.widget.haberler.com
 *.xenn.io
 *.yenimedya.com.tr
