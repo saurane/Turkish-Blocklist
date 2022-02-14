@@ -36,7 +36,7 @@
 > ***Not:*** DNS filtrem bazı popüler engelleme listeleri tarafından güncel bir şekilde kullanılıyor, bunlar; [1Hosts](https://github.com/badmojr/1Hosts), [Energized Protection](https://github.com/EnergizedProtection/block) ve [oisd](https://oisd.nl/downloads) listeleridir. DNS filtrem her ne kadar bu listelerde bulunsa da bazı çakışmalardan dolayı tamamı kullanılamıyor, sadece %95 gibi bir kısmı mevcut. Mümkün olduğunca, yayınladığım filtreleri de kullanmanızı tavsiye ediyorum.
 
 ## Tespit ve araştırma yöntemleri
-[AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), [Fiddler](https://www.telerik.com/fiddler), [HTTP Debugger](https://www.httpdebugger.com/), [Portmaster](https://safing.io/portmaster/), Subdomain Finder, URL Scan
+[AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), Subdomain Finder, URL Scan
 
 ## Listenin Temel Amacı
 Bu listede sadece yerel reklam ve izleyici adresleri bulunmaktadır, eğer tam bir koruma sağlamak istiyorsanız [1Hosts](https://github.com/badmojr/1Hosts), [Energized](https://github.com/EnergizedProtection/block) veya [oisd](https://oisd.nl/downloads) listeleri arasından en az birisiyle beraber kullanmanız tavsiye edilir.
