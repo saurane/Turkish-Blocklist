@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 185
-# Updated: 12 Feb 2022 10:58:29 AM
+# Entries: 186
+# Updated: 15 Feb 2022 9:13:45 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -192,6 +192,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.internethaber.com
 0.0.0.0 v.superhaber.tv
 0.0.0.0 veloxity.net
+0.0.0.0 videogenetic.com
 0.0.0.0 virgul.com
 0.0.0.0 visilabs.com
 0.0.0.0 visilabs.net
