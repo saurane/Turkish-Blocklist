@@ -1,125 +1,29 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 20 Jan 2021 5:41:00 PM
+! Updated: 16 Feb 2021 18:00:00
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
-#
-!donanimhaber.com
-donanimhaber.com##.paylas-kapsam
-donanimhaber.com##.sosyal-aglar
-donanimhaber.com##.geri-bildirim
-donanimhaber.com##.onay-penceresi
-donanimhaber.com##.header-paylasim
-donanimhaber.com##.uygulamayi-indir
-donanimhaber.com##.category-description
-donanimhaber.com##[partial-name="TagCloud"]
-donanimhaber.com##[partial-name="Sponsorlar"]
-donanimhaber.com##[partial-name="EmailAboneligi"]
-donanimhaber.com##[partial-name="CryptoCurrency"]
-donanimhaber.com##[partial-name="SistemTercihleri"]
-donanimhaber.com##[partial-name="SosyalAgVerileri"]
-donanimhaber.com##[partial-name="PopularLinksForum"]
-#
-forum.donanimhaber.com##.takip
-forum.donanimhaber.com##.yazilim-sponsor
-forum.donanimhaber.com##.push-notification-content
-!forum.donanimhaber.com##.baglan #FB, Google ile giriş butonu
-#
-!giris.donanimhaber.com###SocialMediaButtonsArea #FB, Google ile kayıt butonu
-!giris.donanimhaber.com##.login-social #FB, Google ile giriş butonu
-#
-!atv.com.tr
-atv.com.tr###videoPop
-atv.com.tr##.tekFooter
-atv.com.tr###contactLink
-atv.com.tr##.rmp-sharing
-atv.com.tr##.detail-social, .social-link
-||atv.com.tr/ajax/homepagevideopopup$domain=atv.com.tr
-#
+!
+!sozcu.com.tr
+sozcu.com.tr##.googleNews
+sozcu.com.tr##.content-share
+!
+!korkusuz.com.tr
+korkusuz.com.tr###share
+korkusuz.com.tr##.social-pages
+korkusuz.com.tr##.bottom-tool, .bottom-tool-in
+korkusuz.com.tr##.btn-sm, .btn-flex, .btn-share
+!
+!vatanbilgisayar.com
+vatanbilgisayar.com##.cookie-privacy
+vatanbilgisayar.com##.sms-comfirm-wrapper
+vatanbilgisayar.com##.icon-share2, .socialShareBtn
+!
 !ahaber.com.tr
-ahaber.com.tr##.tag
-ahaber.com.tr##.shareBtn
 ahaber.com.tr##.topIcons
+ahaber.com.tr##.shareBtn
 ahaber.com.tr##.menu-timer
-ahaber.com.tr##.footerLogos
-ahaber.com.tr##.exchangeFrame
-ahaber.com.tr##.resolutionFrame
-ahaber.com.tr##.secret-news-btn
-ahaber.com.tr##.modal-closing-btn
-ahaber.com.tr##.application-widget
-ahaber.com.tr##.shareFrameContainer
-ahaber.com.tr##.manset-button-widget
-ahaber.com.tr##.pageTools, .haberDetayTools
-ahaber.com.tr##.stickyLink, .recentnewssticky
-#
-!memurlar.net
-memurlar.net##.spc\:4x
-memurlar.net###finance-band
-memurlar.net##[target="_social"]
-forum.memurlar.net##.default-widget
-forum.memurlar.net##[title="Whatsapp İhbar Hattı"]
-#
-!tv8.com.tr
-tv8.com.tr##.tooplay_share
-tv8.com.tr##.footer-social
-tv8.com.tr##.footer-bold-title
-#
-!Cookie Banner
-###cerekKullanimUyari
-kigili.com##.cookie
-tppd.com.tr##.cookiemsg
-ticimax.com##.cookienoty
-gain.tv###cookie-consent
-tv8.com.tr###cookie-policy
-turkcell.com.tr##.m-cookie
-tsoft.com.tr###cookieConsent
-sikayetvar.com###cookie-policy
-hepsiburada.com##.cookie-info
-donanimhaber.com##.cookie-kutu
-isbank.com.tr##.blogCookieCover
-arabam.com##.cookie-policy-banner
-iyzico.com##.cookie-notification
-mavi.com###CybotCookiebotDialog
-ing.com.tr##.kvk-footer-warning
-arabam.com##.cookie-policy-banner
-modanisa.com##.cookieNotification
-hangikredi.com##.cookiepolicypopup
-tv8bucuk.com##.cookie-notification
-arzusabanci.com.tr##.cerezPopupUyari
-incehesap.com##.cerez-politikasi-container
-teknobiyotik.com##.tibrr-cookie-consent-container
-#
-!Turkuvaz Medya (complicated)
-||*.tmgrup.com.tr/site/*/*/geo-blokaj.css$third-party
-||*.tmgrup.com.tr/site/*/*/smartbanner.js$third-party
-||*.tmgrup.com.tr/site/*/*/video-popup.css$third-party
-||*.tmgrup.com.tr/tmd-consent/*/tmd-kvkk.js$third-party
-||*.tmgrup.com.tr/contactus/*/popupform.css$third-party
-||*.tmgrup.com.tr/site/*/*/survey-answer.js$third-party
-||*.tmgrup.com.tr/tmd-consent/*/tmd-kvkk.css$third-party
-||*.tmgrup.com.tr/site/*/*/blocker-style.css$third-party
-||*.tmgrup.com.tr/site/*/*/jquery.smartbanner.js$third-party
-||*.tmgrup.com.tr/site/*/*/jquery.smartbanner.css$third-party
-||*.tmgrup.com.tr/site/*/*/application-widget.css$third-party
-||*.tmgrup.com.tr/site/*/*/social-detail-extra.css$third-party
-#
-!Third Party
-#
-!Other Rules
-programindir.cafe###better-social-counter-2
-programindir.cafe###custom_html-2
-programindir.cafe,fullindir.cafe##.post-share, .single-post-share, .top-share
-||programindir.cafe/wp-content/plugins/better-social-counter/js/script.min.js$domain=programindir.cafe
-||fullindir.cafe/wp-content/plugins/better-social-counter/js/script.min.js$domain=fullindir.cafe
-oneindir.com##.robot
-oneindir.com##.fmSocial
-oneindir.com##.share
-oneindir.com##.enCokIndirilenler #"Bizi Takip Edin" Facebook sayfası
-oneindir.com##.footerSocial
-buyurindir.org###vote-layer
-buyurindir.org##.etiket_bolumu
-buyurindir.org##.ust_sol_kisim
-fullprogramlarindir.net##.sosyal
-fullprogramlarindir.net##.widget_text
-atv.com.tr,ahaber.com.tr##.billBoardFrame
-atv.com.tr,ahaber.com.tr##.detail-google-news
-||cdn.e-devlet.gov.tr/themes/*/js/lib/popups/anket*.js$domain=turkiye.gov.tr
+ahaber.com.tr##.veriAltBar
+!
+!Other
+apkdayi.com##.head-soc
+apkcehennemi.com##.obfx-sharing, .obfx-sharing-left, .obfx-sharing-bottom
