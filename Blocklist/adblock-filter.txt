@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 16 Feb 2021 14:00:00
+! Updated: 16 Feb 2021 18:00:00
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -43,10 +43,25 @@ forum.donanimhaber.com##.reklamup-sticky-footer
 forum.donanimhaber.com##a[onclick^="adThisAfterSet"]
 ||forum.donanimhaber.com/bundles/kelimeReklam^
 !
+!vatanbilgisayar.com
+vatanbilgisayar.com##.header-banner
+||vatanbilgisayar.com/Partial/VisilabsUserInfo^
+||vatanbilgisayar.com/Basket/PushBasketProductsToVisilabs^
+!
 !ticimax.com
 /ticimax/analytics.js
 ||ticimax.com/cdn-cgi/rum^
 ||ticimax.com/api/Content/ReklamCookie^
+!
+!ahaber.com.tr
+ahaber.com.tr##.advert
+ahaber.com.tr##.billBoardFrame
+ahaber.com.tr##.modal-closing-btn
+!
+!Turkuvaz Medya Grup
+||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
+||i.tmgrup.com.tr/tmd-consent/j/tmd-kvkk.js$third-party
+||i.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 !
 !Third party
 ||daioncdn.net/events$third-party
@@ -57,9 +72,10 @@ forum.donanimhaber.com##a[onclick^="adThisAfterSet"]
 ||cdn.tooplay.com/network/player/comscore.js$third-party
 ||daion-static.ercdn.net/omsdk/$third-party
 ||daion-static.ercdn.net/dev/openvv.js$third-party
-||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
-||i.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
+!
+!Other
+apkdayi.com##.bvm-dark, .bvm-green
 !
 !Saurane - Turkish DNS Filter
 ||8digits.com^
