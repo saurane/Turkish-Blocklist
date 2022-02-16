@@ -1,8 +1,29 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 25 Jan 2021 11:20:00
+! Updated: 16 Feb 2021 14:00:00
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
-#
+!
+!sozcu.com.tr
+sozcu.com.tr##.nativo
+sozcu.com.tr##.sidebar-banner
+sozcu.com.tr##.sidebar-related
+sozcu.com.tr##.content-inner-ad
+sozcu.com.tr##.ads, .adInitRemove
+sozcu.com.tr##.masthead, .load_masthead
+||i01.sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*.js
+!
+!korkusuz.com.tr
+korkusuz.com.tr##.basin-ilan
+korkusuz.com.tr##.sozcu_mast_head-container, .dfp-container
+!
+!atv.com.tr
+atv.com.tr##.advert
+atv.com.tr###cornerstick
+atv.com.tr##.pageSkinLeft
+atv.com.tr##.pageSkinRight
+atv.com.tr##.billBoardFrame
+||atv.com.tr/ads.txt^
+!
 !donanimhaber.com
 ||donanimhaber.com/ads/$script
 donanimhaber.com##.dh-advice
@@ -12,7 +33,7 @@ donanimhaber.com##.reklam-kare
 donanimhaber.com##.detay-gecis
 donanimhaber.com##.arkaplan-giydirme
 donanimhaber.com##[partial-name="Reklam"]
-#
+!
 forum.donanimhaber.com##.sagreklam
 forum.donanimhaber.com##.DH-Reklam-4
 forum.donanimhaber.com##.DH-Reklam-8
@@ -21,180 +42,26 @@ forum.donanimhaber.com##.reklamkullanicikapsam
 forum.donanimhaber.com##.reklamup-sticky-footer
 forum.donanimhaber.com##a[onclick^="adThisAfterSet"]
 ||forum.donanimhaber.com/bundles/kelimeReklam^
-#
-!atv.com.tr
-atv.com.tr##.adPop
-atv.com.tr##.maskPop
-atv.com.tr##.detayPops
-atv.com.tr##.rmp-ad-container
-atv.com.tr###daion-overlay
-atv.com.tr##.daion-overlay
-||atv.com.tr/ads.txt^
-#
-!ahaber.com.tr
-ahaber.com.tr##.video-ads
-ahaber.com.tr##.adControl
-ahaber.com.tr##.ligatusAdvert
-ahaber.com.tr##.adModelsGravity
-ahaber.com.tr##.ad-control-full
-||ahaber.com.tr/webpush-sw.js^
-||ahaber.com.tr/ads.txt^
-||ipcheck.tmgrup.com.tr^$domain=ahaber.com.tr,important
-#
-!mavi.com
-mavi.com##.custom-banner
-#
-!memurlar.net
-memurlar.net##.left
-memurlar.net##.right
-memurlar.net###masth
-memurlar.net##.adsbygoogle
-memurlar.net##.adm-ads-area
-memurlar.net##.masthead-panel
-memurlar.net##a[onclick^="gtag"]
-memurlar.net##.widget-336x280
-memurlar.net##.widget-580x400
-memurlar.net##.widget-970x250
-memurlar.net##.widget-article
-memurlar.net##.teads-inread, .sm-screen
-#
-!hepsiburada.com
-hepsiburada.com##.Advertisement
-||hepsiburada.com/akam^
-||static.hepsiburada.net/favicon.ico
-||images.hepsiburada.net/privacy/privacy*.js
-||static.hepsiburada.net/assets/sfvoltranstatic/*/project/assets/Advertisement*.js
-#
-!Turkuvaz Medya (complicated)
-||*.tmgrup.com.tr/tmd/usercountry.js^$third-party
-||*.tmgrup.com.tr/json/getLiveAdsTimer^$third-party
-||*.tmgrup.com.tr/site/*/*/advertItems.css$third-party
-||*.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
-||*.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
-#
+!
 !ticimax.com
 /ticimax/analytics.js
 ||ticimax.com/cdn-cgi/rum^
 ||ticimax.com/api/Content/ReklamCookie^
-#
-!setfilmizle.cc
-||setfilmizle.cc/ads^
-||setfilmizle.cc/yurt.js
-setfilmizle.cc###footadskpt
-setfilmizle.cc##.set-pageskin-link
-setfilmizle.cc##.menu_alti_reklam
-setfilmizle.cc##.menu_alti_reklam_mobil
-@@||stfplay.xyz/player/$stealth
-#
-!tv8.com.tr
-tv8.com.tr##.racunn, .racunn-mh
-tv8.com.tr##.fixed_160, .racunn-160, .racunn-160-left
-||tv8.com.tr/Ajax/reklam^
-#
-!Third Party
+!
+!Third party
 ||daioncdn.net/events$third-party
 ||cdn.eksiup.com/api/$script,third-party
 ||daion-static.ercdn.net/omsdk^$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
-||n.tooplay.com/s^$third-party #ADS
+||n.tooplay.com/s^$third-party
 ||cdn.tooplay.com/network/player/comscore.js$third-party
+||daion-static.ercdn.net/omsdk/$third-party
+||daion-static.ercdn.net/dev/openvv.js$third-party
+||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
+||i.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
-#
-!Other Rules
-!Bitrix24 Tracker
-/tag/call.tracker.js
 !
-buyurindir.org##.premium_kismi
-atv.com.tr,ahaber.com.tr##.advert
-fullprogramlarindir.net##.single-ust
-fullprogramlarindir.net##.single-alt
-||cdn.e-devlet.gov.tr/themes/*/js/analitik*.js
-||ekstat.com/js/ek$i-defer.js^
-||fns.modanisa.com/al/j/analytics.js
-||images.hepsiburada.net/webtrekk/webtrekk.js
-||mavi.com/_ui/shared/js/analyticsmediator.js
-||arcelik.com.tr/_ui/shared/js/analyticsmediator.js
-||tepehome.com.tr/srv/service/site/get-cookie-law
-||bolgehastanesi.com/www.google-analytics.com/analytics.js
-||*.tmgrup.com.tr/videojs/adblockDetect.js$domain=atv.com.tr|ahaber.com.tr,important
-||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js
-||projesoft.com.tr/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js
-||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
-#
-!Fanboy Turkish List/Turkish Generic Element Hiding Rules
-###kayan_reklam
-###kayan_reklam_sol
-###kayan_reklamsag
-###kayan_reklamsol
-###leftreklam1div
-###leftreklam2div
-###reklam2
-###reklam300x250
-###reklam300x600
-###reklam_sol
-###reklamdetay
-###reklamdiv
-###reklamg
-###reklamgoster
-###reklami
-###reklamlar
-###reklamm
-###rightreklam2div
-###sagreklam
-###sagReklamAlani
-###sol_kayan_reklam
-###sreklam
-###tatiladvertorial
-###Ust-Reklam-Piyasa
-###ust_ara_reklam
-###ustReklam
-###ustreklam
-###ustreklamlar
-###video_reklam2
-###video_reklam3
-##.adnet_baslik
-##.adnetDetay
-##.adsindirim
-##.adsortalaindirim
-##.adsVideo
-##.adsVideoAlti
-##.degisenalti_reklam
-##.detayreklam
-##.dikeyreklam
-##.kutu_reklam
-##.logoyani_reklam
-##.ortaReklam
-##.reklam-1
-##.reklam-2
-##.reklam-3
-##.reklam-4
-##.Reklam-Alani-300x250
-##.reklam-ucuzu
-##.reklam1
-##.reklam2
-##.reklam728x90
-##.reklam_300_250
-##.reklam_300_250_Ana
-##.reklam_300x250
-##.reklam_728_90
-##.ReklamBandi
-##.ReklamBandi2
-##.ReklamBir
-##.reklamDiv
-##.reklamlar
-##.reklamoynama
-##.reklamUst
-##.reklamyatay
-##.sag_reklam
-##.sag_reklam2
-##.sagreklam
-##.sagReklam300x250
-##.ustOrtaSolReklam
-##.vSagReklam-1
-##.vSagReklam-2
-##.yediyuzads
-#
-!DNS Filter
+!Saurane - Turkish DNS Filter
 ||8digits.com^
 ||ad.donanimhaber.com^
 ||ad.reyazilim.com^
@@ -232,17 +99,16 @@ fullprogramlarindir.net##.single-alt
 ||analytics.rasyotek.com.tr^
 ||analytics.tebilisim.com^
 ||api-stg.ensonhaber.com^
-||asgs12.yaani.com.tr^
 ||athena-event-provider.n11.com^
 ||banner.tmgrup.com.tr^
 ||bildirnet.com^
 ||bildirt.com^
 ||bilgin.pro^
+||buysoci.al^
 ||c.gazetevatan.com^
 ||cdn-netmeraprod.turktelekom.com.tr^
 ||clicks.hurriyet.com.tr^
 ||code.com.tr^
-||collect.arabam.com^
 ||collect.dolap.com^
 ||collect.trendyol.com^
 ||collector.blupoint.io^
@@ -284,6 +150,8 @@ fullprogramlarindir.net##.single-alt
 ||indirads.org^
 ||indirads.work^
 ||iplocation-api.wp.trt.com.tr^
+||istat.izlesene.com^
+||istat.nktcdn.com^
 ||istatistik.arabam.com^
 ||istatistik.gazetevatan.com^
 ||istatistik.trthaber.com^
@@ -305,6 +173,7 @@ fullprogramlarindir.net##.single-alt
 ||netmera-web.com^
 ||netmera.com^
 ||networkad.net^
+||organikhit.com^
 ||orsis.net^
 ||outstream.cdn.vidyome.com^
 ||personaclick.com^
@@ -327,6 +196,7 @@ fullprogramlarindir.net##.single-alt
 ||relateddigital.com^
 ||revenueflex.com^
 ||revotas.com^
+||rum.ibb.gov.tr^
 ||s.fullhdfilmizlesene.com^
 ||sanalytics.boomerangtv.com.tr^
 ||sanalytics.cartoonnetwork.com.tr^
@@ -348,6 +218,7 @@ fullprogramlarindir.net##.single-alt
 ||stats.blutv.com^
 ||stats.ganipara.com^
 ||stats.tv8.com.tr^
+||stats.videoseyred.in^
 ||stats.vidyome.com^
 ||stats.yenicaggazetesi.com.tr^
 ||subservis.com^
@@ -364,6 +235,7 @@ fullprogramlarindir.net##.single-alt
 ||v.internethaber.com^
 ||v.superhaber.tv^
 ||veloxity.net^
+||videogenetic.com^
 ||virgul.com^
 ||visilabs.com^
 ||visilabs.net^
@@ -373,5 +245,6 @@ fullprogramlarindir.net##.single-alt
 ||webinstats.com^
 ||webstats.garanti.com.tr^
 ||widget.cdn.vidyome.com^
+||widget.haberler.com^
 ||xenn.io^
 ||yenimedya.com.tr^
