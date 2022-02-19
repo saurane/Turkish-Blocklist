@@ -39,7 +39,7 @@
 
 ## Amaç
 > ***DNS filtresi:*** Türkçe sitelerdeki reklam veya analitik amaçlı kullanılan sunucuları hızlı ve doğru bir şekilde tespit edip sizlere paylaşmak için bu DNS filtresini oluşturdum. Bu filtrede sadece yerel reklam ve analitik amaçlı kullanılan adresler bulunmaktadır, eğer tam bir koruma sağlamak istiyorsanız [1Hosts](https://github.com/badmojr/1Hosts), [Energized](https://github.com/EnergizedProtection/block) veya [oisd](https://oisd.nl/downloads) listeleri arasından en az birisiyle beraber kullanmanız tavsiye edilir.<br/>
-> ***Not:*** DNS filtresinin %99'luk kısmı, sahibi Türk olan şirketlerin/kişilerin veya Türkçe "com.tr" uzantılı Türkçe içerikli sitelerin sunucularıdır.<br/>
+> ***Not:*** DNS filtresinin %99'luk kısmı, sahibi Türk olan şirketlerin/kişilerin veya "com.tr" uzantılı Türkçe içerikli sitelerin sunucularıdır.<br/>
 > <br/>
 > ***Adblock filtresi:*** Diğer reklam engelleyicilerin Türkçe filtresi her ne kadar gelişmiş olsa da bu; sade, anlaşılır, sürdürülebilir ve en önemlisi Türkçe sitelerdeki karşılanamayan ihtiyaçlar için bu filtreyi oluşturdum.
 
