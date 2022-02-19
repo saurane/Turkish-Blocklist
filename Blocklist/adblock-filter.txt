@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 16 Feb 2021 18:00:00
+! Updated: 19 Feb 2021 10:34:15 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -23,6 +23,13 @@ atv.com.tr##.pageSkinLeft
 atv.com.tr##.pageSkinRight
 atv.com.tr##.billBoardFrame
 ||atv.com.tr/ads.txt^
+!
+!ahaber.com.tr
+ahaber.com.tr##.advert
+ahaber.com.tr##.billBoardFrame
+ahaber.com.tr##.modal-closing-btn
+||ahaber.com.tr/webpush-sw.js^
+||ipcheck.tmgrup.com.tr^$domain=ahaber.com.tr,important
 !
 !donanimhaber.com
 ||donanimhaber.com/ads/$script
@@ -48,15 +55,17 @@ vatanbilgisayar.com##.header-banner
 ||vatanbilgisayar.com/Partial/VisilabsUserInfo^
 ||vatanbilgisayar.com/Basket/PushBasketProductsToVisilabs^
 !
+!turkiye.gov.tr (E-Devlet Android App)
+!Experimental s
+||cdn.e-devlet.gov.tr/themes/ankara/js/t*.js
+!Experimental f
+||cdn.e-devlet.gov.tr/themes/ankara/js/analitik*js
+||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
+!
 !ticimax.com
 /ticimax/analytics.js
 ||ticimax.com/cdn-cgi/rum^
 ||ticimax.com/api/Content/ReklamCookie^
-!
-!ahaber.com.tr
-ahaber.com.tr##.advert
-ahaber.com.tr##.billBoardFrame
-ahaber.com.tr##.modal-closing-btn
 !
 !Turkuvaz Medya Grup
 ||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
@@ -65,7 +74,9 @@ ahaber.com.tr##.modal-closing-btn
 !
 !Third party
 ||daioncdn.net/events$third-party
-||cdn.eksiup.com/api/$script,third-party
+!Unknown rule s (It will be rechecked.)
+!||cdn.eksiup.com/api/$script,third-party
+!Unknown rule f
 ||daion-static.ercdn.net/omsdk^$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
 ||n.tooplay.com/s^$third-party
@@ -73,6 +84,7 @@ ahaber.com.tr##.modal-closing-btn
 ||daion-static.ercdn.net/omsdk/$third-party
 ||daion-static.ercdn.net/dev/openvv.js$third-party
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
+||cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener*.js$third-party
 !
 !Other
 apkdayi.com##.bvm-dark, .bvm-green
