@@ -1,5 +1,5 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 16 Feb 2021 18:00:00
+! Updated: 20 Feb 2021 10:15:15 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 !
@@ -23,7 +23,29 @@ ahaber.com.tr##.topIcons
 ahaber.com.tr##.shareBtn
 ahaber.com.tr##.menu-timer
 ahaber.com.tr##.veriAltBar
+ahaber.com.tr##.rightSecond
+ahaber.com.tr##.application-widget
+ahaber.com.tr##.manset-button-widget
+ahaber.com.tr##.pageTools, .haberDetayTools
+!
+!tudors.com
+tudors.com##.Social
+tudors.com##.cookietudors
+tudors.com###anasayfaPopup
+!
+!ticimax.com
+ticimax.com##.cookienoty
+!
+!konudenizi.com (From: onlinestore.borusanoto.com or borusanoto.com) (Cookie)
+||konudenizi.com/assets/other/cookieconsent.min.js
+||konudenizi.com/assets/other/cookieconsent.min.css
+!
+!TR Cookie
+##efilli-riza
+##.cerezPopupUyari
+###cerekKullanimUyari
 !
 !Other
 apkdayi.com##.head-soc
 apkcehennemi.com##.obfx-sharing, .obfx-sharing-left, .obfx-sharing-bottom
+spagettiyarn.com###header__id__compact > div.top-bar.navbar-nav:first-child > div.top-menu.top-menu-2:first-child > ul.j-menu
