@@ -1,7 +1,23 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 20 Feb 2021 10:14:15 AM
+! Updated: 21 Feb 2021 10:18:15 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
+!
+!hepsiburada.com
+hepsiburada.com##.Advertisement
+||hepsiburada.com/akam^
+||images.hepsiburada.net/webtrekk^
+||images.hepsiburada.net/web-vitals^
+||images.hepsiburada.net/assets/sfstatic/Scripts.b.1*/all.js
+||static.hepsiburada.net/assets/sfvoltranstatic/*/project/assets/Advertisement*.js
+!
+!ciceksepeti.com
+||ciceksepeti.com/akam^
+||cdn03.ciceksepeti.com/ani^
+||ciceksepeti.com/GoogleTagManager/
+!
+!atam.gov.tr
+||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
 !
 !sozcu.com.tr
 sozcu.com.tr##.nativo
@@ -10,11 +26,21 @@ sozcu.com.tr##.sidebar-related
 sozcu.com.tr##.content-inner-ad
 sozcu.com.tr##.ads, .adInitRemove
 sozcu.com.tr##.masthead, .load_masthead
+||sozcu.com.tr/ajax/homePageAd^
 ||i01.sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*.js
 !
 !korkusuz.com.tr
 korkusuz.com.tr##.basin-ilan
 korkusuz.com.tr##.sozcu_mast_head-container, .dfp-container
+!
+!yaani.com.tr
+yaani.com.tr##.preSearchContent
+||yaani.com.tr/log^
+!
+!darbeturk.com
+darbeturk.net##div:nth-child(7) > div.page > div > center:last-child > a:nth-child(2)
+||darbeturk.net/clientscript/yui/yahoo-dom-event^
+||darbeturk.net/clientscript/yui/connection/connection-min.js
 !
 !atv.com.tr
 atv.com.tr##.advert
@@ -81,14 +107,27 @@ vatanbilgisayar.com##.header-banner
 ||spagettiyarn.com/catalog/view/javascript/facebook^
 !Experimental rule f
 !
+!setfilmizle.cc
+||setfilmizle.cc/ads^
+||setfilmizle.cc/yurt.js
+setfilmizle.cc###footadskpt
+setfilmizle.cc##.set-pageskin-link
+setfilmizle.cc##.menu_alti_reklam
+setfilmizle.cc##.menu_alti_reklam_mobil
+@@||stfplay.xyz/player/$stealth
+!
 !Third party
 ||daioncdn.net/events$third-party
 ||daion-static.ercdn.net/omsdk^$third-party
-||mncdn.com/include/dynamic_click_tag.js$third-party
-||n.tooplay.com/s^$third-party
-||cdn.tooplay.com/network/player/comscore.js$third-party
 ||daion-static.ercdn.net/omsdk/$third-party
 ||daion-static.ercdn.net/dev/openvv.js$third-party
+!
+||n.tooplay.com/s^$third-party
+||cdn.tooplay.com/network/player/comscore.js$third-party
+!
+||cdn.eksiup.com/api/$script,third-party
+||mncdn.com/include/dynamic_click_tag.js$third-party
+||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker*.js$third-party
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
 ||cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener*.js$third-party
 !
