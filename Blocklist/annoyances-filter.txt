@@ -1,7 +1,8 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 21 Feb 2021 10:17:15 AM
+! Updated: 22 Feb 2021 10:00:35 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
+! E-mail: saurane@protonmail.com
 !
 !sozcu.com.tr
 sozcu.com.tr##.googleNews
@@ -12,6 +13,37 @@ korkusuz.com.tr###share
 korkusuz.com.tr##.social-pages
 korkusuz.com.tr##.bottom-tool, .bottom-tool-in
 korkusuz.com.tr##.btn-sm, .btn-flex, .btn-share
+!
+!donanimhaber.com
+donanimhaber.com##.cookie-kutu
+donanimhaber.com##.sosyal-aglar
+donanimhaber.com##.paylas-kapsam
+donanimhaber.com##.geri-bildirim
+donanimhaber.com##.onay-penceresi
+donanimhaber.com##.header-paylasim
+donanimhaber.com##.uygulamayi-indir
+donanimhaber.com##.category-description
+donanimhaber.com##[partial-name="TagCloud"]
+donanimhaber.com##[partial-name="Sponsorlar"]
+donanimhaber.com##[partial-name="EmailAboneligi"]
+donanimhaber.com##[partial-name="CryptoCurrency"]
+donanimhaber.com##[partial-name="SistemTercihleri"]
+donanimhaber.com##[partial-name="SosyalAgVerileri"]
+donanimhaber.com##[partial-name="PopularLinksForum"]
+!
+forum.donanimhaber.com##.takip
+forum.donanimhaber.com##.yazilim-sponsor
+forum.donanimhaber.com##.push-notification-content
+!forum.donanimhaber.com##.baglan #FB, Google ile giriş butonu
+!
+!giris.donanimhaber.com###SocialMediaButtonsArea #FB, Google ile kayıt butonu
+!giris.donanimhaber.com##.login-social #FB, Google ile giriş butonu
+!
+!nefisyemektarifleri.com
+nefisyemektarifleri.com##.social
+nefisyemektarifleri.com##.subs-youtube
+nefisyemektarifleri.com###webpush-info-div
+nefisyemektarifleri.com###recipe-social-options > li:last-child
 !
 !vatanbilgisayar.com
 vatanbilgisayar.com##.cookie-privacy
