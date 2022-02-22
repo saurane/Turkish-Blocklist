@@ -1,7 +1,8 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 21 Feb 2021 10:18:15 AM
+! Updated: 22 Feb 2021 10:01:40 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
+! E-mail: saurane@protonmail.com
 !
 !hepsiburada.com
 hepsiburada.com##.Advertisement
@@ -14,7 +15,7 @@ hepsiburada.com##.Advertisement
 !ciceksepeti.com
 ||ciceksepeti.com/akam^
 ||cdn03.ciceksepeti.com/ani^
-||ciceksepeti.com/GoogleTagManager/
+||ciceksepeti.com/GoogleTagManager^
 !
 !atam.gov.tr
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
@@ -37,6 +38,23 @@ korkusuz.com.tr##.sozcu_mast_head-container, .dfp-container
 yaani.com.tr##.preSearchContent
 ||yaani.com.tr/log^
 !
+!ye-mek.net
+ye-mek.net##.at4-share, .addthis_32x32_style, .atss, .atss-left, .addthis-animated, .slideInLeft
+||ye-mek.net/js/yemeknet.js
+||ye-mek.net/WebResource.axd
+!
+!nefisyemektarifleri.com
+nefisyemektarifleri.com##.arsiv-native
+nefisyemektarifleri.com###nyt-masthead
+nefisyemektarifleri.com##.sidebar-ad, .fixed-ad
+nefisyemektarifleri.com##.nokta-display-ad, .after-slide-ad
+!||mn.nytcdn.com/wp-content/assets/js/ads.js
+||nytcdn.com/wp-content/assets/js/ads.js
+!
+!yemek.com
+yemek.com##.masthead
+yemek.com##.at4-share, .addthis_32x32_style, .atss, .atss-left, .addthis-animated, .slideInLeft
+!
 !darbeturk.com
 darbeturk.net##div:nth-child(7) > div.page > div > center:last-child > a:nth-child(2)
 ||darbeturk.net/clientscript/yui/yahoo-dom-event^
@@ -58,7 +76,7 @@ ahaber.com.tr##.modal-closing-btn
 ||ipcheck.tmgrup.com.tr^$domain=ahaber.com.tr,important
 !
 !donanimhaber.com
-||donanimhaber.com/ads/$script
+||donanimhaber.com/ads^
 donanimhaber.com##.dh-advice
 donanimhaber.com##.tepe-alan
 donanimhaber.com##.reklam-fix
@@ -133,6 +151,8 @@ setfilmizle.cc##.menu_alti_reklam_mobil
 !
 !Other
 apkdayi.com##.bvm-dark, .bvm-green
+!
+!Whitelist
 !
 !Saurane - Turkish DNS Filter
 ||8digits.com^
