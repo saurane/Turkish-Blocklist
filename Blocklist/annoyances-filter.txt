@@ -1,11 +1,15 @@
 ! Title: Saurane - Turkish Annoyances Filter
-! Updated: 22 Feb 2021 10:00:35 AM
+! Updated: 23 Feb 2021 10:27:05 AM
+! Syntax: AdGuard
+! Rule count: 59
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
 !
+###onetrust-consent-sdk
+!
 !sozcu.com.tr
-sozcu.com.tr##.googleNews
+!sozcu.com.tr##.googleNews "Engellenmiyor"
 sozcu.com.tr##.content-share
 !
 !korkusuz.com.tr
@@ -67,6 +71,15 @@ tudors.com###anasayfaPopup
 !
 !tv8.com.tr
 tv8.com.tr##.detail-page-share
+tv8.com.tr##.cookie-notification
+!
+!acunn.com
+acunn.com##.social-buttons
+acunn.com##.social, .jssocials
+acunn.com##.cookie-notification
+!
+!Tooplay social share
+##.tooplay_share
 !
 !ticimax.com
 ticimax.com##.cookienoty
