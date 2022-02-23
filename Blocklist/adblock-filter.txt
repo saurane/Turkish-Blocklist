@@ -1,9 +1,12 @@
 ! Title: Saurane - Turkish Adblock Filter
-! Updated: 22 Feb 2021 10:01:40 AM
+! Updated: 23 Feb 2021 10:29:34 AM
+! Syntax: AdGuard
+! Rule count: 292
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
 !
+!###############/\ Popular Turkish Websites /\###############!
 !hepsiburada.com
 hepsiburada.com##.Advertisement
 ||hepsiburada.com/akam^
@@ -11,14 +14,6 @@ hepsiburada.com##.Advertisement
 ||images.hepsiburada.net/web-vitals^
 ||images.hepsiburada.net/assets/sfstatic/Scripts.b.1*/all.js
 ||static.hepsiburada.net/assets/sfvoltranstatic/*/project/assets/Advertisement*.js
-!
-!ciceksepeti.com
-||ciceksepeti.com/akam^
-||cdn03.ciceksepeti.com/ani^
-||ciceksepeti.com/GoogleTagManager^
-!
-!atam.gov.tr
-||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
 !
 !sozcu.com.tr
 sozcu.com.tr##.nativo
@@ -30,42 +25,14 @@ sozcu.com.tr##.masthead, .load_masthead
 ||sozcu.com.tr/ajax/homePageAd^
 ||i01.sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*.js
 !
-!korkusuz.com.tr
-korkusuz.com.tr##.basin-ilan
-korkusuz.com.tr##.sozcu_mast_head-container, .dfp-container
-!
-!yaani.com.tr
-yaani.com.tr##.preSearchContent
-||yaani.com.tr/log^
-!
-!ye-mek.net
-ye-mek.net##.at4-share, .addthis_32x32_style, .atss, .atss-left, .addthis-animated, .slideInLeft
-||ye-mek.net/js/yemeknet.js
-||ye-mek.net/WebResource.axd
-!
-!nefisyemektarifleri.com
-nefisyemektarifleri.com##.arsiv-native
-nefisyemektarifleri.com###nyt-masthead
-nefisyemektarifleri.com##.sidebar-ad, .fixed-ad
-nefisyemektarifleri.com##.nokta-display-ad, .after-slide-ad
-!||mn.nytcdn.com/wp-content/assets/js/ads.js
-||nytcdn.com/wp-content/assets/js/ads.js
-!
-!yemek.com
-yemek.com##.masthead
-yemek.com##.at4-share, .addthis_32x32_style, .atss, .atss-left, .addthis-animated, .slideInLeft
-!
-!darbeturk.com
-darbeturk.net##div:nth-child(7) > div.page > div > center:last-child > a:nth-child(2)
-||darbeturk.net/clientscript/yui/yahoo-dom-event^
-||darbeturk.net/clientscript/yui/connection/connection-min.js
-!
 !atv.com.tr
 atv.com.tr##.advert
 atv.com.tr###cornerstick
 atv.com.tr##.pageSkinLeft
 atv.com.tr##.pageSkinRight
 atv.com.tr##.billBoardFrame
+atv.com.tr##.rmp-ad-container
+atv.com.tr##[data-wbzone="AdvCounter"]
 ||atv.com.tr/ads.txt^
 !
 !ahaber.com.tr
@@ -99,6 +66,28 @@ vatanbilgisayar.com##.header-banner
 ||vatanbilgisayar.com/Partial/VisilabsUserInfo^
 ||vatanbilgisayar.com/Basket/PushBasketProductsToVisilabs^
 !
+!nefisyemektarifleri.com
+nefisyemektarifleri.com##.arsiv-native
+nefisyemektarifleri.com###nyt-masthead
+nefisyemektarifleri.com##.sidebar-ad, .fixed-ad
+nefisyemektarifleri.com##.nokta-right-tower, .nokta-tower
+nefisyemektarifleri.com##.nokta-display-ad, .after-slide-ad
+!||mn.nytcdn.com/wp-content/assets/js/ads.js
+||nytcdn.com/wp-content/assets/js/ads.js
+!
+!ye-mek.net
+ye-mek.net##.at4-share, .addthis_32x32_style, .atss, .atss-left, .addthis-animated, .slideInLeft
+||ye-mek.net/js/yemeknet.js
+||ye-mek.net/WebResource.axd
+!
+!yemek.com
+yemek.com##.masthead
+yemek.com##.at4-share, .addthis_32x32_style, .atss, .atss-left, .addthis-animated, .slideInLeft
+!
+!yaani.com.tr
+yaani.com.tr##.preSearchContent
+||yaani.com.tr/log^
+!
 !turkiye.gov.tr (E-Devlet Android App)
 !Experimental s
 ||cdn.e-devlet.gov.tr/themes/ankara/js/t*.js
@@ -106,24 +95,31 @@ vatanbilgisayar.com##.header-banner
 ||cdn.e-devlet.gov.tr/themes/ankara/js/analitik*js
 ||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
 !
-!ticimax.com
-/ticimax/analytics.js
-||ticimax.com/cdn-cgi/rum^
-||ticimax.com/api/UserHistory^
-||ticimax.com/api/Content/ReklamCookie^
+!ciceksepeti.com
+||ciceksepeti.com/akam^
+||cdn03.ciceksepeti.com/ani^
+||ciceksepeti.com/GoogleTagManager^
 !
-!Turkuvaz Medya Grup
-||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
-||i.tmgrup.com.tr/tmd-consent/j/tmd-kvkk.js$third-party
-||i.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
+!tv8.com.tr
+tv8.com.tr##.kskdDiv, .kskdCls
+tv8.com.tr##.racunn, .racunn-mh
+tv8.com.tr##.fixed_160, .racunn-160, .racunn-160-left
+||tv8.com.tr/Ajax/reklam^
 !
-!spagettiyarn.com
-||spagettiyarn.com/catalog/view/javascript/ee_tracking*.js
-||spagettiyarn.com/catalog/view/javascript/facebook/facebook_pixel.js
-||spagettiyarn.com/catalog/view/javascript/facebook/cookieconsent.min.js
-!Experimental rule s
-||spagettiyarn.com/catalog/view/javascript/facebook^
-!Experimental rule f
+!acunn.com
+acunn.com##.ads300
+acunn.com##.racunn, .racunn-160, .racunn-160-right, .reklam_160x600_sag
+!
+!###############/\ Popular Turkish Websites [Finish] /\###############!
+!
+!
+!
+!
+!
+!
+!###############/\ Unpopular Turkish Websites [Start] /\###############!
+!atam.gov.tr
+||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
 !
 !setfilmizle.cc
 ||setfilmizle.cc/ads^
@@ -134,10 +130,47 @@ setfilmizle.cc##.menu_alti_reklam
 setfilmizle.cc##.menu_alti_reklam_mobil
 @@||stfplay.xyz/player/$stealth
 !
-!Third party
+!spagettiyarn.com
+||spagettiyarn.com/catalog/view/javascript/ee_tracking*.js
+||spagettiyarn.com/catalog/view/javascript/facebook/facebook_pixel.js
+||spagettiyarn.com/catalog/view/javascript/facebook/cookieconsent.min.js
+!Experimental rule s
+||spagettiyarn.com/catalog/view/javascript/facebook^
+!Experimental rule f
+!
+!korkusuz.com.tr
+korkusuz.com.tr##.basin-ilan
+korkusuz.com.tr##.sozcu_mast_head-container, .dfp-container
+!
+!darbeturk.com
+darbeturk.net##div:nth-child(7) > div.page > div > center:last-child > a:nth-child(2)
+||darbeturk.net/clientscript/yui/yahoo-dom-event^
+||darbeturk.net/clientscript/yui/connection/connection-min.js
+!
+!apkdayi.com
+apkdayi.com##.bvm-dark, .bvm-green
+!
+!###############/\ Unpopular Turkish Websites [Finish] /\###############!
+!
+!
+!
+!
+!
+!
+!###############/\ Third Party [Start] /\###############!
+!
+!ticimax.com
+/ticimax/analytics.js
+||ticimax.com/cdn-cgi/rum^
+||ticimax.com/api/UserHistory^
+||ticimax.com/api/Content/ReklamCookie^
+!
+||i.tmgrup.com.tr/tmdwebpush/tmdwebpush.js$third-party
+||i.tmgrup.com.tr/tmd-consent/j/tmd-kvkk.js$third-party
+||i.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
+!
 ||daioncdn.net/events$third-party
 ||daion-static.ercdn.net/omsdk^$third-party
-||daion-static.ercdn.net/omsdk/$third-party
 ||daion-static.ercdn.net/dev/openvv.js$third-party
 !
 ||n.tooplay.com/s^$third-party
@@ -149,12 +182,32 @@ setfilmizle.cc##.menu_alti_reklam_mobil
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
 ||cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener*.js$third-party
 !
-!Other
-apkdayi.com##.bvm-dark, .bvm-green
+!###############/\ Third Party [Finish] /\###############!
 !
-!Whitelist
 !
-!Saurane - Turkish DNS Filter
+!
+!
+!
+!
+!###############/\ Other Web Sites [Start] /\###############!
+!
+!###############/\ Other Web Sites [Finish] /\###############!
+!
+!
+!
+!
+!
+!
+!###############/\ Whitelist [Start] /\###############!
+!
+!###############/\ Whitelist [Finish] /\###############!
+!
+!
+!
+!
+!
+!
+!###############/\ Saurane - Turkish DNS Filter [Start] /\###############!
 ||8digits.com^
 ||ad.donanimhaber.com^
 ||ad.reyazilim.com^
@@ -341,3 +394,4 @@ apkdayi.com##.bvm-dark, .bvm-green
 ||widget.haberler.com^
 ||xenn.io^
 ||yenimedya.com.tr^
+!###############/\ Saurane - Turkish DNS Filter [Finish] /\###############!
