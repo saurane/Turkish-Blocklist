@@ -1,7 +1,8 @@
-! Title: Saurane - Turkish Annoyances Filter
-! Updated: 23 Feb 2021 10:27:05 AM
+! Title: Turkish Annoyances Filter [SRN]
+! Maintainer: saurane
 ! Syntax: AdGuard
-! Rule count: 59
+! Entries: 64
+! Updated: 25 Feb 2021 10:40:20 AM / 25 Şub 2021 10:40:20
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -14,9 +15,16 @@ sozcu.com.tr##.content-share
 !
 !korkusuz.com.tr
 korkusuz.com.tr###share
+yeniakit.com.tr##.social-box
 korkusuz.com.tr##.social-pages
 korkusuz.com.tr##.bottom-tool, .bottom-tool-in
 korkusuz.com.tr##.btn-sm, .btn-flex, .btn-share
+!
+!yeniakit.com.tr
+yeniakit.com.tr##.info-box-top
+yeniakit.com.tr###sct-ihbarhatti
+yeniakit.com.tr###bip-ihbarhatti
+yeniakit.com.tr##.scrollFixModule
 !
 !donanimhaber.com
 donanimhaber.com##.cookie-kutu
