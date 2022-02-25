@@ -1,6 +1,6 @@
 ! Title: Saurane - Turkish DNS Filter
-! Entries: 187
-! Updated: 19 Feb 2022 10:26:10 AM
+! Entries: 188
+! Updated: 25 Feb 2022 10:30:56 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -117,6 +117,7 @@
 ||netmera-web.com^
 ||netmera.com^
 ||networkad.net^
+||oremark.com^
 ||organikhit.com^
 ||orsis.net^
 ||outstream.cdn.vidyome.com^
