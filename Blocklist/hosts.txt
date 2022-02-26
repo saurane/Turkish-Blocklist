@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 188
-# Updated: 25 Feb 2022 10:30:56 AM
+# Entries: 200
+# Updated: 26 Feb 2022 3:38:57 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -206,4 +206,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.haberler.com
 0.0.0.0 xenn.io
-0.0.0.0 yenimedya.com.tr
+0.0.0.0 enhencer.com
+0.0.0.0 mndtrk.com
+0.0.0.0 defacto-data-lake.ue.r.appspot.com
+0.0.0.0 sgtm.lcwaikiki.com
+0.0.0.0 sentinel.defacto.com.tr
+0.0.0.0 sentinelapi.armut.com
+0.0.0.0 signals.turkcell.com.tr
+0.0.0.0 ecoms.koton.com
+0.0.0.0 p2s.morhipo.com
+0.0.0.0 gtm.lidyana.com
+0.0.0.0 rvwzcf.ciceksepeti.com
+0.0.0.0 gcpsmapi.vodafone.com
+0.0.0.0 
