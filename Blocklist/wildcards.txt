@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 200
-# Updated: 26 Feb 2022 3:38:57 PM
+# Entries: 199
+# Updated: 26 Feb 2022 3:40:10 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -204,4 +204,3 @@
 *.gtm.lidyana.com
 *.rvwzcf.ciceksepeti.com
 *.gcpsmapi.vodafone.com
-*.
