@@ -2,12 +2,12 @@
 ! Maintainer: saurane
 ! Syntax: AdGuard
 ! Entries: 64
-! Updated: 25 Feb 2021 10:40:20 AM / 25 Şub 2021 10:40:20
+! Updated: 26 Feb 2022 3:37:27 PM / 26 Şub 2021 15:37:27
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
 !
-###onetrust-consent-sdk
+!####### Websites of news and television channels [START] #######!
 !
 !sozcu.com.tr
 !sozcu.com.tr##.googleNews "Engellenmiyor"
@@ -20,11 +20,61 @@ korkusuz.com.tr##.social-pages
 korkusuz.com.tr##.bottom-tool, .bottom-tool-in
 korkusuz.com.tr##.btn-sm, .btn-flex, .btn-share
 !
+!ahaber.com.tr
+ahaber.com.tr##.topIcons
+ahaber.com.tr##.shareBtn
+ahaber.com.tr##.menu-timer
+ahaber.com.tr##.veriAltBar
+ahaber.com.tr##.rightSecond
+ahaber.com.tr##.application-widget
+ahaber.com.tr##.manset-button-widget
+ahaber.com.tr##.pageTools, .haberDetayTools
+!
+!tv8.com.tr
+tv8.com.tr##.detail-page-share
+tv8.com.tr##.cookie-notification
+!
+!acunn.com
+acunn.com##.social-buttons
+acunn.com##.social, .jssocials
+acunn.com##.cookie-notification
+!
+!haberler.com
+haberler.com##.web_push_notif_perm
+!
 !yeniakit.com.tr
 yeniakit.com.tr##.info-box-top
 yeniakit.com.tr###sct-ihbarhatti
 yeniakit.com.tr###bip-ihbarhatti
 yeniakit.com.tr##.scrollFixModule
+!
+!####### Websites of news and television channels [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### E-commerce websites [START] #######!
+!
+!vatanbilgisayar.com
+vatanbilgisayar.com##.cookie-privacy
+vatanbilgisayar.com##.sms-comfirm-wrapper
+vatanbilgisayar.com##.icon-share2, .socialShareBtn
+!
+!tudors.com
+tudors.com##.Social
+tudors.com##.cookietudors
+tudors.com###anasayfaPopup
+!
+!lcwaikiki.com
+lcwaikiki.com##.cookie__policy__container
+!
+!@@@@@@@@@-UNPOPULAR E-commerce websites [START]
+!
+!spagettiyarn.com
+spagettiyarn.com###header__id__compact > div.top-bar.navbar-nav:first-child > div.top-menu.top-menu-2:first-child > ul.j-menu
+!
+!@@@@@@@@@-UNPOPULAR E-commerce websites [FINISH]
+!
+!####### E-commerce websites [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### Forum websites [START] #######!
 !
 !donanimhaber.com
 donanimhaber.com##.cookie-kutu
@@ -46,10 +96,15 @@ donanimhaber.com##[partial-name="PopularLinksForum"]
 forum.donanimhaber.com##.takip
 forum.donanimhaber.com##.yazilim-sponsor
 forum.donanimhaber.com##.push-notification-content
-!forum.donanimhaber.com##.baglan #FB, Google ile giriş butonu
 !
-!giris.donanimhaber.com###SocialMediaButtonsArea #FB, Google ile kayıt butonu
-!giris.donanimhaber.com##.login-social #FB, Google ile giriş butonu
+!####### Forum websites [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### Turkey government websites [START] #######!
+!
+!
+!####### Turkey government websites [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### Food websites [START] #######!
 !
 !nefisyemektarifleri.com
 nefisyemektarifleri.com##.social
@@ -57,57 +112,36 @@ nefisyemektarifleri.com##.subs-youtube
 nefisyemektarifleri.com###webpush-info-div
 nefisyemektarifleri.com###recipe-social-options > li:last-child
 !
-!vatanbilgisayar.com
-vatanbilgisayar.com##.cookie-privacy
-vatanbilgisayar.com##.sms-comfirm-wrapper
-vatanbilgisayar.com##.icon-share2, .socialShareBtn
+!####### Food websites [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### Movie websites [START] #######!
 !
-!ahaber.com.tr
-ahaber.com.tr##.topIcons
-ahaber.com.tr##.shareBtn
-ahaber.com.tr##.menu-timer
-ahaber.com.tr##.veriAltBar
-ahaber.com.tr##.rightSecond
-ahaber.com.tr##.application-widget
-ahaber.com.tr##.manset-button-widget
-ahaber.com.tr##.pageTools, .haberDetayTools
+!setfilmizle.cc
+setfilmizle.cc##.dt_social
 !
-!tudors.com
-tudors.com##.Social
-tudors.com##.cookietudors
-tudors.com###anasayfaPopup
-!
-!tv8.com.tr
-tv8.com.tr##.detail-page-share
-tv8.com.tr##.cookie-notification
-!
-!acunn.com
-acunn.com##.social-buttons
-acunn.com##.social, .jssocials
-acunn.com##.cookie-notification
+!####### Movie websites [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### Third party [START] #######!
 !
 !Tooplay social share
 ##.tooplay_share
 !
-!ticimax.com
-ticimax.com##.cookienoty
-!
-!mackolik.com
-mackolik.com##.widget-gdpr-banner
-!
-!setfilmizle.cc
-setfilmizle.cc##.dt_social
+!####### Third party [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### Other [START] #######!
 !
 !konudenizi.com (From: onlinestore.borusanoto.com or borusanoto.com) (Cookie)
 ||konudenizi.com/assets/other/cookieconsent.min.js
 ||konudenizi.com/assets/other/cookieconsent.min.css
 !
+apkdayi.com##.head-soc
+apkcehennemi.com##.obfx-sharing, .obfx-sharing-left, .obfx-sharing-bottom
+!
+!####### Other [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !TR Cookie
 ##efilli-riza
 ##.cerezPopupUyari
 ###cerekKullanimUyari
-!
-!Other
-apkdayi.com##.head-soc
-apkcehennemi.com##.obfx-sharing, .obfx-sharing-left, .obfx-sharing-bottom
-spagettiyarn.com###header__id__compact > div.top-bar.navbar-nav:first-child > div.top-menu.top-menu-2:first-child > ul.j-menu
+!Other Cookie
+###onetrust-consent-sdk
