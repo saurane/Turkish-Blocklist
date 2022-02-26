@@ -1,8 +1,8 @@
 ! Title: Turkish Adblock Filter [SRN]
 ! Maintainer: saurane
 ! Syntax: AdGuard
-! Entries: 299
-! Updated: 25 Feb 2021 10:40:15 AM / 25 Şub 2021 10:40:15
+! Entries: 316
+! Updated: 26 Feb 2022 3:38:15 PM / 26 Şub 2021 15:38:15
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -51,6 +51,9 @@ tv8.com.tr##.fixed_160, .racunn-160, .racunn-160-left
 acunn.com##.ads300
 acunn.com##.racunn, .racunn-160, .racunn-160-right, .reklam_160x600_sag
 !
+!haberler.com
+haberler.com##.adsbygoogle
+!
 !yeniakit.com.tr
 yeniakit.com.tr##.ads
 yeniakit.com.tr##.engageya
@@ -74,6 +77,9 @@ hepsiburada.com##.Advertisement
 vatanbilgisayar.com##.header-banner
 ||vatanbilgisayar.com/Partial/VisilabsUserInfo^
 ||vatanbilgisayar.com/Basket/PushBasketProductsToVisilabs^
+!
+!lcwaikiki.com
+||lcwaikiki.com/Resource/Scripts/tracking^
 !
 !ciceksepeti.com
 ||ciceksepeti.com/akam^
@@ -127,7 +133,12 @@ darbeturk.net##div:nth-child(7) > div.page > div > center:last-child > a:nth-chi
 ||cdn.e-devlet.gov.tr/themes/ankara/js/t*.js
 !Experimental f
 ||cdn.e-devlet.gov.tr/themes/ankara/js/analitik*js
-||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
+!||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
+! experimental @@@@@@
+! for all AdGuard propucts except AdGuard for Android and AdGuard for iOS
+!#if (adguard && !adguard_app_android && !adguard_app_ios)
+analitik*.edevlet.gov.tr^
+!#endif
 !
 !atam.gov.tr
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
@@ -148,7 +159,6 @@ nefisyemektarifleri.com##.nokta-display-ad, .after-slide-ad
 !ye-mek.net
 ye-mek.net##.at4-share, .addthis_32x32_style, .atss, .atss-left, .addthis-animated, .slideInLeft
 ||ye-mek.net/js/yemeknet.js
-||ye-mek.net/WebResource.axd
 !
 !yemek.com
 yemek.com##.masthead
@@ -188,8 +198,18 @@ setfilmizle.cc##.menu_alti_reklam_mobil
 ||n.tooplay.com/s^$third-party
 ||cdn.tooplay.com/network/player/comscore.js$third-party
 !
-||cdn.eksiup.com/api/$script,third-party
+!
+!personaclick.com nice try :)
+||mncdn.com/js/personaclick.js$third-party
+!
 ||mncdn.com/include/dynamic_click_tag.js$third-party
+!koton
+||mncdn.com/_ui/desktop/common/js/acc.track.js$third-party
+||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js$third-party
+||mncdn.com/_ui/desktop/common/js/acc.userlocation.js$third-party
+||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
+!
+||cdn.eksiup.com/api/$script,third-party
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker*.js$third-party
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
 ||cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener*.js$third-party
@@ -402,5 +422,16 @@ apkdayi.com##.bvm-dark, .bvm-green
 ||widget.cdn.vidyome.com^
 ||widget.haberler.com^
 ||xenn.io^
-||yenimedya.com.tr^
+||enhencer.com^
+||mndtrk.com^
+||defacto-data-lake.ue.r.appspot.com^
+||sgtm.lcwaikiki.com^
+||sentinel.defacto.com.tr^
+||sentinelapi.armut.com^
+||signals.turkcell.com.tr^
+||ecoms.koton.com^
+||p2s.morhipo.com^
+||gtm.lidyana.com^
+||rvwzcf.ciceksepeti.com^
+||gcpsmapi.vodafone.com^
 !####### Saurane - Turkish DNS Filter [FINISH] #######!
