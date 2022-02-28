@@ -1,6 +1,6 @@
 # Title: Saurane - Turkish DNS Filter
-# Entries: 199
-# Updated: 26 Feb 2022 3:40:10 PM
+# Entries: 190
+# Updated: 28 Feb 2022 6:01:17 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 # E-mail: saurane@protonmail.com
@@ -86,11 +86,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 dygadtech.com
 0.0.0.0 dygassets.dygdigital.com
 0.0.0.0 efilli.com
+0.0.0.0 enhencer.com
 0.0.0.0 euromsg.com
 0.0.0.0 event-collector.analytics.onedio.com
 0.0.0.0 events.bitaksi.com
 0.0.0.0 events.getirapi.com
 0.0.0.0 evs.data.ciceksepeti.com
+0.0.0.0 gcpsmapi.vodafone.com
 0.0.0.0 gelirartisi.com
 0.0.0.0 geoim.bloomberght.com
 0.0.0.0 geoloc.hurriyet.com.tr
@@ -126,6 +128,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 medyanative.com
 0.0.0.0 medyanetads.com
 0.0.0.0 metrics.egencia.com.tr
+0.0.0.0 mndtrk.com
 0.0.0.0 mynetreklam.com
 0.0.0.0 nativespot.com
 0.0.0.0 netmera-web.com
@@ -206,15 +209,3 @@ ff02::3 ip6-allhosts
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.haberler.com
 0.0.0.0 xenn.io
-0.0.0.0 enhencer.com
-0.0.0.0 mndtrk.com
-0.0.0.0 defacto-data-lake.ue.r.appspot.com
-0.0.0.0 sgtm.lcwaikiki.com
-0.0.0.0 sentinel.defacto.com.tr
-0.0.0.0 sentinelapi.armut.com
-0.0.0.0 signals.turkcell.com.tr
-0.0.0.0 ecoms.koton.com
-0.0.0.0 p2s.morhipo.com
-0.0.0.0 gtm.lidyana.com
-0.0.0.0 rvwzcf.ciceksepeti.com
-0.0.0.0 gcpsmapi.vodafone.com
