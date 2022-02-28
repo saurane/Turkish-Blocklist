@@ -1,8 +1,8 @@
 ! Title: Turkish Adblock Filter [SRN]
 ! Maintainer: saurane
 ! Syntax: AdGuard
-! Entries: 316
-! Updated: 26 Feb 2022 3:38:15 PM / 26 Şub 2021 15:38:15
+! Entries: 336
+! Updated: 28 Feb 2022 6:03:28 AM / 28 Şub 2021 18:03:28
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -51,6 +51,20 @@ tv8.com.tr##.fixed_160, .racunn-160, .racunn-160-left
 acunn.com##.ads300
 acunn.com##.racunn, .racunn-160, .racunn-160-right, .reklam_160x600_sag
 !
+!showtv.com.tr
+showtv.com.tr##.page-skin-content
+||showtv.com.tr/adscbg/cbglout.js
+||showtv.com.tr/scripts/js/gtm.min.js
+||showtv.com.tr/scripts/js/gtmfooter.js
+!
+!haberturk.com
+haberturk.com##.ads-zone
+haberturk.com##.masthead-content
+haberturk.com##.ad-ver-ti-se-ment-300, .adv-300
+haberturk.com##.widget-economy-list-data
+||im.haberturk.com/assets/js/prebid*.js
+||im.haberturk.com/assets/js/ads-prebid*.js
+!
 !haberler.com
 haberler.com##.adsbygoogle
 !
@@ -85,6 +99,11 @@ vatanbilgisayar.com##.header-banner
 ||ciceksepeti.com/akam^
 ||cdn03.ciceksepeti.com/ani^
 ||ciceksepeti.com/GoogleTagManager^
+!
+!sahibinden.com
+sahibinden.com##.banner-masthead
+||s0.shbdn.com/assets/prebid*.js
+||static.sahibinden.com/assets/analytics*.js
 !
 !@@@@@@@@@-UNPOPULAR E-commerce websites [START]
 !spagettiyarn.com
@@ -124,21 +143,34 @@ darbeturk.net##div:nth-child(7) > div.page > div > center:last-child > a:nth-chi
 ||darbeturk.net/clientscript/yui/yahoo-dom-event^
 ||darbeturk.net/clientscript/yui/connection/connection-min.js
 !
+!memoryhackers.org
+memoryhackers.org##.ads
+memoryhackers.org##.ads-konu
+memoryhackers.org##.ads-header
+ui.memoryhackers.org##.gameads
+ui.memoryhackers.org##.gameadsh
+memorydownloader.net##.contentads
+!
+!crackturkey.com
+crackturkey.com##.adsbygoogle
+crackturkey.com##.xgt-Banner-Kutusu
+!
+!technopat.com
+||technopat.net/sosyal/*/track-view
+!
 !####### Forum websites [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !####### Turkey government websites [START] #######!
 !
-!turkiye.gov.tr (E-Devlet Android App)
+!turkiye.gov.tr and Android App
 !Experimental s
 ||cdn.e-devlet.gov.tr/themes/ankara/js/t*.js
 !Experimental f
 ||cdn.e-devlet.gov.tr/themes/ankara/js/analitik*js
 !||analitik*.edevlet.gov.tr^$domain=turkiye.gov.tr,important,app=chrome.exe|firefox.exe|msedge.exe|opera.exe|browser.exe|yabrowser.exe|iexplore.exe|com.google.Chrome|~tr.gov.turkiye.edevlet.kapisi
 ! experimental @@@@@@
-! for all AdGuard propucts except AdGuard for Android and AdGuard for iOS
-!#if (adguard && !adguard_app_android && !adguard_app_ios)
-analitik*.edevlet.gov.tr^
-!#endif
+!+ NOT_PLATFORM(adguard_app_android, adguard_app_ios, ext_android_cb)
+||analitik*.edevlet.gov.tr^
 !
 !atam.gov.tr
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
@@ -179,7 +211,24 @@ setfilmizle.cc##.menu_alti_reklam_mobil
 !
 !####### Movie websites [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### Link shortening websites [START] #######!
+!
+!kisalt.xyz
+kisalt.xyz##.ads, .ad_728
+kisalt.xyz##.adsbygoogle
+!
+!####### Link shortening websites [FINISH] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### File download websites [START] #######!
+!
+!dosya.tc
+dosya.tc##.adsbygoogle
+!
+!####### File download websites [START] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !####### Third party [START] #######!
+!
+||mo.ciner.com.tr/assets/js/ads-prebid.js$third-party
 !
 !ticimax.com
 /ticimax/analytics.js
@@ -198,21 +247,20 @@ setfilmizle.cc##.menu_alti_reklam_mobil
 ||n.tooplay.com/s^$third-party
 ||cdn.tooplay.com/network/player/comscore.js$third-party
 !
-!
-!personaclick.com nice try :)
-||mncdn.com/js/personaclick.js$third-party
-!
 ||mncdn.com/include/dynamic_click_tag.js$third-party
-!koton
+||mncdn.com/js/personaclick.js$third-party, important
+||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.track.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.userlocation.js$third-party
-||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 !
 ||cdn.eksiup.com/api/$script,third-party
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker*.js$third-party
 ||static.iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
 ||cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener*.js$third-party
+!
+!appspot.com not tr based
+||appspot.com^$third-party
 !
 !####### Third party [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -228,8 +276,16 @@ apkdayi.com##.bvm-dark, .bvm-green
 !####### Other websites [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !
+!turkcell.com.tr
+||s.turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
 !
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### General DIV [START] #######!
 !
+##.adsbygoogle
+!####### General DIV [FINISH] #######!
+!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !
 !
 !
@@ -302,11 +358,13 @@ apkdayi.com##.bvm-dark, .bvm-green
 ||dygadtech.com^
 ||dygassets.dygdigital.com^
 ||efilli.com^
+||enhencer.com^
 ||euromsg.com^
 ||event-collector.analytics.onedio.com^
 ||events.bitaksi.com^
 ||events.getirapi.com^
 ||evs.data.ciceksepeti.com^
+||gcpsmapi.vodafone.com^
 ||gelirartisi.com^
 ||geoim.bloomberght.com^
 ||geoloc.hurriyet.com.tr^
@@ -342,6 +400,7 @@ apkdayi.com##.bvm-dark, .bvm-green
 ||medyanative.com^
 ||medyanetads.com^
 ||metrics.egencia.com.tr^
+||mndtrk.com^
 ||mynetreklam.com^
 ||nativespot.com^
 ||netmera-web.com^
@@ -422,16 +481,4 @@ apkdayi.com##.bvm-dark, .bvm-green
 ||widget.cdn.vidyome.com^
 ||widget.haberler.com^
 ||xenn.io^
-||enhencer.com^
-||mndtrk.com^
-||defacto-data-lake.ue.r.appspot.com^
-||sgtm.lcwaikiki.com^
-||sentinel.defacto.com.tr^
-||sentinelapi.armut.com^
-||signals.turkcell.com.tr^
-||ecoms.koton.com^
-||p2s.morhipo.com^
-||gtm.lidyana.com^
-||rvwzcf.ciceksepeti.com^
-||gcpsmapi.vodafone.com^
 !####### Saurane - Turkish DNS Filter [FINISH] #######!
