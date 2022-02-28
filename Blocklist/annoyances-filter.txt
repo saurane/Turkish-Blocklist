@@ -1,8 +1,8 @@
 ! Title: Turkish Annoyances Filter [SRN]
 ! Maintainer: saurane
 ! Syntax: AdGuard
-! Entries: 64
-! Updated: 26 Feb 2022 3:37:27 PM / 26 Şub 2021 15:37:27
+! Entries: 80
+! Updated: 28 Feb 2022 6:03:45 AM / 28 Şub 2021 18:03:45
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -39,6 +39,19 @@ acunn.com##.social-buttons
 acunn.com##.social, .jssocials
 acunn.com##.cookie-notification
 !
+!showtv.com.tr
+showtv.com.tr##.share
+showtv.com.tr##.widget-cookie-popup
+!
+!haberturk.com
+haberturk.com##.share
+haberturk.com###cookiePolicy
+haberturk.com##.socialMedia
+haberturk.com##.widget-google-news
+haberturk.com##.widget-newsletter
+haberturk.com##.widget-social-subscribe, .YoutubeAbone
+haberturk.com###newsWrapper > aside.sidebar:nth-child(6) > div.box-row:nth-child(3)
+!
 !haberler.com
 haberler.com##.web_push_notif_perm
 !
@@ -64,6 +77,9 @@ tudors.com###anasayfaPopup
 !
 !lcwaikiki.com
 lcwaikiki.com##.cookie__policy__container
+!
+!sahibinden.com
+sahibinden.com##.share-icons
 !
 !@@@@@@@@@-UNPOPULAR E-commerce websites [START]
 !
@@ -97,6 +113,12 @@ forum.donanimhaber.com##.takip
 forum.donanimhaber.com##.yazilim-sponsor
 forum.donanimhaber.com##.push-notification-content
 !
+!memoryhackers.org
+memoryhackers.org##.u-bottomFixer, .js-bottomFixTarget
+!
+!crackturkey.com
+crackturkey.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main.p-body-main--withSidebar:nth-child(3) > div.p-body-sidebar:last-child > div.block:first-child
+!
 !####### Forum websites [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !####### Turkey government websites [START] #######!
@@ -121,6 +143,14 @@ setfilmizle.cc##.dt_social
 !
 !####### Movie websites [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+!####### File download websites [START] #######!
+!
+!dosya.tc
+dosya.tc##.social
+dosya.tc###main > span.alt-duyuru:nth-child(14) > center:last-child
+!
+!####### File download websites [START] #######!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !####### Third party [START] #######!
 !
 !Tooplay social share
@@ -129,6 +159,10 @@ setfilmizle.cc##.dt_social
 !####### Third party [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !####### Other [START] #######!
+!
+!turkcell.com.tr
+turkcell.com.tr##.m-cookie
+turkcell.com.tr##.m-pasaj-popin, .m-pasaj-popin--open
 !
 !konudenizi.com (From: onlinestore.borusanoto.com or borusanoto.com) (Cookie)
 ||konudenizi.com/assets/other/cookieconsent.min.js
