@@ -1,8 +1,8 @@
 ! Title: Turkish Adblock Filter [SRN]
 ! Maintainer: saurane
 ! Syntax: AdGuard
-! Entries: 354
-! Updated: 5 Mar 2021 11:01:19 PM / 5 Mar 2021 11:01:19
+! Entries: 356
+! Updated: 5 Mar 2021 11:32:19 PM / 5 Mar 2021 11:32:19
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -15,12 +15,14 @@ sozcu.com.tr##.nativo
 sozcu.com.tr##.sidebar-banner
 sozcu.com.tr##.sidebar-related
 sozcu.com.tr##.content-inner-ad
-sozcu.com.tr##.ads, .adInitRemove
+sozcu.com.tr##.ads
+sozcu.com.tr##.adInitRemove
 sozcu.com.tr##.masthead, .load_masthead
 !Popup ads and popup splash
 sozcu.com.tr###dfp-popup-oop
 sozcu.com.tr###dfp-popup-oop-overlay
 !
+@@||dailymotion.com/player/$stealth,domain=sozcu.com.tr
 ||sozcu.com.tr/ajax/homePageAd^
 ||i01.sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*.js
 !
@@ -105,9 +107,6 @@ sahibinden.com##.banner-masthead
 ||s0.shbdn.com/assets/prebid*.js
 ||static.sahibinden.com/assets/analytics*.js
 ||sahibinden.com/ajax/dfp/populateHeaderBiddingStatistic^
-!
-!arabam.com
-
 !
 !@@@@@@@@@-UNPOPULAR E-commerce websites [START]
 !spagettiyarn.com
