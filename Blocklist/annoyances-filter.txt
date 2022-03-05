@@ -1,8 +1,8 @@
 ! Title: Turkish Annoyances Filter [SRN]
 ! Maintainer: saurane
 ! Syntax: AdGuard
-! Entries: 80
-! Updated: 28 Feb 2022 6:03:45 AM / 28 Şub 2021 18:03:45
+! Entries: 93
+! Updated: 5 Mar 2021 11:02:35 PM / 5 Mar 2021 11:02:35
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
 ! E-mail: saurane@protonmail.com
@@ -10,7 +10,9 @@
 !####### Websites of news and television channels [START] #######!
 !
 !sozcu.com.tr
-!sozcu.com.tr##.googleNews "Engellenmiyor"
+!check status
+sozcu.com.tr##.googleNews
+!
 sozcu.com.tr##.content-share
 !
 !korkusuz.com.tr
@@ -78,8 +80,14 @@ tudors.com###anasayfaPopup
 !lcwaikiki.com
 lcwaikiki.com##.cookie__policy__container
 !
+!ciceksepeti.com
+ciceksepeti.com##.policy-popup, .js-policy-popup
+!
 !sahibinden.com
 sahibinden.com##.share-icons
+!
+!arabam.com
+arabam.com##.cookie-policy-banner
 !
 !@@@@@@@@@-UNPOPULAR E-commerce websites [START]
 !
@@ -113,11 +121,24 @@ forum.donanimhaber.com##.takip
 forum.donanimhaber.com##.yazilim-sponsor
 forum.donanimhaber.com##.push-notification-content
 !
+!shiftdelete.net
+shiftdelete.net##.thb-post-sharing-area
+!
 !memoryhackers.org
 memoryhackers.org##.u-bottomFixer, .js-bottomFixTarget
 !
+!turkhackteam.org
+turkhackteam.org##.shareButtons, .shareButtons--iconic
+turkhackteam.org###footer > div.p-footer--container.footer-stretched > div.p-footer-custom:first-child > div.p-footer-inner > div.xb-footer--wrapper > div.xb-footer-block.xb-footer-block-5:last-child > div.block > div.block-container > h3.block-minorHeader:first-child
+!
 !crackturkey.com
 crackturkey.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main.p-body-main--withSidebar:nth-child(3) > div.p-body-sidebar:last-child > div.block:first-child
+!
+!technopat.net
+technopat.net##.td-author-social
+technopat.net##.td-post-sharing-top
+technopat.net##.td-post-sharing-bottom
+technopat.net##.td-header-sp-top-widget
 !
 !####### Forum websites [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -130,6 +151,7 @@ crackturkey.com###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-
 !
 !nefisyemektarifleri.com
 nefisyemektarifleri.com##.social
+nefisyemektarifleri.com##.pinit-button
 nefisyemektarifleri.com##.subs-youtube
 nefisyemektarifleri.com###webpush-info-div
 nefisyemektarifleri.com###recipe-social-options > li:last-child
@@ -171,11 +193,15 @@ turkcell.com.tr##.m-pasaj-popin, .m-pasaj-popin--open
 apkdayi.com##.head-soc
 apkcehennemi.com##.obfx-sharing, .obfx-sharing-left, .obfx-sharing-bottom
 !
+!telegramgruplari.com
+telegramgruplari.com###accept-cookies
+telegramgruplari.com##.social-media-share
+!
 !####### Other [FINISH] #######!
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !TR Cookie
 ##efilli-riza
 ##.cerezPopupUyari
 ###cerekKullanimUyari
-!Other Cookie
+!General Cookie
 ###onetrust-consent-sdk
