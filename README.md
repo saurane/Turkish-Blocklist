@@ -1,4 +1,4 @@
-![Cover](https://github.com/saurane/Turkish-Blocklist/blob/master/Assets/srn-banner-pink.png)
+![Cover](https://github.com/saurane/Turkish-Blocklist/blob/master/Assets/srn-banner.png)
 
 <div align="center">
     <!-- Last Updated -->
