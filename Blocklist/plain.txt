@@ -65,13 +65,11 @@ dogus-ads-cdn.dygdigital.com
 dygadtech.com
 dygassets.dygdigital.com
 efilli.com
-enhencer.com
 euromsg.com
 event-collector.analytics.onedio.com
 events.bitaksi.com
 events.getirapi.com
 evs.data.ciceksepeti.com
-gcpsmapi.vodafone.com
 gelirartisi.com
 geoim.bloomberght.com
 geoloc.hurriyet.com.tr
@@ -107,7 +105,6 @@ medya.ilan.gov.tr
 medyanative.com
 medyanetads.com
 metrics.egencia.com.tr
-mndtrk.com
 mynetreklam.com
 nativespot.com
 netmera-web.com
@@ -188,3 +185,9 @@ webstats.garanti.com.tr
 widget.cdn.vidyome.com
 widget.haberler.com
 xenn.io
+enhencer.com
+mndtrk.com
+sgtm.lcwaikiki.com
+signals.turkcell.com.tr
+gtm.lidyana.com
+gcpsmapi.vodafone.com
