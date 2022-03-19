@@ -1,10 +1,11 @@
-! Title: Saurane - Turkish DNS Filter
-! Entries: 190
-! Updated: 28 Feb 2022 6:01:17 PM
+! Title: Turkish DNS Filter
+! Maintainer: saurane
+! Syntax: AdBlock
+! Entries: 193
+! Updated: 19 Mar 2022 4:05:16 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
-! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
+! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! E-mail: saurane@protonmail.com
-
 ||8digits.com^
 ||ad.donanimhaber.com^
 ||ad.reyazilim.com^
@@ -72,13 +73,11 @@
 ||dygadtech.com^
 ||dygassets.dygdigital.com^
 ||efilli.com^
-||enhencer.com^
 ||euromsg.com^
 ||event-collector.analytics.onedio.com^
 ||events.bitaksi.com^
 ||events.getirapi.com^
 ||evs.data.ciceksepeti.com^
-||gcpsmapi.vodafone.com^
 ||gelirartisi.com^
 ||geoim.bloomberght.com^
 ||geoloc.hurriyet.com.tr^
@@ -114,7 +113,6 @@
 ||medyanative.com^
 ||medyanetads.com^
 ||metrics.egencia.com.tr^
-||mndtrk.com^
 ||mynetreklam.com^
 ||nativespot.com^
 ||netmera-web.com^
@@ -195,3 +193,9 @@
 ||widget.cdn.vidyome.com^
 ||widget.haberler.com^
 ||xenn.io^
+||enhencer.com^
+||mndtrk.com^
+||sgtm.lcwaikiki.com^
+||signals.turkcell.com.tr^
+||gtm.lidyana.com^
+||gcpsmapi.vodafone.com^
