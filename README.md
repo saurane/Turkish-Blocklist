@@ -2,7 +2,7 @@
 
 <div align="center">
     <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-Mar 5, 2022-green.svg?longCache=true&style=for-the-badge"
+    <img src="https://img.shields.io/badge/Updated-Mar 19, 2022-green.svg?longCache=true&style=for-the-badge"
       alt="_time_stamp_" />
     <!-- Status -->
     <img src="https://img.shields.io/badge/Status-Stable-blue.svg?longCache=true&style=for-the-badge"
@@ -48,6 +48,3 @@
 
 ## Sorunlar ve İstekler
 İstemci desteği, liste sorunu veya diğer sorunları E-posta: saurane@protonmail.com veya [GitHub](https://github.com/saurane/Turkish-Blocklist/issues) üzerinden bildirebilirsiniz.
-
-## Teşekkürler
-Bu projeye başladığımdan itibaren yanımda olan ve katkılarıyla yardımda bulunan [VasqueZ](https://github.com/gork7777) ve en önemlisi projeye başlamamda ilham kaynağı olan ve yine desteği olan [Bekir UÇARCI](https://github.com/bkrucarci)'ya teşekkürlerimi sunuyorum.
