@@ -1,11 +1,11 @@
-! Title: Turkish Adblock Filter [SRN]
-! Maintainer: saurane
-! Syntax: AdGuard
-! Entries: 356
-! Updated: 5 Mar 2021 11:32:19 PM / 5 Mar 2021 11:32:19
-! Homepage: https://github.com/saurane/Turkish-Blocklist
-! License: https://github.com/saurane/Turkish-Blocklist/blob/master/LICENSE
-! E-mail: saurane@protonmail.com
+# Title: Turkish Adblock Filter
+# Maintainer: saurane
+# Syntax: AdGuard
+# Entries: 359
+# Updated: 20 Mar 2022 8:25:48 PM / 20 Mar 2022 20:25:48
+# Homepage: https://github.com/saurane/Turkish-Blocklist
+# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
+# E-mail: saurane@protonmail.com
 !
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !####### Websites of news and television channels [START] #######!
@@ -265,6 +265,7 @@ kisalt.xyz##.ads, .ad_728
 ||i.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 !
 ||daioncdn.net/events$third-party
+||dogus-live.daioncdn.net/dmax/ad^$third-party
 ||daion-static.ercdn.net/omsdk^$third-party
 ||daion-static.ercdn.net/dev/openvv.js$third-party
 !
@@ -310,7 +311,7 @@ telegramgruplari.com###btm-pr
 !####### General DIV [START] #######!
 !
 ##.adsbygoogle
-##.at4-share, .addthis_32x32_style, .atss, .atss-left, .addthis-animated, .slideInLeft
+##.at4-share, .addthis_32x32_style, .atss-left, .addthis-animated
 !####### General DIV [FINISH] #######!
 !
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
