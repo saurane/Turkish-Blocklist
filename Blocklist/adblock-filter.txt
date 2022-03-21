@@ -1,11 +1,11 @@
-# Title: Turkish Adblock Filter
-# Maintainer: saurane
-# Syntax: AdGuard
-# Entries: 359
-# Updated: 20 Mar 2022 8:25:48 PM / 20 Mar 2022 20:25:48
-# Homepage: https://github.com/saurane/Turkish-Blocklist
-# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
-# E-mail: saurane@protonmail.com
+! Title: Turkish Adblock Filter
+! Maintainer: saurane
+! Syntax: AdGuard
+! Entries: 359
+! Updated: 21 Mar 2022 3:20:34 PM / 21 Mar 2022 15:20:34
+! Homepage: https://github.com/saurane/Turkish-Blocklist
+! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
+! E-mail: saurane@protonmail.com
 !
 !@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 !####### Websites of news and television channels [START] #######!
