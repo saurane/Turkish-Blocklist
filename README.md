@@ -2,7 +2,7 @@
 
 <div align="center">
     <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-Mar 29, 2022-green.svg?longCache=true&style=for-the-badge"
+    <img src="https://img.shields.io/badge/Updated-June 30, 2022-green.svg?longCache=true&style=for-the-badge"
       alt="_time_stamp_" />
     <!-- Status -->
     <img src="https://img.shields.io/badge/Status-Stable-blue.svg?longCache=true&style=for-the-badge"
@@ -18,6 +18,7 @@
 | Pi-hole | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/domains.txt "RAW") | - | - | - |
 | AdGuard | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/xtreme-dns-filter.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock-filter.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/annoyances-filter.txt "RAW") | 
 | DNSCloak | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/wildcards.txt "RAW") | - | - |
+| RPZ | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/rpz.txt "RAW") | - | - |
 | Unbound | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/unbound.conf "RAW") | - | - |
 | dnsmasq | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/dnsmasq.conf "RAW") | - | - |
 | AdAway | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.txt "RAW") | - | - |
@@ -47,4 +48,4 @@
 [AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), Subdomain Finder, URL Scan
 
 ## Sorunlar ve İstekler
-İstemci desteği, liste sorunu veya diğer sorunları E-posta: saurane@protonmail.com veya [GitHub](https://github.com/saurane/Turkish-Blocklist/issues) üzerinden bildirebilirsiniz.
+İstemci desteği, liste sorunu veya diğer sorunları [GitHub](https://github.com/saurane/Turkish-Blocklist/issues) üzerinden bildirebilirsiniz.
