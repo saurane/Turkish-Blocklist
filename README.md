@@ -26,7 +26,7 @@
 | Plain List | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/plain.txt "RAW") | - | - |
 
 ## Kullanım açıklaması
-[Windows için AdGuard (Ücretli)](https://adguard.com/tr/adguard-windows/overview.html) ~ [Android için AdGuard  (Ücretli)](https://adguard.com/tr/adguard-android/overview.html) ~ AdGuard'ın MAC veya iOS tabanlı uygulamaları da mevcuttur. Diğer uygulamalar: [AdGuard Tarayıcı Eklentisi](https://adguard.com/tr/adguard-browser-extension/overview.html), adblock söz dizimini kullanan diğer reklam engelleyiciler ile de kullanabilirsiniz fakat; Her ne kadar AdGuard ve uBlock söz dizimi aynı olsada daha etkili engelleme için filtrenin AdGuard üzerinde geliştirilmiş olmasıdır. uBlock'da filtrenin sadece çok düşük bir kısmı (%15) kullanılıyor.<br/>
+[Windows için AdGuard (Ücretli)](https://adguard.com/tr/adguard-windows/overview.html) ~ [Android için AdGuard  (Ücretli)](https://adguard.com/tr/adguard-android/overview.html) ~ AdGuard'ın MAC veya iOS tabanlı uygulamaları da mevcuttur. Diğer uygulamalar: [AdGuard Tarayıcı Eklentisi](https://adguard.com/tr/adguard-browser-extension/overview.html), adblock söz dizimini kullanan diğer reklam engelleyiciler ile de kullanabilirsiniz.<br/>
 ## Filtre açıklaması
 > ***DNS Filtresi:*** Alan adı tabanlı engeller. Örnek: example.com - ads.example.com - analytics.example.com<br/>
 > <br/>
