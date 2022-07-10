@@ -2,8 +2,8 @@
 # Description: Turkish based ad or tracker address blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 193
-# Updated: 10 Jul 2022 8:40:18 PM
+# Entries: 198
+# Updated: 10 Jul 2022 11:39:19 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -23,6 +23,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 0.0.0.0 8digits.com
+0.0.0.0 ad-plus.com.tr
 0.0.0.0 ad.donanimhaber.com
 0.0.0.0 ad.reyazilim.com
 0.0.0.0 ad.sigortagundem.biz
@@ -39,7 +40,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 admatic.com.tr
 0.0.0.0 admost.com
 0.0.0.0 adn.bursadabugun.com
-0.0.0.0 ad-plus.com.tr
 0.0.0.0 adnboost.com
 0.0.0.0 adplay.com.tr
 0.0.0.0 adplus.yaani.com.tr
@@ -90,6 +90,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dygadtech.com
 0.0.0.0 dygassets.dygdigital.com
 0.0.0.0 efilli.com
+0.0.0.0 enhencer.com
 0.0.0.0 euromsg.com
 0.0.0.0 event-collector.analytics.onedio.com
 0.0.0.0 events.bitaksi.com
@@ -100,6 +101,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 geoloc.hurriyet.com.tr
 0.0.0.0 gez.io
 0.0.0.0 gmgreklam.com
+0.0.0.0 gtm.lidyana.com
 0.0.0.0 hepsiads-bff.hepsiburada.com
 0.0.0.0 hepsiads-gw.hepsiburada.com
 0.0.0.0 hepsiads-ui.hepsiburada.com
@@ -130,6 +132,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 medyanative.com
 0.0.0.0 medyanetads.com
 0.0.0.0 metrics.egencia.com.tr
+0.0.0.0 mndtrk.com
 0.0.0.0 mynetreklam.com
 0.0.0.0 nativespot.com
 0.0.0.0 netmera-web.com
@@ -168,7 +171,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 searchanalytics.turkcell.com.tr
 0.0.0.0 segmentify.com
 0.0.0.0 setrowid.com
+0.0.0.0 sgtm.lcwaikiki.com
+0.0.0.0 signals.a101.com.tr
+0.0.0.0 signals.modanisa.com
 0.0.0.0 signals.teknosa.com
+0.0.0.0 signals.turkcell.com.tr
 0.0.0.0 smetrics.kone.com.tr
 0.0.0.0 smetrics.vodafone.com.tr
 0.0.0.0 sociaplus.com
@@ -180,6 +187,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.birgun.net
 0.0.0.0 stats.blutv.com
 0.0.0.0 stats.ganipara.com
+0.0.0.0 stats.ticimax.cloud
 0.0.0.0 stats.tv8.com.tr
 0.0.0.0 stats.videoseyred.in
 0.0.0.0 stats.vidyome.com
@@ -189,8 +197,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.lidyana.com
 0.0.0.0 t.onedio.com
 0.0.0.0 tagm.tchibo.com.tr
+0.0.0.0 thequin.ai
 0.0.0.0 track.tooplay.com
 0.0.0.0 tracker.blutv.com
+0.0.0.0 tvlyzer.com
 0.0.0.0 useinsider.com
 0.0.0.0 v.ajanshaber.com.tr
 0.0.0.0 v.dunya.com
@@ -210,9 +220,4 @@ ff02::3 ip6-allhosts
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.haberler.com
 0.0.0.0 xenn.io
-0.0.0.0 enhencer.com
-0.0.0.0 mndtrk.com
-0.0.0.0 sgtm.lcwaikiki.com
-0.0.0.0 signals.turkcell.com.tr
-0.0.0.0 gtm.lidyana.com
 
