@@ -1,10 +1,12 @@
 # Title: Turkish DNS Filter
+# Description: Turkish based ad or tracker address blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 194
-# Updated: 30 Jun 2022 6:03:35 PM
+# Entries: 193
+# Updated: 10 Jul 2022 8:40:18 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
+# Contact: https://github.com/saurane
 #
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
@@ -213,4 +215,4 @@ ff02::3 ip6-allhosts
 0.0.0.0 sgtm.lcwaikiki.com
 0.0.0.0 signals.turkcell.com.tr
 0.0.0.0 gtm.lidyana.com
-0.0.0.0 gcpsmapi.vodafone.com
+
