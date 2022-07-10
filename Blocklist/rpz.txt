@@ -2,14 +2,16 @@
 # Description: Turkish based ad or tracker address blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 193
-# Updated: 10 Jul 2022 8:40:18 PM
+# Entries: 198
+# Updated: 10 Jul 2022 11:39:19 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
 #
 8digits.com CNAME .
 *.8digits.com CNAME .
+ad-plus.com.tr CNAME .
+*.ad-plus.com.tr CNAME .
 ad.donanimhaber.com CNAME .
 *.ad.donanimhaber.com CNAME .
 ad.reyazilim.com CNAME .
@@ -42,8 +44,6 @@ admost.com CNAME .
 *.admost.com CNAME .
 adn.bursadabugun.com CNAME .
 *.adn.bursadabugun.com CNAME .
-ad-plus.com.tr CNAME .
-*.ad-plus.com.tr CNAME .
 adnboost.com CNAME .
 *.adnboost.com CNAME .
 adplay.com.tr CNAME .
@@ -144,6 +144,8 @@ dygassets.dygdigital.com CNAME .
 *.dygassets.dygdigital.com CNAME .
 efilli.com CNAME .
 *.efilli.com CNAME .
+enhencer.com CNAME .
+*.enhencer.com CNAME .
 euromsg.com CNAME .
 *.euromsg.com CNAME .
 event-collector.analytics.onedio.com CNAME .
@@ -164,6 +166,8 @@ gez.io CNAME .
 *.gez.io CNAME .
 gmgreklam.com CNAME .
 *.gmgreklam.com CNAME .
+gtm.lidyana.com CNAME .
+*.gtm.lidyana.com CNAME .
 hepsiads-bff.hepsiburada.com CNAME .
 *.hepsiads-bff.hepsiburada.com CNAME .
 hepsiads-gw.hepsiburada.com CNAME .
@@ -224,6 +228,8 @@ medyanetads.com CNAME .
 *.medyanetads.com CNAME .
 metrics.egencia.com.tr CNAME .
 *.metrics.egencia.com.tr CNAME .
+mndtrk.com CNAME .
+*.mndtrk.com CNAME .
 mynetreklam.com CNAME .
 *.mynetreklam.com CNAME .
 nativespot.com CNAME .
@@ -300,8 +306,16 @@ segmentify.com CNAME .
 *.segmentify.com CNAME .
 setrowid.com CNAME .
 *.setrowid.com CNAME .
+sgtm.lcwaikiki.com CNAME .
+*.sgtm.lcwaikiki.com CNAME .
+signals.a101.com.tr CNAME .
+*.signals.a101.com.tr CNAME .
+signals.modanisa.com CNAME .
+*.signals.modanisa.com CNAME .
 signals.teknosa.com CNAME .
 *.signals.teknosa.com CNAME .
+signals.turkcell.com.tr CNAME .
+*.signals.turkcell.com.tr CNAME .
 smetrics.kone.com.tr CNAME .
 *.smetrics.kone.com.tr CNAME .
 smetrics.vodafone.com.tr CNAME .
@@ -324,6 +338,8 @@ stats.blutv.com CNAME .
 *.stats.blutv.com CNAME .
 stats.ganipara.com CNAME .
 *.stats.ganipara.com CNAME .
+stats.ticimax.cloud CNAME .
+*.stats.ticimax.cloud CNAME .
 stats.tv8.com.tr CNAME .
 *.stats.tv8.com.tr CNAME .
 stats.videoseyred.in CNAME .
@@ -342,10 +358,14 @@ t.onedio.com CNAME .
 *.t.onedio.com CNAME .
 tagm.tchibo.com.tr CNAME .
 *.tagm.tchibo.com.tr CNAME .
+thequin.ai CNAME .
+*.thequin.ai CNAME .
 track.tooplay.com CNAME .
 *.track.tooplay.com CNAME .
 tracker.blutv.com CNAME .
 *.tracker.blutv.com CNAME .
+tvlyzer.com CNAME .
+*.tvlyzer.com CNAME .
 useinsider.com CNAME .
 *.useinsider.com CNAME .
 v.ajanshaber.com.tr CNAME .
@@ -384,14 +404,4 @@ widget.haberler.com CNAME .
 *.widget.haberler.com CNAME .
 xenn.io CNAME .
 *.xenn.io CNAME .
-enhencer.com CNAME .
-*.enhencer.com CNAME .
-mndtrk.com CNAME .
-*.mndtrk.com CNAME .
-sgtm.lcwaikiki.com CNAME .
-*.sgtm.lcwaikiki.com CNAME .
-signals.turkcell.com.tr CNAME .
-*.signals.turkcell.com.tr CNAME .
-gtm.lidyana.com CNAME .
-*.gtm.lidyana.com CNAME .
 
