@@ -2,8 +2,8 @@
 # Description: Turkish based ad or tracker address blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
-# Entries: 193
-# Updated: 10 Jul 2022 8:40:18 PM
+# Entries: 198
+# Updated: 10 Jul 2022 11:39:19 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -23,6 +23,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 127.0.0.1 8digits.com
+127.0.0.1 ad-plus.com.tr
 127.0.0.1 ad.donanimhaber.com
 127.0.0.1 ad.reyazilim.com
 127.0.0.1 ad.sigortagundem.biz
@@ -39,7 +40,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 admatic.com.tr
 127.0.0.1 admost.com
 127.0.0.1 adn.bursadabugun.com
-127.0.0.1 ad-plus.com.tr
 127.0.0.1 adnboost.com
 127.0.0.1 adplay.com.tr
 127.0.0.1 adplus.yaani.com.tr
@@ -90,6 +90,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 dygadtech.com
 127.0.0.1 dygassets.dygdigital.com
 127.0.0.1 efilli.com
+127.0.0.1 enhencer.com
 127.0.0.1 euromsg.com
 127.0.0.1 event-collector.analytics.onedio.com
 127.0.0.1 events.bitaksi.com
@@ -100,6 +101,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 geoloc.hurriyet.com.tr
 127.0.0.1 gez.io
 127.0.0.1 gmgreklam.com
+127.0.0.1 gtm.lidyana.com
 127.0.0.1 hepsiads-bff.hepsiburada.com
 127.0.0.1 hepsiads-gw.hepsiburada.com
 127.0.0.1 hepsiads-ui.hepsiburada.com
@@ -130,6 +132,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 medyanative.com
 127.0.0.1 medyanetads.com
 127.0.0.1 metrics.egencia.com.tr
+127.0.0.1 mndtrk.com
 127.0.0.1 mynetreklam.com
 127.0.0.1 nativespot.com
 127.0.0.1 netmera-web.com
@@ -168,7 +171,11 @@ ff02::3 ip6-allhosts
 127.0.0.1 searchanalytics.turkcell.com.tr
 127.0.0.1 segmentify.com
 127.0.0.1 setrowid.com
+127.0.0.1 sgtm.lcwaikiki.com
+127.0.0.1 signals.a101.com.tr
+127.0.0.1 signals.modanisa.com
 127.0.0.1 signals.teknosa.com
+127.0.0.1 signals.turkcell.com.tr
 127.0.0.1 smetrics.kone.com.tr
 127.0.0.1 smetrics.vodafone.com.tr
 127.0.0.1 sociaplus.com
@@ -180,6 +187,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 stats.birgun.net
 127.0.0.1 stats.blutv.com
 127.0.0.1 stats.ganipara.com
+127.0.0.1 stats.ticimax.cloud
 127.0.0.1 stats.tv8.com.tr
 127.0.0.1 stats.videoseyred.in
 127.0.0.1 stats.vidyome.com
@@ -189,8 +197,10 @@ ff02::3 ip6-allhosts
 127.0.0.1 t.lidyana.com
 127.0.0.1 t.onedio.com
 127.0.0.1 tagm.tchibo.com.tr
+127.0.0.1 thequin.ai
 127.0.0.1 track.tooplay.com
 127.0.0.1 tracker.blutv.com
+127.0.0.1 tvlyzer.com
 127.0.0.1 useinsider.com
 127.0.0.1 v.ajanshaber.com.tr
 127.0.0.1 v.dunya.com
@@ -210,9 +220,4 @@ ff02::3 ip6-allhosts
 127.0.0.1 widget.cdn.vidyome.com
 127.0.0.1 widget.haberler.com
 127.0.0.1 xenn.io
-127.0.0.1 enhencer.com
-127.0.0.1 mndtrk.com
-127.0.0.1 sgtm.lcwaikiki.com
-127.0.0.1 signals.turkcell.com.tr
-127.0.0.1 gtm.lidyana.com
 
