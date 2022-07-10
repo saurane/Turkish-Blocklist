@@ -1,10 +1,12 @@
 ! Title: Turkish DNS Filter
+! Description: Turkish based ad or tracker address blocking project.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 194
-! Updated: 30 Jun 2022 6:03:35 PM
+! Entries: 193
+! Updated: 10 Jul 2022 8:40:18 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
+! Contact: https://github.com/saurane
 !
 ||8digits.com^
 ||ad.donanimhaber.com^
@@ -199,4 +201,4 @@
 ||sgtm.lcwaikiki.com^
 ||signals.turkcell.com.tr^
 ||gtm.lidyana.com^
-||gcpsmapi.vodafone.com^
+
