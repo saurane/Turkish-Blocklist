@@ -2,13 +2,14 @@
 # Description: Turkish based ad or tracker address blocking project.
 # Maintainer: saurane
 # Syntax: Domains
-# Entries: 193
-# Updated: 10 Jul 2022 8:40:18 PM
+# Entries: 198
+# Updated: 10 Jul 2022 11:39:19 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
 #
 8digits.com
+ad-plus.com.tr
 ad.donanimhaber.com
 ad.reyazilim.com
 ad.sigortagundem.biz
@@ -25,7 +26,6 @@ adklik.com.tr
 admatic.com.tr
 admost.com
 adn.bursadabugun.com
-ad-plus.com.tr
 adnboost.com
 adplay.com.tr
 adplus.yaani.com.tr
@@ -76,6 +76,7 @@ dogus-ads-cdn.dygdigital.com
 dygadtech.com
 dygassets.dygdigital.com
 efilli.com
+enhencer.com
 euromsg.com
 event-collector.analytics.onedio.com
 events.bitaksi.com
@@ -86,6 +87,7 @@ geoim.bloomberght.com
 geoloc.hurriyet.com.tr
 gez.io
 gmgreklam.com
+gtm.lidyana.com
 hepsiads-bff.hepsiburada.com
 hepsiads-gw.hepsiburada.com
 hepsiads-ui.hepsiburada.com
@@ -116,6 +118,7 @@ medya.ilan.gov.tr
 medyanative.com
 medyanetads.com
 metrics.egencia.com.tr
+mndtrk.com
 mynetreklam.com
 nativespot.com
 netmera-web.com
@@ -154,7 +157,11 @@ sayac.tmgrup.com.tr
 searchanalytics.turkcell.com.tr
 segmentify.com
 setrowid.com
+sgtm.lcwaikiki.com
+signals.a101.com.tr
+signals.modanisa.com
 signals.teknosa.com
+signals.turkcell.com.tr
 smetrics.kone.com.tr
 smetrics.vodafone.com.tr
 sociaplus.com
@@ -166,6 +173,7 @@ stats.acunn.com
 stats.birgun.net
 stats.blutv.com
 stats.ganipara.com
+stats.ticimax.cloud
 stats.tv8.com.tr
 stats.videoseyred.in
 stats.vidyome.com
@@ -175,8 +183,10 @@ t.enuygun.com
 t.lidyana.com
 t.onedio.com
 tagm.tchibo.com.tr
+thequin.ai
 track.tooplay.com
 tracker.blutv.com
+tvlyzer.com
 useinsider.com
 v.ajanshaber.com.tr
 v.dunya.com
@@ -196,9 +206,4 @@ webstats.garanti.com.tr
 widget.cdn.vidyome.com
 widget.haberler.com
 xenn.io
-enhencer.com
-mndtrk.com
-sgtm.lcwaikiki.com
-signals.turkcell.com.tr
-gtm.lidyana.com
 
