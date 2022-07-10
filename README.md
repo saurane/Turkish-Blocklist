@@ -13,10 +13,10 @@
 </div>
 <br/>
 
-| İstemci | DNS filtresi | Xtreme DNS filtresi | Adblock filtresi | Can Sıkıcı Öğeler filtresi |
-| ------------ | ------------ | ------------ | ------------ | ------------ |
+| İstemci | DNS filtresi | Adblock filtresi | Can Sıkıcı Öğeler filtresi |
+| ------------ | ------------ | ------------ | ------------ |
 | Pi-hole | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/domains.txt "RAW") | - | - | - |
-| AdGuard | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/xtreme-dns-filter.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock-filter.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/annoyances-filter.txt "RAW") | 
+| AdGuard | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock-filter.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/annoyances-filter.txt "RAW") | 
 | DNSCloak | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/wildcards.txt "RAW") | - | - |
 | RPZ | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/rpz.txt "RAW") | - | - |
 | Unbound | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/unbound.conf "RAW") | - | - |
