@@ -30,8 +30,6 @@
 ## Filtre açıklaması
 > ***DNS Filtresi:*** Alan adı tabanlı engeller. Örnek: example.com - ads.example.com - analytics.example.com<br/>
 > <br/>
-> ***Xtreme DNS Filtresi:*** Henüz bilinmeyen reklamları, izleyicileri ve diğer analitik amaçlı kullanılan alt alan adlarını engeller. Tam performans için DNS filtresi olarak kullanmanız tavsiye edilir. DNS filtresi dışında kullanırsanız, yanlış engellemeden kaçınmak için listede bulunan beyaz kurallara eklenen sitelerde filtreleme devre dışı kalır. Tavsiye edilen uygulama: [Windows için AdGuard (Ücretli)](https://adguard.com/tr/adguard-windows/overview.html) ~ [Android için AdGuard  (Ücretli)](https://adguard.com/tr/adguard-android/overview.html) ~ AdGuard'ın MAC veya iOS tabanlı uygulamaları da mevcuttur. Diğer uygulamalar: [AdGuard Tarayıcı Eklentisi](https://adguard.com/tr/adguard-browser-extension/overview.html), adblock söz dizimini kullanan diğer reklam engelleyiciler ile de kullanabilirsiniz fakat; Her ne kadar AdGuard ve uBlock söz dizimi aynı olsada daha etkili engelleme için filtrenin AdGuard üzerinde geliştirilmiş olmasıdır. uBlock'da filtrenin sadece çok düşük bir kısmı (%15) kullanılıyor.<br/>
-> <br/>
 > ***Adblock Filtresi:*** Alan adının adres bölümlerine göre engeller. Örnek: example.com/js/ads.js - example.com/js/analytics.js<br/>
 > <br/>
 > ***Can Sıkıcı Öğeler Filtresi:*** Sitelerdeki gereksiz araçları engeller. Örneğin; açılır bildirimler, widget'lar, çerez bildirimleri, sosyal medya araçları, abone ol butonları, gereksiz notlar vb. gibi.<br/>
