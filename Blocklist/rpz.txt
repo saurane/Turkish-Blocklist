@@ -2,18 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 209
-# Updated: 11 Jul 2022 5:11:34 PM
-# Homepage: https://github.com/saurane/Turkish-Blocklist
-# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
-# Contact: https://github.com/saurane
-#
-# Title: Turkish DNS Filter
-# Description: Turkish based ad or tracker address blocking project.
-# Maintainer: saurane
-# Syntax: Response Policy Zone
-# Entries: 198
-# Updated: 10 Jul 2022 11:39:19 PM
+# Entries: 205
+# Updated: 11 Jul 2022 5:26:12 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -130,6 +120,8 @@ cookiebar.eticaret.com CNAME .
 *.cookiebar.eticaret.com CNAME .
 cookieseal.com CNAME .
 *.cookieseal.com CNAME .
+cookiespool.com CNAME .
+*.cookiespool.com CNAME .
 countly.fibabanka.com.tr CNAME .
 *.countly.fibabanka.com.tr CNAME .
 countly.iyzico.com CNAME .
@@ -156,6 +148,8 @@ efilli.com CNAME .
 *.efilli.com CNAME .
 enhencer.com CNAME .
 *.enhencer.com CNAME .
+eum.ing.com.tr CNAME .
+*.eum.ing.com.tr CNAME .
 euromsg.com CNAME .
 *.euromsg.com CNAME .
 event-collector.analytics.onedio.com CNAME .
@@ -166,6 +160,8 @@ events.getirapi.com CNAME .
 *.events.getirapi.com CNAME .
 evs.data.ciceksepeti.com CNAME .
 *.evs.data.ciceksepeti.com CNAME .
+exxen-reklam.ercdn.net CNAME .
+*.exxen-reklam.ercdn.net CNAME .
 gelirartisi.com CNAME .
 *.gelirartisi.com CNAME .
 geoim.bloomberght.com CNAME .
@@ -200,6 +196,8 @@ indirads.org CNAME .
 *.indirads.org CNAME .
 indirads.work CNAME .
 *.indirads.work CNAME .
+instana.fibabanka.com.tr CNAME .
+*.instana.fibabanka.com.tr CNAME .
 iplocation-api.wp.trt.com.tr CNAME .
 *.iplocation-api.wp.trt.com.tr CNAME .
 istat.izlesene.com CNAME .
@@ -262,6 +260,8 @@ personaclick.com CNAME .
 *.personaclick.com CNAME .
 perzonalization.com CNAME .
 *.perzonalization.com CNAME .
+pixels-1.ingbank.com.tr CNAME .
+*.pixels-1.ingbank.com.tr CNAME .
 pixels.ingbank.com.tr CNAME .
 *.pixels.ingbank.com.tr CNAME .
 pnsdkapi.turktelekom.com.tr CNAME .
@@ -314,6 +314,8 @@ searchanalytics.turkcell.com.tr CNAME .
 *.searchanalytics.turkcell.com.tr CNAME .
 segmentify.com CNAME .
 *.segmentify.com CNAME .
+sentry.iddaa.com CNAME .
+*.sentry.iddaa.com CNAME .
 setrowid.com CNAME .
 *.setrowid.com CNAME .
 sgtm.lcwaikiki.com CNAME .
@@ -374,6 +376,8 @@ track.tooplay.com CNAME .
 *.track.tooplay.com CNAME .
 tracker.blutv.com CNAME .
 *.tracker.blutv.com CNAME .
+tv8-reklam.ercdn.net CNAME .
+*.tv8-reklam.ercdn.net CNAME .
 tvlyzer.com CNAME .
 *.tvlyzer.com CNAME .
 useinsider.com CNAME .
@@ -414,5 +418,4 @@ widget.haberler.com CNAME .
 *.widget.haberler.com CNAME .
 xenn.io CNAME .
 *.xenn.io CNAME .
-
 
