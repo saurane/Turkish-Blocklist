@@ -3,7 +3,7 @@
 # Maintainer: saurane
 # Syntax: Response Policy Zone
 # Entries: 205
-# Updated: 11 Jul 2022 5:26:12 PM
+# Updated: 11 Jul 2022 9:30:18 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -158,6 +158,8 @@ events.bitaksi.com CNAME .
 *.events.bitaksi.com CNAME .
 events.getirapi.com CNAME .
 *.events.getirapi.com CNAME .
+events.jotform.com CNAME .
+*.events.jotform.com CNAME .
 evs.data.ciceksepeti.com CNAME .
 *.evs.data.ciceksepeti.com CNAME .
 exxen-reklam.ercdn.net CNAME .
@@ -210,10 +212,6 @@ istatistik.gazetevatan.com CNAME .
 *.istatistik.gazetevatan.com CNAME .
 istatistik.trthaber.com CNAME .
 *.istatistik.trthaber.com CNAME .
-lightning.boomerangtv.com.tr CNAME .
-*.lightning.boomerangtv.com.tr CNAME .
-lightning.cartoonnetwork.com.tr CNAME .
-*.lightning.cartoonnetwork.com.tr CNAME .
 log.haberturk.com CNAME .
 *.log.haberturk.com CNAME .
 log.newsbreak.com.tr CNAME .
@@ -302,10 +300,6 @@ rum.ibb.gov.tr CNAME .
 *.rum.ibb.gov.tr CNAME .
 s.fullhdfilmizlesene.com CNAME .
 *.s.fullhdfilmizlesene.com CNAME .
-sanalytics.boomerangtv.com.tr CNAME .
-*.sanalytics.boomerangtv.com.tr CNAME .
-sanalytics.cartoonnetwork.com.tr CNAME .
-*.sanalytics.cartoonnetwork.com.tr CNAME .
 say.ac CNAME .
 *.say.ac CNAME .
 sayac.tmgrup.com.tr CNAME .
@@ -318,6 +312,8 @@ sentry.iddaa.com CNAME .
 *.sentry.iddaa.com CNAME .
 setrowid.com CNAME .
 *.setrowid.com CNAME .
+sgmntfy.com CNAME .
+*.sgmntfy.com CNAME .
 sgtm.lcwaikiki.com CNAME .
 *.sgtm.lcwaikiki.com CNAME .
 signals.a101.com.tr CNAME .
@@ -372,10 +368,14 @@ tagm.tchibo.com.tr CNAME .
 *.tagm.tchibo.com.tr CNAME .
 thequin.ai CNAME .
 *.thequin.ai CNAME .
+track.data.modanisa.com CNAME .
+*.track.data.modanisa.com CNAME .
 track.tooplay.com CNAME .
 *.track.tooplay.com CNAME .
 tracker.blutv.com CNAME .
 *.tracker.blutv.com CNAME .
+tracking.jotform.com CNAME .
+*.tracking.jotform.com CNAME .
 tv8-reklam.ercdn.net CNAME .
 *.tv8-reklam.ercdn.net CNAME .
 tvlyzer.com CNAME .
