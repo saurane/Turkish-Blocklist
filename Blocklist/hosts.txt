@@ -3,7 +3,7 @@
 # Maintainer: saurane
 # Syntax: Hosts
 # Entries: 205
-# Updated: 11 Jul 2022 5:26:12 PM
+# Updated: 11 Jul 2022 9:30:18 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -97,6 +97,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 event-collector.analytics.onedio.com
 0.0.0.0 events.bitaksi.com
 0.0.0.0 events.getirapi.com
+0.0.0.0 events.jotform.com
 0.0.0.0 evs.data.ciceksepeti.com
 0.0.0.0 exxen-reklam.ercdn.net
 0.0.0.0 gelirartisi.com
@@ -123,8 +124,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 istatistik.arabam.com
 0.0.0.0 istatistik.gazetevatan.com
 0.0.0.0 istatistik.trthaber.com
-0.0.0.0 lightning.boomerangtv.com.tr
-0.0.0.0 lightning.cartoonnetwork.com.tr
 0.0.0.0 log.haberturk.com
 0.0.0.0 log.newsbreak.com.tr
 0.0.0.0 log.yapaytech.com
@@ -169,14 +168,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 revotas.com
 0.0.0.0 rum.ibb.gov.tr
 0.0.0.0 s.fullhdfilmizlesene.com
-0.0.0.0 sanalytics.boomerangtv.com.tr
-0.0.0.0 sanalytics.cartoonnetwork.com.tr
 0.0.0.0 say.ac
 0.0.0.0 sayac.tmgrup.com.tr
 0.0.0.0 searchanalytics.turkcell.com.tr
 0.0.0.0 segmentify.com
 0.0.0.0 sentry.iddaa.com
 0.0.0.0 setrowid.com
+0.0.0.0 sgmntfy.com
 0.0.0.0 sgtm.lcwaikiki.com
 0.0.0.0 signals.a101.com.tr
 0.0.0.0 signals.modanisa.com
@@ -204,8 +202,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.onedio.com
 0.0.0.0 tagm.tchibo.com.tr
 0.0.0.0 thequin.ai
+0.0.0.0 track.data.modanisa.com
 0.0.0.0 track.tooplay.com
 0.0.0.0 tracker.blutv.com
+0.0.0.0 tracking.jotform.com
 0.0.0.0 tv8-reklam.ercdn.net
 0.0.0.0 tvlyzer.com
 0.0.0.0 useinsider.com
