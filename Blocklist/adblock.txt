@@ -3,7 +3,7 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 205
-! Updated: 11 Jul 2022 5:26:12 PM
+! Updated: 11 Jul 2022 9:30:18 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -83,6 +83,7 @@
 ||event-collector.analytics.onedio.com^
 ||events.bitaksi.com^
 ||events.getirapi.com^
+||events.jotform.com^
 ||evs.data.ciceksepeti.com^
 ||exxen-reklam.ercdn.net^
 ||gelirartisi.com^
@@ -109,8 +110,6 @@
 ||istatistik.arabam.com^
 ||istatistik.gazetevatan.com^
 ||istatistik.trthaber.com^
-||lightning.boomerangtv.com.tr^
-||lightning.cartoonnetwork.com.tr^
 ||log.haberturk.com^
 ||log.newsbreak.com.tr^
 ||log.yapaytech.com^
@@ -155,14 +154,13 @@
 ||revotas.com^
 ||rum.ibb.gov.tr^
 ||s.fullhdfilmizlesene.com^
-||sanalytics.boomerangtv.com.tr^
-||sanalytics.cartoonnetwork.com.tr^
 ||say.ac^
 ||sayac.tmgrup.com.tr^
 ||searchanalytics.turkcell.com.tr^
 ||segmentify.com^
 ||sentry.iddaa.com^
 ||setrowid.com^
+||sgmntfy.com^
 ||sgtm.lcwaikiki.com^
 ||signals.a101.com.tr^
 ||signals.modanisa.com^
@@ -190,8 +188,10 @@
 ||t.onedio.com^
 ||tagm.tchibo.com.tr^
 ||thequin.ai^
+||track.data.modanisa.com^
 ||track.tooplay.com^
 ||tracker.blutv.com^
+||tracking.jotform.com^
 ||tv8-reklam.ercdn.net^
 ||tvlyzer.com^
 ||useinsider.com^
