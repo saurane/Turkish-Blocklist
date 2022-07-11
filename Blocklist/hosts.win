@@ -3,7 +3,7 @@
 # Maintainer: saurane
 # Syntax: Windows Hosts
 # Entries: 205
-# Updated: 11 Jul 2022 5:26:12 PM
+# Updated: 11 Jul 2022 9:30:18 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -97,6 +97,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 event-collector.analytics.onedio.com
 127.0.0.1 events.bitaksi.com
 127.0.0.1 events.getirapi.com
+127.0.0.1 events.jotform.com
 127.0.0.1 evs.data.ciceksepeti.com
 127.0.0.1 exxen-reklam.ercdn.net
 127.0.0.1 gelirartisi.com
@@ -123,8 +124,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 istatistik.arabam.com
 127.0.0.1 istatistik.gazetevatan.com
 127.0.0.1 istatistik.trthaber.com
-127.0.0.1 lightning.boomerangtv.com.tr
-127.0.0.1 lightning.cartoonnetwork.com.tr
 127.0.0.1 log.haberturk.com
 127.0.0.1 log.newsbreak.com.tr
 127.0.0.1 log.yapaytech.com
@@ -169,14 +168,13 @@ ff02::3 ip6-allhosts
 127.0.0.1 revotas.com
 127.0.0.1 rum.ibb.gov.tr
 127.0.0.1 s.fullhdfilmizlesene.com
-127.0.0.1 sanalytics.boomerangtv.com.tr
-127.0.0.1 sanalytics.cartoonnetwork.com.tr
 127.0.0.1 say.ac
 127.0.0.1 sayac.tmgrup.com.tr
 127.0.0.1 searchanalytics.turkcell.com.tr
 127.0.0.1 segmentify.com
 127.0.0.1 sentry.iddaa.com
 127.0.0.1 setrowid.com
+127.0.0.1 sgmntfy.com
 127.0.0.1 sgtm.lcwaikiki.com
 127.0.0.1 signals.a101.com.tr
 127.0.0.1 signals.modanisa.com
@@ -204,8 +202,10 @@ ff02::3 ip6-allhosts
 127.0.0.1 t.onedio.com
 127.0.0.1 tagm.tchibo.com.tr
 127.0.0.1 thequin.ai
+127.0.0.1 track.data.modanisa.com
 127.0.0.1 track.tooplay.com
 127.0.0.1 tracker.blutv.com
+127.0.0.1 tracking.jotform.com
 127.0.0.1 tv8-reklam.ercdn.net
 127.0.0.1 tvlyzer.com
 127.0.0.1 useinsider.com
