@@ -2,18 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Domains
-# Entries: 209
-# Updated: 11 Jul 2022 5:11:34 PM
-# Homepage: https://github.com/saurane/Turkish-Blocklist
-# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
-# Contact: https://github.com/saurane
-#
-# Title: Turkish DNS Filter
-# Description: Turkish based ad or tracker address blocking project.
-# Maintainer: saurane
-# Syntax: Domains
-# Entries: 198
-# Updated: 10 Jul 2022 11:39:19 PM
+# Entries: 205
+# Updated: 11 Jul 2022 5:26:12 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -74,6 +64,7 @@ collector.puhutv.com
 console.yapaytech.com
 cookiebar.eticaret.com
 cookieseal.com
+cookiespool.com
 countly.fibabanka.com.tr
 countly.iyzico.com
 d.haberler.com
@@ -87,11 +78,13 @@ dygadtech.com
 dygassets.dygdigital.com
 efilli.com
 enhencer.com
+eum.ing.com.tr
 euromsg.com
 event-collector.analytics.onedio.com
 events.bitaksi.com
 events.getirapi.com
 evs.data.ciceksepeti.com
+exxen-reklam.ercdn.net
 gelirartisi.com
 geoim.bloomberght.com
 geoloc.hurriyet.com.tr
@@ -109,6 +102,7 @@ hodor-collect.arabam.com
 hstats.hepsiburada.com
 indirads.org
 indirads.work
+instana.fibabanka.com.tr
 iplocation-api.wp.trt.com.tr
 istat.izlesene.com
 istat.nktcdn.com
@@ -140,6 +134,7 @@ orsis.net
 outstream.cdn.vidyome.com
 personaclick.com
 perzonalization.com
+pixels-1.ingbank.com.tr
 pixels.ingbank.com.tr
 pnsdkapi.turktelekom.com.tr
 poczta.generalmobile.com
@@ -166,6 +161,7 @@ say.ac
 sayac.tmgrup.com.tr
 searchanalytics.turkcell.com.tr
 segmentify.com
+sentry.iddaa.com
 setrowid.com
 sgtm.lcwaikiki.com
 signals.a101.com.tr
@@ -196,6 +192,7 @@ tagm.tchibo.com.tr
 thequin.ai
 track.tooplay.com
 tracker.blutv.com
+tv8-reklam.ercdn.net
 tvlyzer.com
 useinsider.com
 v.ajanshaber.com.tr
@@ -216,5 +213,4 @@ webstats.garanti.com.tr
 widget.cdn.vidyome.com
 widget.haberler.com
 xenn.io
-
 
