@@ -2,32 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
-# Entries: 209
-# Updated: 11 Jul 2022 5:11:34 PM
-# Homepage: https://github.com/saurane/Turkish-Blocklist
-# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
-# Contact: https://github.com/saurane
-#
-127.0.0.1 localhost
-127.0.0.1 localhost.localdomain
-127.0.0.1 local
-255.255.255.255 broadcasthost
-::1 localhost
-::1 ip6-localhost
-::1 ip6-loopback
-fe80::1%lo0 localhost
-ff00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
-ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
-# Title: Turkish DNS Filter
-# Description: Turkish based ad or tracker address blocking project.
-# Maintainer: saurane
-# Syntax: Windows Hosts
-# Entries: 198
-# Updated: 10 Jul 2022 11:39:19 PM
+# Entries: 205
+# Updated: 11 Jul 2022 5:26:12 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -102,6 +78,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 console.yapaytech.com
 127.0.0.1 cookiebar.eticaret.com
 127.0.0.1 cookieseal.com
+127.0.0.1 cookiespool.com
 127.0.0.1 countly.fibabanka.com.tr
 127.0.0.1 countly.iyzico.com
 127.0.0.1 d.haberler.com
@@ -115,11 +92,13 @@ ff02::3 ip6-allhosts
 127.0.0.1 dygassets.dygdigital.com
 127.0.0.1 efilli.com
 127.0.0.1 enhencer.com
+127.0.0.1 eum.ing.com.tr
 127.0.0.1 euromsg.com
 127.0.0.1 event-collector.analytics.onedio.com
 127.0.0.1 events.bitaksi.com
 127.0.0.1 events.getirapi.com
 127.0.0.1 evs.data.ciceksepeti.com
+127.0.0.1 exxen-reklam.ercdn.net
 127.0.0.1 gelirartisi.com
 127.0.0.1 geoim.bloomberght.com
 127.0.0.1 geoloc.hurriyet.com.tr
@@ -137,6 +116,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 hstats.hepsiburada.com
 127.0.0.1 indirads.org
 127.0.0.1 indirads.work
+127.0.0.1 instana.fibabanka.com.tr
 127.0.0.1 iplocation-api.wp.trt.com.tr
 127.0.0.1 istat.izlesene.com
 127.0.0.1 istat.nktcdn.com
@@ -168,6 +148,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 outstream.cdn.vidyome.com
 127.0.0.1 personaclick.com
 127.0.0.1 perzonalization.com
+127.0.0.1 pixels-1.ingbank.com.tr
 127.0.0.1 pixels.ingbank.com.tr
 127.0.0.1 pnsdkapi.turktelekom.com.tr
 127.0.0.1 poczta.generalmobile.com
@@ -194,6 +175,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 sayac.tmgrup.com.tr
 127.0.0.1 searchanalytics.turkcell.com.tr
 127.0.0.1 segmentify.com
+127.0.0.1 sentry.iddaa.com
 127.0.0.1 setrowid.com
 127.0.0.1 sgtm.lcwaikiki.com
 127.0.0.1 signals.a101.com.tr
@@ -224,6 +206,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 thequin.ai
 127.0.0.1 track.tooplay.com
 127.0.0.1 tracker.blutv.com
+127.0.0.1 tv8-reklam.ercdn.net
 127.0.0.1 tvlyzer.com
 127.0.0.1 useinsider.com
 127.0.0.1 v.ajanshaber.com.tr
@@ -244,5 +227,4 @@ ff02::3 ip6-allhosts
 127.0.0.1 widget.cdn.vidyome.com
 127.0.0.1 widget.haberler.com
 127.0.0.1 xenn.io
-
 
