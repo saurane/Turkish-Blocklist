@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
-# Entries: 205
-# Updated: 11 Jul 2022 9:30:18 PM
+# Entries: 212
+# Updated: 12 Jul 2022 10:29:11 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -53,6 +53,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 adsp.haberturk.com
 127.0.0.1 adtarget.com.tr
 127.0.0.1 adworld.com.tr
+127.0.0.1 affiliate.migros.com.tr
 127.0.0.1 aip-cdn.sozcu.com.tr
 127.0.0.1 aip2.sozcu.com.tr
 127.0.0.1 analytic.turkiyefinans.com.tr
@@ -86,6 +87,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 datacollection.beymen.com
 127.0.0.1 dataroid.com
 127.0.0.1 dengage.com
+127.0.0.1 developer.kuveytturk.com.tr
 127.0.0.1 doganburda.com
 127.0.0.1 dogus-ads-cdn.dygdigital.com
 127.0.0.1 dygadtech.com
@@ -93,6 +95,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 efilli.com
 127.0.0.1 enhencer.com
 127.0.0.1 eum.ing.com.tr
+127.0.0.1 eum.kuveytturk.com.tr
 127.0.0.1 euromsg.com
 127.0.0.1 event-collector.analytics.onedio.com
 127.0.0.1 events.bitaksi.com
@@ -106,6 +109,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 gez.io
 127.0.0.1 gmgreklam.com
 127.0.0.1 gtm.lidyana.com
+127.0.0.1 hellosmpl.com
 127.0.0.1 hepsiads-bff.hepsiburada.com
 127.0.0.1 hepsiads-gw.hepsiburada.com
 127.0.0.1 hepsiads-ui.hepsiburada.com
@@ -115,10 +119,12 @@ ff02::3 ip6-allhosts
 127.0.0.1 hits.tv8.com.tr
 127.0.0.1 hodor-collect.arabam.com
 127.0.0.1 hstats.hepsiburada.com
+127.0.0.1 improvedigital.com
 127.0.0.1 indirads.org
 127.0.0.1 indirads.work
 127.0.0.1 instana.fibabanka.com.tr
 127.0.0.1 iplocation-api.wp.trt.com.tr
+127.0.0.1 isortagim.hangikredi.com
 127.0.0.1 istat.izlesene.com
 127.0.0.1 istat.nktcdn.com
 127.0.0.1 istatistik.arabam.com
@@ -147,6 +153,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 outstream.cdn.vidyome.com
 127.0.0.1 personaclick.com
 127.0.0.1 perzonalization.com
+127.0.0.1 pixel.hangikredi.com
 127.0.0.1 pixels-1.ingbank.com.tr
 127.0.0.1 pixels.ingbank.com.tr
 127.0.0.1 pnsdkapi.turktelekom.com.tr
