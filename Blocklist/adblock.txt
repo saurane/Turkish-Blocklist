@@ -2,8 +2,8 @@
 ! Description: Turkish based ad and tracker domain name blocking project.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 205
-! Updated: 11 Jul 2022 9:30:18 PM
+! Entries: 212
+! Updated: 12 Jul 2022 10:29:11 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -39,6 +39,7 @@
 ||adsp.haberturk.com^
 ||adtarget.com.tr^
 ||adworld.com.tr^
+||affiliate.migros.com.tr^
 ||aip-cdn.sozcu.com.tr^
 ||aip2.sozcu.com.tr^
 ||analytic.turkiyefinans.com.tr^
@@ -72,6 +73,7 @@
 ||datacollection.beymen.com^
 ||dataroid.com^
 ||dengage.com^
+||developer.kuveytturk.com.tr^
 ||doganburda.com^
 ||dogus-ads-cdn.dygdigital.com^
 ||dygadtech.com^
@@ -79,6 +81,7 @@
 ||efilli.com^
 ||enhencer.com^
 ||eum.ing.com.tr^
+||eum.kuveytturk.com.tr^
 ||euromsg.com^
 ||event-collector.analytics.onedio.com^
 ||events.bitaksi.com^
@@ -92,6 +95,7 @@
 ||gez.io^
 ||gmgreklam.com^
 ||gtm.lidyana.com^
+||hellosmpl.com^
 ||hepsiads-bff.hepsiburada.com^
 ||hepsiads-gw.hepsiburada.com^
 ||hepsiads-ui.hepsiburada.com^
@@ -101,10 +105,12 @@
 ||hits.tv8.com.tr^
 ||hodor-collect.arabam.com^
 ||hstats.hepsiburada.com^
+||improvedigital.com^
 ||indirads.org^
 ||indirads.work^
 ||instana.fibabanka.com.tr^
 ||iplocation-api.wp.trt.com.tr^
+||isortagim.hangikredi.com^
 ||istat.izlesene.com^
 ||istat.nktcdn.com^
 ||istatistik.arabam.com^
@@ -133,6 +139,7 @@
 ||outstream.cdn.vidyome.com^
 ||personaclick.com^
 ||perzonalization.com^
+||pixel.hangikredi.com^
 ||pixels-1.ingbank.com.tr^
 ||pixels.ingbank.com.tr^
 ||pnsdkapi.turktelekom.com.tr^
