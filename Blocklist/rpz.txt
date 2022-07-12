@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 205
-# Updated: 11 Jul 2022 9:30:18 PM
+# Entries: 212
+# Updated: 12 Jul 2022 10:29:11 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -70,6 +70,8 @@ adtarget.com.tr CNAME .
 *.adtarget.com.tr CNAME .
 adworld.com.tr CNAME .
 *.adworld.com.tr CNAME .
+affiliate.migros.com.tr CNAME .
+*.affiliate.migros.com.tr CNAME .
 aip-cdn.sozcu.com.tr CNAME .
 *.aip-cdn.sozcu.com.tr CNAME .
 aip2.sozcu.com.tr CNAME .
@@ -136,6 +138,8 @@ dataroid.com CNAME .
 *.dataroid.com CNAME .
 dengage.com CNAME .
 *.dengage.com CNAME .
+developer.kuveytturk.com.tr CNAME .
+*.developer.kuveytturk.com.tr CNAME .
 doganburda.com CNAME .
 *.doganburda.com CNAME .
 dogus-ads-cdn.dygdigital.com CNAME .
@@ -150,6 +154,8 @@ enhencer.com CNAME .
 *.enhencer.com CNAME .
 eum.ing.com.tr CNAME .
 *.eum.ing.com.tr CNAME .
+eum.kuveytturk.com.tr CNAME .
+*.eum.kuveytturk.com.tr CNAME .
 euromsg.com CNAME .
 *.euromsg.com CNAME .
 event-collector.analytics.onedio.com CNAME .
@@ -176,6 +182,8 @@ gmgreklam.com CNAME .
 *.gmgreklam.com CNAME .
 gtm.lidyana.com CNAME .
 *.gtm.lidyana.com CNAME .
+hellosmpl.com CNAME .
+*.hellosmpl.com CNAME .
 hepsiads-bff.hepsiburada.com CNAME .
 *.hepsiads-bff.hepsiburada.com CNAME .
 hepsiads-gw.hepsiburada.com CNAME .
@@ -194,6 +202,8 @@ hodor-collect.arabam.com CNAME .
 *.hodor-collect.arabam.com CNAME .
 hstats.hepsiburada.com CNAME .
 *.hstats.hepsiburada.com CNAME .
+improvedigital.com CNAME .
+*.improvedigital.com CNAME .
 indirads.org CNAME .
 *.indirads.org CNAME .
 indirads.work CNAME .
@@ -202,6 +212,8 @@ instana.fibabanka.com.tr CNAME .
 *.instana.fibabanka.com.tr CNAME .
 iplocation-api.wp.trt.com.tr CNAME .
 *.iplocation-api.wp.trt.com.tr CNAME .
+isortagim.hangikredi.com CNAME .
+*.isortagim.hangikredi.com CNAME .
 istat.izlesene.com CNAME .
 *.istat.izlesene.com CNAME .
 istat.nktcdn.com CNAME .
@@ -258,6 +270,8 @@ personaclick.com CNAME .
 *.personaclick.com CNAME .
 perzonalization.com CNAME .
 *.perzonalization.com CNAME .
+pixel.hangikredi.com CNAME .
+*.pixel.hangikredi.com CNAME .
 pixels-1.ingbank.com.tr CNAME .
 *.pixels-1.ingbank.com.tr CNAME .
 pixels.ingbank.com.tr CNAME .
