@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 205
-# Updated: 11 Jul 2022 9:30:18 PM
+# Entries: 212
+# Updated: 12 Jul 2022 10:29:11 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -53,6 +53,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsp.haberturk.com
 0.0.0.0 adtarget.com.tr
 0.0.0.0 adworld.com.tr
+0.0.0.0 affiliate.migros.com.tr
 0.0.0.0 aip-cdn.sozcu.com.tr
 0.0.0.0 aip2.sozcu.com.tr
 0.0.0.0 analytic.turkiyefinans.com.tr
@@ -86,6 +87,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 datacollection.beymen.com
 0.0.0.0 dataroid.com
 0.0.0.0 dengage.com
+0.0.0.0 developer.kuveytturk.com.tr
 0.0.0.0 doganburda.com
 0.0.0.0 dogus-ads-cdn.dygdigital.com
 0.0.0.0 dygadtech.com
@@ -93,6 +95,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 efilli.com
 0.0.0.0 enhencer.com
 0.0.0.0 eum.ing.com.tr
+0.0.0.0 eum.kuveytturk.com.tr
 0.0.0.0 euromsg.com
 0.0.0.0 event-collector.analytics.onedio.com
 0.0.0.0 events.bitaksi.com
@@ -106,6 +109,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gez.io
 0.0.0.0 gmgreklam.com
 0.0.0.0 gtm.lidyana.com
+0.0.0.0 hellosmpl.com
 0.0.0.0 hepsiads-bff.hepsiburada.com
 0.0.0.0 hepsiads-gw.hepsiburada.com
 0.0.0.0 hepsiads-ui.hepsiburada.com
@@ -115,10 +119,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 hits.tv8.com.tr
 0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
+0.0.0.0 improvedigital.com
 0.0.0.0 indirads.org
 0.0.0.0 indirads.work
 0.0.0.0 instana.fibabanka.com.tr
 0.0.0.0 iplocation-api.wp.trt.com.tr
+0.0.0.0 isortagim.hangikredi.com
 0.0.0.0 istat.izlesene.com
 0.0.0.0 istat.nktcdn.com
 0.0.0.0 istatistik.arabam.com
@@ -147,6 +153,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 outstream.cdn.vidyome.com
 0.0.0.0 personaclick.com
 0.0.0.0 perzonalization.com
+0.0.0.0 pixel.hangikredi.com
 0.0.0.0 pixels-1.ingbank.com.tr
 0.0.0.0 pixels.ingbank.com.tr
 0.0.0.0 pnsdkapi.turktelekom.com.tr
