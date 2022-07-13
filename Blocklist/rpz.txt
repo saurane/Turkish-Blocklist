@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 212
-# Updated: 12 Jul 2022 10:29:11 PM
+# Entries: 215
+# Updated: 13 Jul 2022 10:37:00 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -432,4 +432,10 @@ widget.haberler.com CNAME .
 *.widget.haberler.com CNAME .
 xenn.io CNAME .
 *.xenn.io CNAME .
+so.n11.com CNAME .
+*.so.n11.com CNAME .
+ipr.n11.com CNAME .
+*.ipr.n11.com CNAME .
+h.n11.com CNAME .
+*.h.n11.com CNAME .
 
