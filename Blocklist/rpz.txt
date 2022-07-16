@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 215
-# Updated: 13 Jul 2022 10:37:00 PM
+# Entries: 217
+# Updated: 16 Jul 2022 2:08:24 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -182,6 +182,8 @@ gmgreklam.com CNAME .
 *.gmgreklam.com CNAME .
 gtm.lidyana.com CNAME .
 *.gtm.lidyana.com CNAME .
+h.n11.com CNAME .
+*.h.n11.com CNAME .
 hellosmpl.com CNAME .
 *.hellosmpl.com CNAME .
 hepsiads-bff.hepsiburada.com CNAME .
@@ -212,6 +214,8 @@ instana.fibabanka.com.tr CNAME .
 *.instana.fibabanka.com.tr CNAME .
 iplocation-api.wp.trt.com.tr CNAME .
 *.iplocation-api.wp.trt.com.tr CNAME .
+ipr.n11.com CNAME .
+*.ipr.n11.com CNAME .
 isortagim.hangikredi.com CNAME .
 *.isortagim.hangikredi.com CNAME .
 istat.izlesene.com CNAME .
@@ -248,6 +252,8 @@ metrics.egencia.com.tr CNAME .
 *.metrics.egencia.com.tr CNAME .
 mndtrk.com CNAME .
 *.mndtrk.com CNAME .
+myikas.com CNAME .
+*.myikas.com CNAME .
 mynetreklam.com CNAME .
 *.mynetreklam.com CNAME .
 nativespot.com CNAME .
@@ -342,6 +348,8 @@ smetrics.kone.com.tr CNAME .
 *.smetrics.kone.com.tr CNAME .
 smetrics.vodafone.com.tr CNAME .
 *.smetrics.vodafone.com.tr CNAME .
+so.n11.com CNAME .
+*.so.n11.com CNAME .
 sociaplus.com CNAME .
 *.sociaplus.com CNAME .
 sortext.com CNAME .
@@ -430,12 +438,8 @@ widget.cdn.vidyome.com CNAME .
 *.widget.cdn.vidyome.com CNAME .
 widget.haberler.com CNAME .
 *.widget.haberler.com CNAME .
+widget.yenimedya.com.tr CNAME .
+*.widget.yenimedya.com.tr CNAME .
 xenn.io CNAME .
 *.xenn.io CNAME .
-so.n11.com CNAME .
-*.so.n11.com CNAME .
-ipr.n11.com CNAME .
-*.ipr.n11.com CNAME .
-h.n11.com CNAME .
-*.h.n11.com CNAME .
 
