@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
-# Entries: 215
-# Updated: 13 Jul 2022 10:37:00 PM
+# Entries: 217
+# Updated: 16 Jul 2022 2:08:24 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -109,6 +109,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 gez.io
 127.0.0.1 gmgreklam.com
 127.0.0.1 gtm.lidyana.com
+127.0.0.1 h.n11.com
 127.0.0.1 hellosmpl.com
 127.0.0.1 hepsiads-bff.hepsiburada.com
 127.0.0.1 hepsiads-gw.hepsiburada.com
@@ -124,6 +125,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 indirads.work
 127.0.0.1 instana.fibabanka.com.tr
 127.0.0.1 iplocation-api.wp.trt.com.tr
+127.0.0.1 ipr.n11.com
 127.0.0.1 isortagim.hangikredi.com
 127.0.0.1 istat.izlesene.com
 127.0.0.1 istat.nktcdn.com
@@ -142,6 +144,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 medyanetads.com
 127.0.0.1 metrics.egencia.com.tr
 127.0.0.1 mndtrk.com
+127.0.0.1 myikas.com
 127.0.0.1 mynetreklam.com
 127.0.0.1 nativespot.com
 127.0.0.1 netmera-web.com
@@ -189,6 +192,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 signals.turkcell.com.tr
 127.0.0.1 smetrics.kone.com.tr
 127.0.0.1 smetrics.vodafone.com.tr
+127.0.0.1 so.n11.com
 127.0.0.1 sociaplus.com
 127.0.0.1 sortext.com
 127.0.0.1 sqgz.generalmobile.com
@@ -233,8 +237,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 webstats.garanti.com.tr
 127.0.0.1 widget.cdn.vidyome.com
 127.0.0.1 widget.haberler.com
+127.0.0.1 widget.yenimedya.com.tr
 127.0.0.1 xenn.io
-127.0.0.1 so.n11.com
-127.0.0.1 ipr.n11.com
-127.0.0.1 h.n11.com
 
