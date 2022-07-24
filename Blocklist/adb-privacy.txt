@@ -2,13 +2,17 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: -
-! Updated: -
+! Entries: 47
+! Updated: 24 Jul 2022 11:15:47 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !
 !BETA VERSION
+!
+!koton mncdn  beta
+||mncdn.com/_ui/desktop/common/js/acc.track.js
+||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js
 !
 !n11.com
 ||n11scdn.akamaized.net/adrum.js
@@ -20,15 +24,16 @@
 ||shbdn.com/assets/prebid*.js
 ||static.sahibinden.com/assets/analytics*.js$important
 !
+||atasay.com/sw.js
 ||hepsiburada.net/webtrekk^
-||cdn.e-devlet.gov.tr/themes/ankara/js/analitik*.js
+||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||tubitak.gov.tr/sites/all/modules/google_analytics^
 ||sozcucdn.com/widgets/widget-analytics^
 ||sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*.js
-||s.turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
-||s.turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
+||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
 ||turk.net/wp-content/plugins/duracelltomi-google-tag-manager^
-||fns.modanisa.com/al/j/analytics.js
+||modanisa.com/al/j/analytics.js
 ||ciceksepeti.com/partytown-proxy*
 ||diken.com.tr/wp-content/plugins/google-analytics-premium^
 ||hosting.com.tr/web/assets/js/kepler_events.js
@@ -51,10 +56,12 @@
 ||ing.com.tr/documents/IngBank/assets/js/AppMeasurement_v*.js
 !
 !THIRD PARTY
-!||glami.com.tr/*?k=$third-party !Will be checked again [GLAMI]
 ||glami.com.tr$third-party
 ||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
+||daion-static.ercdn.net/dev/openvv.js$third-party
+||daion-static.ercdn.net/omsdk^$third-party
+||dogus.daioncdn.net/events^$third-party
 ||cdn.tooplay.com/network/player/comscore.js$third-party
 ||cdn.md/js5/Mackolik/Analytics.js$third-party
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
