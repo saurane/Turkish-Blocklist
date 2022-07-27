@@ -3,42 +3,44 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 54
-! Updated: 27 Jul 2022 8:36:13 PM
+! Updated: 27 Jul 2022 10:30:28 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !
-!n11.com
 ||n11scdn.akamaized.net/adrum.js
 ||n11scdn.akamaized.net/custom/athena^
 ||n11scdn.akamaized.net/assets/javascripts/ha.js
 !
-!sahibinden.com
 ||shbdn.com/api/*sentry_key*
 ||shbdn.com/assets/prebid*.js
-||static.sahibinden.com/assets/analytics*.js$important
+||sahibinden.com/assets/analytics*.js$important
 !
-||hurriyet.com.tr/banalytics.js
 ||atasay.com/sw.js
 ||hepsiburada.net/webtrekk^
-||e-devlet.gov.tr/themes/ankara/js/analitik*.js
-||tubitak.gov.tr/sites/all/modules/google_analytics^
-||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
-||sozcucdn.com/widgets/widget-analytics^
-||sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*.js
-||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
-||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
+||hurriyet.com.tr/banalytics.js
 ||modanisa.com/al/j/analytics.js
 ||ciceksepeti.com/partytown-proxy*
-||diken.com.tr/wp-content/plugins/google-analytics-premium^
-||hosting.com.tr/web/assets/js/kepler_events.js
-||ucuzabilet.com/ajax/referrerAnalytics^
+||e-devlet.gov.tr/themes/ankara/js/analitik*.js
+||tubitak.gov.tr/sites/all/modules/google_analytics^
+||sozcucdn.com/widgets/widget-analytics^
+||sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*.js
+||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
+||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
+||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+!
+!
+!
+!
 ||ucakbileti.com/Analytics^
+||ucuzabilet.com/ajax/referrerAnalytics^
 ||ticimax.com/api/Content/ReklamCookie
+||sephora.com.tr/*/jscript/dwanalytics-*.js
 ||ticimax.com/Version/*/ticimax/analytics.js
+||hosting.com.tr/web/assets/js/kepler_events.js
+||diken.com.tr/wp-content/plugins/google-analytics-premium^
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
-||sephora.com.tr/*/jscript/dwanalytics-*.js
 !
 !UNIFIED RULES
 /event$domain=obilet.com|biletall.com
@@ -56,18 +58,18 @@
 !
 !THIRD PARTY
 ||glami.com.tr$third-party
+||daioncdn.net/events$third-party
+||ercdn.net/omsdk^$third-party
+||ercdn.net/dev/openvv.js$third-party
+||daioncdn.net/events^$third-party
 ||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.track.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js$third-party
-||daion-static.ercdn.net/dev/openvv.js$third-party
-||daion-static.ercdn.net/omsdk^$third-party
-||dogus.daioncdn.net/events^$third-party
-||cdn.tooplay.com/network/player/comscore.js$third-party
 ||cdn.md/js5/Mackolik/Analytics.js$third-party
+||tooplay.com/network/player/comscore.js$third-party
+||tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
-||i.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
-||trkvz.daioncdn.net/events$third-party
 !
 !FOREIGN WEBSITES WITH .com.tr EXTENSION
 ||tripadvisor.com.tr/MetricsAjax
