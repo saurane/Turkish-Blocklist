@@ -2,17 +2,11 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 47
-! Updated: 24 Jul 2022 11:15:47 PM
+! Entries: 54
+! Updated: 27 Jul 2022 8:36:13 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
-!
-!BETA VERSION
-!
-!koton mncdn  beta
-||mncdn.com/_ui/desktop/common/js/acc.track.js
-||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js
 !
 !n11.com
 ||n11scdn.akamaized.net/adrum.js
@@ -24,15 +18,16 @@
 ||shbdn.com/assets/prebid*.js
 ||static.sahibinden.com/assets/analytics*.js$important
 !
+||hurriyet.com.tr/banalytics.js
 ||atasay.com/sw.js
 ||hepsiburada.net/webtrekk^
 ||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||tubitak.gov.tr/sites/all/modules/google_analytics^
+||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
 ||sozcucdn.com/widgets/widget-analytics^
 ||sozcucdn.com/wp-content/themes/Sozcu_V4/assets/js/prebid*.js
 ||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
 ||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
-||turk.net/wp-content/plugins/duracelltomi-google-tag-manager^
 ||modanisa.com/al/j/analytics.js
 ||ciceksepeti.com/partytown-proxy*
 ||diken.com.tr/wp-content/plugins/google-analytics-premium^
@@ -41,11 +36,15 @@
 ||ucakbileti.com/Analytics^
 ||ticimax.com/api/Content/ReklamCookie
 ||ticimax.com/Version/*/ticimax/analytics.js
+||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
+||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
+||sephora.com.tr/*/jscript/dwanalytics-*.js
 !
-!SHORTENED RULES
+!UNIFIED RULES
 /event$domain=obilet.com|biletall.com
 /dynamics/geoipj$domain=showtv.com.tr|haberturk.com
-/akam/*/pixel_*$domain=turkishairlines.com|ciceksepeti.com|modanisa.com
+/duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr
+/akam/*/pixel_*$domain=turkishairlines.com|ciceksepeti.com|modanisa.com|sephora.com.tr
 /shared/js/analyticsmediator.js$domain=arcelik.com.tr|avansas.com|mopas.com.tr
 !
 !WEBSITES OF BANKS
@@ -59,6 +58,8 @@
 ||glami.com.tr$third-party
 ||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
+||mncdn.com/_ui/desktop/common/js/acc.track.js$third-party
+||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js$third-party
 ||daion-static.ercdn.net/dev/openvv.js$third-party
 ||daion-static.ercdn.net/omsdk^$third-party
 ||dogus.daioncdn.net/events^$third-party
@@ -66,8 +67,12 @@
 ||cdn.md/js5/Mackolik/Analytics.js$third-party
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
 ||i.tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
+||trkvz.daioncdn.net/events$third-party
 !
 !FOREIGN WEBSITES WITH .com.tr EXTENSION
 ||tripadvisor.com.tr/MetricsAjax
 ||tripadvisor.com.tr/*common.tracking-bridge
 ||tacdn.com/js3/build/concat/taevents-*.js
+!
+!EXPERIMENTAL
+||cdn.yapaytech.com/ytag/script.js
