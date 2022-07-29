@@ -2,8 +2,8 @@
 ! Description: Turkish based ad and tracker domain name blocking project.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 223
-! Updated: 27 Jul 2022 8:37:30 PM
+! Entries: 224
+! Updated: 29 Jul 2022 3:21:25 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -129,7 +129,6 @@
 ||medyanative.com^
 ||medyanetads.com^
 ||metrics.egencia.com.tr^
-||mndtrk.com^
 ||myikas.com^
 ||mynetreklam.com^
 ||nativespot.com^
@@ -231,4 +230,6 @@
 ||imgvisilabsnet.azureedge.net^
 ||medyanet-com-tr.videoplayerhub.com^
 ||marsmedia.azurewebsites.net^
+||admaticcdn.b-cdn.net^
+||admatic.mgr.consensu.org^
 
