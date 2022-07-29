@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 223
-# Updated: 27 Jul 2022 8:37:30 PM
+# Entries: 224
+# Updated: 29 Jul 2022 3:21:25 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -143,7 +143,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 medyanative.com
 0.0.0.0 medyanetads.com
 0.0.0.0 metrics.egencia.com.tr
-0.0.0.0 mndtrk.com
 0.0.0.0 myikas.com
 0.0.0.0 mynetreklam.com
 0.0.0.0 nativespot.com
@@ -245,4 +244,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 imgvisilabsnet.azureedge.net
 0.0.0.0 medyanet-com-tr.videoplayerhub.com
 0.0.0.0 marsmedia.azurewebsites.net
+0.0.0.0 admaticcdn.b-cdn.net
+0.0.0.0 admatic.mgr.consensu.org
 
