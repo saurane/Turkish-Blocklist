@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 224
-# Updated: 29 Jul 2022 3:21:25 PM
+# Entries: 227
+# Updated: 30 Jul 2022 2:01:31 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -92,6 +92,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dogus-ads-cdn.dygdigital.com
 0.0.0.0 dygadtech.com
 0.0.0.0 dygassets.dygdigital.com
+0.0.0.0 edge-sentry-box.otelz.com
 0.0.0.0 efilli.com
 0.0.0.0 enhencer.com
 0.0.0.0 eum.ing.com.tr
@@ -107,7 +108,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 geoim.bloomberght.com
 0.0.0.0 geoloc.hurriyet.com.tr
 0.0.0.0 gez.io
+0.0.0.0 glamipixel.com
 0.0.0.0 gmgreklam.com
+0.0.0.0 gtm.flo.com.tr
 0.0.0.0 gtm.lidyana.com
 0.0.0.0 h.n11.com
 0.0.0.0 hellosmpl.com
@@ -132,6 +135,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 istatistik.arabam.com
 0.0.0.0 istatistik.gazetevatan.com
 0.0.0.0 istatistik.trthaber.com
+0.0.0.0 jbexception.kariyer.net
 0.0.0.0 log.haberturk.com
 0.0.0.0 log.newsbreak.com.tr
 0.0.0.0 log.yapaytech.com
@@ -176,6 +180,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 revenueflex.com
 0.0.0.0 revotas.com
 0.0.0.0 rum.ibb.gov.tr
+0.0.0.0 s.duhnet.tv
 0.0.0.0 s.fullhdfilmizlesene.com
 0.0.0.0 say.ac
 0.0.0.0 sayac.tmgrup.com.tr
@@ -206,6 +211,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.videoseyred.in
 0.0.0.0 stats.vidyome.com
 0.0.0.0 stats.yenicaggazetesi.com.tr
+0.0.0.0 statsapi.tiendeo.com.tr
 0.0.0.0 subservis.com
 0.0.0.0 t.enuygun.com
 0.0.0.0 t.lidyana.com
@@ -237,13 +243,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.haberler.com
 0.0.0.0 widget.yenimedya.com.tr
-0.0.0.0 gtm.flo.com.tr
 0.0.0.0 xenn.io
-0.0.0.0 glamipixel.com
-0.0.0.0 jbexception.kariyer.net
-0.0.0.0 imgvisilabsnet.azureedge.net
-0.0.0.0 medyanet-com-tr.videoplayerhub.com
-0.0.0.0 marsmedia.azurewebsites.net
 0.0.0.0 admaticcdn.b-cdn.net
 0.0.0.0 admatic.mgr.consensu.org
+0.0.0.0 marsmedia.azurewebsites.net
+0.0.0.0 imgvisilabsnet.azureedge.net
+0.0.0.0 medyanet-com-tr.videoplayerhub.com
 
