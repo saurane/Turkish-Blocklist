@@ -2,8 +2,8 @@
 ! Description: Turkish based ad and tracker domain name blocking project.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 224
-! Updated: 29 Jul 2022 3:21:25 PM
+! Entries: 227
+! Updated: 30 Jul 2022 2:01:31 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -78,6 +78,7 @@
 ||dogus-ads-cdn.dygdigital.com^
 ||dygadtech.com^
 ||dygassets.dygdigital.com^
+||edge-sentry-box.otelz.com^
 ||efilli.com^
 ||enhencer.com^
 ||eum.ing.com.tr^
@@ -93,7 +94,9 @@
 ||geoim.bloomberght.com^
 ||geoloc.hurriyet.com.tr^
 ||gez.io^
+||glamipixel.com^
 ||gmgreklam.com^
+||gtm.flo.com.tr^
 ||gtm.lidyana.com^
 ||h.n11.com^
 ||hellosmpl.com^
@@ -118,6 +121,7 @@
 ||istatistik.arabam.com^
 ||istatistik.gazetevatan.com^
 ||istatistik.trthaber.com^
+||jbexception.kariyer.net^
 ||log.haberturk.com^
 ||log.newsbreak.com.tr^
 ||log.yapaytech.com^
@@ -162,6 +166,7 @@
 ||revenueflex.com^
 ||revotas.com^
 ||rum.ibb.gov.tr^
+||s.duhnet.tv^
 ||s.fullhdfilmizlesene.com^
 ||say.ac^
 ||sayac.tmgrup.com.tr^
@@ -192,6 +197,7 @@
 ||stats.videoseyred.in^
 ||stats.vidyome.com^
 ||stats.yenicaggazetesi.com.tr^
+||statsapi.tiendeo.com.tr^
 ||subservis.com^
 ||t.enuygun.com^
 ||t.lidyana.com^
@@ -223,13 +229,10 @@
 ||widget.cdn.vidyome.com^
 ||widget.haberler.com^
 ||widget.yenimedya.com.tr^
-||gtm.flo.com.tr^
 ||xenn.io^
-||glamipixel.com^
-||jbexception.kariyer.net^
-||imgvisilabsnet.azureedge.net^
-||medyanet-com-tr.videoplayerhub.com^
-||marsmedia.azurewebsites.net^
 ||admaticcdn.b-cdn.net^
 ||admatic.mgr.consensu.org^
+||marsmedia.azurewebsites.net^
+||imgvisilabsnet.azureedge.net^
+||medyanet-com-tr.videoplayerhub.com^
 
