@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
-# Entries: 224
-# Updated: 29 Jul 2022 3:21:25 PM
+# Entries: 227
+# Updated: 30 Jul 2022 2:01:31 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -92,6 +92,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 dogus-ads-cdn.dygdigital.com
 127.0.0.1 dygadtech.com
 127.0.0.1 dygassets.dygdigital.com
+127.0.0.1 edge-sentry-box.otelz.com
 127.0.0.1 efilli.com
 127.0.0.1 enhencer.com
 127.0.0.1 eum.ing.com.tr
@@ -107,7 +108,9 @@ ff02::3 ip6-allhosts
 127.0.0.1 geoim.bloomberght.com
 127.0.0.1 geoloc.hurriyet.com.tr
 127.0.0.1 gez.io
+127.0.0.1 glamipixel.com
 127.0.0.1 gmgreklam.com
+127.0.0.1 gtm.flo.com.tr
 127.0.0.1 gtm.lidyana.com
 127.0.0.1 h.n11.com
 127.0.0.1 hellosmpl.com
@@ -132,6 +135,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 istatistik.arabam.com
 127.0.0.1 istatistik.gazetevatan.com
 127.0.0.1 istatistik.trthaber.com
+127.0.0.1 jbexception.kariyer.net
 127.0.0.1 log.haberturk.com
 127.0.0.1 log.newsbreak.com.tr
 127.0.0.1 log.yapaytech.com
@@ -176,6 +180,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 revenueflex.com
 127.0.0.1 revotas.com
 127.0.0.1 rum.ibb.gov.tr
+127.0.0.1 s.duhnet.tv
 127.0.0.1 s.fullhdfilmizlesene.com
 127.0.0.1 say.ac
 127.0.0.1 sayac.tmgrup.com.tr
@@ -206,6 +211,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 stats.videoseyred.in
 127.0.0.1 stats.vidyome.com
 127.0.0.1 stats.yenicaggazetesi.com.tr
+127.0.0.1 statsapi.tiendeo.com.tr
 127.0.0.1 subservis.com
 127.0.0.1 t.enuygun.com
 127.0.0.1 t.lidyana.com
@@ -237,13 +243,10 @@ ff02::3 ip6-allhosts
 127.0.0.1 widget.cdn.vidyome.com
 127.0.0.1 widget.haberler.com
 127.0.0.1 widget.yenimedya.com.tr
-127.0.0.1 gtm.flo.com.tr
 127.0.0.1 xenn.io
-127.0.0.1 glamipixel.com
-127.0.0.1 jbexception.kariyer.net
-127.0.0.1 imgvisilabsnet.azureedge.net
-127.0.0.1 medyanet-com-tr.videoplayerhub.com
-127.0.0.1 marsmedia.azurewebsites.net
 127.0.0.1 admaticcdn.b-cdn.net
 127.0.0.1 admatic.mgr.consensu.org
+127.0.0.1 marsmedia.azurewebsites.net
+127.0.0.1 imgvisilabsnet.azureedge.net
+127.0.0.1 medyanet-com-tr.videoplayerhub.com
 
