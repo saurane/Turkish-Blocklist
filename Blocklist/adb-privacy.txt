@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 74
-! Updated: 30 Jul 2022 2:01:12 PM
+! Entries: 79
+! Updated: 30 Jul 2022 4:38:51 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -23,6 +23,8 @@
 ||webtekno.com/ajax/ometric^
 ||hepsiburada.net/webtrekk^
 ||modanisa.com/al/j/analytics.js
+||hurpass.com/async/CreateCookieSSO
+||reeder.com.tr/*/js/tracking.min.js
 ||vatanbilgisayar.com/Scripts/GTM.js
 ||fenerbahce.org/cmsapi/webanalytics^
 ||sozcucdn.com/widgets/widget-analytics^
@@ -38,29 +40,30 @@
 !
 ||ucakbileti.com/Analytics^
 ||ucuzabilet.com/ajax/referrerAnalytics^
-||ticimax.com/api/Content/ReklamCookie
 ||canliradyodinle.fm/live/fm/gtag.min.js
 ||sephora.com.tr/*/jscript/dwanalytics-*.js
 ||ticimax.com/Version/*/ticimax/analytics.js
 ||hosting.com.tr/web/assets/js/kepler_events.js
 ||darbeturk.net/clientscript/yui/yahoo-dom-event^
 ||kayiprihtim.com/assets/google-universal-analytics
+||ideasoft.com.tr/wp-content/plugins/pixelyoursite^
 ||diken.com.tr/wp-content/plugins/google-analytics-premium^
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
 !
 !UNIFIED RULES
+/gtm.js$domain=alastyr.com|btcturk.com
+/gtag.js$domain=alastyr.com|btcturk.com
 /event$domain=obilet.com|biletall.com
 /dynamics/geoipj$domain=showtv.com.tr|haberturk.com
 /banalytics.js$domain=milliyet.com.tr|hurriyet.com.tr
-/duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr
+/duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
 /akam/*/pixel_*$domain=turkishairlines.com|ciceksepeti.com|modanisa.com|sephora.com.tr
 /shared/js/analyticsmediator.js$domain=arcelik.com.tr|avansas.com|mopas.com.tr
 !
 !WEBSITES OF NEWS and TV CHANNELS
 ||haberler.com/mstatic/firebasejs^
 ||yeniakit.com.tr/process/analytics^
-||hurpass.com/async/CreateCookieSSO
 ||tvnet.com.tr/dist/js/Analytic.js
 ||tvnet.com.tr/dist/js/VisitorCookie.js
 !
@@ -72,12 +75,12 @@
 ||ing.com.tr/documents/IngBank/assets/js/AppMeasurement_v*.js
 !
 !THIRD PARTY
-||yapaytech.com/ytag/script.js
 ||glami.com.tr$third-party
 ||daioncdn.net/events$third-party
 ||ercdn.net/omsdk^$third-party
 ||ercdn.net/dev/openvv.js$third-party
 ||daioncdn.net/events^$third-party
+||yapaytech.com/ytag/script.js$third-party
 ||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.track.js$third-party
@@ -88,7 +91,7 @@
 ||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
 ||vidyome.com/vidyome/builds/comscore*.js$third-party
 !
-!FOREIGN WEBSITES WITH .com.tr EXTENSION
+!OTHER
 ||tripadvisor.com.tr/MetricsAjax
 ||tripadvisor.com.tr/*common.tracking-bridge
 ||tacdn.com/js3/build/concat/taevents-*.js
@@ -99,3 +102,5 @@
 !
 ||somposigorta.com.tr/web/tracker.js
 ||nescafe.com/tr/core/modules/statistics^
+||mediamarkt.com.tr/dt/ruxitagentjs*.js
+||mediamarkt.com.tr/rde_server/res/MMTR/event^
