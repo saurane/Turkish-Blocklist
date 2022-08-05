@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 79
-! Updated: 30 Jul 2022 4:38:51 PM
+! Entries: -
+! Updated: 5 Aug 2022 8:50:24 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -36,9 +36,11 @@
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
 ||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
 ||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+||hardlinenutrition.com/catalog/view/javascript/facebook_business/facebook_pixel_*.js
 !
 !
 ||ucakbileti.com/Analytics^
+||fullhdfilmizleten.org/analytics^
 ||ucuzabilet.com/ajax/referrerAnalytics^
 ||canliradyodinle.fm/live/fm/gtag.min.js
 ||sephora.com.tr/*/jscript/dwanalytics-*.js
@@ -48,8 +50,9 @@
 ||kayiprihtim.com/assets/google-universal-analytics
 ||ideasoft.com.tr/wp-content/plugins/pixelyoursite^
 ||diken.com.tr/wp-content/plugins/google-analytics-premium^
-||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
+||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
+||proteinsatinal.com/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag^
 !
 !UNIFIED RULES
 /gtm.js$domain=alastyr.com|btcturk.com
@@ -57,12 +60,15 @@
 /event$domain=obilet.com|biletall.com
 /dynamics/geoipj$domain=showtv.com.tr|haberturk.com
 /banalytics.js$domain=milliyet.com.tr|hurriyet.com.tr
-/duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
-/akam/*/pixel_*$domain=turkishairlines.com|ciceksepeti.com|modanisa.com|sephora.com.tr
 /shared/js/analyticsmediator.js$domain=arcelik.com.tr|avansas.com|mopas.com.tr
+/duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
+!
+!FINGERPRINT PROTECTION
+||otoplus.com/chunks/modern/desktop-FingerPrintWrapper.otoplus.*.js
 !
 !WEBSITES OF NEWS and TV CHANNELS
 ||haberler.com/mstatic/firebasejs^
+||sondakika.com/static/js/firebasejs^
 ||yeniakit.com.tr/process/analytics^
 ||tvnet.com.tr/dist/js/Analytic.js
 ||tvnet.com.tr/dist/js/VisitorCookie.js
@@ -80,6 +86,7 @@
 ||ercdn.net/omsdk^$third-party
 ||ercdn.net/dev/openvv.js$third-party
 ||daioncdn.net/events^$third-party
+||teimg.com/analytics.js$third-party
 ||yapaytech.com/ytag/script.js$third-party
 ||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
@@ -100,7 +107,9 @@
 ||trivago.com/tracking^
 ||trivago.com.tr/search/log
 !
+||momondo.com.tr/s/vestigo/v1/measure
 ||somposigorta.com.tr/web/tracker.js
 ||nescafe.com/tr/core/modules/statistics^
 ||mediamarkt.com.tr/dt/ruxitagentjs*.js
 ||mediamarkt.com.tr/rde_server/res/MMTR/event^
+!||kiwi.com/api/cookies^
