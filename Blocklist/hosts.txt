@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 229
-# Updated: 05 Aug 2022 8:50:07 PM
+# Entries: 231
+# Updated: 10 Aug 2022 9:40:12 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -61,6 +61,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.halkbank.com.tr
 0.0.0.0 analytics.rasyotek.com.tr
 0.0.0.0 analytics.tebilisim.com
+0.0.0.0 analyticsb2c.com
 0.0.0.0 api-stg.ensonhaber.com
 0.0.0.0 athena-event-provider.n11.com
 0.0.0.0 banner.tmgrup.com.tr
@@ -224,6 +225,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.tooplay.com
 0.0.0.0 tracker.blutv.com
 0.0.0.0 tracking.jotform.com
+0.0.0.0 trk.storyly.io
 0.0.0.0 tv8-reklam.ercdn.net
 0.0.0.0 tvlyzer.com
 0.0.0.0 useinsider.com
