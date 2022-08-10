@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 229
-# Updated: 05 Aug 2022 8:50:07 PM
+# Entries: 231
+# Updated: 10 Aug 2022 9:40:12 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -86,6 +86,8 @@ analytics.rasyotek.com.tr CNAME .
 *.analytics.rasyotek.com.tr CNAME .
 analytics.tebilisim.com CNAME .
 *.analytics.tebilisim.com CNAME .
+analyticsb2c.com CNAME .
+*.analyticsb2c.com CNAME .
 api-stg.ensonhaber.com CNAME .
 *.api-stg.ensonhaber.com CNAME .
 athena-event-provider.n11.com CNAME .
@@ -412,6 +414,8 @@ tracker.blutv.com CNAME .
 *.tracker.blutv.com CNAME .
 tracking.jotform.com CNAME .
 *.tracking.jotform.com CNAME .
+trk.storyly.io CNAME .
+*.trk.storyly.io CNAME .
 tv8-reklam.ercdn.net CNAME .
 *.tv8-reklam.ercdn.net CNAME .
 tvlyzer.com CNAME .
