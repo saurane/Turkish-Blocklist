@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: -
-! Updated: 5 Aug 2022 8:50:24 PM
+! Entries: 91
+! Updated: 11 Aug 2022 9:50:38 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -17,7 +17,13 @@
 !
 ||shbdn.com/api/*sentry_key*
 ||sahibinden.com/*/blueKai^$redirect=nooptext
-||sahibinden.com/assets/analytics*.js$important
+!Param güvende satışını engelliyor.
+@@||sahibinden.com/assets/analytics*.js$important
+!
+||penti.com/_ui/responsive/common/js/custom/ext/push_sw.js
+||penti.com/_ui/responsive/common/js/custom/acc.penti.personaclick.js
+||penti.com/_ui/responsive/common/js/custom/acc.penti.personaclick.head.js
+||penti.com/_ui/responsive/common/js/custom/acc.penti.googletagmanager.js
 !
 ||atasay.com/sw.js
 ||webtekno.com/ajax/ometric^
@@ -54,6 +60,9 @@
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||proteinsatinal.com/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag^
 !
+!recheck
+||mucitpanda.com/d.js
+!
 !UNIFIED RULES
 /gtm.js$domain=alastyr.com|btcturk.com
 /gtag.js$domain=alastyr.com|btcturk.com
@@ -88,8 +97,9 @@
 ||daioncdn.net/events^$third-party
 ||teimg.com/analytics.js$third-party
 ||yapaytech.com/ytag/script.js$third-party
-||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
+||mncdn.com/js/personaclick.js$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
+||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.track.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js$third-party
 ||cdn.md/js5/Mackolik/Analytics.js$third-party
@@ -112,4 +122,5 @@
 ||nescafe.com/tr/core/modules/statistics^
 ||mediamarkt.com.tr/dt/ruxitagentjs*.js
 ||mediamarkt.com.tr/rde_server/res/MMTR/event^
+||hm.com/tr_tr/metrics^
 !||kiwi.com/api/cookies^
