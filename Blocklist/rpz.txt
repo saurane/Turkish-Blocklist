@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 231
-# Updated: 10 Aug 2022 9:40:12 AM
+# Entries: 232
+# Updated: 11 Aug 2022 9:52:47 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -460,6 +460,8 @@ widget.yenimedya.com.tr CNAME .
 *.widget.yenimedya.com.tr CNAME .
 xenn.io CNAME .
 *.xenn.io CNAME .
+hstatstest.hepsiburada.com CNAME .
+*.hstatstest.hepsiburada.com CNAME .
 admaticcdn.b-cdn.net CNAME .
 *.admaticcdn.b-cdn.net CNAME .
 admatic.mgr.consensu.org CNAME .
