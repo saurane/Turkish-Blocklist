@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 232
-# Updated: 11 Aug 2022 9:52:47 AM
+# Entries: 238
+# Updated: 14 Aug 2022 12:33:08 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -32,6 +32,8 @@ adbuzz.com.tr CNAME .
 *.adbuzz.com.tr CNAME .
 addata.exxen.com CNAME .
 *.addata.exxen.com CNAME .
+adhood.com CNAME .
+*.adhood.com CNAME .
 adhouse.pro CNAME .
 *.adhouse.pro CNAME .
 adimage.media CNAME .
@@ -52,6 +54,8 @@ adplus.yaani.com.tr CNAME .
 *.adplus.yaani.com.tr CNAME .
 adpozitif.com CNAME .
 *.adpozitif.com CNAME .
+adrazzi.com CNAME .
+*.adrazzi.com CNAME .
 adreact.com CNAME .
 *.adreact.com CNAME .
 ads.dygdigital.com CNAME .
@@ -156,6 +160,10 @@ edge-sentry-box.otelz.com CNAME .
 *.edge-sentry-box.otelz.com CNAME .
 efilli.com CNAME .
 *.efilli.com CNAME .
+eksiup.com CNAME .
+*.eksiup.com CNAME .
+emarketingsuite.net CNAME .
+*.emarketingsuite.net CNAME .
 enhencer.com CNAME .
 *.enhencer.com CNAME .
 eum.ing.com.tr CNAME .
@@ -216,6 +224,8 @@ hodor-collect.arabam.com CNAME .
 *.hodor-collect.arabam.com CNAME .
 hstats.hepsiburada.com CNAME .
 *.hstats.hepsiburada.com CNAME .
+hstatstest.hepsiburada.com CNAME .
+*.hstatstest.hepsiburada.com CNAME .
 improvedigital.com CNAME .
 *.improvedigital.com CNAME .
 indirads.org CNAME .
@@ -258,6 +268,8 @@ marketing.turkiyefinans.com.tr CNAME .
 *.marketing.turkiyefinans.com.tr CNAME .
 medya.ilan.gov.tr CNAME .
 *.medya.ilan.gov.tr CNAME .
+medyaline.com.tr CNAME .
+*.medyaline.com.tr CNAME .
 medyanative.com CNAME .
 *.medyanative.com CNAME .
 medyanetads.com CNAME .
@@ -344,6 +356,8 @@ segmentify.com CNAME .
 *.segmentify.com CNAME .
 sentry.iddaa.com CNAME .
 *.sentry.iddaa.com CNAME .
+setrow.com CNAME .
+*.setrow.com CNAME .
 setrowid.com CNAME .
 *.setrowid.com CNAME .
 sgmntfy.com CNAME .
@@ -460,8 +474,6 @@ widget.yenimedya.com.tr CNAME .
 *.widget.yenimedya.com.tr CNAME .
 xenn.io CNAME .
 *.xenn.io CNAME .
-hstatstest.hepsiburada.com CNAME .
-*.hstatstest.hepsiburada.com CNAME .
 admaticcdn.b-cdn.net CNAME .
 *.admaticcdn.b-cdn.net CNAME .
 admatic.mgr.consensu.org CNAME .
