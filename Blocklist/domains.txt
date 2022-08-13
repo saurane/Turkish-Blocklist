@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Domains
-# Entries: 232
-# Updated: 11 Aug 2022 9:52:47 AM
+# Entries: 238
+# Updated: 14 Aug 2022 12:33:08 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -20,6 +20,7 @@ adbreak.com
 adbreak.net
 adbuzz.com.tr
 addata.exxen.com
+adhood.com
 adhouse.pro
 adimage.media
 adklik.com.tr
@@ -30,6 +31,7 @@ adnboost.com
 adplay.com.tr
 adplus.yaani.com.tr
 adpozitif.com
+adrazzi.com
 adreact.com
 ads.dygdigital.com
 ads.macskorlari.net
@@ -82,6 +84,8 @@ dygadtech.com
 dygassets.dygdigital.com
 edge-sentry-box.otelz.com
 efilli.com
+eksiup.com
+emarketingsuite.net
 enhencer.com
 eum.ing.com.tr
 eum.kuveytturk.com.tr
@@ -112,6 +116,7 @@ hits.acunn.com
 hits.tv8.com.tr
 hodor-collect.arabam.com
 hstats.hepsiburada.com
+hstatstest.hepsiburada.com
 improvedigital.com
 indirads.org
 indirads.work
@@ -133,6 +138,7 @@ makroo.haber7.net
 mark.isbank.com.tr
 marketing.turkiyefinans.com.tr
 medya.ilan.gov.tr
+medyaline.com.tr
 medyanative.com
 medyanetads.com
 metrics.egencia.com.tr
@@ -176,6 +182,7 @@ sayac.tmgrup.com.tr
 searchanalytics.turkcell.com.tr
 segmentify.com
 sentry.iddaa.com
+setrow.com
 setrowid.com
 sgmntfy.com
 sgtm.lcwaikiki.com
@@ -234,7 +241,6 @@ widget.cdn.vidyome.com
 widget.haberler.com
 widget.yenimedya.com.tr
 xenn.io
-hstatstest.hepsiburada.com
 admaticcdn.b-cdn.net
 admatic.mgr.consensu.org
 marsmedia.azurewebsites.net
