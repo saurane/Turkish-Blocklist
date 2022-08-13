@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 91
-! Updated: 11 Aug 2022 9:50:38 AM
+! Entries: 97
+! Updated: 14 Aug 2022 12:39:21 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -30,6 +30,7 @@
 ||hepsiburada.net/webtrekk^
 ||modanisa.com/al/j/analytics.js
 ||hurpass.com/async/CreateCookieSSO
+||hurriyet.com.tr/Scripts/clicks.js
 ||reeder.com.tr/*/js/tracking.min.js
 ||vatanbilgisayar.com/Scripts/GTM.js
 ||fenerbahce.org/cmsapi/webanalytics^
@@ -87,6 +88,7 @@
 ||enpara.com/Frontend/dist/bundle/gtm.js
 ||kuveytturk.com.tr/_assets/js/adrum-config.js
 ||fibabanka.com.tr/ResourcePackages/Fibabanka/assets/js/countly-events.js
+||ing.com.tr/assets/scripts/dataroid-websdk-v*.js
 ||ing.com.tr/documents/IngBank/assets/js/AppMeasurement_v*.js
 !
 !THIRD PARTY
@@ -97,16 +99,20 @@
 ||daioncdn.net/events^$third-party
 ||teimg.com/analytics.js$third-party
 ||yapaytech.com/ytag/script.js$third-party
+||cdn.md/js5/Mackolik/Analytics.js$third-party
 ||mncdn.com/js/personaclick.js$third-party
 ||mncdn.com/include/dynamic_click_tag.js$third-party
 ||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.track.js$third-party
 ||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js$third-party
-||cdn.md/js5/Mackolik/Analytics.js$third-party
 ||tooplay.com/network/player/comscore.js$third-party
 ||tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 ||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
 ||vidyome.com/vidyome/builds/comscore*.js$third-party
+!
+!GENERIC
+/*personaclick*$script
+/*dataroid*$script
 !
 !OTHER
 ||tripadvisor.com.tr/MetricsAjax
@@ -117,10 +123,10 @@
 ||trivago.com/tracking^
 ||trivago.com.tr/search/log
 !
+||kiwi.com/api/cookies^
+||hm.com/tr_tr/metrics^
 ||momondo.com.tr/s/vestigo/v1/measure
 ||somposigorta.com.tr/web/tracker.js
 ||nescafe.com/tr/core/modules/statistics^
 ||mediamarkt.com.tr/dt/ruxitagentjs*.js
 ||mediamarkt.com.tr/rde_server/res/MMTR/event^
-||hm.com/tr_tr/metrics^
-!||kiwi.com/api/cookies^
