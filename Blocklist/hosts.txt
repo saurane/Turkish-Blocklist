@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 232
-# Updated: 11 Aug 2022 9:52:47 AM
+# Entries: 238
+# Updated: 14 Aug 2022 12:33:08 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -34,6 +34,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adbreak.net
 0.0.0.0 adbuzz.com.tr
 0.0.0.0 addata.exxen.com
+0.0.0.0 adhood.com
 0.0.0.0 adhouse.pro
 0.0.0.0 adimage.media
 0.0.0.0 adklik.com.tr
@@ -44,6 +45,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adplay.com.tr
 0.0.0.0 adplus.yaani.com.tr
 0.0.0.0 adpozitif.com
+0.0.0.0 adrazzi.com
 0.0.0.0 adreact.com
 0.0.0.0 ads.dygdigital.com
 0.0.0.0 ads.macskorlari.net
@@ -96,6 +98,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dygassets.dygdigital.com
 0.0.0.0 edge-sentry-box.otelz.com
 0.0.0.0 efilli.com
+0.0.0.0 eksiup.com
+0.0.0.0 emarketingsuite.net
 0.0.0.0 enhencer.com
 0.0.0.0 eum.ing.com.tr
 0.0.0.0 eum.kuveytturk.com.tr
@@ -126,6 +130,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hits.tv8.com.tr
 0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
+0.0.0.0 hstatstest.hepsiburada.com
 0.0.0.0 improvedigital.com
 0.0.0.0 indirads.org
 0.0.0.0 indirads.work
@@ -147,6 +152,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mark.isbank.com.tr
 0.0.0.0 marketing.turkiyefinans.com.tr
 0.0.0.0 medya.ilan.gov.tr
+0.0.0.0 medyaline.com.tr
 0.0.0.0 medyanative.com
 0.0.0.0 medyanetads.com
 0.0.0.0 metrics.egencia.com.tr
@@ -190,6 +196,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 searchanalytics.turkcell.com.tr
 0.0.0.0 segmentify.com
 0.0.0.0 sentry.iddaa.com
+0.0.0.0 setrow.com
 0.0.0.0 setrowid.com
 0.0.0.0 sgmntfy.com
 0.0.0.0 sgtm.lcwaikiki.com
@@ -248,7 +255,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 widget.haberler.com
 0.0.0.0 widget.yenimedya.com.tr
 0.0.0.0 xenn.io
-0.0.0.0 hstatstest.hepsiburada.com
 0.0.0.0 admaticcdn.b-cdn.net
 0.0.0.0 admatic.mgr.consensu.org
 0.0.0.0 marsmedia.azurewebsites.net
