@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
-# Entries: 232
-# Updated: 11 Aug 2022 9:52:47 AM
+# Entries: 238
+# Updated: 14 Aug 2022 12:33:08 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -34,6 +34,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 adbreak.net
 127.0.0.1 adbuzz.com.tr
 127.0.0.1 addata.exxen.com
+127.0.0.1 adhood.com
 127.0.0.1 adhouse.pro
 127.0.0.1 adimage.media
 127.0.0.1 adklik.com.tr
@@ -44,6 +45,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 adplay.com.tr
 127.0.0.1 adplus.yaani.com.tr
 127.0.0.1 adpozitif.com
+127.0.0.1 adrazzi.com
 127.0.0.1 adreact.com
 127.0.0.1 ads.dygdigital.com
 127.0.0.1 ads.macskorlari.net
@@ -96,6 +98,8 @@ ff02::3 ip6-allhosts
 127.0.0.1 dygassets.dygdigital.com
 127.0.0.1 edge-sentry-box.otelz.com
 127.0.0.1 efilli.com
+127.0.0.1 eksiup.com
+127.0.0.1 emarketingsuite.net
 127.0.0.1 enhencer.com
 127.0.0.1 eum.ing.com.tr
 127.0.0.1 eum.kuveytturk.com.tr
@@ -126,6 +130,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 hits.tv8.com.tr
 127.0.0.1 hodor-collect.arabam.com
 127.0.0.1 hstats.hepsiburada.com
+127.0.0.1 hstatstest.hepsiburada.com
 127.0.0.1 improvedigital.com
 127.0.0.1 indirads.org
 127.0.0.1 indirads.work
@@ -147,6 +152,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 mark.isbank.com.tr
 127.0.0.1 marketing.turkiyefinans.com.tr
 127.0.0.1 medya.ilan.gov.tr
+127.0.0.1 medyaline.com.tr
 127.0.0.1 medyanative.com
 127.0.0.1 medyanetads.com
 127.0.0.1 metrics.egencia.com.tr
@@ -190,6 +196,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 searchanalytics.turkcell.com.tr
 127.0.0.1 segmentify.com
 127.0.0.1 sentry.iddaa.com
+127.0.0.1 setrow.com
 127.0.0.1 setrowid.com
 127.0.0.1 sgmntfy.com
 127.0.0.1 sgtm.lcwaikiki.com
@@ -248,7 +255,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 widget.haberler.com
 127.0.0.1 widget.yenimedya.com.tr
 127.0.0.1 xenn.io
-127.0.0.1 hstatstest.hepsiburada.com
 127.0.0.1 admaticcdn.b-cdn.net
 127.0.0.1 admatic.mgr.consensu.org
 127.0.0.1 marsmedia.azurewebsites.net
