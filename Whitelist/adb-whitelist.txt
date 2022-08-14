@@ -1,0 +1,14 @@
+! Title: Turkish Whitelist
+! Description: Whitelist for Turkish websites.
+! Maintainer: saurane
+! Syntax: AdBlock
+! Entries: 2
+! Updated: 14 Aug 2022 7:58:39 PM
+! Homepage: https://github.com/saurane/Turkish-Blocklist
+! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
+! Contact: https://github.com/saurane
+!Sorun: sozcu.com.tr adresindeki videolar yüklenmiyor.
+@@||dailymotion.com/player*$third-party,stealth
+!
+!kolaygelsin.com canlı kargo takip haritası gözükmüyor.
+@@||basarsoft.com.tr/Service/api^$third-party,stealth
