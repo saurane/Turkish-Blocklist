@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 2
-! Updated: 14 Aug 2022 7:58:39 PM
+! Entries: 3
+! Updated: 15 Aug 2022 4:23:11 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -12,3 +12,6 @@
 !
 !kolaygelsin.com canlı kargo takip haritası gözükmüyor.
 @@||basarsoft.com.tr/Service/api^$third-party,stealth
+!
+!atv.com.tr canlı yayınları açılmıyor.
+@@||ipcheck.tmgrup.com.tr^$important,domain=atv.com.tr
