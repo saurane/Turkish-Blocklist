@@ -3,7 +3,7 @@
 # Maintainer: saurane
 # Syntax: Hosts
 # Entries: 238
-# Updated: 14 Aug 2022 12:33:08 AM
+# Updated: 20 Aug 2022 12:59:36 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -149,7 +149,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 log.yapaytech.com
 0.0.0.0 makroo.com
 0.0.0.0 makroo.haber7.net
-0.0.0.0 mark.isbank.com.tr
 0.0.0.0 marketing.turkiyefinans.com.tr
 0.0.0.0 medya.ilan.gov.tr
 0.0.0.0 medyaline.com.tr
@@ -251,6 +250,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 webeyo.com
 0.0.0.0 webinstats.com
 0.0.0.0 webstats.garanti.com.tr
+0.0.0.0 webstats2go.com
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.haberler.com
 0.0.0.0 widget.yenimedya.com.tr
