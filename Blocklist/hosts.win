@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
-# Entries: 238
-# Updated: 20 Aug 2022 12:59:36 PM
+# Entries: 239
+# Updated: 20 Aug 2022 2:11:12 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -255,6 +255,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 widget.haberler.com
 127.0.0.1 widget.yenimedya.com.tr
 127.0.0.1 xenn.io
+127.0.0.1 dengage-public-data-collector-proxy.burgan.com.tr
 127.0.0.1 admaticcdn.b-cdn.net
 127.0.0.1 admatic.mgr.consensu.org
 127.0.0.1 marsmedia.azurewebsites.net
