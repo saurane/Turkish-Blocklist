@@ -3,7 +3,7 @@
 # Maintainer: saurane
 # Syntax: Response Policy Zone
 # Entries: 238
-# Updated: 14 Aug 2022 12:33:08 AM
+# Updated: 20 Aug 2022 12:59:36 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -262,8 +262,6 @@ makroo.com CNAME .
 *.makroo.com CNAME .
 makroo.haber7.net CNAME .
 *.makroo.haber7.net CNAME .
-mark.isbank.com.tr CNAME .
-*.mark.isbank.com.tr CNAME .
 marketing.turkiyefinans.com.tr CNAME .
 *.marketing.turkiyefinans.com.tr CNAME .
 medya.ilan.gov.tr CNAME .
@@ -466,6 +464,8 @@ webinstats.com CNAME .
 *.webinstats.com CNAME .
 webstats.garanti.com.tr CNAME .
 *.webstats.garanti.com.tr CNAME .
+webstats2go.com CNAME .
+*.webstats2go.com CNAME .
 widget.cdn.vidyome.com CNAME .
 *.widget.cdn.vidyome.com CNAME .
 widget.haberler.com CNAME .
