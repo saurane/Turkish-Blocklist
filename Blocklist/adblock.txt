@@ -3,7 +3,7 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 238
-! Updated: 14 Aug 2022 12:33:08 AM
+! Updated: 20 Aug 2022 12:59:36 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -135,7 +135,6 @@
 ||log.yapaytech.com^
 ||makroo.com^
 ||makroo.haber7.net^
-||mark.isbank.com.tr^
 ||marketing.turkiyefinans.com.tr^
 ||medya.ilan.gov.tr^
 ||medyaline.com.tr^
@@ -237,6 +236,7 @@
 ||webeyo.com^
 ||webinstats.com^
 ||webstats.garanti.com.tr^
+||webstats2go.com^
 ||widget.cdn.vidyome.com^
 ||widget.haberler.com^
 ||widget.yenimedya.com.tr^
