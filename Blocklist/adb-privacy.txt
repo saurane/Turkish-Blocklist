@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 107
-! Updated: 20 Aug 2022 12:57:41 AM
+! Entries: -
+! Updated: 4 Sep 2022 12:17:41 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -11,6 +11,7 @@
 !GENERIC
 /*dataroid*$script
 /*personaclick*$script
+/*cookie-seal*$script
 /ticimax/analytics.js
 !
 !FINGERPRINT
@@ -42,6 +43,7 @@
 ||zemana.com/*.cloudfront.net/atrk.js
 ||zemana.com/www.google-analytics.com^
 ||fenerbahce.org/cmsapi/webanalytics^
+||araskargo.com.tr/tr/jv_google_analytics.js
 ||irmethospital.com/wp-json/wp-statistics^
 ||ciceksepeti.com/partytown-proxy*
 ||ciceksepeti.com/Ani/GetLoginOrLogoutEvent
@@ -132,6 +134,7 @@
 !
 ||kiwi.com/api/cookies^
 ||hm.com/tr_tr/metrics^
+||ups.com.tr/Scripts/cfevents.js
 ||momondo.com.tr/s/vestigo/v1/measure
 ||somposigorta.com.tr/web/tracker.js
 ||nescafe.com/tr/core/modules/statistics^
@@ -139,4 +142,4 @@
 ||mediamarkt.com.tr/rde_server/res/MMTR/event^
 !
 !FINGERPRINT [OTHER]
-||letgo.com/chunks/modern/desktop-FingerPrintWrapper.letgo.*.js
+/desktop-FingerPrintWrapper.*.js$domain=letgo.com|otoplus.com
