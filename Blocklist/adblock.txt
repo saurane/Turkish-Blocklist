@@ -2,8 +2,8 @@
 ! Description: Turkish based ad and tracker domain name blocking project.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 240
-! Updated: 04 Sep 2022 12:21:48 PM
+! Entries: 242
+! Updated: 26 Sep 2022 10:13:20 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -25,6 +25,8 @@
 ||adimage.media^
 ||adklik.com.tr^
 ||admatic.com.tr^
+||admatic.mgr.consensu.org^
+||admaticcdn.b-cdn.net^
 ||admost.com^
 ||adn.bursadabugun.com^
 ||adnboost.com^
@@ -118,6 +120,7 @@
 ||hodor-collect.arabam.com^
 ||hstats.hepsiburada.com^
 ||hstatstest.hepsiburada.com^
+||imgvisilabsnet.azureedge.net^
 ||improvedigital.com^
 ||indirads.org^
 ||indirads.work^
@@ -137,9 +140,12 @@
 ||makroo.com^
 ||makroo.haber7.net^
 ||marketing.turkiyefinans.com.tr^
+||marsmedia.azurewebsites.net^
 ||medya.ilan.gov.tr^
+||medya.ilan.gov.tr.whecloud.com^
 ||medyaline.com.tr^
 ||medyanative.com^
+||medyanet-com-tr.videoplayerhub.com^
 ||medyanetads.com^
 ||metrics.egencia.com.tr^
 ||myikas.com^
@@ -167,6 +173,8 @@
 ||push.ilan365.net^
 ||r.cdn.acunn.com^
 ||r.tooplay.com^
+||rek.izlesene.com^
+||rek.nktcdn.com^
 ||reklam.turkmmo.com^
 ||reklamagaci.com^
 ||reklamnative.com^
@@ -242,10 +250,4 @@
 ||widget.haberler.com^
 ||widget.yenimedya.com.tr^
 ||xenn.io^
-||admaticcdn.b-cdn.net^
-||admatic.mgr.consensu.org^
-||marsmedia.azurewebsites.net^
-||imgvisilabsnet.azureedge.net^
-||medya.ilan.gov.tr.whecloud.com^
-||medyanet-com-tr.videoplayerhub.com^
 
