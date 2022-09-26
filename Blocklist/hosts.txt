@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 240
-# Updated: 04 Sep 2022 12:21:48 PM
+# Entries: 242
+# Updated: 26 Sep 2022 10:13:20 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -39,6 +39,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 adimage.media
 0.0.0.0 adklik.com.tr
 0.0.0.0 admatic.com.tr
+0.0.0.0 admatic.mgr.consensu.org
+0.0.0.0 admaticcdn.b-cdn.net
 0.0.0.0 admost.com
 0.0.0.0 adn.bursadabugun.com
 0.0.0.0 adnboost.com
@@ -132,6 +134,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
 0.0.0.0 hstatstest.hepsiburada.com
+0.0.0.0 imgvisilabsnet.azureedge.net
 0.0.0.0 improvedigital.com
 0.0.0.0 indirads.org
 0.0.0.0 indirads.work
@@ -151,9 +154,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 makroo.com
 0.0.0.0 makroo.haber7.net
 0.0.0.0 marketing.turkiyefinans.com.tr
+0.0.0.0 marsmedia.azurewebsites.net
 0.0.0.0 medya.ilan.gov.tr
+0.0.0.0 medya.ilan.gov.tr.whecloud.com
 0.0.0.0 medyaline.com.tr
 0.0.0.0 medyanative.com
+0.0.0.0 medyanet-com-tr.videoplayerhub.com
 0.0.0.0 medyanetads.com
 0.0.0.0 metrics.egencia.com.tr
 0.0.0.0 myikas.com
@@ -181,6 +187,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 push.ilan365.net
 0.0.0.0 r.cdn.acunn.com
 0.0.0.0 r.tooplay.com
+0.0.0.0 rek.izlesene.com
+0.0.0.0 rek.nktcdn.com
 0.0.0.0 reklam.turkmmo.com
 0.0.0.0 reklamagaci.com
 0.0.0.0 reklamnative.com
@@ -256,10 +264,4 @@ ff02::3 ip6-allhosts
 0.0.0.0 widget.haberler.com
 0.0.0.0 widget.yenimedya.com.tr
 0.0.0.0 xenn.io
-0.0.0.0 admaticcdn.b-cdn.net
-0.0.0.0 admatic.mgr.consensu.org
-0.0.0.0 marsmedia.azurewebsites.net
-0.0.0.0 imgvisilabsnet.azureedge.net
-0.0.0.0 medya.ilan.gov.tr.whecloud.com
-0.0.0.0 medyanet-com-tr.videoplayerhub.com
 
