@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: -
-! Updated: 4 Sep 2022 12:17:41 AM
+! Entries: 112
+! Updated: 26 Sep 2022 10:12:19 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -15,7 +15,6 @@
 /ticimax/analytics.js
 !
 !FINGERPRINT
-||otoplus.com/chunks/modern/desktop-FingerPrintWrapper.otoplus.*.js
 ||enpara.com/Frontend/fPrint/BrowserFingerPrintManager_Obfuscated.js
 !
 ||n11scdn.akamaized.net/adrum.js
@@ -25,6 +24,11 @@
 ||gratis.com/ccstoreui/v*/analytics^
 ||gratis.com/file/v*/widget/recommendationsTracking^
 !
+||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
+||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+||merlincdn.net/static_lib/assets/scripts/turkcell/google-analytics^
+||merlincdn.net/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+!
 ||shbdn.com/api/*sentry_key*
 ||sahibinden.com/*/blueKai^$redirect=nooptext
 !
@@ -33,25 +37,24 @@
 ||penti.com/_ui/responsive/common/js/custom/acc.penti.personaclick.head.js
 ||penti.com/_ui/responsive/common/js/custom/acc.penti.googletagmanager.js
 !
-||atasay.com/sw.js
 ||doviz.com/js/virgul.*.js
 ||webtekno.com/ajax/ometric^
 ||hepsiburada.net/webtrekk^
-||modanisa.com/al/j/analytics.js
-||reeder.com.tr/*/js/tracking.min.js
+||modanisa.com/*/analytics.js
+||paycell.com.tr/ruxitagentjs*.js
+||reeder.com.tr/*/tracking.min.js
 ||vatanbilgisayar.com/Scripts/GTM.js
 ||zemana.com/*.cloudfront.net/atrk.js
 ||zemana.com/www.google-analytics.com^
 ||fenerbahce.org/cmsapi/webanalytics^
 ||araskargo.com.tr/tr/jv_google_analytics.js
 ||irmethospital.com/wp-json/wp-statistics^
+||lcwaikiki.com/Resource/Scripts/tracking^
 ||ciceksepeti.com/partytown-proxy*
 ||ciceksepeti.com/Ani/GetLoginOrLogoutEvent
 ||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||tubitak.gov.tr/sites/all/modules/google_analytics^
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
-||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
-||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
 ||hardlinenutrition.com/catalog/view/javascript/facebook_business/facebook_pixel_*.js
 !
 !
@@ -74,7 +77,7 @@
 /event$domain=obilet.com|biletall.com
 /dynamics/geoipj$domain=showtv.com.tr|haberturk.com
 /banalytics.js$domain=milliyet.com.tr|hurriyet.com.tr
-/shared/js/analyticsmediator.js$domain=arcelik.com.tr|avansas.com|mopas.com.tr
+/shared/js/analyticsmediator.js$domain=arcelik.com.tr|beko.com.tr|avansas.com|mopas.com.tr
 /duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
 !
 !WEBSITES OF TV CHANNELS
