@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 112
-! Updated: 26 Sep 2022 10:12:19 PM
+! Entries: 114
+! Updated: 2 Oct 2022 11:51:29 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -13,15 +13,15 @@
 /*personaclick*$script
 /*cookie-seal*$script
 /ticimax/analytics.js
+/shared/js/analyticsmediator.js
 !
-!FINGERPRINT
-||enpara.com/Frontend/fPrint/BrowserFingerPrintManager_Obfuscated.js
 !
 ||n11scdn.akamaized.net/adrum.js
 ||n11scdn.akamaized.net/custom/athena^
 ||n11scdn.akamaized.net/assets/javascripts/ha.js
 !
 ||gratis.com/ccstoreui/v*/analytics^
+||gratis.com/file/v*/widget/googleTagManager^
 ||gratis.com/file/v*/widget/recommendationsTracking^
 !
 ||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
@@ -62,10 +62,9 @@
 ||fullhdfilmizleten.org/analytics^
 ||ucuzabilet.com/ajax/referrerAnalytics^
 ||canliradyodinle.fm/live/fm/gtag.min.js
-||sephora.com.tr/*/jscript/dwanalytics-*.js
+||sephora.com.tr/*/dwanalytics-*.js
 ||hosting.com.tr/web/assets/js/kepler_events.js
 ||kayiprihtim.com/assets/google-universal-analytics
-||ideasoft.com.tr/wp-content/plugins/pixelyoursite^
 ||diken.com.tr/wp-content/plugins/google-analytics-premium^
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
@@ -77,8 +76,8 @@
 /event$domain=obilet.com|biletall.com
 /dynamics/geoipj$domain=showtv.com.tr|haberturk.com
 /banalytics.js$domain=milliyet.com.tr|hurriyet.com.tr
-/shared/js/analyticsmediator.js$domain=arcelik.com.tr|beko.com.tr|avansas.com|mopas.com.tr
 /duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
+/shared/js/analyticsmediator.js$domain=arcelik.com.tr|beko.com.tr|avansas.com|mopas.com.tr|mavi.com
 !
 !WEBSITES OF TV CHANNELS
 ||haberler.com/mstatic/firebasejs^
@@ -112,6 +111,7 @@
 ||ercdn.net/omsdk^$third-party
 ||ercdn.net/dev/openvv.js$third-party
 ||teimg.com/analytics.js$third-party
+||ticimax.com/*/analytics.js$third-party
 ||yapaytech.com/ytag/script.js$third-party
 ||cdn.md/js5/Mackolik/Analytics.js$third-party
 ||tooplay.com/network/player/comscore.js$third-party
@@ -125,8 +125,11 @@
 ||tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
 ||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
 !
+!FINGERPRINT
+||enpara.com/Frontend/fPrint/BrowserFingerPrintManager_Obfuscated.js
 !
-!OTHER
+!
+!OTHER [YABANCI SITELER]
 ||tripadvisor.com.tr/MetricsAjax
 ||tripadvisor.com.tr/*common.tracking-bridge
 ||tacdn.com/js3/build/concat/taevents-*.js
