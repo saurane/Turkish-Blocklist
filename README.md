@@ -2,7 +2,7 @@
 
 <div align="center">
     <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-Oct 6, 2022-green.svg?longCache=true&style=for-the-badge"
+    <img src="https://img.shields.io/badge/Updated-Oct 11, 2022-green.svg?longCache=true&style=for-the-badge"
       alt="_time_stamp_" />
     <!-- Status -->
     <img src="https://img.shields.io/badge/Status-Stable-blue.svg?longCache=true&style=for-the-badge"
@@ -13,15 +13,15 @@
 </div>
 <br/>
 
-| İstemci | DNS filtresi | Gizlilik filtresi |
-| ------------ | ------------ | ------------ |
-| uBlock - AdGuard | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adb-privacy.txt "RAW") |
-| Pi-hole | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/domains.txt "RAW") | - | - | - |
-| AdAway | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.txt "RAW") | - | - |
-| Unbound | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/unbound.conf "RAW") | - | - |
-| dnsmasq | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/dnsmasq.conf "RAW") | - | - |
-| RPZ | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/rpz.txt "RAW") | - | - |
-| Windows Hosts | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.win "RAW") | - | - |
+| İstemci | DNS filtresi | Gizlilik filtresi | URL izleme filtresi | İzin verilenler filtresi |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| uBlock - AdGuard | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adb-privacy.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adb-urlparameter.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Whitelist/adb-whitelist.txt "RAW") |
+| Pi-hole | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/domains.txt "RAW") | - | - | - | - |
+| AdAway | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.txt "RAW") | - | - | - |
+| Unbound | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/unbound.conf "RAW") | - | - | - |
+| dnsmasq | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/dnsmasq.conf "RAW") | - | - | - |
+| RPZ | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/rpz.txt "RAW") | - | - | - |
+| Windows Hosts | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.win "RAW") | - | - | - |
 
 ## Filtre açıklaması
 > ***DNS Filtresi:*** Alan adı tabanlı engeller. Örnek: example.com - ads.example.com - analytics.example.com<br/>
