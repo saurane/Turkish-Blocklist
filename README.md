@@ -28,7 +28,12 @@
 > <br/>
 > ***Gizlilik Filtresi:*** Alan adının adres bölümlerine göre engeller. Örnek: example.com/file/js/tracker.js - example.com/js/analytics.js<br/>
 > <br/>
+> ***URL İzleme Filtresi:*** Sitelerdeki URL adreslerinde bulunan izleme parametrelerini kaldırır.<br/> Not: Bu filtrenin çalışması için "güvenilir filtre" olarak işaretlenmesi gerekiyor.<br/>
+> <br/>
+> ***İzin verilenler filtresi:*** Reklam engelleyicilerden veya filtrelerden kaynaklanan sorunları çözmek için hazırlanmıştır.<br/>
+> <br/>
 > ***Not:*** DNS filtrem bazı popüler engelleme listeleri tarafından güncel bir şekilde kullanılıyor, bunlar; [1Hosts](https://github.com/badmojr/1Hosts), [Energized Protection](https://github.com/EnergizedProtection/block) ve [oisd](https://oisd.nl/downloads) listeleridir. DNS filtrem her ne kadar bu listelerde bulunsa da bazı çakışmalardan dolayı tamamı kullanılamıyor, sadece %95'lik kısmı mevcut. Mümkün olduğunca, yayınladığım filtreleri de kullanmanızı tavsiye ediyorum.
+
 
 ## Amaç
 > ***DNS filtresi:*** Bu filtrede sadece yerel reklam ve analitik amaçlı kullanılan adresler bulunmaktadır, eğer tam bir koruma sağlamak istiyorsanız [1Hosts](https://github.com/badmojr/1Hosts), [Energized](https://github.com/EnergizedProtection/block) veya [oisd](https://oisd.nl/downloads) listeleri arasından en az birisiyle beraber kullanmanız tavsiye edilir.<br/>
