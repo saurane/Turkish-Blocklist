@@ -1,0 +1,33 @@
+! Title: Turkish URL Tracking Filter
+! Description: It strips the tracking parameters from the URL addresses of Turkish websites.
+! Maintainer: saurane
+! Syntax: AdBlock
+! Entries: 20
+! Updated: 11 Oct 2022 11:45:24 PM
+! Homepage: https://github.com/saurane/Turkish-Blocklist
+! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
+! Contact: https://github.com/saurane
+!
+!cimri.com yönlendirme sayfası izleme parametreleri
+cimri.com/offer^$removeparam=campaign
+cimri.com/offer^$removeparam=pageType
+cimri.com/offer^$removeparam=minPrice
+cimri.com/offer^$removeparam=photoCount
+cimri.com/offer^$removeparam=offerOrder
+cimri.com/offer^$removeparam=priceOrder
+cimri.com/offer^$removeparam=commentCount
+cimri.com/offer^$removeparam=platformName
+cimri.com/offer^$removeparam=productOrder
+cimri.com/offer^$removeparam=offerFiltered
+cimri.com/offer^$removeparam=offerSponsored
+cimri.com/offer^$removeparam=minPriceMerchant
+!
+!akakce.com yönlendirme sayfası izleme parametreleri
+akakce.com/r^$removeparam=c
+akakce.com/r^$removeparam=?c
+akakce.com/r^$removeparam=u
+akakce.com/r^$removeparam=?u
+akakce.com/r^$removeparam=v
+akakce.com/r^$removeparam=z
+akakce.com/r^$removeparam=yz
+akakce.com/r^$removeparam=vi
