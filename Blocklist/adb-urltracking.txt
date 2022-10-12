@@ -2,16 +2,22 @@
 ! Description: It strips the tracking parameters from the URL addresses of Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 20
-! Updated: 11 Oct 2022 11:45:24 PM
+! Entries: 38
+! Updated: 12 Oct 2022 3:39:57 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
+!
+trendyol.com^$removeparam=gads
+hepsiburada.com^$removeparam=wt_pc
+hepsiburada.com^$removeparam=magaza
+!
 !
 !cimri.com yönlendirme sayfası izleme parametreleri
 cimri.com/offer^$removeparam=campaign
 cimri.com/offer^$removeparam=pageType
 cimri.com/offer^$removeparam=minPrice
+cimri.com/offer^$removeparam=offerCount
 cimri.com/offer^$removeparam=photoCount
 cimri.com/offer^$removeparam=offerOrder
 cimri.com/offer^$removeparam=priceOrder
@@ -22,6 +28,20 @@ cimri.com/offer^$removeparam=offerFiltered
 cimri.com/offer^$removeparam=offerSponsored
 cimri.com/offer^$removeparam=minPriceMerchant
 !
+cimri.com/market^$removeparam=campaign
+cimri.com/market^$removeparam=pageType
+cimri.com/market^$removeparam=minPrice
+cimri.com/market^$removeparam=offerCount
+cimri.com/market^$removeparam=photoCount
+cimri.com/market^$removeparam=offerOrder
+cimri.com/market^$removeparam=priceOrder
+cimri.com/market^$removeparam=commentCount
+cimri.com/market^$removeparam=platformName
+cimri.com/market^$removeparam=productOrder
+cimri.com/market^$removeparam=offerFiltered
+cimri.com/market^$removeparam=offerSponsored
+cimri.com/market^$removeparam=minPriceMerchant
+!
 !akakce.com yönlendirme sayfası izleme parametreleri
 akakce.com/r^$removeparam=c
 akakce.com/r^$removeparam=?c
@@ -31,3 +51,10 @@ akakce.com/r^$removeparam=v
 akakce.com/r^$removeparam=z
 akakce.com/r^$removeparam=yz
 akakce.com/r^$removeparam=vi
+!
+!
+!! Google Merchant Center !!
+!Alışveriş sitelerini Google Merchant Center üzerinden açınca izleme parametresi
+$removeparam=srsltid
+!
+!
