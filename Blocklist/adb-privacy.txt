@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 119
-! Updated: 6 Oct 2022 5:36:48 PM
+! Entries: 125
+! Updated: 12 Oct 2022 8:17:31 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -26,6 +26,7 @@
 !
 ||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
 ||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+||merlincdn.net/static_lib/assets/scripts/turkcell/sh.tealium.js
 ||merlincdn.net/static_lib/assets/scripts/turkcell/google-analytics^
 ||merlincdn.net/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
 !
@@ -37,13 +38,17 @@
 ||penti.com/_ui/responsive/common/js/custom/acc.penti.personaclick.head.js
 ||penti.com/_ui/responsive/common/js/custom/acc.penti.googletagmanager.js
 !
+||cimri.com/favicon.ico
 ||doviz.com/js/virgul.*.js
 ||webtekno.com/ajax/ometric^
 ||hepsiburada.net/webtrekk^
+||hepsiburada.net/web-vitals^
 ||modanisa.com/*/analytics.js
 ||isimtescil.net/Gtm/gtm.min.js
 ||paycell.com.tr/ruxitagentjs*.js
 ||reeder.com.tr/*/tracking.min.js
+||tamindir.com/ngx_pagespeed_beacon
+||gezginler.net/mod_pagespeed_beacon
 ||vatanbilgisayar.com/Scripts/GTM.js
 ||zemana.com/*/atrk.js
 ||zemana.com/www.google-analytics.com^
@@ -58,6 +63,7 @@
 ||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||tubitak.gov.tr/sites/all/modules/google_analytics^
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
+||indirimkuponum.net/wp-content/plugins/perfmatters/js/analytics.js
 ||hardlinenutrition.com/catalog/view/javascript/facebook_business/facebook_pixel_*.js
 !
 !
