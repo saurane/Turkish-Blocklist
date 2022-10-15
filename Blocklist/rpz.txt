@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 242
-# Updated: 26 Sep 2022 10:13:20 PM
+# Entries: 243
+# Updated: 15 Oct 2022 12:20:41 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -42,10 +42,6 @@ adklik.com.tr CNAME .
 *.adklik.com.tr CNAME .
 admatic.com.tr CNAME .
 *.admatic.com.tr CNAME .
-admatic.mgr.consensu.org CNAME .
-*.admatic.mgr.consensu.org CNAME .
-admaticcdn.b-cdn.net CNAME .
-*.admaticcdn.b-cdn.net CNAME .
 admost.com CNAME .
 *.admost.com CNAME .
 adn.bursadabugun.com CNAME .
@@ -190,6 +186,8 @@ evs.data.ciceksepeti.com CNAME .
 *.evs.data.ciceksepeti.com CNAME .
 exxen-reklam.ercdn.net CNAME .
 *.exxen-reklam.ercdn.net CNAME .
+gbdijital.com CNAME .
+*.gbdijital.com CNAME .
 gelirartisi.com CNAME .
 *.gelirartisi.com CNAME .
 geoim.bloomberght.com CNAME .
@@ -232,8 +230,6 @@ hstats.hepsiburada.com CNAME .
 *.hstats.hepsiburada.com CNAME .
 hstatstest.hepsiburada.com CNAME .
 *.hstatstest.hepsiburada.com CNAME .
-imgvisilabsnet.azureedge.net CNAME .
-*.imgvisilabsnet.azureedge.net CNAME .
 improvedigital.com CNAME .
 *.improvedigital.com CNAME .
 indirads.org CNAME .
@@ -272,18 +268,12 @@ makroo.haber7.net CNAME .
 *.makroo.haber7.net CNAME .
 marketing.turkiyefinans.com.tr CNAME .
 *.marketing.turkiyefinans.com.tr CNAME .
-marsmedia.azurewebsites.net CNAME .
-*.marsmedia.azurewebsites.net CNAME .
 medya.ilan.gov.tr CNAME .
 *.medya.ilan.gov.tr CNAME .
-medya.ilan.gov.tr.whecloud.com CNAME .
-*.medya.ilan.gov.tr.whecloud.com CNAME .
 medyaline.com.tr CNAME .
 *.medyaline.com.tr CNAME .
 medyanative.com CNAME .
 *.medyanative.com CNAME .
-medyanet-com-tr.videoplayerhub.com CNAME .
-*.medyanet-com-tr.videoplayerhub.com CNAME .
 medyanetads.com CNAME .
 *.medyanetads.com CNAME .
 metrics.egencia.com.tr CNAME .
@@ -492,4 +482,16 @@ widget.yenimedya.com.tr CNAME .
 *.widget.yenimedya.com.tr CNAME .
 xenn.io CNAME .
 *.xenn.io CNAME .
+admatic.mgr.consensu.org CNAME .
+*.admatic.mgr.consensu.org CNAME .
+admaticcdn.b-cdn.net CNAME .
+*.admaticcdn.b-cdn.net CNAME .
+imgvisilabsnet.azureedge.net CNAME .
+*.imgvisilabsnet.azureedge.net CNAME .
+marsmedia.azurewebsites.net CNAME .
+*.marsmedia.azurewebsites.net CNAME .
+medya.ilan.gov.tr.whecloud.com CNAME .
+*.medya.ilan.gov.tr.whecloud.com CNAME .
+medyanet-com-tr.videoplayerhub.com CNAME .
+*.medyanet-com-tr.videoplayerhub.com CNAME .
 
