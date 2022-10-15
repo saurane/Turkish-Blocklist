@@ -2,8 +2,8 @@
 ! Description: Turkish based ad and tracker domain name blocking project.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 242
-! Updated: 26 Sep 2022 10:13:20 PM
+! Entries: 243
+! Updated: 15 Oct 2022 12:20:41 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -25,8 +25,6 @@
 ||adimage.media^
 ||adklik.com.tr^
 ||admatic.com.tr^
-||admatic.mgr.consensu.org^
-||admaticcdn.b-cdn.net^
 ||admost.com^
 ||adn.bursadabugun.com^
 ||adnboost.com^
@@ -99,6 +97,7 @@
 ||events.jotform.com^
 ||evs.data.ciceksepeti.com^
 ||exxen-reklam.ercdn.net^
+||gbdijital.com^
 ||gelirartisi.com^
 ||geoim.bloomberght.com^
 ||geoloc.hurriyet.com.tr^
@@ -120,7 +119,6 @@
 ||hodor-collect.arabam.com^
 ||hstats.hepsiburada.com^
 ||hstatstest.hepsiburada.com^
-||imgvisilabsnet.azureedge.net^
 ||improvedigital.com^
 ||indirads.org^
 ||indirads.work^
@@ -140,12 +138,9 @@
 ||makroo.com^
 ||makroo.haber7.net^
 ||marketing.turkiyefinans.com.tr^
-||marsmedia.azurewebsites.net^
 ||medya.ilan.gov.tr^
-||medya.ilan.gov.tr.whecloud.com^
 ||medyaline.com.tr^
 ||medyanative.com^
-||medyanet-com-tr.videoplayerhub.com^
 ||medyanetads.com^
 ||metrics.egencia.com.tr^
 ||myikas.com^
@@ -250,4 +245,10 @@
 ||widget.haberler.com^
 ||widget.yenimedya.com.tr^
 ||xenn.io^
+||admatic.mgr.consensu.org^
+||admaticcdn.b-cdn.net^
+||imgvisilabsnet.azureedge.net^
+||marsmedia.azurewebsites.net^
+||medya.ilan.gov.tr.whecloud.com^
+||medyanet-com-tr.videoplayerhub.com^
 
