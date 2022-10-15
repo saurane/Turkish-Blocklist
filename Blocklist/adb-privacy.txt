@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 129
-! Updated: 15 Oct 2022 12:16:14 AM
+! Entries: 125
+! Updated: 16 Oct 2022 1:26:37 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -24,6 +24,10 @@
 ||gratis.com/file/v*/widget/googleTagManager^
 ||gratis.com/file/v*/widget/recommendationsTracking^
 !
+||ciceksepeti.com/partytown-proxy
+||ciceksepeti.com/GoogleTagManager^
+||ciceksepeti.com/Ani/GetLoginOrLogoutEvent
+!
 ||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
 ||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
 ||merlincdn.net/static_lib/assets/scripts/turkcell/sh.tealium.js
@@ -38,29 +42,22 @@
 ||penti.com/_ui/responsive/common/js/custom/acc.penti.personaclick.head.js
 ||penti.com/_ui/responsive/common/js/custom/acc.penti.googletagmanager.js
 !
-||cimri.com/favicon.ico
-||doviz.com/js/virgul.*.js
-||webtekno.com/ajax/ometric^
+||isimtescil.net/Gtm^
+||blutv.com/favicon.ico
+||atakdomain.com/*/gtm*.js
+||onedio.com/prod/counters^
 ||hepsiburada.net/webtrekk^
 ||hepsiburada.net/web-vitals^
+||webtekno.com/ajax/ometric^
 ||modanisa.com/*/analytics.js
-||isimtescil.net/Gtm/gtm.min.js
 ||paycell.com.tr/ruxitagentjs*.js
 ||reeder.com.tr/*/tracking.min.js
 ||yaanimail.com/assets/js/facebook^
 ||tamindir.com/ngx_pagespeed_beacon
 ||gezginler.net/mod_pagespeed_beacon
-||vatanbilgisayar.com/Scripts/GTM.js
-||zemana.com/*/atrk.js
-||zemana.com/www.google-analytics.com^
 ||fenerbahce.org/cmsapi/webanalytics^
 ||araskargo.com.tr/tr/jv_google_analytics.js
-||irmethospital.com/wp-json/wp-statistics^
 ||lcwaikiki.com/Resource/Scripts/tracking^
-||ciceksepeti.com/partytown-proxy*
-||ciceksepeti.com/Ani/GetLoginOrLogoutEvent
-||atakdomain.com/styles/js/utils/gtm-init.js
-||atakdomain.com/source/modules/global/gtm.global.js
 ||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||tubitak.gov.tr/sites/all/modules/google_analytics^
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
@@ -71,8 +68,11 @@
 ||ucakbileti.com/Analytics^
 ||fullhdfilmizleten.org/analytics^
 ||sephora.com.tr/*/dwanalytics-*.js
+||zemana.com/*/atrk.js
+||zemana.com/www.google-analytics.com^
 ||ucuzabilet.com/ajax/referrerAnalytics^
 ||canliradyodinle.fm/live/fm/gtag.min.js
+||irmethospital.com/wp-json/wp-statistics^
 ||kayiprihtim.com/assets/google-universal-analytics
 ||spagettiyarn.com/catalog/view/javascript/*facebook*^
 ||spagettiyarn.com/catalog/view/javascript/ee_tracking_*.js
@@ -83,32 +83,32 @@
 ||proteinsatinal.com/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag^
 !
 !UNIFIED RULES
-/gtm.js$domain=alastyr.com|btcturk.com
 /gtag.js$domain=alastyr.com|btcturk.com
+/gtm.js$domain=alastyr.com|btcturk.com|enpara.com|vatanbilgisayar.com
+/firebasejs$domain=haberler.com|sondakika.com
 /dynamics/geoipj$domain=showtv.com.tr|haberturk.com
 /banalytics.js$domain=milliyet.com.tr|hurriyet.com.tr
 /duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
 /shared/js/analyticsmediator.js$domain=arcelik.com.tr|beko.com.tr|avansas.com|mopas.com.tr|mavi.com
 !
 !WEBSITES of TV CHANNELS
-||haberler.com/mstatic/firebasejs^
-||sondakika.com/static/js/firebasejs^
 ||yeniakit.com.tr/process/analytics^
 ||tvnet.com.tr/dist/js/Analytic.js
 ||tvnet.com.tr/dist/js/VisitorCookie.js
 ||hurpass.com/async/CreateCookieSSO
 ||hurriyet.com.tr/Scripts/clicks.js
 ||bundle.app/js/PushAnalyticsEvent.js
-||showtv.com.tr/scripts/js/gtm.min.js
-||showtv.com.tr/scripts/js/gtmfooter.js
+||showtv.com.tr/scripts/js/gtm*.js
 !
 !WEBSITES OF BANKS
 ||denizbank.com/adrum^
 ||denizbank.com/_js/pixel.js
 ||denizbank.com/_assets/js/analytics.js
 ||cepteteb.com.tr/ruxitagentjs*.js
+!
+!Experimental (deneysel)
 ||mark.isbank.com.tr^$redirect=nooptext
-||enpara.com/Frontend/dist/bundle/gtm.js
+!
 ||kuveytturk.com.tr/_assets/js/adrum-config.js
 ||yapikredi.com.tr/ngi-static/js/3rdParty/dataroid-websdk.*.js
 ||fibabanka.com.tr/ResourcePackages/Fibabanka/assets/js/countly-*.js
@@ -164,5 +164,4 @@
 ||mediamarkt.com.tr/dt/ruxitagentjs*.js
 ||mediamarkt.com.tr/rde_server/res/MMTR/event^
 !
-!FINGERPRINT [OTHER]
 /desktop-FingerPrintWrapper.*.js$domain=letgo.com|otoplus.com
