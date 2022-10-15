@@ -2,15 +2,14 @@
 ! Description: It strips the tracking parameters from the URL addresses of Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 38
-! Updated: 12 Oct 2022 3:39:57 PM
+! Entries: 37
+! Updated: 15 Oct 2022 12:18:25 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !
 trendyol.com^$removeparam=gads
 hepsiburada.com^$removeparam=wt_pc
-hepsiburada.com^$removeparam=magaza
 !
 !
 !cimri.com yönlendirme sayfası izleme parametreleri
