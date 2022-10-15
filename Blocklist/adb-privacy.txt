@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 125
-! Updated: 12 Oct 2022 8:17:31 PM
+! Entries: 129
+! Updated: 15 Oct 2022 12:16:14 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -47,6 +47,7 @@
 ||isimtescil.net/Gtm/gtm.min.js
 ||paycell.com.tr/ruxitagentjs*.js
 ||reeder.com.tr/*/tracking.min.js
+||yaanimail.com/assets/js/facebook^
 ||tamindir.com/ngx_pagespeed_beacon
 ||gezginler.net/mod_pagespeed_beacon
 ||vatanbilgisayar.com/Scripts/GTM.js
@@ -63,7 +64,6 @@
 ||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||tubitak.gov.tr/sites/all/modules/google_analytics^
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
-||indirimkuponum.net/wp-content/plugins/perfmatters/js/analytics.js
 ||hardlinenutrition.com/catalog/view/javascript/facebook_business/facebook_pixel_*.js
 !
 !
@@ -77,6 +77,7 @@
 ||spagettiyarn.com/catalog/view/javascript/*facebook*^
 ||spagettiyarn.com/catalog/view/javascript/ee_tracking_*.js
 ||diken.com.tr/wp-content/plugins/google-analytics-premium^
+||indirimkuponum.net/wp-content/plugins/perfmatters/js/analytics.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||proteinsatinal.com/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag^
@@ -89,7 +90,7 @@
 /duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
 /shared/js/analyticsmediator.js$domain=arcelik.com.tr|beko.com.tr|avansas.com|mopas.com.tr|mavi.com
 !
-!WEBSITES and TV CHANNELS
+!WEBSITES of TV CHANNELS
 ||haberler.com/mstatic/firebasejs^
 ||sondakika.com/static/js/firebasejs^
 ||yeniakit.com.tr/process/analytics^
@@ -125,6 +126,7 @@
 ||ticimax.com/*/analytics.js$third-party
 ||yapaytech.com/ytag/script.js$third-party
 ||cdn.md/js5/Mackolik/Analytics.js$third-party
+||snsbilisim.com.tr/js/analytics_js^$third-party
 ||tooplay.com/network/player/comscore.js$third-party
 ||vidyome.com/vidyome/builds/comscore*.js$third-party
 ||mncdn.com/js/personaclick.js$third-party
@@ -134,8 +136,8 @@
 ||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js$third-party
 ||mncdn.com/assets/arabamFrontEndFiles*/scripts/sentry.*.js$third-party
 ||tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
-||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
 ||iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
+||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
 !
 !FINGERPRINT
 ||enpara.com/Frontend/fPrint/BrowserFingerPrintManager_Obfuscated.js
@@ -149,6 +151,9 @@
 ||trivago.com.tr/track
 ||trivago.com/tracking^
 ||trivago.com.tr/search/log
+!
+||tchibo.com.tr/prof/js?event
+||tchibo.com.tr/*/collectontrack.js
 !
 ||kiwi.com/api/cookies^
 ||hm.com/tr_tr/metrics^
