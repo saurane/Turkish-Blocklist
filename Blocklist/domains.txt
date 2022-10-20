@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Domains
-# Entries: 243
-# Updated: 15 Oct 2022 12:20:41 PM
+# Entries: 232
+# Updated: 20 Oct 2022 2:20:15 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -40,6 +40,7 @@ adserve.donanimhaber.com
 adserver.a24.com.tr
 adsp.haberturk.com
 adtarget.com.tr
+advermind.com
 adworld.com.tr
 affiliate.migros.com.tr
 aip-cdn.sozcu.com.tr
@@ -73,7 +74,6 @@ countly.fibabanka.com.tr
 countly.iyzico.com
 d.haberler.com
 d.sondakika.com
-dacs.generalmobile.com
 datacollection.beymen.com
 dataroid.com
 dengage-public-data-collector-proxy.burgan.com.tr
@@ -83,6 +83,7 @@ doganburda.com
 dogus-ads-cdn.dygdigital.com
 dygadtech.com
 dygassets.dygdigital.com
+dygtag-extension-novatiq.dygdigital.com
 edge-sentry-box.otelz.com
 efilli.com
 eksiup.com
@@ -106,20 +107,17 @@ glamipixel.com
 gmgreklam.com
 gtm.flo.com.tr
 gtm.lidyana.com
-gtm.udemy.com
 h.n11.com
 hellosmpl.com
 hepsiads-bff.hepsiburada.com
 hepsiads-gw.hepsiburada.com
 hepsiads-ui.hepsiburada.com
 hit.demirorenteknoloji.com
-hit.mynet.com
 hits.acunn.com
 hits.tv8.com.tr
 hodor-collect.arabam.com
 hstats.hepsiburada.com
 hstatstest.hepsiburada.com
-improvedigital.com
 indirads.org
 indirads.work
 instana.fibabanka.com.tr
@@ -139,11 +137,8 @@ makroo.com
 makroo.haber7.net
 marketing.turkiyefinans.com.tr
 medya.ilan.gov.tr
-medyaline.com.tr
 medyanative.com
 medyanetads.com
-metrics.egencia.com.tr
-myikas.com
 mynetreklam.com
 nativespot.com
 netmera-web.com
@@ -158,13 +153,10 @@ perzonalization.com
 pixel.hangikredi.com
 pixels-1.ingbank.com.tr
 pixels.ingbank.com.tr
-pnsdkapi.turktelekom.com.tr
-poczta.generalmobile.com
 poeticmetric.com
 poltio.com
 pozitron.com
 programattik.com
-psabah.tmgrup.com.tr
 push.ilan365.net
 r.cdn.acunn.com
 r.tooplay.com
@@ -178,6 +170,7 @@ relateddigital.com
 revenueflex.com
 revotas.com
 rum.ibb.gov.tr
+rv.modanisa.com
 s.duhnet.tv
 s.fullhdfilmizlesene.com
 say.ac
@@ -193,12 +186,9 @@ signals.a101.com.tr
 signals.modanisa.com
 signals.teknosa.com
 signals.turkcell.com.tr
-smetrics.kone.com.tr
-smetrics.vodafone.com.tr
 so.n11.com
 sociaplus.com
 sortext.com
-sqgz.generalmobile.com
 st.tmgrup.com.tr
 statistics.daktilo.com
 stats.acunn.com
@@ -215,7 +205,6 @@ subservis.com
 t.enuygun.com
 t.lidyana.com
 t.onedio.com
-tagm.tchibo.com.tr
 thequin.ai
 track.data.modanisa.com
 track.tooplay.com
@@ -236,15 +225,15 @@ virgul.com
 visilabs.com
 visilabs.net
 visitorlab.com
-wawlabs.com
-webeyo.com
-webinstats.com
 webstats.garanti.com.tr
-webstats2go.com
 widget.cdn.vidyome.com
 widget.haberler.com
 widget.yenimedya.com.tr
 xenn.io
+metrics.egencia.com.tr
+smetrics.kone.com.tr
+smetrics.vodafone.com.tr
+tagm.tchibo.com.tr
 admatic.mgr.consensu.org
 admaticcdn.b-cdn.net
 imgvisilabsnet.azureedge.net
