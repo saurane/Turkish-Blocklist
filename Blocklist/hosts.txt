@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 232
-# Updated: 20 Oct 2022 2:20:15 PM
+# Entries: 237
+# Updated: 20 Oct 2022 2:27:44 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -22,7 +22,6 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
-0.0.0.0 8digits.com
 0.0.0.0 ad-plus.com.tr
 0.0.0.0 ad.donanimhaber.com
 0.0.0.0 ad.reyazilim.com
@@ -39,6 +38,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 adimage.media
 0.0.0.0 adklik.com.tr
 0.0.0.0 admatic.com.tr
+0.0.0.0 admatic.mgr.consensu.org
+0.0.0.0 admaticcdn.b-cdn.net
 0.0.0.0 admost.com
 0.0.0.0 adn.bursadabugun.com
 0.0.0.0 adnboost.com
@@ -127,11 +128,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 hepsiads-gw.hepsiburada.com
 0.0.0.0 hepsiads-ui.hepsiburada.com
 0.0.0.0 hit.demirorenteknoloji.com
+0.0.0.0 hit.mynet.com
 0.0.0.0 hits.acunn.com
 0.0.0.0 hits.tv8.com.tr
 0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
 0.0.0.0 hstatstest.hepsiburada.com
+0.0.0.0 imgvisilabsnet.azureedge.net
 0.0.0.0 indirads.org
 0.0.0.0 indirads.work
 0.0.0.0 instana.fibabanka.com.tr
@@ -150,9 +153,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 makroo.com
 0.0.0.0 makroo.haber7.net
 0.0.0.0 marketing.turkiyefinans.com.tr
+0.0.0.0 marsmedia.azurewebsites.net
 0.0.0.0 medya.ilan.gov.tr
+0.0.0.0 medya.ilan.gov.tr.whecloud.com
 0.0.0.0 medyanative.com
+0.0.0.0 medyanet-com-tr.videoplayerhub.com
 0.0.0.0 medyanetads.com
+0.0.0.0 metrics.egencia.com.tr
 0.0.0.0 mynetreklam.com
 0.0.0.0 nativespot.com
 0.0.0.0 netmera-web.com
@@ -167,6 +174,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel.hangikredi.com
 0.0.0.0 pixels-1.ingbank.com.tr
 0.0.0.0 pixels.ingbank.com.tr
+0.0.0.0 pnsdkapi.turktelekom.com.tr
 0.0.0.0 poeticmetric.com
 0.0.0.0 poltio.com
 0.0.0.0 pozitron.com
@@ -200,6 +208,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 signals.modanisa.com
 0.0.0.0 signals.teknosa.com
 0.0.0.0 signals.turkcell.com.tr
+0.0.0.0 smetrics.kone.com.tr
+0.0.0.0 smetrics.vodafone.com.tr
 0.0.0.0 so.n11.com
 0.0.0.0 sociaplus.com
 0.0.0.0 sortext.com
@@ -219,6 +229,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.enuygun.com
 0.0.0.0 t.lidyana.com
 0.0.0.0 t.onedio.com
+0.0.0.0 tagm.tchibo.com.tr
 0.0.0.0 thequin.ai
 0.0.0.0 track.data.modanisa.com
 0.0.0.0 track.tooplay.com
@@ -239,19 +250,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 visilabs.com
 0.0.0.0 visilabs.net
 0.0.0.0 visitorlab.com
+0.0.0.0 wawlabs.com
+0.0.0.0 webeyo.com
+0.0.0.0 webinstats.com
 0.0.0.0 webstats.garanti.com.tr
+0.0.0.0 webstats2go.com
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.haberler.com
 0.0.0.0 widget.yenimedya.com.tr
 0.0.0.0 xenn.io
-0.0.0.0 metrics.egencia.com.tr
-0.0.0.0 smetrics.kone.com.tr
-0.0.0.0 smetrics.vodafone.com.tr
-0.0.0.0 tagm.tchibo.com.tr
-0.0.0.0 admatic.mgr.consensu.org
-0.0.0.0 admaticcdn.b-cdn.net
-0.0.0.0 imgvisilabsnet.azureedge.net
-0.0.0.0 marsmedia.azurewebsites.net
-0.0.0.0 medya.ilan.gov.tr.whecloud.com
-0.0.0.0 medyanet-com-tr.videoplayerhub.com
 
