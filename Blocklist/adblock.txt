@@ -2,13 +2,12 @@
 ! Description: Turkish based ad and tracker domain name blocking project.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 232
-! Updated: 20 Oct 2022 2:20:15 PM
+! Entries: 237
+! Updated: 20 Oct 2022 2:27:44 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !
-||8digits.com^
 ||ad-plus.com.tr^
 ||ad.donanimhaber.com^
 ||ad.reyazilim.com^
@@ -25,6 +24,8 @@
 ||adimage.media^
 ||adklik.com.tr^
 ||admatic.com.tr^
+||admatic.mgr.consensu.org^
+||admaticcdn.b-cdn.net^
 ||admost.com^
 ||adn.bursadabugun.com^
 ||adnboost.com^
@@ -113,11 +114,13 @@
 ||hepsiads-gw.hepsiburada.com^
 ||hepsiads-ui.hepsiburada.com^
 ||hit.demirorenteknoloji.com^
+||hit.mynet.com^
 ||hits.acunn.com^
 ||hits.tv8.com.tr^
 ||hodor-collect.arabam.com^
 ||hstats.hepsiburada.com^
 ||hstatstest.hepsiburada.com^
+||imgvisilabsnet.azureedge.net^
 ||indirads.org^
 ||indirads.work^
 ||instana.fibabanka.com.tr^
@@ -136,9 +139,13 @@
 ||makroo.com^
 ||makroo.haber7.net^
 ||marketing.turkiyefinans.com.tr^
+||marsmedia.azurewebsites.net^
 ||medya.ilan.gov.tr^
+||medya.ilan.gov.tr.whecloud.com^
 ||medyanative.com^
+||medyanet-com-tr.videoplayerhub.com^
 ||medyanetads.com^
+||metrics.egencia.com.tr^
 ||mynetreklam.com^
 ||nativespot.com^
 ||netmera-web.com^
@@ -153,6 +160,7 @@
 ||pixel.hangikredi.com^
 ||pixels-1.ingbank.com.tr^
 ||pixels.ingbank.com.tr^
+||pnsdkapi.turktelekom.com.tr^
 ||poeticmetric.com^
 ||poltio.com^
 ||pozitron.com^
@@ -186,6 +194,8 @@
 ||signals.modanisa.com^
 ||signals.teknosa.com^
 ||signals.turkcell.com.tr^
+||smetrics.kone.com.tr^
+||smetrics.vodafone.com.tr^
 ||so.n11.com^
 ||sociaplus.com^
 ||sortext.com^
@@ -205,6 +215,7 @@
 ||t.enuygun.com^
 ||t.lidyana.com^
 ||t.onedio.com^
+||tagm.tchibo.com.tr^
 ||thequin.ai^
 ||track.data.modanisa.com^
 ||track.tooplay.com^
@@ -225,19 +236,13 @@
 ||visilabs.com^
 ||visilabs.net^
 ||visitorlab.com^
+||wawlabs.com^
+||webeyo.com^
+||webinstats.com^
 ||webstats.garanti.com.tr^
+||webstats2go.com^
 ||widget.cdn.vidyome.com^
 ||widget.haberler.com^
 ||widget.yenimedya.com.tr^
 ||xenn.io^
-||metrics.egencia.com.tr^
-||smetrics.kone.com.tr^
-||smetrics.vodafone.com.tr^
-||tagm.tchibo.com.tr^
-||admatic.mgr.consensu.org^
-||admaticcdn.b-cdn.net^
-||imgvisilabsnet.azureedge.net^
-||marsmedia.azurewebsites.net^
-||medya.ilan.gov.tr.whecloud.com^
-||medyanet-com-tr.videoplayerhub.com^
 
