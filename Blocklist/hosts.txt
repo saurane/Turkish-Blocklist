@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 243
-# Updated: 15 Oct 2022 12:20:41 PM
+# Entries: 232
+# Updated: 20 Oct 2022 2:20:15 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -54,6 +54,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adserver.a24.com.tr
 0.0.0.0 adsp.haberturk.com
 0.0.0.0 adtarget.com.tr
+0.0.0.0 advermind.com
 0.0.0.0 adworld.com.tr
 0.0.0.0 affiliate.migros.com.tr
 0.0.0.0 aip-cdn.sozcu.com.tr
@@ -87,7 +88,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 countly.iyzico.com
 0.0.0.0 d.haberler.com
 0.0.0.0 d.sondakika.com
-0.0.0.0 dacs.generalmobile.com
 0.0.0.0 datacollection.beymen.com
 0.0.0.0 dataroid.com
 0.0.0.0 dengage-public-data-collector-proxy.burgan.com.tr
@@ -97,6 +97,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dogus-ads-cdn.dygdigital.com
 0.0.0.0 dygadtech.com
 0.0.0.0 dygassets.dygdigital.com
+0.0.0.0 dygtag-extension-novatiq.dygdigital.com
 0.0.0.0 edge-sentry-box.otelz.com
 0.0.0.0 efilli.com
 0.0.0.0 eksiup.com
@@ -120,20 +121,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 gmgreklam.com
 0.0.0.0 gtm.flo.com.tr
 0.0.0.0 gtm.lidyana.com
-0.0.0.0 gtm.udemy.com
 0.0.0.0 h.n11.com
 0.0.0.0 hellosmpl.com
 0.0.0.0 hepsiads-bff.hepsiburada.com
 0.0.0.0 hepsiads-gw.hepsiburada.com
 0.0.0.0 hepsiads-ui.hepsiburada.com
 0.0.0.0 hit.demirorenteknoloji.com
-0.0.0.0 hit.mynet.com
 0.0.0.0 hits.acunn.com
 0.0.0.0 hits.tv8.com.tr
 0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
 0.0.0.0 hstatstest.hepsiburada.com
-0.0.0.0 improvedigital.com
 0.0.0.0 indirads.org
 0.0.0.0 indirads.work
 0.0.0.0 instana.fibabanka.com.tr
@@ -153,11 +151,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 makroo.haber7.net
 0.0.0.0 marketing.turkiyefinans.com.tr
 0.0.0.0 medya.ilan.gov.tr
-0.0.0.0 medyaline.com.tr
 0.0.0.0 medyanative.com
 0.0.0.0 medyanetads.com
-0.0.0.0 metrics.egencia.com.tr
-0.0.0.0 myikas.com
 0.0.0.0 mynetreklam.com
 0.0.0.0 nativespot.com
 0.0.0.0 netmera-web.com
@@ -172,13 +167,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel.hangikredi.com
 0.0.0.0 pixels-1.ingbank.com.tr
 0.0.0.0 pixels.ingbank.com.tr
-0.0.0.0 pnsdkapi.turktelekom.com.tr
-0.0.0.0 poczta.generalmobile.com
 0.0.0.0 poeticmetric.com
 0.0.0.0 poltio.com
 0.0.0.0 pozitron.com
 0.0.0.0 programattik.com
-0.0.0.0 psabah.tmgrup.com.tr
 0.0.0.0 push.ilan365.net
 0.0.0.0 r.cdn.acunn.com
 0.0.0.0 r.tooplay.com
@@ -192,6 +184,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 revenueflex.com
 0.0.0.0 revotas.com
 0.0.0.0 rum.ibb.gov.tr
+0.0.0.0 rv.modanisa.com
 0.0.0.0 s.duhnet.tv
 0.0.0.0 s.fullhdfilmizlesene.com
 0.0.0.0 say.ac
@@ -207,12 +200,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 signals.modanisa.com
 0.0.0.0 signals.teknosa.com
 0.0.0.0 signals.turkcell.com.tr
-0.0.0.0 smetrics.kone.com.tr
-0.0.0.0 smetrics.vodafone.com.tr
 0.0.0.0 so.n11.com
 0.0.0.0 sociaplus.com
 0.0.0.0 sortext.com
-0.0.0.0 sqgz.generalmobile.com
 0.0.0.0 st.tmgrup.com.tr
 0.0.0.0 statistics.daktilo.com
 0.0.0.0 stats.acunn.com
@@ -229,7 +219,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 t.enuygun.com
 0.0.0.0 t.lidyana.com
 0.0.0.0 t.onedio.com
-0.0.0.0 tagm.tchibo.com.tr
 0.0.0.0 thequin.ai
 0.0.0.0 track.data.modanisa.com
 0.0.0.0 track.tooplay.com
@@ -250,15 +239,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 visilabs.com
 0.0.0.0 visilabs.net
 0.0.0.0 visitorlab.com
-0.0.0.0 wawlabs.com
-0.0.0.0 webeyo.com
-0.0.0.0 webinstats.com
 0.0.0.0 webstats.garanti.com.tr
-0.0.0.0 webstats2go.com
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.haberler.com
 0.0.0.0 widget.yenimedya.com.tr
 0.0.0.0 xenn.io
+0.0.0.0 metrics.egencia.com.tr
+0.0.0.0 smetrics.kone.com.tr
+0.0.0.0 smetrics.vodafone.com.tr
+0.0.0.0 tagm.tchibo.com.tr
 0.0.0.0 admatic.mgr.consensu.org
 0.0.0.0 admaticcdn.b-cdn.net
 0.0.0.0 imgvisilabsnet.azureedge.net
