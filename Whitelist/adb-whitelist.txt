@@ -3,14 +3,14 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 4
-! Updated: 20 Aug 2022 1:03:38 PM
+! Updated: 23 Oct 2022 1:03:38 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
-![Sadece Windows için AdGuard] Sorun: sozcu.com.tr adresindeki videolar yüklenmiyor.
-@@||dailymotion.com/player*$third-party,stealth
+![Sadece AdGuard uygulamaları] Sorun: sozcu.com.tr adresindeki videolar yüklenmiyor.
+@@||dailymotion.com/player*$stealth,domain=sozcu.com.tr
 !
-![Sadece Windows için AdGuard] Sorun: kolaygelsin.com canlı kargo takip haritası gözükmüyor.
+![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com canlı kargo takip haritası gözükmüyor.
 @@||basarsoft.com.tr/Service/api^$third-party,stealth
 !
 !Sorun: atv.com.tr canlı yayınları açılmıyor.
