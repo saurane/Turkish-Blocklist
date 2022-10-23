@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 125
-! Updated: 16 Oct 2022 1:26:37 AM
+! Entries: 133
+! Updated: 23 Oct 2022 3:25:49 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -50,7 +50,7 @@
 ||hepsiburada.net/web-vitals^
 ||webtekno.com/ajax/ometric^
 ||modanisa.com/*/analytics.js
-||paycell.com.tr/ruxitagentjs*.js
+||paycell.com.tr/ruxitagentjs_*.js
 ||reeder.com.tr/*/tracking.min.js
 ||yaanimail.com/assets/js/facebook^
 ||tamindir.com/ngx_pagespeed_beacon
@@ -73,11 +73,18 @@
 ||ucuzabilet.com/ajax/referrerAnalytics^
 ||canliradyodinle.fm/live/fm/gtag.min.js
 ||irmethospital.com/wp-json/wp-statistics^
+!
+!segmentify.com adresini istiyor.
+||homemadearomaterapi.net/entegrasyon/sw.js
+!
 ||kayiprihtim.com/assets/google-universal-analytics
+||dropbyorganics.com/wp-content/cache/busting/*/gtm-*.js
 ||spagettiyarn.com/catalog/view/javascript/*facebook*^
 ||spagettiyarn.com/catalog/view/javascript/ee_tracking_*.js
 ||diken.com.tr/wp-content/plugins/google-analytics-premium^
 ||indirimkuponum.net/wp-content/plugins/perfmatters/js/analytics.js
+||rosece.com/wp-content/plugins/google-analytics-for-wordpress^
+||rosece.com/wp-content/plugins/google-analytics-dashboard-for-wp^
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||proteinsatinal.com/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag^
@@ -148,6 +155,10 @@
 ||tripadvisor.com.tr/*common.tracking-bridge
 ||tacdn.com/js3/build/concat/taevents-*.js
 !
+||avon.com.tr/ruxitagentjs_*.js
+||avon.com.tr/Scripts/Tracking^
+||avon.com.tr/Scripts/External/RecommendationEngine/resxclsx.js
+!
 ||trivago.com.tr/track
 ||trivago.com/tracking^
 ||trivago.com.tr/search/log
@@ -157,11 +168,12 @@
 !
 ||kiwi.com/api/cookies^
 ||hm.com/tr_tr/metrics^
+||watsons.com.tr/ruxitagentjs_*.js
 ||ups.com.tr/Scripts/cfevents.js
 ||momondo.com.tr/s/vestigo/v1/measure
 ||somposigorta.com.tr/web/tracker.js
 ||nescafe.com/tr/core/modules/statistics^
-||mediamarkt.com.tr/dt/ruxitagentjs*.js
+||mediamarkt.com.tr/dt/ruxitagentjs_*.js
 ||mediamarkt.com.tr/rde_server/res/MMTR/event^
 !
 /desktop-FingerPrintWrapper.*.js$domain=letgo.com|otoplus.com
