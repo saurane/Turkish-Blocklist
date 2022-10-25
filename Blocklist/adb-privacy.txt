@@ -2,17 +2,20 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 133
-! Updated: 23 Oct 2022 3:25:49 PM
+! Entries: 132
+! Updated: 25 Oct 2022 9:06:21 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !
 !GENERIC
+/banalytics.js
 /*dataroid*$script
 /*personaclick*$script
 /*cookie-seal*$script
 /ticimax/analytics.js
+!
+/ruxitagentjs_
 /shared/js/analyticsmediator.js
 !
 !
@@ -50,7 +53,6 @@
 ||hepsiburada.net/web-vitals^
 ||webtekno.com/ajax/ometric^
 ||modanisa.com/*/analytics.js
-||paycell.com.tr/ruxitagentjs_*.js
 ||reeder.com.tr/*/tracking.min.js
 ||yaanimail.com/assets/js/facebook^
 ||tamindir.com/ngx_pagespeed_beacon
@@ -60,6 +62,7 @@
 ||lcwaikiki.com/Resource/Scripts/tracking^
 ||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||tubitak.gov.tr/sites/all/modules/google_analytics^
+||transfermarkt.com.tr/js/custom/tm-track-links.min.js
 ||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
 ||hardlinenutrition.com/catalog/view/javascript/facebook_business/facebook_pixel_*.js
 !
@@ -77,11 +80,13 @@
 !segmentify.com adresini istiyor.
 ||homemadearomaterapi.net/entegrasyon/sw.js
 !
+||oyunfor.com/Public/standart/web/dist/js/3rd/criteo^
 ||kayiprihtim.com/assets/google-universal-analytics
 ||dropbyorganics.com/wp-content/cache/busting/*/gtm-*.js
 ||spagettiyarn.com/catalog/view/javascript/*facebook*^
 ||spagettiyarn.com/catalog/view/javascript/ee_tracking_*.js
 ||diken.com.tr/wp-content/plugins/google-analytics-premium^
+||deercase.com/catalog/view/javascript/facebook/facebook_pixel.js
 ||indirimkuponum.net/wp-content/plugins/perfmatters/js/analytics.js
 ||rosece.com/wp-content/plugins/google-analytics-for-wordpress^
 ||rosece.com/wp-content/plugins/google-analytics-dashboard-for-wp^
@@ -94,9 +99,7 @@
 /gtm.js$domain=alastyr.com|btcturk.com|enpara.com|vatanbilgisayar.com
 /firebasejs$domain=haberler.com|sondakika.com
 /dynamics/geoipj$domain=showtv.com.tr|haberturk.com
-/banalytics.js$domain=milliyet.com.tr|hurriyet.com.tr
 /duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
-/shared/js/analyticsmediator.js$domain=arcelik.com.tr|beko.com.tr|avansas.com|mopas.com.tr|mavi.com
 !
 !WEBSITES of TV CHANNELS
 ||yeniakit.com.tr/process/analytics^
@@ -106,21 +109,21 @@
 ||hurriyet.com.tr/Scripts/clicks.js
 ||bundle.app/js/PushAnalyticsEvent.js
 ||showtv.com.tr/scripts/js/gtm*.js
+||s.internethaber.com/assets/global/js/criteo.js
+||haber.com/wp-content/cache/min/*/tag/js/gpt.js
 !
 !WEBSITES OF BANKS
 ||denizbank.com/adrum^
 ||denizbank.com/_js/pixel.js
 ||denizbank.com/_assets/js/analytics.js
-||cepteteb.com.tr/ruxitagentjs*.js
 !
 !Experimental (deneysel)
 ||mark.isbank.com.tr^$redirect=nooptext
 !
 ||kuveytturk.com.tr/_assets/js/adrum-config.js
-||yapikredi.com.tr/ngi-static/js/3rdParty/dataroid-websdk.*.js
+||ziraatkatilim.com.tr/modules/custom/zk_web_analytics^
 ||fibabanka.com.tr/ResourcePackages/Fibabanka/assets/js/countly-*.js
 ||ing.com.tr/*/adrum^
-||ing.com.tr/*dataroid*
 ||ing.com.tr/*/Omniture_v*.js
 ||ing.com.tr/documents/IngBank/assets/js/AppMeasurement_v*.js
 !
@@ -155,7 +158,6 @@
 ||tripadvisor.com.tr/*common.tracking-bridge
 ||tacdn.com/js3/build/concat/taevents-*.js
 !
-||avon.com.tr/ruxitagentjs_*.js
 ||avon.com.tr/Scripts/Tracking^
 ||avon.com.tr/Scripts/External/RecommendationEngine/resxclsx.js
 !
@@ -168,12 +170,10 @@
 !
 ||kiwi.com/api/cookies^
 ||hm.com/tr_tr/metrics^
-||watsons.com.tr/ruxitagentjs_*.js
 ||ups.com.tr/Scripts/cfevents.js
 ||momondo.com.tr/s/vestigo/v1/measure
 ||somposigorta.com.tr/web/tracker.js
 ||nescafe.com/tr/core/modules/statistics^
-||mediamarkt.com.tr/dt/ruxitagentjs_*.js
 ||mediamarkt.com.tr/rde_server/res/MMTR/event^
 !
 /desktop-FingerPrintWrapper.*.js$domain=letgo.com|otoplus.com
