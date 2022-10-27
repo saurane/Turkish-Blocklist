@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 239
-# Updated: 26 Oct 2022 1:53:32 PM
+# Entries: 240
+# Updated: 27 Oct 2022 6:58:17 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -14,6 +14,10 @@ aip-cdn.sozcu.com.tr CNAME .
 *.aip-cdn.sozcu.com.tr CNAME .
 aip2.sozcu.com.tr CNAME .
 *.aip2.sozcu.com.tr CNAME .
+tx.n11.com CNAME .
+*.tx.n11.com CNAME .
+sgtm.sefamerve.com CNAME .
+*.sgtm.sefamerve.com CNAME .
 analytics.dugun.com CNAME .
 *.analytics.dugun.com CNAME .
 analytics.rasyotek.com.tr CNAME .
@@ -184,8 +188,6 @@ dataroid.com CNAME .
 *.dataroid.com CNAME .
 dengage.com CNAME .
 *.dengage.com CNAME .
-dygassets.dygdigital.com CNAME .
-*.dygassets.dygdigital.com CNAME .
 dygtag-extension-novatiq.dygdigital.com CNAME .
 *.dygtag-extension-novatiq.dygdigital.com CNAME .
 eksiup.com CNAME .
