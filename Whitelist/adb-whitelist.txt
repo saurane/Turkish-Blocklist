@@ -2,12 +2,13 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 4
-! Updated: 23 Oct 2022 1:03:38 PM
+! Entries: 5
+! Updated: 27 Oct 2022 6:21:25 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
-![Sadece AdGuard uygulamaları] Sorun: sozcu.com.tr adresindeki videolar yüklenmiyor.
+!
+![Sadece AdGuard uygulamaları] Sorun: sozcu.com.tr adresindeki videolar açılmıyor.
 @@||dailymotion.com/player*$stealth,domain=sozcu.com.tr
 !
 ![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com canlı kargo takip haritası gözükmüyor.
@@ -18,3 +19,6 @@
 !
 !Sorun: Sahibinden Param-Güvende satışını engelliyor.
 @@||sahibinden.com/assets/analytics*.js
+!
+!Sorun: PuhuTV adresindeki videolar açılmıyor.
+@@||dygassets.dygdigital.com/player-new^
