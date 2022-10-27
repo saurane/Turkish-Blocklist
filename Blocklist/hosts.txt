@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 239
-# Updated: 26 Oct 2022 1:53:32 PM
+# Entries: 240
+# Updated: 27 Oct 2022 6:58:17 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -25,6 +25,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 affiliate.migros.com.tr
 0.0.0.0 aip-cdn.sozcu.com.tr
 0.0.0.0 aip2.sozcu.com.tr
+0.0.0.0 tx.n11.com
+0.0.0.0 sgtm.sefamerve.com
 0.0.0.0 analytics.dugun.com
 0.0.0.0 analytics.rasyotek.com.tr
 0.0.0.0 athena-event-provider.n11.com
@@ -110,7 +112,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 console.yapaytech.com
 0.0.0.0 dataroid.com
 0.0.0.0 dengage.com
-0.0.0.0 dygassets.dygdigital.com
 0.0.0.0 dygtag-extension-novatiq.dygdigital.com
 0.0.0.0 eksiup.com
 0.0.0.0 emarketingsuite.net
