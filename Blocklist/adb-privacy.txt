@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 136
-! Updated: 27 Oct 2022 9:06:21 PM
+! Entries: 138
+! Updated: 1 Nov 2022 2:17:13 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -49,7 +49,8 @@
 ||penti.com/_ui/responsive/common/js/custom/acc.penti.googletagmanager.js
 !
 ||isimtescil.net/Gtm^
-||blutv.com/favicon.ico
+||tvplus.com.tr/analytics^
+||tvplus.com.tr/api/google-analytics^
 ||atakdomain.com/*/gtm*.js
 ||onedio.com/prod/counters^
 ||hepsiburada.net/webtrekk^
@@ -68,7 +69,7 @@
 ||hardlinenutrition.com/catalog/view/javascript/facebook_business/facebook_pixel_*.js
 !
 !
-! UNPOPULAR WEBSITES
+!# UNPOPULAR WEBSITES #
 ||ucakbileti.com/Analytics^
 ||fullhdfilmizleten.org/analytics^
 ||sephora.com.tr/*/dwanalytics-*.js
@@ -77,6 +78,10 @@
 ||ucuzabilet.com/ajax/referrerAnalytics^
 ||canliradyodinle.fm/live/fm/gtag.min.js
 ||irmethospital.com/wp-json/wp-statistics^
+!
+!segmentify.com adresini istiyor.
+||homemadearomaterapi.net/entegrasyon/sw.js
+!
 ||oyunfor.com/Public/standart/web/dist/js/3rd/criteo^
 ||kayiprihtim.com/assets/google-universal-analytics
 ||dropbyorganics.com/wp-content/cache/busting/*/gtm-*.js
@@ -96,7 +101,7 @@
 /gtm.js$domain=alastyr.com|btcturk.com|enpara.com|vatanbilgisayar.com
 /firebasejs$domain=haberler.com|sondakika.com
 /dynamics/geoipj$domain=showtv.com.tr|haberturk.com
-/duracelltomi-google-tag-manager$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
+/duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
 !
 !WEBSITES of TV CHANNELS
 ||yeniakit.com.tr/process/analytics^
@@ -113,7 +118,10 @@
 ||denizbank.com/adrum^
 ||denizbank.com/_js/pixel.js
 ||denizbank.com/_assets/js/analytics.js
+!
+!Experimental (deneysel)
 ||mark.isbank.com.tr^$redirect=nooptext
+!
 ||turkiyefinans.com.tr/sdk/web/countly.min.js
 ||kuveytturk.com.tr/_assets/js/adrum-config.js
 ||ziraatkatilim.com.tr/modules/custom/zk_web_analytics^
@@ -124,11 +132,11 @@
 !
 !THIRD PARTY
 ||glami.com.tr$third-party
+||dygassets.dygdigital.com^$third-party
 ||daioncdn.net/events$third-party
 ||ercdn.net/omsdk^$third-party
 ||ercdn.net/dev/openvv.js$third-party
 ||teimg.com/analytics.js$third-party
-||dygassets.dygdigital.com^$third-party
 ||ticimax.com/*/analytics.js$third-party
 ||yapaytech.com/ytag/script.js$third-party
 ||cdn.md/js*/Mackolik/Analytics.js$third-party
