@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 138
-! Updated: 1 Nov 2022 2:17:13 AM
+! Entries: 141
+! Updated: 11 Nov 2022 3:20:47 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -36,9 +36,12 @@
 !
 ||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
 ||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+||turkcell.com.tr/static_lib/assets/images/about/mail/spacer.gif?
+||turkcell.com.tr/static_lib/assets/scripts/turkcell/sh.tealium.js
 ||merlincdn.net/static_lib/assets/scripts/turkcell/sh.tealium.js
 ||merlincdn.net/static_lib/assets/scripts/turkcell/google-analytics^
 ||merlincdn.net/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+
 !
 ||shbdn.com/api/*sentry_key*
 ||sahibinden.com/*/blueKai^$redirect=nooptext
@@ -49,6 +52,7 @@
 ||penti.com/_ui/responsive/common/js/custom/acc.penti.googletagmanager.js
 !
 ||isimtescil.net/Gtm^
+||akakce.com/*/clickHeat^
 ||tvplus.com.tr/analytics^
 ||tvplus.com.tr/api/google-analytics^
 ||atakdomain.com/*/gtm*.js
