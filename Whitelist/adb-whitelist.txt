@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 5
-! Updated: 5 Nov 2022 11:15:49 PM
+! Entries: 6
+! Updated: 4 Dec 2022 11:52:19 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -13,6 +13,9 @@
 !
 ![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com canlı kargo takip haritası gözükmüyor.
 @@||basarsoft.com.tr/Service/api^$third-party,stealth
+!
+![Sadece AdGuard uygulamaları] Sorun: cimri.com web sitesi açılmıyor.
+@@||cimri.com^$stealth=ip
 !
 !Sorun: atv.com.tr canlı yayınları açılmıyor.
 @@||ipcheck.tmgrup.com.tr^$important,domain=atv.com.tr
