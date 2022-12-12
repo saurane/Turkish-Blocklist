@@ -2,11 +2,14 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 6
-! Updated: 9 Dec 2022 2:57:51 AM
+! Entries: 7
+! Updated: 12 Dec 2022 7:49:11 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
+!
+![Sadece AdGuard uygulamaları] Sorun: forum.turk.net web sitesi açılmıyor.
+@@||forum.turk.net^$stealth=dpi
 !
 ![Sadece AdGuard uygulamaları] Sorun: sozcu.com.tr adresindeki videolar açılmıyor.
 @@||dailymotion.com/player*$stealth=referrer,domain=sozcu.com.tr
@@ -25,3 +28,4 @@
 !
 !Sorun: PuhuTV adresindeki videolar açılmıyor.
 @@||dygassets.dygdigital.com/player-new^
+!
