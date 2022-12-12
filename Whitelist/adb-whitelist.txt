@@ -28,4 +28,3 @@
 !
 !Sorun: PuhuTV adresindeki videolar açılmıyor.
 @@||dygassets.dygdigital.com/player-new^
-!
