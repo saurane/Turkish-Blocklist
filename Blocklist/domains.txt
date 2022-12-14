@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Domains
-# Entries: 240
-# Updated: 27 Oct 2022 6:58:17 PM
+# Entries: 245
+# Updated: 14 Dec 2022 5:01:28 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -13,12 +13,14 @@ aip-cdn.sozcu.com.tr
 aip2.sozcu.com.tr
 tx.n11.com
 sgtm.sefamerve.com
+tracking.mubi.com
 analytics.dugun.com
 analytics.rasyotek.com.tr
 athena-event-provider.n11.com
 cdn-netmeraprod.turktelekom.com.tr
 clicks.hurriyet.com.tr
 collect.dolap.com
+hepsipay-sentry.hepsipay.com
 collect.trendyol.com
 collector.puhutv.com
 countly.iyzico.com
@@ -98,8 +100,11 @@ collector.blupoint.io
 console.yapaytech.com
 dataroid.com
 dengage.com
+qos.ercdn.com
 dygtag-extension-novatiq.dygdigital.com
 eksiup.com
+sentry-relay.mubicdn.net
+sentry.mubicdn.net
 emarketingsuite.net
 enhencer.com
 gbdijital.com
