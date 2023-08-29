@@ -2,32 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 231
-# Updated: 29 Aug 2023 10:54:17 PM
-# Homepage: https://github.com/saurane/Turkish-Blocklist
-# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
-# Contact: https://github.com/saurane
-#
-127.0.0.1 localhost
-127.0.0.1 localhost.localdomain
-127.0.0.1 local
-255.255.255.255 broadcasthost
-::1 localhost
-::1 ip6-localhost
-::1 ip6-loopback
-fe80::1%lo0 localhost
-ff00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
-ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
-# Title: Turkish DNS Filter
-# Description: Turkish based ad and tracker domain name blocking project.
-# Maintainer: saurane
-# Syntax: Hosts
-# Entries: 220
-# Updated: 29 Aug 2023 10:51:40 PM
+# Entries: 248
+# Updated: 29 Aug 2023 10:56:26 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -58,16 +34,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 adbreak.net
 0.0.0.0 adbuzz.com.tr
 0.0.0.0 addata.exxen.com
+0.0.0.0 adhood.com
 0.0.0.0 adhouse.pro
 0.0.0.0 adimage.media
 0.0.0.0 adklik.com.tr
 0.0.0.0 admatic.com.tr
+0.0.0.0 admatic.mgr.consensu.org
+0.0.0.0 admaticcdn.b-cdn.net
 0.0.0.0 admost.com
 0.0.0.0 adn.bursadabugun.com
 0.0.0.0 adnboost.com
 0.0.0.0 adplay.com.tr
 0.0.0.0 adplus.yaani.com.tr
 0.0.0.0 adpozitif.com
+0.0.0.0 adrazzi.com
 0.0.0.0 adreact.com
 0.0.0.0 ads.dygdigital.com
 0.0.0.0 ads.macskorlari.net
@@ -76,6 +56,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adserver.a24.com.tr
 0.0.0.0 adsp.haberturk.com
 0.0.0.0 adtarget.com.tr
+0.0.0.0 advermind.com
 0.0.0.0 adworld.com.tr
 0.0.0.0 affiliate.migros.com.tr
 0.0.0.0 aip-cdn.sozcu.com.tr
@@ -85,6 +66,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.halkbank.com.tr
 0.0.0.0 analytics.rasyotek.com.tr
 0.0.0.0 analytics.tebilisim.com
+0.0.0.0 analyticsb2c.com
 0.0.0.0 api-stg.ensonhaber.com
 0.0.0.0 athena-event-provider.n11.com
 0.0.0.0 banner.tmgrup.com.tr
@@ -107,17 +89,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 countly.fibabanka.com.tr
 0.0.0.0 countly.iyzico.com
 0.0.0.0 d.haberler.com
-0.0.0.0 dacs.generalmobile.com
+0.0.0.0 d.sondakika.com
 0.0.0.0 datacollection.beymen.com
 0.0.0.0 dataroid.com
 0.0.0.0 demeter-int-ecom-collect.trendyol.com
+0.0.0.0 dengage-public-data-collector-proxy.burgan.com.tr
 0.0.0.0 dengage.com
 0.0.0.0 developer.kuveytturk.com.tr
 0.0.0.0 doganburda.com
 0.0.0.0 dogus-ads-cdn.dygdigital.com
 0.0.0.0 dygadtech.com
-0.0.0.0 dygassets.dygdigital.com
+0.0.0.0 dygtag-extension-novatiq.dygdigital.com
+0.0.0.0 edge-sentry-box.otelz.com
 0.0.0.0 efilli.com
+0.0.0.0 eksiup.com
+0.0.0.0 emarketingsuite.net
 0.0.0.0 enhencer.com
 0.0.0.0 eum.ing.com.tr
 0.0.0.0 eum.kuveytturk.com.tr
@@ -128,24 +114,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 events.jotform.com
 0.0.0.0 evs.data.ciceksepeti.com
 0.0.0.0 exxen-reklam.ercdn.net
+0.0.0.0 gbdijital.com
 0.0.0.0 gelirartisi.com
 0.0.0.0 geoim.bloomberght.com
 0.0.0.0 geoloc.hurriyet.com.tr
 0.0.0.0 gez.io
+0.0.0.0 glamipixel.com
 0.0.0.0 gmgreklam.com
+0.0.0.0 gtm.flo.com.tr
 0.0.0.0 gtm.lidyana.com
 0.0.0.0 h.n11.com
 0.0.0.0 hellosmpl.com
 0.0.0.0 hepsiads-bff.hepsiburada.com
 0.0.0.0 hepsiads-gw.hepsiburada.com
 0.0.0.0 hepsiads-ui.hepsiburada.com
+0.0.0.0 hepsipay-sentry.hepsipay.com
 0.0.0.0 hit.demirorenteknoloji.com
 0.0.0.0 hit.mynet.com
 0.0.0.0 hits.acunn.com
 0.0.0.0 hits.tv8.com.tr
 0.0.0.0 hodor-collect.arabam.com
 0.0.0.0 hstats.hepsiburada.com
-0.0.0.0 improvedigital.com
+0.0.0.0 hstatstest.hepsiburada.com
+0.0.0.0 imgvisilabsnet.azureedge.net
 0.0.0.0 indirads.org
 0.0.0.0 indirads.work
 0.0.0.0 instana.fibabanka.com.tr
@@ -157,19 +148,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 istatistik.arabam.com
 0.0.0.0 istatistik.gazetevatan.com
 0.0.0.0 istatistik.trthaber.com
+0.0.0.0 jbexception.kariyer.net
 0.0.0.0 log.haberturk.com
 0.0.0.0 log.newsbreak.com.tr
 0.0.0.0 log.yapaytech.com
 0.0.0.0 makroo.com
 0.0.0.0 makroo.haber7.net
-0.0.0.0 mark.isbank.com.tr
 0.0.0.0 marketing.turkiyefinans.com.tr
+0.0.0.0 marsmedia.azurewebsites.net
 0.0.0.0 medya.ilan.gov.tr
+0.0.0.0 medya.ilan.gov.tr.whecloud.com
 0.0.0.0 medyanative.com
+0.0.0.0 medyanet-com-tr.videoplayerhub.com
 0.0.0.0 medyanetads.com
 0.0.0.0 metrics.egencia.com.tr
-0.0.0.0 mndtrk.com
-0.0.0.0 myikas.com
 0.0.0.0 mynetreklam.com
 0.0.0.0 nativespot.com
 0.0.0.0 netmera-web.com
@@ -185,15 +177,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixels-1.ingbank.com.tr
 0.0.0.0 pixels.ingbank.com.tr
 0.0.0.0 pnsdkapi.turktelekom.com.tr
-0.0.0.0 poczta.generalmobile.com
 0.0.0.0 poeticmetric.com
 0.0.0.0 poltio.com
 0.0.0.0 pozitron.com
 0.0.0.0 programattik.com
-0.0.0.0 psabah.tmgrup.com.tr
 0.0.0.0 push.ilan365.net
+0.0.0.0 qos.ercdn.com
 0.0.0.0 r.cdn.acunn.com
 0.0.0.0 r.tooplay.com
+0.0.0.0 rek.izlesene.com
+0.0.0.0 rek.nktcdn.com
 0.0.0.0 reklam.turkmmo.com
 0.0.0.0 reklamagaci.com
 0.0.0.0 reklamnative.com
@@ -202,16 +195,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 revenueflex.com
 0.0.0.0 revotas.com
 0.0.0.0 rum.ibb.gov.tr
+0.0.0.0 rv.modanisa.com
+0.0.0.0 s.duhnet.tv
 0.0.0.0 s.fullhdfilmizlesene.com
 0.0.0.0 say.ac
 0.0.0.0 sayac.tmgrup.com.tr
 0.0.0.0 searchanalytics.turkcell.com.tr
 0.0.0.0 segmentify.com
+0.0.0.0 sentry-relay.mubicdn.net
 0.0.0.0 sentry.epttavm.com
 0.0.0.0 sentry.iddaa.com
+0.0.0.0 sentry.mubicdn.net
+0.0.0.0 setrow.com
 0.0.0.0 setrowid.com
 0.0.0.0 sgmntfy.com
 0.0.0.0 sgtm.lcwaikiki.com
+0.0.0.0 sgtm.sefamerve.com
 0.0.0.0 signals.a101.com.tr
 0.0.0.0 signals.modanisa.com
 0.0.0.0 signals.teknosa.com
@@ -221,7 +220,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 so.n11.com
 0.0.0.0 sociaplus.com
 0.0.0.0 sortext.com
-0.0.0.0 sqgz.generalmobile.com
 0.0.0.0 st.tmgrup.com.tr
 0.0.0.0 stage-demeter-int-ecom-collect.trendyol.com
 0.0.0.0 statistics.daktilo.com
@@ -234,6 +232,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.videoseyred.in
 0.0.0.0 stats.vidyome.com
 0.0.0.0 stats.yenicaggazetesi.com.tr
+0.0.0.0 statsapi.tiendeo.com.tr
 0.0.0.0 subservis.com
 0.0.0.0 t.enuygun.com
 0.0.0.0 t.lidyana.com
@@ -244,8 +243,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.tooplay.com
 0.0.0.0 tracker.blutv.com
 0.0.0.0 tracking.jotform.com
+0.0.0.0 tracking.mubi.com
+0.0.0.0 trk.storyly.io
 0.0.0.0 tv8-reklam.ercdn.net
 0.0.0.0 tvlyzer.com
+0.0.0.0 tx.n11.com
 0.0.0.0 useinsider.com
 0.0.0.0 v.ajanshaber.com.tr
 0.0.0.0 v.dunya.com
@@ -262,9 +264,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 webeyo.com
 0.0.0.0 webinstats.com
 0.0.0.0 webstats.garanti.com.tr
+0.0.0.0 webstats2go.com
 0.0.0.0 widget.cdn.vidyome.com
 0.0.0.0 widget.haberler.com
 0.0.0.0 widget.yenimedya.com.tr
 0.0.0.0 xenn.io
-
+0.0.0.0 zkustats.ziraatkatilim.com.tr
 
