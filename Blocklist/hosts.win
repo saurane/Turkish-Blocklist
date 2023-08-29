@@ -2,6 +2,30 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
+# Entries: 231
+# Updated: 29 Aug 2023 10:54:17 PM
+# Homepage: https://github.com/saurane/Turkish-Blocklist
+# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
+# Contact: https://github.com/saurane
+#
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+# Title: Turkish DNS Filter
+# Description: Turkish based ad and tracker domain name blocking project.
+# Maintainer: saurane
+# Syntax: Windows Hosts
 # Entries: 220
 # Updated: 29 Aug 2023 10:51:40 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
@@ -242,4 +266,5 @@ ff02::3 ip6-allhosts
 127.0.0.1 widget.haberler.com
 127.0.0.1 widget.yenimedya.com.tr
 127.0.0.1 xenn.io
+
 
