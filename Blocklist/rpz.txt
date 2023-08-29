@@ -2,18 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 231
-# Updated: 29 Aug 2023 10:54:17 PM
-# Homepage: https://github.com/saurane/Turkish-Blocklist
-# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
-# Contact: https://github.com/saurane
-#
-# Title: Turkish DNS Filter
-# Description: Turkish based ad and tracker domain name blocking project.
-# Maintainer: saurane
-# Syntax: Response Policy Zone
-# Entries: 220
-# Updated: 29 Aug 2023 10:51:40 PM
+# Entries: 248
+# Updated: 29 Aug 2023 10:56:26 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -42,6 +32,8 @@ adbuzz.com.tr CNAME .
 *.adbuzz.com.tr CNAME .
 addata.exxen.com CNAME .
 *.addata.exxen.com CNAME .
+adhood.com CNAME .
+*.adhood.com CNAME .
 adhouse.pro CNAME .
 *.adhouse.pro CNAME .
 adimage.media CNAME .
@@ -50,6 +42,10 @@ adklik.com.tr CNAME .
 *.adklik.com.tr CNAME .
 admatic.com.tr CNAME .
 *.admatic.com.tr CNAME .
+admatic.mgr.consensu.org CNAME .
+*.admatic.mgr.consensu.org CNAME .
+admaticcdn.b-cdn.net CNAME .
+*.admaticcdn.b-cdn.net CNAME .
 admost.com CNAME .
 *.admost.com CNAME .
 adn.bursadabugun.com CNAME .
@@ -62,6 +58,8 @@ adplus.yaani.com.tr CNAME .
 *.adplus.yaani.com.tr CNAME .
 adpozitif.com CNAME .
 *.adpozitif.com CNAME .
+adrazzi.com CNAME .
+*.adrazzi.com CNAME .
 adreact.com CNAME .
 *.adreact.com CNAME .
 ads.dygdigital.com CNAME .
@@ -78,6 +76,8 @@ adsp.haberturk.com CNAME .
 *.adsp.haberturk.com CNAME .
 adtarget.com.tr CNAME .
 *.adtarget.com.tr CNAME .
+advermind.com CNAME .
+*.advermind.com CNAME .
 adworld.com.tr CNAME .
 *.adworld.com.tr CNAME .
 affiliate.migros.com.tr CNAME .
@@ -96,6 +96,8 @@ analytics.rasyotek.com.tr CNAME .
 *.analytics.rasyotek.com.tr CNAME .
 analytics.tebilisim.com CNAME .
 *.analytics.tebilisim.com CNAME .
+analyticsb2c.com CNAME .
+*.analyticsb2c.com CNAME .
 api-stg.ensonhaber.com CNAME .
 *.api-stg.ensonhaber.com CNAME .
 athena-event-provider.n11.com CNAME .
@@ -140,14 +142,16 @@ countly.iyzico.com CNAME .
 *.countly.iyzico.com CNAME .
 d.haberler.com CNAME .
 *.d.haberler.com CNAME .
-dacs.generalmobile.com CNAME .
-*.dacs.generalmobile.com CNAME .
+d.sondakika.com CNAME .
+*.d.sondakika.com CNAME .
 datacollection.beymen.com CNAME .
 *.datacollection.beymen.com CNAME .
 dataroid.com CNAME .
 *.dataroid.com CNAME .
 demeter-int-ecom-collect.trendyol.com CNAME .
 *.demeter-int-ecom-collect.trendyol.com CNAME .
+dengage-public-data-collector-proxy.burgan.com.tr CNAME .
+*.dengage-public-data-collector-proxy.burgan.com.tr CNAME .
 dengage.com CNAME .
 *.dengage.com CNAME .
 developer.kuveytturk.com.tr CNAME .
@@ -158,10 +162,16 @@ dogus-ads-cdn.dygdigital.com CNAME .
 *.dogus-ads-cdn.dygdigital.com CNAME .
 dygadtech.com CNAME .
 *.dygadtech.com CNAME .
-dygassets.dygdigital.com CNAME .
-*.dygassets.dygdigital.com CNAME .
+dygtag-extension-novatiq.dygdigital.com CNAME .
+*.dygtag-extension-novatiq.dygdigital.com CNAME .
+edge-sentry-box.otelz.com CNAME .
+*.edge-sentry-box.otelz.com CNAME .
 efilli.com CNAME .
 *.efilli.com CNAME .
+eksiup.com CNAME .
+*.eksiup.com CNAME .
+emarketingsuite.net CNAME .
+*.emarketingsuite.net CNAME .
 enhencer.com CNAME .
 *.enhencer.com CNAME .
 eum.ing.com.tr CNAME .
@@ -182,6 +192,8 @@ evs.data.ciceksepeti.com CNAME .
 *.evs.data.ciceksepeti.com CNAME .
 exxen-reklam.ercdn.net CNAME .
 *.exxen-reklam.ercdn.net CNAME .
+gbdijital.com CNAME .
+*.gbdijital.com CNAME .
 gelirartisi.com CNAME .
 *.gelirartisi.com CNAME .
 geoim.bloomberght.com CNAME .
@@ -190,8 +202,12 @@ geoloc.hurriyet.com.tr CNAME .
 *.geoloc.hurriyet.com.tr CNAME .
 gez.io CNAME .
 *.gez.io CNAME .
+glamipixel.com CNAME .
+*.glamipixel.com CNAME .
 gmgreklam.com CNAME .
 *.gmgreklam.com CNAME .
+gtm.flo.com.tr CNAME .
+*.gtm.flo.com.tr CNAME .
 gtm.lidyana.com CNAME .
 *.gtm.lidyana.com CNAME .
 h.n11.com CNAME .
@@ -204,6 +220,8 @@ hepsiads-gw.hepsiburada.com CNAME .
 *.hepsiads-gw.hepsiburada.com CNAME .
 hepsiads-ui.hepsiburada.com CNAME .
 *.hepsiads-ui.hepsiburada.com CNAME .
+hepsipay-sentry.hepsipay.com CNAME .
+*.hepsipay-sentry.hepsipay.com CNAME .
 hit.demirorenteknoloji.com CNAME .
 *.hit.demirorenteknoloji.com CNAME .
 hit.mynet.com CNAME .
@@ -216,8 +234,10 @@ hodor-collect.arabam.com CNAME .
 *.hodor-collect.arabam.com CNAME .
 hstats.hepsiburada.com CNAME .
 *.hstats.hepsiburada.com CNAME .
-improvedigital.com CNAME .
-*.improvedigital.com CNAME .
+hstatstest.hepsiburada.com CNAME .
+*.hstatstest.hepsiburada.com CNAME .
+imgvisilabsnet.azureedge.net CNAME .
+*.imgvisilabsnet.azureedge.net CNAME .
 indirads.org CNAME .
 *.indirads.org CNAME .
 indirads.work CNAME .
@@ -240,6 +260,8 @@ istatistik.gazetevatan.com CNAME .
 *.istatistik.gazetevatan.com CNAME .
 istatistik.trthaber.com CNAME .
 *.istatistik.trthaber.com CNAME .
+jbexception.kariyer.net CNAME .
+*.jbexception.kariyer.net CNAME .
 log.haberturk.com CNAME .
 *.log.haberturk.com CNAME .
 log.newsbreak.com.tr CNAME .
@@ -250,22 +272,22 @@ makroo.com CNAME .
 *.makroo.com CNAME .
 makroo.haber7.net CNAME .
 *.makroo.haber7.net CNAME .
-mark.isbank.com.tr CNAME .
-*.mark.isbank.com.tr CNAME .
 marketing.turkiyefinans.com.tr CNAME .
 *.marketing.turkiyefinans.com.tr CNAME .
+marsmedia.azurewebsites.net CNAME .
+*.marsmedia.azurewebsites.net CNAME .
 medya.ilan.gov.tr CNAME .
 *.medya.ilan.gov.tr CNAME .
+medya.ilan.gov.tr.whecloud.com CNAME .
+*.medya.ilan.gov.tr.whecloud.com CNAME .
 medyanative.com CNAME .
 *.medyanative.com CNAME .
+medyanet-com-tr.videoplayerhub.com CNAME .
+*.medyanet-com-tr.videoplayerhub.com CNAME .
 medyanetads.com CNAME .
 *.medyanetads.com CNAME .
 metrics.egencia.com.tr CNAME .
 *.metrics.egencia.com.tr CNAME .
-mndtrk.com CNAME .
-*.mndtrk.com CNAME .
-myikas.com CNAME .
-*.myikas.com CNAME .
 mynetreklam.com CNAME .
 *.mynetreklam.com CNAME .
 nativespot.com CNAME .
@@ -296,8 +318,6 @@ pixels.ingbank.com.tr CNAME .
 *.pixels.ingbank.com.tr CNAME .
 pnsdkapi.turktelekom.com.tr CNAME .
 *.pnsdkapi.turktelekom.com.tr CNAME .
-poczta.generalmobile.com CNAME .
-*.poczta.generalmobile.com CNAME .
 poeticmetric.com CNAME .
 *.poeticmetric.com CNAME .
 poltio.com CNAME .
@@ -306,14 +326,18 @@ pozitron.com CNAME .
 *.pozitron.com CNAME .
 programattik.com CNAME .
 *.programattik.com CNAME .
-psabah.tmgrup.com.tr CNAME .
-*.psabah.tmgrup.com.tr CNAME .
 push.ilan365.net CNAME .
 *.push.ilan365.net CNAME .
+qos.ercdn.com CNAME .
+*.qos.ercdn.com CNAME .
 r.cdn.acunn.com CNAME .
 *.r.cdn.acunn.com CNAME .
 r.tooplay.com CNAME .
 *.r.tooplay.com CNAME .
+rek.izlesene.com CNAME .
+*.rek.izlesene.com CNAME .
+rek.nktcdn.com CNAME .
+*.rek.nktcdn.com CNAME .
 reklam.turkmmo.com CNAME .
 *.reklam.turkmmo.com CNAME .
 reklamagaci.com CNAME .
@@ -330,6 +354,10 @@ revotas.com CNAME .
 *.revotas.com CNAME .
 rum.ibb.gov.tr CNAME .
 *.rum.ibb.gov.tr CNAME .
+rv.modanisa.com CNAME .
+*.rv.modanisa.com CNAME .
+s.duhnet.tv CNAME .
+*.s.duhnet.tv CNAME .
 s.fullhdfilmizlesene.com CNAME .
 *.s.fullhdfilmizlesene.com CNAME .
 say.ac CNAME .
@@ -340,16 +368,24 @@ searchanalytics.turkcell.com.tr CNAME .
 *.searchanalytics.turkcell.com.tr CNAME .
 segmentify.com CNAME .
 *.segmentify.com CNAME .
+sentry-relay.mubicdn.net CNAME .
+*.sentry-relay.mubicdn.net CNAME .
 sentry.epttavm.com CNAME .
 *.sentry.epttavm.com CNAME .
 sentry.iddaa.com CNAME .
 *.sentry.iddaa.com CNAME .
+sentry.mubicdn.net CNAME .
+*.sentry.mubicdn.net CNAME .
+setrow.com CNAME .
+*.setrow.com CNAME .
 setrowid.com CNAME .
 *.setrowid.com CNAME .
 sgmntfy.com CNAME .
 *.sgmntfy.com CNAME .
 sgtm.lcwaikiki.com CNAME .
 *.sgtm.lcwaikiki.com CNAME .
+sgtm.sefamerve.com CNAME .
+*.sgtm.sefamerve.com CNAME .
 signals.a101.com.tr CNAME .
 *.signals.a101.com.tr CNAME .
 signals.modanisa.com CNAME .
@@ -368,8 +404,6 @@ sociaplus.com CNAME .
 *.sociaplus.com CNAME .
 sortext.com CNAME .
 *.sortext.com CNAME .
-sqgz.generalmobile.com CNAME .
-*.sqgz.generalmobile.com CNAME .
 st.tmgrup.com.tr CNAME .
 *.st.tmgrup.com.tr CNAME .
 stage-demeter-int-ecom-collect.trendyol.com CNAME .
@@ -394,6 +428,8 @@ stats.vidyome.com CNAME .
 *.stats.vidyome.com CNAME .
 stats.yenicaggazetesi.com.tr CNAME .
 *.stats.yenicaggazetesi.com.tr CNAME .
+statsapi.tiendeo.com.tr CNAME .
+*.statsapi.tiendeo.com.tr CNAME .
 subservis.com CNAME .
 *.subservis.com CNAME .
 t.enuygun.com CNAME .
@@ -414,10 +450,16 @@ tracker.blutv.com CNAME .
 *.tracker.blutv.com CNAME .
 tracking.jotform.com CNAME .
 *.tracking.jotform.com CNAME .
+tracking.mubi.com CNAME .
+*.tracking.mubi.com CNAME .
+trk.storyly.io CNAME .
+*.trk.storyly.io CNAME .
 tv8-reklam.ercdn.net CNAME .
 *.tv8-reklam.ercdn.net CNAME .
 tvlyzer.com CNAME .
 *.tvlyzer.com CNAME .
+tx.n11.com CNAME .
+*.tx.n11.com CNAME .
 useinsider.com CNAME .
 *.useinsider.com CNAME .
 v.ajanshaber.com.tr CNAME .
@@ -450,6 +492,8 @@ webinstats.com CNAME .
 *.webinstats.com CNAME .
 webstats.garanti.com.tr CNAME .
 *.webstats.garanti.com.tr CNAME .
+webstats2go.com CNAME .
+*.webstats2go.com CNAME .
 widget.cdn.vidyome.com CNAME .
 *.widget.cdn.vidyome.com CNAME .
 widget.haberler.com CNAME .
@@ -458,5 +502,6 @@ widget.yenimedya.com.tr CNAME .
 *.widget.yenimedya.com.tr CNAME .
 xenn.io CNAME .
 *.xenn.io CNAME .
-
+zkustats.ziraatkatilim.com.tr CNAME .
+*.zkustats.ziraatkatilim.com.tr CNAME .
 
