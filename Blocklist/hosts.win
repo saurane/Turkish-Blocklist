@@ -2,32 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Windows Hosts
-# Entries: 231
-# Updated: 29 Aug 2023 10:54:17 PM
-# Homepage: https://github.com/saurane/Turkish-Blocklist
-# License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
-# Contact: https://github.com/saurane
-#
-127.0.0.1 localhost
-127.0.0.1 localhost.localdomain
-127.0.0.1 local
-255.255.255.255 broadcasthost
-::1 localhost
-::1 ip6-localhost
-::1 ip6-loopback
-fe80::1%lo0 localhost
-ff00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
-ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
-# Title: Turkish DNS Filter
-# Description: Turkish based ad and tracker domain name blocking project.
-# Maintainer: saurane
-# Syntax: Windows Hosts
-# Entries: 220
-# Updated: 29 Aug 2023 10:51:40 PM
+# Entries: 248
+# Updated: 29 Aug 2023 10:56:26 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -58,16 +34,20 @@ ff02::3 ip6-allhosts
 127.0.0.1 adbreak.net
 127.0.0.1 adbuzz.com.tr
 127.0.0.1 addata.exxen.com
+127.0.0.1 adhood.com
 127.0.0.1 adhouse.pro
 127.0.0.1 adimage.media
 127.0.0.1 adklik.com.tr
 127.0.0.1 admatic.com.tr
+127.0.0.1 admatic.mgr.consensu.org
+127.0.0.1 admaticcdn.b-cdn.net
 127.0.0.1 admost.com
 127.0.0.1 adn.bursadabugun.com
 127.0.0.1 adnboost.com
 127.0.0.1 adplay.com.tr
 127.0.0.1 adplus.yaani.com.tr
 127.0.0.1 adpozitif.com
+127.0.0.1 adrazzi.com
 127.0.0.1 adreact.com
 127.0.0.1 ads.dygdigital.com
 127.0.0.1 ads.macskorlari.net
@@ -76,6 +56,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 adserver.a24.com.tr
 127.0.0.1 adsp.haberturk.com
 127.0.0.1 adtarget.com.tr
+127.0.0.1 advermind.com
 127.0.0.1 adworld.com.tr
 127.0.0.1 affiliate.migros.com.tr
 127.0.0.1 aip-cdn.sozcu.com.tr
@@ -85,6 +66,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 analytics.halkbank.com.tr
 127.0.0.1 analytics.rasyotek.com.tr
 127.0.0.1 analytics.tebilisim.com
+127.0.0.1 analyticsb2c.com
 127.0.0.1 api-stg.ensonhaber.com
 127.0.0.1 athena-event-provider.n11.com
 127.0.0.1 banner.tmgrup.com.tr
@@ -107,17 +89,21 @@ ff02::3 ip6-allhosts
 127.0.0.1 countly.fibabanka.com.tr
 127.0.0.1 countly.iyzico.com
 127.0.0.1 d.haberler.com
-127.0.0.1 dacs.generalmobile.com
+127.0.0.1 d.sondakika.com
 127.0.0.1 datacollection.beymen.com
 127.0.0.1 dataroid.com
 127.0.0.1 demeter-int-ecom-collect.trendyol.com
+127.0.0.1 dengage-public-data-collector-proxy.burgan.com.tr
 127.0.0.1 dengage.com
 127.0.0.1 developer.kuveytturk.com.tr
 127.0.0.1 doganburda.com
 127.0.0.1 dogus-ads-cdn.dygdigital.com
 127.0.0.1 dygadtech.com
-127.0.0.1 dygassets.dygdigital.com
+127.0.0.1 dygtag-extension-novatiq.dygdigital.com
+127.0.0.1 edge-sentry-box.otelz.com
 127.0.0.1 efilli.com
+127.0.0.1 eksiup.com
+127.0.0.1 emarketingsuite.net
 127.0.0.1 enhencer.com
 127.0.0.1 eum.ing.com.tr
 127.0.0.1 eum.kuveytturk.com.tr
@@ -128,24 +114,29 @@ ff02::3 ip6-allhosts
 127.0.0.1 events.jotform.com
 127.0.0.1 evs.data.ciceksepeti.com
 127.0.0.1 exxen-reklam.ercdn.net
+127.0.0.1 gbdijital.com
 127.0.0.1 gelirartisi.com
 127.0.0.1 geoim.bloomberght.com
 127.0.0.1 geoloc.hurriyet.com.tr
 127.0.0.1 gez.io
+127.0.0.1 glamipixel.com
 127.0.0.1 gmgreklam.com
+127.0.0.1 gtm.flo.com.tr
 127.0.0.1 gtm.lidyana.com
 127.0.0.1 h.n11.com
 127.0.0.1 hellosmpl.com
 127.0.0.1 hepsiads-bff.hepsiburada.com
 127.0.0.1 hepsiads-gw.hepsiburada.com
 127.0.0.1 hepsiads-ui.hepsiburada.com
+127.0.0.1 hepsipay-sentry.hepsipay.com
 127.0.0.1 hit.demirorenteknoloji.com
 127.0.0.1 hit.mynet.com
 127.0.0.1 hits.acunn.com
 127.0.0.1 hits.tv8.com.tr
 127.0.0.1 hodor-collect.arabam.com
 127.0.0.1 hstats.hepsiburada.com
-127.0.0.1 improvedigital.com
+127.0.0.1 hstatstest.hepsiburada.com
+127.0.0.1 imgvisilabsnet.azureedge.net
 127.0.0.1 indirads.org
 127.0.0.1 indirads.work
 127.0.0.1 instana.fibabanka.com.tr
@@ -157,19 +148,20 @@ ff02::3 ip6-allhosts
 127.0.0.1 istatistik.arabam.com
 127.0.0.1 istatistik.gazetevatan.com
 127.0.0.1 istatistik.trthaber.com
+127.0.0.1 jbexception.kariyer.net
 127.0.0.1 log.haberturk.com
 127.0.0.1 log.newsbreak.com.tr
 127.0.0.1 log.yapaytech.com
 127.0.0.1 makroo.com
 127.0.0.1 makroo.haber7.net
-127.0.0.1 mark.isbank.com.tr
 127.0.0.1 marketing.turkiyefinans.com.tr
+127.0.0.1 marsmedia.azurewebsites.net
 127.0.0.1 medya.ilan.gov.tr
+127.0.0.1 medya.ilan.gov.tr.whecloud.com
 127.0.0.1 medyanative.com
+127.0.0.1 medyanet-com-tr.videoplayerhub.com
 127.0.0.1 medyanetads.com
 127.0.0.1 metrics.egencia.com.tr
-127.0.0.1 mndtrk.com
-127.0.0.1 myikas.com
 127.0.0.1 mynetreklam.com
 127.0.0.1 nativespot.com
 127.0.0.1 netmera-web.com
@@ -185,15 +177,16 @@ ff02::3 ip6-allhosts
 127.0.0.1 pixels-1.ingbank.com.tr
 127.0.0.1 pixels.ingbank.com.tr
 127.0.0.1 pnsdkapi.turktelekom.com.tr
-127.0.0.1 poczta.generalmobile.com
 127.0.0.1 poeticmetric.com
 127.0.0.1 poltio.com
 127.0.0.1 pozitron.com
 127.0.0.1 programattik.com
-127.0.0.1 psabah.tmgrup.com.tr
 127.0.0.1 push.ilan365.net
+127.0.0.1 qos.ercdn.com
 127.0.0.1 r.cdn.acunn.com
 127.0.0.1 r.tooplay.com
+127.0.0.1 rek.izlesene.com
+127.0.0.1 rek.nktcdn.com
 127.0.0.1 reklam.turkmmo.com
 127.0.0.1 reklamagaci.com
 127.0.0.1 reklamnative.com
@@ -202,16 +195,22 @@ ff02::3 ip6-allhosts
 127.0.0.1 revenueflex.com
 127.0.0.1 revotas.com
 127.0.0.1 rum.ibb.gov.tr
+127.0.0.1 rv.modanisa.com
+127.0.0.1 s.duhnet.tv
 127.0.0.1 s.fullhdfilmizlesene.com
 127.0.0.1 say.ac
 127.0.0.1 sayac.tmgrup.com.tr
 127.0.0.1 searchanalytics.turkcell.com.tr
 127.0.0.1 segmentify.com
+127.0.0.1 sentry-relay.mubicdn.net
 127.0.0.1 sentry.epttavm.com
 127.0.0.1 sentry.iddaa.com
+127.0.0.1 sentry.mubicdn.net
+127.0.0.1 setrow.com
 127.0.0.1 setrowid.com
 127.0.0.1 sgmntfy.com
 127.0.0.1 sgtm.lcwaikiki.com
+127.0.0.1 sgtm.sefamerve.com
 127.0.0.1 signals.a101.com.tr
 127.0.0.1 signals.modanisa.com
 127.0.0.1 signals.teknosa.com
@@ -221,7 +220,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 so.n11.com
 127.0.0.1 sociaplus.com
 127.0.0.1 sortext.com
-127.0.0.1 sqgz.generalmobile.com
 127.0.0.1 st.tmgrup.com.tr
 127.0.0.1 stage-demeter-int-ecom-collect.trendyol.com
 127.0.0.1 statistics.daktilo.com
@@ -234,6 +232,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 stats.videoseyred.in
 127.0.0.1 stats.vidyome.com
 127.0.0.1 stats.yenicaggazetesi.com.tr
+127.0.0.1 statsapi.tiendeo.com.tr
 127.0.0.1 subservis.com
 127.0.0.1 t.enuygun.com
 127.0.0.1 t.lidyana.com
@@ -244,8 +243,11 @@ ff02::3 ip6-allhosts
 127.0.0.1 track.tooplay.com
 127.0.0.1 tracker.blutv.com
 127.0.0.1 tracking.jotform.com
+127.0.0.1 tracking.mubi.com
+127.0.0.1 trk.storyly.io
 127.0.0.1 tv8-reklam.ercdn.net
 127.0.0.1 tvlyzer.com
+127.0.0.1 tx.n11.com
 127.0.0.1 useinsider.com
 127.0.0.1 v.ajanshaber.com.tr
 127.0.0.1 v.dunya.com
@@ -262,9 +264,10 @@ ff02::3 ip6-allhosts
 127.0.0.1 webeyo.com
 127.0.0.1 webinstats.com
 127.0.0.1 webstats.garanti.com.tr
+127.0.0.1 webstats2go.com
 127.0.0.1 widget.cdn.vidyome.com
 127.0.0.1 widget.haberler.com
 127.0.0.1 widget.yenimedya.com.tr
 127.0.0.1 xenn.io
-
+127.0.0.1 zkustats.ziraatkatilim.com.tr
 
