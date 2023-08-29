@@ -2,18 +2,8 @@
 ! Description: Turkish based ad and tracker domain name blocking project.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 231
-! Updated: 29 Aug 2023 10:54:17 PM
-! Homepage: https://github.com/saurane/Turkish-Blocklist
-! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
-! Contact: https://github.com/saurane
-!
-! Title: Turkish DNS Filter
-! Description: Turkish based ad and tracker domain name blocking project.
-! Maintainer: saurane
-! Syntax: AdBlock
-! Entries: 220
-! Updated: 29 Aug 2023 10:51:40 PM
+! Entries: 248
+! Updated: 29 Aug 2023 10:56:26 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -30,16 +20,20 @@
 ||adbreak.net^
 ||adbuzz.com.tr^
 ||addata.exxen.com^
+||adhood.com^
 ||adhouse.pro^
 ||adimage.media^
 ||adklik.com.tr^
 ||admatic.com.tr^
+||admatic.mgr.consensu.org^
+||admaticcdn.b-cdn.net^
 ||admost.com^
 ||adn.bursadabugun.com^
 ||adnboost.com^
 ||adplay.com.tr^
 ||adplus.yaani.com.tr^
 ||adpozitif.com^
+||adrazzi.com^
 ||adreact.com^
 ||ads.dygdigital.com^
 ||ads.macskorlari.net^
@@ -48,6 +42,7 @@
 ||adserver.a24.com.tr^
 ||adsp.haberturk.com^
 ||adtarget.com.tr^
+||advermind.com^
 ||adworld.com.tr^
 ||affiliate.migros.com.tr^
 ||aip-cdn.sozcu.com.tr^
@@ -57,6 +52,7 @@
 ||analytics.halkbank.com.tr^
 ||analytics.rasyotek.com.tr^
 ||analytics.tebilisim.com^
+||analyticsb2c.com^
 ||api-stg.ensonhaber.com^
 ||athena-event-provider.n11.com^
 ||banner.tmgrup.com.tr^
@@ -79,17 +75,21 @@
 ||countly.fibabanka.com.tr^
 ||countly.iyzico.com^
 ||d.haberler.com^
-||dacs.generalmobile.com^
+||d.sondakika.com^
 ||datacollection.beymen.com^
 ||dataroid.com^
 ||demeter-int-ecom-collect.trendyol.com^
+||dengage-public-data-collector-proxy.burgan.com.tr^
 ||dengage.com^
 ||developer.kuveytturk.com.tr^
 ||doganburda.com^
 ||dogus-ads-cdn.dygdigital.com^
 ||dygadtech.com^
-||dygassets.dygdigital.com^
+||dygtag-extension-novatiq.dygdigital.com^
+||edge-sentry-box.otelz.com^
 ||efilli.com^
+||eksiup.com^
+||emarketingsuite.net^
 ||enhencer.com^
 ||eum.ing.com.tr^
 ||eum.kuveytturk.com.tr^
@@ -100,24 +100,29 @@
 ||events.jotform.com^
 ||evs.data.ciceksepeti.com^
 ||exxen-reklam.ercdn.net^
+||gbdijital.com^
 ||gelirartisi.com^
 ||geoim.bloomberght.com^
 ||geoloc.hurriyet.com.tr^
 ||gez.io^
+||glamipixel.com^
 ||gmgreklam.com^
+||gtm.flo.com.tr^
 ||gtm.lidyana.com^
 ||h.n11.com^
 ||hellosmpl.com^
 ||hepsiads-bff.hepsiburada.com^
 ||hepsiads-gw.hepsiburada.com^
 ||hepsiads-ui.hepsiburada.com^
+||hepsipay-sentry.hepsipay.com^
 ||hit.demirorenteknoloji.com^
 ||hit.mynet.com^
 ||hits.acunn.com^
 ||hits.tv8.com.tr^
 ||hodor-collect.arabam.com^
 ||hstats.hepsiburada.com^
-||improvedigital.com^
+||hstatstest.hepsiburada.com^
+||imgvisilabsnet.azureedge.net^
 ||indirads.org^
 ||indirads.work^
 ||instana.fibabanka.com.tr^
@@ -129,19 +134,20 @@
 ||istatistik.arabam.com^
 ||istatistik.gazetevatan.com^
 ||istatistik.trthaber.com^
+||jbexception.kariyer.net^
 ||log.haberturk.com^
 ||log.newsbreak.com.tr^
 ||log.yapaytech.com^
 ||makroo.com^
 ||makroo.haber7.net^
-||mark.isbank.com.tr^
 ||marketing.turkiyefinans.com.tr^
+||marsmedia.azurewebsites.net^
 ||medya.ilan.gov.tr^
+||medya.ilan.gov.tr.whecloud.com^
 ||medyanative.com^
+||medyanet-com-tr.videoplayerhub.com^
 ||medyanetads.com^
 ||metrics.egencia.com.tr^
-||mndtrk.com^
-||myikas.com^
 ||mynetreklam.com^
 ||nativespot.com^
 ||netmera-web.com^
@@ -157,15 +163,16 @@
 ||pixels-1.ingbank.com.tr^
 ||pixels.ingbank.com.tr^
 ||pnsdkapi.turktelekom.com.tr^
-||poczta.generalmobile.com^
 ||poeticmetric.com^
 ||poltio.com^
 ||pozitron.com^
 ||programattik.com^
-||psabah.tmgrup.com.tr^
 ||push.ilan365.net^
+||qos.ercdn.com^
 ||r.cdn.acunn.com^
 ||r.tooplay.com^
+||rek.izlesene.com^
+||rek.nktcdn.com^
 ||reklam.turkmmo.com^
 ||reklamagaci.com^
 ||reklamnative.com^
@@ -174,16 +181,22 @@
 ||revenueflex.com^
 ||revotas.com^
 ||rum.ibb.gov.tr^
+||rv.modanisa.com^
+||s.duhnet.tv^
 ||s.fullhdfilmizlesene.com^
 ||say.ac^
 ||sayac.tmgrup.com.tr^
 ||searchanalytics.turkcell.com.tr^
 ||segmentify.com^
+||sentry-relay.mubicdn.net^
 ||sentry.epttavm.com^
 ||sentry.iddaa.com^
+||sentry.mubicdn.net^
+||setrow.com^
 ||setrowid.com^
 ||sgmntfy.com^
 ||sgtm.lcwaikiki.com^
+||sgtm.sefamerve.com^
 ||signals.a101.com.tr^
 ||signals.modanisa.com^
 ||signals.teknosa.com^
@@ -193,7 +206,6 @@
 ||so.n11.com^
 ||sociaplus.com^
 ||sortext.com^
-||sqgz.generalmobile.com^
 ||st.tmgrup.com.tr^
 ||stage-demeter-int-ecom-collect.trendyol.com^
 ||statistics.daktilo.com^
@@ -206,6 +218,7 @@
 ||stats.videoseyred.in^
 ||stats.vidyome.com^
 ||stats.yenicaggazetesi.com.tr^
+||statsapi.tiendeo.com.tr^
 ||subservis.com^
 ||t.enuygun.com^
 ||t.lidyana.com^
@@ -216,8 +229,11 @@
 ||track.tooplay.com^
 ||tracker.blutv.com^
 ||tracking.jotform.com^
+||tracking.mubi.com^
+||trk.storyly.io^
 ||tv8-reklam.ercdn.net^
 ||tvlyzer.com^
+||tx.n11.com^
 ||useinsider.com^
 ||v.ajanshaber.com.tr^
 ||v.dunya.com^
@@ -234,9 +250,10 @@
 ||webeyo.com^
 ||webinstats.com^
 ||webstats.garanti.com.tr^
+||webstats2go.com^
 ||widget.cdn.vidyome.com^
 ||widget.haberler.com^
 ||widget.yenimedya.com.tr^
 ||xenn.io^
-
+||zkustats.ziraatkatilim.com.tr^
 
