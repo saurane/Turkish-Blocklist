@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Hosts
-# Entries: 248
-# Updated: 29 Aug 2023 10:56:26 PM
+# Entries: 249
+# Updated: 09 Sep 2023 1:51:55 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -38,6 +38,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adhouse.pro
 0.0.0.0 adimage.media
 0.0.0.0 adklik.com.tr
+0.0.0.0 analitik.bik.gov.tr
 0.0.0.0 admatic.com.tr
 0.0.0.0 admatic.mgr.consensu.org
 0.0.0.0 admaticcdn.b-cdn.net
