@@ -2,8 +2,8 @@
 # Description: Turkish based ad and tracker domain name blocking project.
 # Maintainer: saurane
 # Syntax: Response Policy Zone
-# Entries: 248
-# Updated: 29 Aug 2023 10:56:26 PM
+# Entries: 249
+# Updated: 09 Sep 2023 1:51:55 AM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -40,6 +40,8 @@ adimage.media CNAME .
 *.adimage.media CNAME .
 adklik.com.tr CNAME .
 *.adklik.com.tr CNAME .
+analitik.bik.gov.tr CNAME .
+*.analitik.bik.gov.tr CNAME .
 admatic.com.tr CNAME .
 *.admatic.com.tr CNAME .
 admatic.mgr.consensu.org CNAME .
