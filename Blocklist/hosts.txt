@@ -3,7 +3,7 @@
 # Maintainer: saurane
 # Syntax: Hosts
 # Entries: 249
-# Updated: 09 Sep 2023 1:51:55 AM
+# Updated: 11 Sep 2023 2:02:42 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -40,9 +40,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 adklik.com.tr
 0.0.0.0 analitik.bik.gov.tr
 0.0.0.0 admatic.com.tr
-0.0.0.0 admatic.mgr.consensu.org
-0.0.0.0 admaticcdn.b-cdn.net
 0.0.0.0 admost.com
+0.0.0.0 pisano.com.tr
 0.0.0.0 adn.bursadabugun.com
 0.0.0.0 adnboost.com
 0.0.0.0 adplay.com.tr
@@ -68,7 +67,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.rasyotek.com.tr
 0.0.0.0 analytics.tebilisim.com
 0.0.0.0 analyticsb2c.com
-0.0.0.0 api-stg.ensonhaber.com
 0.0.0.0 athena-event-provider.n11.com
 0.0.0.0 banner.tmgrup.com.tr
 0.0.0.0 bildirnet.com
@@ -170,6 +168,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 networkad.net
 0.0.0.0 oremark.com
 0.0.0.0 organikhit.com
+0.0.0.0 av2.sozcu.com.tr
+0.0.0.0 afyads.com
 0.0.0.0 orsis.net
 0.0.0.0 outstream.cdn.vidyome.com
 0.0.0.0 personaclick.com
