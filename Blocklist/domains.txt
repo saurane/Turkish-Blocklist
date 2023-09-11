@@ -3,7 +3,7 @@
 # Maintainer: saurane
 # Syntax: Domains
 # Entries: 249
-# Updated: 09 Sep 2023 1:51:55 AM
+# Updated: 11 Sep 2023 2:02:42 PM
 # Homepage: https://github.com/saurane/Turkish-Blocklist
 # License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 # Contact: https://github.com/saurane
@@ -26,9 +26,8 @@ adimage.media
 adklik.com.tr
 analitik.bik.gov.tr
 admatic.com.tr
-admatic.mgr.consensu.org
-admaticcdn.b-cdn.net
 admost.com
+pisano.com.tr
 adn.bursadabugun.com
 adnboost.com
 adplay.com.tr
@@ -54,7 +53,6 @@ analytics.halkbank.com.tr
 analytics.rasyotek.com.tr
 analytics.tebilisim.com
 analyticsb2c.com
-api-stg.ensonhaber.com
 athena-event-provider.n11.com
 banner.tmgrup.com.tr
 bildirnet.com
@@ -156,6 +154,8 @@ netmera.com
 networkad.net
 oremark.com
 organikhit.com
+av2.sozcu.com.tr
+afyads.com
 orsis.net
 outstream.cdn.vidyome.com
 personaclick.com
