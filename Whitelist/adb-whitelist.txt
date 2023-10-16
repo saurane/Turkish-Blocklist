@@ -2,11 +2,14 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 7
-! Updated: 12 Dec 2022 7:49:11 PM
+! Entries: 8
+! Updated: 16 Oct 2023 11:30:28 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
+!
+![Sadece AdGuard uygulamaları] Sorun: yemeksepeti.com ana sayfasında kayıtlı adresler ve geçmiş siparişler gibi geçmişe dayalı etkinlikler gözükmüyor.
+@@||tr.fd-api.com/api/v*/*/$stealth=3p-auth,domain=yemeksepeti.com
 !
 ![Sadece AdGuard uygulamaları] Sorun: forum.turk.net web sitesi açılmıyor.
 @@||forum.turk.net^$stealth=dpi
@@ -15,13 +18,13 @@
 @@||dailymotion.com/player*$stealth=referrer,domain=sozcu.com.tr
 !
 ![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com harita gözükmüyor.
-@@||basarsoft.com.tr/Service/api^$stealth=referrer
+@@||basarsoft.com.tr/Service/api^$stealth=referrer,third-party
 !
 ![Sadece AdGuard uygulamaları] Sorun: cimri.com web sitesi açılmıyor.
 @@||cimri.com^$stealth=ip
 !
-!Sorun: atv.com.tr canlı yayınları açılmıyor.
-@@||ipcheck.tmgrup.com.tr^$domain=atv.com.tr
+!Sorun: atv.com.tr canlı yayınları açılmıyor. (Turkuvaz Medya sitelerinde de kullanılabileceği için "third-party" eklendi)
+@@||ipcheck.tmgrup.com.tr^third-party
 !
 !Sorun: Sahibinden Param-Güvende satışını engelliyor.
 @@||sahibinden.com/assets/analytics*.js
