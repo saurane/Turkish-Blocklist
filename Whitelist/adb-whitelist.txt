@@ -23,8 +23,8 @@
 ![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com harita gözükmüyor.
 @@||basarsoft.com.tr/Service/api^$stealth=referrer,third-party
 !
-![Sadece AdGuard uygulamaları] Sorun: cimri.com web sitesi açılmıyor.
-@@||cimri.com^$stealth=ip
+![Sadece AdGuard uygulamaları] Sorun: cimri.com web sitesi açılmıyor. (sorun yok gibi gözüküyor tekrar kontrol edilecek)
+!@@||cimri.com^$stealth=ip
 !
 !Sorun: atv.com.tr canlı yayınları açılmıyor. (Turkuvaz Medya sitelerinde de kullanılabileceği için "third-party" eklendi)
 @@||ipcheck.tmgrup.com.tr^third-party
