@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 8
-! Updated: 23 Oct 2023 11:25:29 PM
+! Entries: 9
+! Updated: 23 Oct 2023 11:32:47 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -19,6 +19,9 @@
 !
 ![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com harita gözükmüyor.
 @@||basarsoft.com.tr/Service/api^$stealth=referrer,third-party
+!
+![Sadece AdGuard uygulamaları] Sorun: szctv.com.tr hadresinde canlı yayın açılmıyor.
+@@||geo.dailymotion.com/player/$stealth=referrer,domain=szctv.com.tr
 !
 !Sorun: atv.com.tr canlı yayınları açılmıyor. (Turkuvaz Medya sitelerinde de kullanılabileceği için "third-party" eklendi)
 @@||ipcheck.tmgrup.com.tr^third-party
