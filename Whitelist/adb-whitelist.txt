@@ -3,18 +3,18 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 9
-! Updated: 23 Oct 2023 10:37:14 PM
+! Updated: 23 Oct 2023 10:55:14 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !
 ![Sadece AdGuard uygulamaları] Sorun: yemeksepeti.com ana sayfasında kayıtlı adresler ve geçmiş siparişler gibi geçmişe dayalı etkinlikler gözükmüyor.
-@@||tr.fd-api.com/api/v*/*/$stealth=3p-auth,domain=yemeksepeti.com
+@@||tr.fd-api.com/api/$stealth=3p-auth,domain=yemeksepeti.com
 !
 ![Sadece AdGuard uygulamaları] Sorun: forum.turk.net web sitesi açılmıyor.
 @@||forum.turk.net^$stealth=dpi
 !
-![Sadece AdGuard uygulamaları] Sorun: turk.net online işlemlerden faturalar gözükmüyor veya inmiyor web.
+![Sadece AdGuard uygulamaları] Sorun: turk.net online işlemlerden faturalar gözükmüyor ve indirilemiyor.
 @@||fatura.turk.net^$stealth=dpi
 !
 ![Sadece AdGuard uygulamaları] Sorun: sozcu.com.tr adresindeki videolar açılmıyor.
@@ -23,14 +23,14 @@
 ![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com harita gözükmüyor.
 @@||basarsoft.com.tr/Service/api^$stealth=referrer,third-party
 !
-![Sadece AdGuard uygulamaları] Sorun: cimri.com web sitesi açılmıyor. (sorun yok gibi gözüküyor tekrar kontrol edilecek)
-!@@||cimri.com^$stealth=ip
-!
 !Sorun: atv.com.tr canlı yayınları açılmıyor. (Turkuvaz Medya sitelerinde de kullanılabileceği için "third-party" eklendi)
 @@||ipcheck.tmgrup.com.tr^third-party
 !
-!Sorun: Sahibinden Param-Güvende satışını engelliyor.
-@@||sahibinden.com/assets/analytics*.js
+!Sorun: sahibinden.com Param-Güvende satışını engelliyor.
+@@||static.sahibinden.com/assets/analytics*$script,domain=sahibinden.com
 !
-!Sorun: PuhuTV adresindeki videolar açılmıyor.
-@@||dygassets.dygdigital.com/player-new^
+!Sorun: puhutv.com adresindeki videolar açılmıyor.
+@@||dygassets.dygdigital.com/player-new/
+!
+!Sorun: enterprise.com.tr adresinde araç bulma paneli düzgün yüklenmiyor. (Bu sorun EasyPrivacy filtresinden kaynaklanıyor ve herhangi bir kaynak url adresi olmadığı için bu şekilde genel eklendi)
+@@||p.typekit.net^
