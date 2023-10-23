@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 9
-! Updated: 23 Oct 2023 10:55:14 PM
+! Entries: 8
+! Updated: 23 Oct 2023 11:25:29 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -17,9 +17,6 @@
 ![Sadece AdGuard uygulamaları] Sorun: turk.net online işlemlerden faturalar gözükmüyor ve indirilemiyor.
 @@||fatura.turk.net^$stealth=dpi
 !
-![Sadece AdGuard uygulamaları] Sorun: sozcu.com.tr adresindeki videolar açılmıyor.
-@@||dailymotion.com/player*$stealth=referrer,domain=sozcu.com.tr
-!
 ![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com harita gözükmüyor.
 @@||basarsoft.com.tr/Service/api^$stealth=referrer,third-party
 !
@@ -27,10 +24,10 @@
 @@||ipcheck.tmgrup.com.tr^third-party
 !
 !Sorun: sahibinden.com Param-Güvende satışını engelliyor.
-@@||static.sahibinden.com/assets/analytics*$script,domain=sahibinden.com
+@@||static.sahibinden.com/assets/analytics$script,domain=sahibinden.com
 !
 !Sorun: puhutv.com adresindeki videolar açılmıyor.
-@@||dygassets.dygdigital.com/player-new/
+@@||dygassets.dygdigital.com/player-new/$third-party
 !
 !Sorun: enterprise.com.tr adresinde araç bulma paneli düzgün yüklenmiyor. (Bu sorun EasyPrivacy filtresinden kaynaklanıyor ve herhangi bir kaynak url adresi olmadığı için bu şekilde genel eklendi)
 @@||p.typekit.net^
