@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 10
-! Updated: 25 Oct 2023 9:25:37 PM
+! Entries: 11
+! Updated: 27 Oct 2023 7:38:11 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -37,3 +37,6 @@
 !
 !Sorun: hepsiburada.com adresinde birden fazla ürünün bulunduğu sayfayı aşağı kaydırdığınızda ürünler kaybolur ve site bozulur. (Bu sorun "Fanboy's Annoyances" filtresindeki "##.backToTopVisible" kuralından kaynaklanıyor)
 hepsiburada.com#@#.backToTopVisible
+!
+![Sadece AdGuard uygulamaları] Sorun: mngkargo.com.tr web sitesi açılmıyor.
+@@||mngkargo.com.tr^$stealth=dpi
