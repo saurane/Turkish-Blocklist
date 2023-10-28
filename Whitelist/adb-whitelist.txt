@@ -3,7 +3,7 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 11
-! Updated: 27 Oct 2023 7:38:11 PM
+! Updated: 28 Oct 2023 1:35:47 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -17,8 +17,8 @@
 ![Sadece AdGuard uygulamaları] Sorun: turk.net online işlemlerden faturalar gözükmüyor ve indirilemiyor.
 @@||fatura.turk.net^$stealth=dpi
 !
-![Sadece AdGuard uygulamaları] Sorun: kolaygelsin.com harita gözükmüyor. (Harita altyapısı başka sitelerde de kullanılabileceğinden "third-party" eklendi)
-@@||basarsoft.com.tr/Service/api^$stealth=referrer,third-party
+![Sadece AdGuard uygulamaları] Sorun: esube.kolaygelsin.com harita gözükmüyor. (Harita altyapısı başka sitelerde de kullanılabileceğinden "third-party" eklendi)
+@@||bms.basarsoft.com.tr/Service/api/$stealth=referrer,third-party
 !
 ![Sadece AdGuard uygulamaları] Sorun: szctv.com.tr adresinde canlı yayın açılmıyor.
 @@||geo.dailymotion.com/player/$stealth=referrer,domain=szctv.com.tr
