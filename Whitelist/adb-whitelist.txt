@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 11
-! Updated: 28 Oct 2023 1:35:47 PM
+! Entries: 10
+! Updated: 28 Oct 2023 1:50:21 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -11,14 +11,14 @@
 ![Sadece AdGuard uygulamaları] Sorun: yemeksepeti.com ana sayfasında kayıtlı adresler ve geçmiş siparişler gibi geçmişe dayalı etkinlikler gözükmüyor.
 @@||tr.fd-api.com/api/$stealth=3p-auth,domain=yemeksepeti.com
 !
-![Sadece AdGuard uygulamaları] Sorun: forum.turk.net web sitesi açılmıyor.
-@@||forum.turk.net^$stealth=dpi
+![Sadece AdGuard uygulamaları] Sorun: turk.net web sitesi ve diğer "fatura.turk.net" siteleri açılmıyor.
+@@||turk.net^$stealth=dpi
 !
-![Sadece AdGuard uygulamaları] Sorun: turk.net online işlemlerden faturalar gözükmüyor ve indirilemiyor.
-@@||fatura.turk.net^$stealth=dpi
+![Sadece AdGuard uygulamaları] Sorun: mngkargo.com.tr web sitesi açılmıyor.
+@@||mngkargo.com.tr^$stealth=dpi
 !
 ![Sadece AdGuard uygulamaları] Sorun: esube.kolaygelsin.com harita gözükmüyor. (Harita altyapısı başka sitelerde de kullanılabileceğinden "third-party" eklendi)
-@@||bms.basarsoft.com.tr/Service/api/$stealth=referrer,third-party
+@@||bms.basarsoft.com.tr/Service/api/$stealth=referrer,image,third-party
 !
 ![Sadece AdGuard uygulamaları] Sorun: szctv.com.tr adresinde canlı yayın açılmıyor.
 @@||geo.dailymotion.com/player/$stealth=referrer,domain=szctv.com.tr
@@ -37,6 +37,3 @@
 !
 !Sorun: hepsiburada.com adresinde birden fazla ürünün bulunduğu sayfayı aşağı kaydırdığınızda ürünler kaybolur ve site bozulur. (Bu sorun "Fanboy's Annoyances" filtresindeki "##.backToTopVisible" kuralından kaynaklanıyor)
 hepsiburada.com#@#.backToTopVisible
-!
-![Sadece AdGuard uygulamaları] Sorun: mngkargo.com.tr web sitesi açılmıyor.
-@@||mngkargo.com.tr^$stealth=dpi
