@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 10
-! Updated: 28 Oct 2023 1:50:21 PM
+! Entries: 11
+! Updated: 28 Oct 2023 8:13:39 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -37,3 +37,6 @@
 !
 !Sorun: hepsiburada.com adresinde birden fazla ürünün bulunduğu sayfayı aşağı kaydırdığınızda ürünler kaybolur ve site bozulur. (Bu sorun "Fanboy's Annoyances" filtresindeki "##.backToTopVisible" kuralından kaynaklanıyor)
 hepsiburada.com#@#.backToTopVisible
+!
+!Sorun: beinconnect.com.tr web sitesi düzgün yüklenmiyor.
+@@||beinconnect.com.tr^$stealth=ip
