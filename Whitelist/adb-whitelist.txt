@@ -2,14 +2,17 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 11
-! Updated: 28 Oct 2023 11:00:16 PM
+! Entries: 12
+! Updated: 30 Oct 2023 10:23:04 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !
 ![Sadece AdGuard uygulamaları] Sorun: yemeksepeti.com ana sayfasında kayıtlı adresler ve geçmiş siparişler gibi geçmişe dayalı etkinlikler gözükmüyor.
 @@||tr.fd-api.com/api/$stealth=3p-auth,domain=yemeksepeti.com
+!
+![Sadece AdGuard uygulamaları] Sorun: yatasbedding.com.tr sitesi "Runtime Error" hatası veriyor.
+@@||yatasbedding.com.tr^$stealth=referrer
 !
 ![Sadece AdGuard uygulamaları] Sorun: turk.net web sitesi ve diğer "fatura.turk.net" siteleri açılmıyor.
 @@||turk.net^$stealth=dpi
