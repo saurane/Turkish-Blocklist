@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 13
-! Updated: 9 Nov 2023 5:28:49 PM
+! Entries: 14
+! Updated: 9 Nov 2023 8:34:25 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -19,6 +19,9 @@
 !
 ![Sadece AdGuard uygulamaları] Sorun: turk.net web sitesi ve diğer "fatura.turk.net" siteleri açılmıyor.
 @@||turk.net^$stealth=dpi
+!
+![Sadece AdGuard uygulamaları] Sorun: turkiye.gov.tr web sitesinde harita altyapılı uygulamalarda harita gözükmüyor.
+@@||atlas.harita.gov.tr^$stealth=referrer,third-party
 !
 ![Sadece AdGuard uygulamaları] Sorun: mngkargo.com.tr web sitesi açılmıyor.
 @@||mngkargo.com.tr^$stealth=dpi
