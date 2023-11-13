@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 14
-! Updated: 9 Nov 2023 8:34:25 PM
+! Entries: 15
+! Updated: 13 Nov 2023 10:54:49 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -13,6 +13,9 @@
 !
 ![Sadece AdGuard uygulamaları] Sorun: yatasbedding.com.tr sitesi "Runtime Error" hatası veriyor.
 @@||yatasbedding.com.tr^$stealth=referrer
+!
+![Sadece AdGuard uygulamaları] Sorun: turkcell.com.tr sitesi açılıyor fakat içerikler boş.
+@@||turkcell.com.tr^$stealth=referrer
 !
 ![Sadece AdGuard uygulamaları] Sorun: tac.com.tr sitesi "Runtime Error" hatası veriyor.
 @@||tac.com.tr^$stealth=referrer
