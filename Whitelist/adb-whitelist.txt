@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 15
-! Updated: 13 Nov 2023 10:54:49 PM
+! Entries: 16
+! Updated: 22 Nov 2023 12:42:18 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -52,3 +52,6 @@ hepsiburada.com#@#.backToTopVisible
 !
 !Sorun: gratis.com web sitesinde hesap ile giriş yapılamıyor.
 @@||ondemand.com^$stealth=3p-auth,domain=gratis.com
+!
+!Sorun: blutv.com sitesi "Canlı Destek Başlat" butonu çalışmıyor.
+@@||static.zdassets.com/ekr/snippet.js$domain=blutv.com
