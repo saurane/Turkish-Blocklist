@@ -2,8 +2,8 @@
 ! Description: Whitelist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 16
-! Updated: 22 Nov 2023 12:42:18 AM
+! Entries: 17
+! Updated: 18 Dec 2023 7:25:45 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -28,6 +28,9 @@
 !
 ![Sadece AdGuard uygulamaları] Sorun: mngkargo.com.tr web sitesi açılmıyor.
 @@||mngkargo.com.tr^$stealth=dpi
+!
+![Sadece AdGuard uygulamaları] Sorun: enabiz.gov.tr web sitesi açılmıyor veya yarım yükleniyor.
+@@||enabiz.gov.tr^$stealth=ip
 !
 ![Sadece AdGuard uygulamaları] Sorun: esube.kolaygelsin.com harita gözükmüyor. (Harita altyapısı başka sitelerde de kullanılabileceğinden "third-party" eklendi)
 @@||bms.basarsoft.com.tr/Service/api/$stealth=referrer,image,third-party
