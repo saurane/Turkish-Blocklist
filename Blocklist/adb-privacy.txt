@@ -2,188 +2,78 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 142
-! Updated: 22 Nov 2023 12:40:21 AM
+! Entries: 51
+! Updated: 23 Feb 2025 1:56:27 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
-!
-!GENERIC
+!Other
 /banalytics.js
-/*dataroid*$script
-/*personaclick*$script
-/*cookie-seal*$script
 /ticimax/analytics.js
+/analyticsmediator.js
+/*dataroid*$script
+/springstreams.js$domain=tlctv.com.tr|atv.com.tr|nowtv.com.tr|tv8.com.tr|showtv.com.tr|kanal7.com|dmax.com.tr
 !
-/ruxitagentjs_
-/transparent.gif?ray=
-/mod_pagespeed_beacon?url=
-/ngx_pagespeed_beacon?url=
-/shared/js/analyticsmediator.js
-!
-||blutv.com/hc/activity
-!
-||n11scdn.akamaized.net/adrum.js
-||n11scdn.akamaized.net/custom/athena^
-||n11scdn.akamaized.net/assets/javascripts/ha.js
-!
-||gratis.com/ccstoreui/v*/analytics^
-||gratis.com/file/v*/widget/googleTagManager^
-||gratis.com/file/v*/widget/recommendationsTracking^
-!
-||ciceksepeti.com/partytown-proxy
-||ciceksepeti.com/GoogleTagManager^
-||ciceksepeti.com/Ani/GetLoginOrLogoutEvent
-!
-||turkcell.com.tr/static_lib/assets/scripts/turkcell/google-analytics^
-||turkcell.com.tr/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
-||turkcell.com.tr/static_lib/assets/images/about/mail/spacer.gif?
-||turkcell.com.tr/static_lib/assets/scripts/turkcell/sh.tealium.js
-||merlincdn.net/static_lib/assets/scripts/turkcell/sh.tealium.js
-||merlincdn.net/static_lib/assets/scripts/turkcell/google-analytics^
-||merlincdn.net/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
-!
-||shbdn.com/api/*sentry_key*
-||sahibinden.com/*/blueKai^$redirect=nooptext
-!
-||penti.com/_ui/responsive/common/js/custom/ext/push_sw.js
-||penti.com/_ui/responsive/common/js/custom/acc.penti.personaclick.js
-||penti.com/_ui/responsive/common/js/custom/acc.penti.personaclick.head.js
-||penti.com/_ui/responsive/common/js/custom/acc.penti.googletagmanager.js
-!
-||isimtescil.net/Gtm^
-||akakce.com/*/clickHeat^
-||tvplus.com.tr/analytics^
-||tvplus.com.tr/api/google-analytics^
-||atakdomain.com/*/gtm*.js
-||onedio.com/prod/counters^
-||hepsiburada.net/webtrekk^
-||hepsiburada.net/web-vitals^
-||webtekno.com/ajax/ometric^
-||modanisa.com/*/analytics.js
-||reeder.com.tr/*/tracking.min.js
-||yaanimail.com/assets/js/facebook^
-||fenerbahce.org/cmsapi/webanalytics^
-||araskargo.com.tr/tr/jv_google_analytics.js
-||lcwaikiki.com/Resource/Scripts/tracking^
-||e-devlet.gov.tr/themes/ankara/js/analitik*.js
-||tubitak.gov.tr/sites/all/modules/google_analytics^
-||transfermarkt.com.tr/js/custom/tm-track-links.min.js
-||atam.gov.tr/wp-content/plugins/google-analytics-for-wordpress^
-||hardlinenutrition.com/catalog/view/javascript/facebook_business/facebook_pixel_*.js
-!
-!
-!# UNPOPULAR WEBSITES #
-||ucakbileti.com/Analytics^
-||fullhdfilmizleten.org/analytics^
-||sephora.com.tr/*/dwanalytics-*.js
-||zemana.com/*/atrk.js
-||zemana.com/www.google-analytics.com^
-||ucuzabilet.com/ajax/referrerAnalytics^
-||canliradyodinle.fm/live/fm/gtag.min.js
-||irmethospital.com/wp-json/wp-statistics^
-!
-!segmentify.com adresini istiyor.
-||homemadearomaterapi.net/entegrasyon/sw.js
-!
-||oyunfor.com/Public/standart/web/dist/js/3rd/criteo^
-||kayiprihtim.com/assets/google-universal-analytics
-||dropbyorganics.com/wp-content/cache/busting/*/gtm-*.js
-||spagettiyarn.com/catalog/view/javascript/*facebook*^
-||spagettiyarn.com/catalog/view/javascript/ee_tracking_*.js
-||diken.com.tr/wp-content/plugins/google-analytics-premium^
-||deercase.com/catalog/view/javascript/facebook/facebook_pixel.js
-||indirimkuponum.net/wp-content/plugins/perfmatters/js/analytics.js
-||rosece.com/wp-content/plugins/google-analytics-for-wordpress^
-||rosece.com/wp-content/plugins/google-analytics-dashboard-for-wp^
+!Public
+||trivago.com.tr/_next/static/chunks/web-vitals-tracker.*.js
+||somposigorta.com.tr/assets/web/tracker.js
+||mediamarkt.com.tr/assets/webmobile-pwa/*/libs_shared_data-consent_src_events_trackingAPI_pdpTracking_*.js
+||mackolik.com/js5/Mackolik/Analytics.js
+||todtv.com.tr/Assets/TOD/libs/conviva/
+||todtv.com.tr/Assets/TOD/js/modules/conviva-eco/
+||milleni.com.tr/Scripts/milleni-cid-session-id-finder.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
-||proteinsatinal.com/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag^
+||hepsiburada.net/webtrekk/
+||repkon.com.tr/mc.yandex.ru/metrika/
+||repkon.com.tr/tr/mc.yandex.ru/metrika/
+||sahibinden.com/assets/analytics*.js
+||tvplus.com.tr/analytics/
+||e-devlet.gov.tr/themes/ankara/js/analitik*.js
+||fenerium.com/Scripts/insider-sw-sdk.js
+||ciceksepeti.com/ani/
+||protein7.com/modules/ockrelateddigital/
+||avon.com.tr/Scripts/Tracking/
+||flypgs.com/assets/js/vendors/gtmScript/
+||sunexpress.com/angular/app-modules-common-Analytics-analytics-module-ngfactory.js
+||ajet.com/js/gvars.js
+||ajet.com/tags.js
 !
-!UNIFIED RULES
-/gtag.js$domain=alastyr.com|btcturk.com
-/gtm.js$domain=alastyr.com|btcturk.com|enpara.com|vatanbilgisayar.com
-/firebasejs$domain=haberler.com|sondakika.com
-/dynamics/geoipj$domain=showtv.com.tr|haberturk.com
-/duracelltomi-google-tag-manager/$domain=turk.net|paribu.com|fithub.com.tr|yolcu360.com
+!News and TV Channels Websites
+||showtv.com.tr/scripts/js/gtm.min.js
+||showtv.com.tr/scripts/js/gtmfooter.js
+||sozcu.com.tr/lib/js/sozcu_taboola.js
+||sozcu.com.tr/dist/analytics-client-V*.js
 !
-!WEBSITES of TV CHANNELS
-||yeniakit.com.tr/process/analytics^
-||tvnet.com.tr/dist/js/Analytic.js
-||tvnet.com.tr/dist/js/VisitorCookie.js
-||hurpass.com/async/CreateCookieSSO
-||hurriyet.com.tr/Scripts/clicks.js
-||bundle.app/js/PushAnalyticsEvent.js
-||showtv.com.tr/scripts/js/gtm*.js
-||s.internethaber.com/assets/global/js/criteo.js
-||haber.com/wp-content/cache/min/*/tag/js/gpt.js
+!DSM Grup
+||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js
 !
-!WEBSITES OF BANKS
-||denizbank.com/adrum^
-||denizbank.com/_js/pixel.js
-||denizbank.com/_assets/js/analytics.js
+!Medianova CDN
+||mncdn.com/include/dynamic_click_tag.js$third-party
 !
-!Experimental (deneysel)
-||mark.isbank.com.tr^$redirect=nooptext
+!Erstream Video Delivery
+||ercdn.net/omsdk/
+||ercdn.net/dev/openvv.js
+||daioncdn.net/events?
+||sentry.ercdn.com^
 !
-||turkiyefinans.com.tr/sdk/web/countly.min.js
-||kuveytturk.com.tr/_assets/js/adrum-config.js
-||ziraatkatilim.com.tr/modules/custom/zk_web_analytics^
-||fibabanka.com.tr/ResourcePackages/Fibabanka/assets/js/countly-*.js
-||ing.com.tr/*/adrum^
-||ing.com.tr/*/Omniture_v*.js
+!Merlin CDN
+||merlincdn.net/api/collector/
+||merlincdn.net/static_lib/assets/scripts/turkcell/google-analytics/
+||merlincdn.net/static_lib/assets/scripts/turkcell/sh.tealium.js
+||merlincdn.net/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+||merlincdn.net/pasaj_static_lib/assetsv2/desktop/scripts/shop/google-analytics-web-ga4.js
+||merlincdn.net/pasaj_static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+!
+!E-Commerce Infrastructure
+||ikasapps.com/klaviyo.js
+||myikas.com/*/sendEventV*
+!
+!Bank Websites
+||enpara.com/Frontend/dist/bundle/gtm.js
+||ing.com.tr/F/Documents/Gfx/omniture/
 ||ing.com.tr/documents/IngBank/assets/js/AppMeasurement_v*.js
 !
-!THIRD PARTY
-||glami.com.tr$third-party
-||dygassets.dygdigital.com^$third-party
-||daioncdn.net/events$third-party
-||ercdn.net/omsdk^$third-party
-||ercdn.net/dev/openvv.js$third-party
-||teimg.com/analytics.js$third-party
-||ticimax.com/*/analytics.js$third-party
-||yapaytech.com/ytag/script.js$third-party
-||cdn.md/js*/Mackolik/Analytics.js$third-party
-||snsbilisim.com.tr/js/analytics_js^$third-party
-||tooplay.com/network/player/comscore.js$third-party
-||vidyome.com/vidyome/builds/comscore*.js$third-party
-||mncdn.com/js/personaclick.js$third-party
-||mncdn.com/include/dynamic_click_tag.js$third-party
-||mncdn.com/_ui/shared/js/analyticsmediator.js$third-party
-||mncdn.com/_ui/desktop/common/js/acc.track.js$third-party
-||mncdn.com/_ui/desktop/common/js/acc.clickandcollect.js$third-party
-||mncdn.com/assets/arabamFrontEndFiles*/scripts/sentry.*.js$third-party
-||tmgrup.com.tr/videojs/js/lib/streamsense.min.js$third-party
-||iyzipay.com/buyer-protection/assets/js/analytics.js$third-party
-||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js$third-party
-!
-!FINGERPRINT
-||enpara.com/Frontend/fPrint/BrowserFingerPrintManager_Obfuscated.js
-!
-!
-!OTHER [YABANCI SITELER]
-||tripadvisor.com.tr/MetricsAjax
-||tripadvisor.com.tr/*common.tracking-bridge
-||tacdn.com/js3/build/concat/taevents-*.js
-!
-||avon.com.tr/Scripts/Tracking^
-||avon.com.tr/Scripts/External/RecommendationEngine/resxclsx.js
-!
-||trivago.com.tr/track
-||trivago.com/tracking^
-||trivago.com.tr/search/log
-!
-||tchibo.com.tr/prof/js?event
-||tchibo.com.tr/*/collectontrack.js
-!
-||kiwi.com/api/cookies^
-||hm.com/tr_tr/metrics^
-||hotel360.com.tr/?local_ga_js
-||ups.com.tr/Scripts/cfevents.js
-||momondo.com.tr/s/vestigo/v1/measure
-||somposigorta.com.tr/web/tracker.js
-||nescafe.com/tr/core/modules/statistics^
-||mediamarkt.com.tr/rde_server/res/MMTR/event^
-||robotexturkey.com/wp-content/plugins/google-analyticator^
-!
-/desktop-FingerPrintWrapper.*.js$domain=letgo.com|otoplus.com
+!Third Party
+||mubicdn.net/static/scripts/sp*.js$third-party
+||mubicdn.net/static/scripts/utmz.js$third-party
