@@ -2,8 +2,8 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 51
-! Updated: 23 Feb 2025 1:56:27 PM
+! Entries: 0000
+! Updated: 26 Feb 2025 10:43:57 AM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -22,16 +22,27 @@
 ||todtv.com.tr/Assets/TOD/libs/conviva/
 ||todtv.com.tr/Assets/TOD/js/modules/conviva-eco/
 ||milleni.com.tr/Scripts/milleni-cid-session-id-finder.js
+||superonline.net/ruxitagentjs_*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||hepsiburada.net/webtrekk/
 ||repkon.com.tr/mc.yandex.ru/metrika/
+||turktelekom.com.tr/ttnetwsci/static/_assets/js/netmera-custom.js
+||turktelekom.com.tr/ttnetwsci/static/_assets/js/countly.min.js
 ||repkon.com.tr/tr/mc.yandex.ru/metrika/
+||trendyol.com/v*/metrics
 ||sahibinden.com/assets/analytics*.js
 ||tvplus.com.tr/analytics/
 ||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||fenerium.com/Scripts/insider-sw-sdk.js
+||btcturk.com/assets/gtm.js
+||getir.com/new-relic-script.js
+||yemeksepeti.com/*/xhr/api/v*/collector
+||enuygun.com/assets/tracker.js
+||hayatsu.com.tr/assets/helpers/gtm/
 ||ciceksepeti.com/ani/
+||haberler.com/mstatic/js/gtm-mobile-hm-v*.js
+||fenerbahce.org/cmsapi/webanalytics/
 ||protein7.com/modules/ockrelateddigital/
 ||avon.com.tr/Scripts/Tracking/
 ||flypgs.com/assets/js/vendors/gtmScript/
@@ -50,6 +61,8 @@
 !
 !Medianova CDN
 ||mncdn.com/include/dynamic_click_tag.js$third-party
+||mncdn.com/Themes/Linens/Content/js/GA4.js
+||mncdn.com/wro/js/persona_plugin.js
 !
 !Erstream Video Delivery
 ||ercdn.net/omsdk/
@@ -73,7 +86,44 @@
 ||enpara.com/Frontend/dist/bundle/gtm.js
 ||ing.com.tr/F/Documents/Gfx/omniture/
 ||ing.com.tr/documents/IngBank/assets/js/AppMeasurement_v*.js
+||yapikredi.com.tr/ngi/ruxitagentjs_*.js
+||yapikredi.com.tr/ngi-static/js/ykb/dataroidCustom.*.js
+||yapikredi.com.tr/ngi-static/js/3rdParty/dataroid-websdk.*.js
+||garantibbva.com.tr/ruxitagentjs_*.js
+||garantibbva.com.tr/assets/js/GT.dataLayer.tracker.js
+||ing.com.tr/assets/scripts/dataroid-websdk-v*.js
+||kuveytturk.com.tr/js/adrum/
+||ing.com.tr/eum/
+||anadolubank.com.tr/eum/
+||citibank.com.tr/assets/js/z-analytics.js
+||denizbank.com/ruxitagentjs_*.js
+||denizbank.com/_assets/js/analytics.js
+||denizbank.com/netmera/
+||teb.com.tr/teb/scripts/js/countly.min.js
+||teb.com.tr/cepteteb/ruxitagentjs_*.js
 !
 !Third Party
+||eticaret.pro/pixel/$third-party
+||cloudfront.net/smpl-script.js$third-party
 ||mubicdn.net/static/scripts/sp*.js$third-party
 ||mubicdn.net/static/scripts/utmz.js$third-party
+||digitalfikirler.com/*/ga4Integration.js$third-party
+!
+!Domains
+||demeter-tr-core-collect.trendyol.com^
+||analitik.enerji.gov.tr^
+||zbmatomoapp.ziraatbank.com.tr^
+||dataroid.com^
+||netmera-web.com^
+||pixels.ingbank.com.tr^
+||useinsider.com^
+||hellosmpl.com^
+||metrics.dominos.com.tr^
+||mobildev.in^
+||revotas.com^
+||segmentify.com^
+||analitik.kgm.gov.tr^
+||analytics.halkbank.com.tr^
+||countly.fibabanka.com.tr^
+||analyticsb2c.com^
+||dengage-public-data-collector-proxy.burgan.com.tr^
