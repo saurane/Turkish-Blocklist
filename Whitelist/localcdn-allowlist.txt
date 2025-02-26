@@ -1,0 +1,75 @@
+! Title: LocalCDN Allowlist
+! Description: Allowlist for LocalCDN
+! Maintainer: saurane
+! Syntax: AdBlock
+! Entries: 66
+! Updated: 18 Apr 2022
+! Homepage: https://github.com/saurane/Turkish-Blocklist
+! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
+! Contact: https://github.com/saurane
+@@||ajax.googleapis.com^
+@@||ajax.aspnetcdn.com^
+@@||ajax.microsoft.com^
+@@||cdnjs.cloudflare.com^
+@@||code.jquery.com^
+@@||cdn.jsdelivr.net^
+@@||fonts.googleapis.com^
+@@||yastatic.net^
+@@||yandex.st^
+@@||apps.bdimg.com^
+@@||libs.baidu.com^
+@@||cdn.staticfile.org^
+@@||cdn.bootcss.com^
+@@||mat1.gtimg.com^
+@@||lib.sinaapp.com^
+@@||upcdn.b0.upaiyun.com^
+@@||stackpath.bootstrapcdn.com^
+@@||maxcdn.bootstrapcdn.com^
+@@||netdna.bootstrapcdn.com^
+@@||use.fontawesome.com^
+@@||ajax.cloudflare.com^
+@@||akamai-webcdn.kgstatic.net^
+@@||gitcdn.github.io^
+@@||vjs.zencdn.net^
+@@||cdn.plyr.io^
+@@||cdn.materialdesignicons.com^
+@@||cdn.ravenjs.com^
+@@||js.appboycdn.com^
+@@||cdn.embed.ly^
+@@||cdn.datatables.net^
+@@||mathjax.rstudio.com^
+@@||cdn.mathjax.org^
+@@||code.createjs.com^
+@@||sdn.geekzu.org^
+@@||ajax.proxy.ustclug.org^
+@@||unpkg.com^
+@@||pagecdn.io^
+@@||cdnjs.loli.net^
+@@||ajax.loli.net^
+@@||fonts.loli.net^
+@@||lib.baomitu.com^
+@@||cdn.bootcdn.net^
+@@||fonts.gstatic.com^
+@@||ajax.loli.net.cdn.cloudflare.net^
+@@||akamai-webcdn.kgstatic.net.edgesuite.net^
+@@||apps.bdimg.jomodns.com^
+@@||cdn.bootcdn.net.maoyundns.com^
+@@||cdn.bootcss.com.maoyundns.com^
+@@||cdn.embed.ly.cdn.cloudflare.net^
+@@||cdn.jsdelivr.net.cdn.cloudflare.net^
+@@||cdnjs.loli.net.cdn.cloudflare.net^
+@@||cds.s5x3j6q5.hwcdn.net^
+@@||developer.n.shifen.com^
+@@||dualstack.osff.map.fastly.net^
+@@||fonts.loli.net.cdn.cloudflare.net^
+@@||gateway.cname.ustclug.org^
+@@||gstaticadssl.l.google.com^
+@@||iduwdjf.qiniudns.com^
+@@||lb.sae.sina.com.cn^
+@@||lib.baomitu.com.qh-cdn.com^
+@@||mat1.gtimg.com.tegsea.tc.qq.com^
+@@||materialdesignicons.b-cdn.net^
+@@||mscomajax.vo.msecnd.net^
+@@||sdn.inbond.gslb.geekzu.org^
+@@||use.fontawesome.com.cdn.cloudflare.net^
+@@||vo.aicdn.com^
