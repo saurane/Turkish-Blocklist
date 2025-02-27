@@ -1,60 +1,39 @@
-! Title: Turkish Whitelist
-! Description: Whitelist for Turkish websites.
+! Title: Turkish Allowlist
+! Description: Allowlist for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 17
-! Updated: 18 Dec 2023 7:25:45 PM
+! Entries: 0
+! Updated: 27 Feb 2025 22:21:49 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !
-![Sadece AdGuard uygulamaları] Sorun: yemeksepeti.com ana sayfasında kayıtlı adresler ve geçmiş siparişler gibi geçmişe dayalı etkinlikler gözükmüyor.
-@@||tr.fd-api.com/api/$stealth=3p-auth,domain=yemeksepeti.com
-!
-![Sadece AdGuard uygulamaları] Sorun: yatasbedding.com.tr sitesi "Runtime Error" hatası veriyor.
-@@||yatasbedding.com.tr^$stealth=referrer
-!
-![Sadece AdGuard uygulamaları] Sorun: turkcell.com.tr sitesi açılıyor fakat içerikler boş.
-@@||turkcell.com.tr^$stealth=referrer
-!
-![Sadece AdGuard uygulamaları] Sorun: tac.com.tr sitesi "Runtime Error" hatası veriyor.
+!Site: tac.com.tr
+!Hata: Site açılmıyor.
 @@||tac.com.tr^$stealth=referrer
 !
-![Sadece AdGuard uygulamaları] Sorun: turk.net web sitesi ve diğer "fatura.turk.net" siteleri açılmıyor.
-@@||turk.net^$stealth=dpi
+!Site: yatasbedding.com.tr
+! Hata: Site açılmıyor.
+@@||yatasbedding.com.tr^$stealth=referrer
 !
-![Sadece AdGuard uygulamaları] Sorun: turkiye.gov.tr web sitesinde harita altyapılı uygulamalarda harita gözükmüyor.
-@@||atlas.harita.gov.tr^$stealth=referrer,third-party
+!Site: yatasbedding.com.tr
+!Hata: Site açılmıyor.
+@@||yatasbedding.com.tr^$stealth=referrer
 !
-![Sadece AdGuard uygulamaları] Sorun: mngkargo.com.tr web sitesi açılmıyor.
-@@||mngkargo.com.tr^$stealth=dpi
+!Site: yemeksepeti.com
+!Hata: Aktif siparişler ve önceki siparişler gözükmüyor.
+@@||tr.fd-api.com/api/$stealth=3p-auth,domain=yemeksepeti.com
 !
-![Sadece AdGuard uygulamaları] Sorun: enabiz.gov.tr web sitesi açılmıyor veya yarım yükleniyor.
-@@||enabiz.gov.tr^$stealth=ip
+!Site: sahibinden.com
+!Hata: Olağan dışı erişim hatası veriyor ve IP adresiniz geçici bir süre engelleniyor (5-10 dk.)
+@@||sahibinden.com^$stealth=ip
 !
-![Sadece AdGuard uygulamaları] Sorun: esube.kolaygelsin.com harita gözükmüyor. (Harita altyapısı başka sitelerde de kullanılabileceğinden "third-party" eklendi)
-@@||bms.basarsoft.com.tr/Service/api/$stealth=referrer,image,third-party
+!Site: todtv.com.tr
+!Hata: Canlı TV yayınları açılmıyor
+@@||todtv.com.tr/tv/playrequest$stealth=ip
+@@||digiturk.com.tr/api/widevine/license$stealth=3p-auth,domain=todtv.com.tr
 !
-![Sadece AdGuard uygulamaları] Sorun: szctv.com.tr adresinde canlı yayın açılmıyor.
-@@||geo.dailymotion.com/player/$stealth=referrer,domain=szctv.com.tr
+!Site: cheatglobal.com
+!Hata: Site açılmıyor
+@@||cheatglobal.com^$stealth=ip
 !
-!Sorun: atv.com.tr canlı yayınları açılmıyor. (Turkuvaz Medya sitelerinde de kullanılabileceği için "third-party" eklendi)
-@@||ipcheck.tmgrup.com.tr^third-party
-!
-!Sorun: sahibinden.com Param-Güvende satışını engelliyor.
-@@||static.sahibinden.com/assets/analytics$script,domain=sahibinden.com
-!
-!Sorun: puhutv.com adresindeki videolar açılmıyor.
-@@||dygassets.dygdigital.com/player-new/$third-party
-!
-!Sorun: enterprise.com.tr adresinde araç bulma paneli düzgün yüklenmiyor. (Bu sorun "EasyPrivacy" filtresinden kaynaklanıyor ve herhangi bir kaynak url adresi olmadığı için bu şekilde genel eklendi)
-@@||p.typekit.net^
-!
-!Sorun: hepsiburada.com adresinde birden fazla ürünün bulunduğu sayfayı aşağı kaydırdığınızda ürünler kaybolur ve site bozulur. (Bu sorun "Fanboy's Annoyances" filtresindeki "##.backToTopVisible" kuralından kaynaklanıyor)
-hepsiburada.com#@#.backToTopVisible
-!
-!Sorun: gratis.com web sitesinde hesap ile giriş yapılamıyor.
-@@||ondemand.com^$stealth=3p-auth,domain=gratis.com
-!
-!Sorun: blutv.com sitesi "Canlı Destek Başlat" butonu çalışmıyor.
-@@||static.zdassets.com/ekr/snippet.js$domain=blutv.com
