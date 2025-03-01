@@ -21,7 +21,7 @@
 ||mackolik.com/js5/Mackolik/Analytics.js
 ||todtv.com.tr/Assets/TOD/libs/conviva/
 ||todtv.com.tr/Assets/TOD/js/modules/conviva-eco/
-||tivibu.com.tr/iptvepg/frame*/jssdk/collectAgent.js
+!||tivibu.com.tr/iptvepg/frame*/jssdk/collectAgent.js
 ||milleni.com.tr/Scripts/milleni-cid-session-id-finder.js
 ||superonline.net/ruxitagentjs_*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
