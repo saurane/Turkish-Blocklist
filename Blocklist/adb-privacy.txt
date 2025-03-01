@@ -3,7 +3,7 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 0000
-! Updated: 01 Mar 2025 10:37:39 PM
+! Updated: 01 Mar 2025 10:37:29 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -30,6 +30,7 @@
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||hepsiburada.net/webtrekk/
+||trendyol.com/delphoi.js
 ||repkon.com.tr/mc.yandex.ru/metrika/
 ||turktelekom.com.tr/ttnetwsci/static/_assets/js/netmera-custom.js
 ||turktelekom.com.tr/ttnetwsci/static/_assets/js/countly.min.js
@@ -66,6 +67,8 @@
 !DSM Grup
 ||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js
 ||dsmcdn.com/sfint/production/demeter-prod-*.js
+||dsmcdn.com/sfx/mergen/*/metrics-api.*.js
+||dsmcdn.com/sfx/mergen/*/metricExporter.*.js
 !
 !Medianova CDN
 ||mncdn.com/include/dynamic_click_tag.js$third-party
@@ -136,6 +139,7 @@
 ||dengage-public-data-collector-proxy.burgan.com.tr^
 ||geoloc.hurriyet.com.tr^
 ||hellosmpl.com^
+||sentry.trendyol.com^
 ||hodor-collect.arabam.com^
 ||hstats.hepsiburada.com^
 ||istatistik.arabam.com^
