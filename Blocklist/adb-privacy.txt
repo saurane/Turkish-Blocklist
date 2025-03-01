@@ -3,7 +3,7 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 0000
-! Updated: 01 Mar 2025 9:37:39 PM
+! Updated: 01 Mar 2025 10:37:39 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -15,13 +15,16 @@
 /springstreams.js$domain=tlctv.com.tr|atv.com.tr|nowtv.com.tr|tv8.com.tr|showtv.com.tr|kanal7.com|dmax.com.tr
 !
 !Public
+!||trendyol.com/v*/metrics
+!||tivibu.com.tr/iptvepg/frame*/jssdk/collectAgent.js
 ||trivago.com.tr/_next/static/chunks/web-vitals-tracker.*.js
 ||somposigorta.com.tr/assets/web/tracker.js
 ||mediamarkt.com.tr/assets/webmobile-pwa/*/libs_shared_data-consent_src_events_trackingAPI_pdpTracking_*.js
 ||mackolik.com/js5/Mackolik/Analytics.js
 ||todtv.com.tr/Assets/TOD/libs/conviva/
 ||todtv.com.tr/Assets/TOD/js/modules/conviva-eco/
-!||tivibu.com.tr/iptvepg/frame*/jssdk/collectAgent.js
+||vatanbilgisayar.com/Basket/PushBasketProductsToVisilabs
+||vatanbilgisayar.com/Partial/VisilabsUserInfo/
 ||milleni.com.tr/Scripts/milleni-cid-session-id-finder.js
 ||superonline.net/ruxitagentjs_*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
@@ -31,7 +34,6 @@
 ||turktelekom.com.tr/ttnetwsci/static/_assets/js/netmera-custom.js
 ||turktelekom.com.tr/ttnetwsci/static/_assets/js/countly.min.js
 ||repkon.com.tr/tr/mc.yandex.ru/metrika/
-||trendyol.com/v*/metrics
 ||sahibinden.com/assets/analytics*.js
 ||sahibinden.com/ajax/counter/
 ||sahibinden.com/efes/assets/js/analytics.js
@@ -63,6 +65,7 @@
 !
 !DSM Grup
 ||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js
+||dsmcdn.com/sfint/production/demeter-prod-*.js
 !
 !Medianova CDN
 ||mncdn.com/include/dynamic_click_tag.js$third-party
@@ -82,6 +85,9 @@
 ||merlincdn.net/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
 ||merlincdn.net/pasaj_static_lib/assetsv2/desktop/scripts/shop/google-analytics-web-ga4.js
 ||merlincdn.net/pasaj_static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
+||mncdn.com/assets*/arabamFrontEndFiles/scripts/sentry.*.js
+||mncdn.com/assets*/arabamFrontEndFiles/scripts/2248.*.js
+||mncdn.com/assets*/arabamFrontEndFiles/scripts/home.*.js
 !
 !E-Commerce Infrastructure
 ||ikasapps.com/klaviyo.js
@@ -125,6 +131,7 @@
 ||dataroid.com^
 ||demeter-int-ecom-collect.trendyol.com^
 ||demeter-tr-core-collect.trendyol.com^
+||beholder-otlp.trendyol.com^
 ||demeter-tr-milla-collect.trendyol-milla.com^
 ||dengage-public-data-collector-proxy.burgan.com.tr^
 ||geoloc.hurriyet.com.tr^
