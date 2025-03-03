@@ -3,11 +3,13 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 0000
-! Updated: 01 Mar 2025 10:37:29 PM
+! Updated: 03 Mar 2025 10:37:29 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
 !Other
+!ikas.com
+/*/sendEventV*$xhr,1p
 /banalytics.js
 /ticimax/analytics.js
 /analyticsmediator.js
@@ -17,6 +19,18 @@
 !Public
 !||trendyol.com/v*/metrics
 !||tivibu.com.tr/iptvepg/frame*/jssdk/collectAgent.js
+||dsmcdn.com/sfx/mergen/*/logExporter.*.js
+||trendyol.com/sw.js
+||pluxee.com.tr/modules/contrib/google_tag/
+||glami.com.tr/js/compiled/webpack/promoTracker.*.js
+||glami.com.tr/js/compiled/webpack/RemarketingServices.*.chunk.js
+||glami.com.tr/tracker/
+||glami.com.tr/pv/pv.gif?
+||glami.com.tr/js/compiled/pt.js
+||derinet.com.tr/wpm@*/app/web-pixel-*/pixel.modern.js
+||derinet.com.tr/cdn/shopifycloud/shopify/assets/shop_events_listener-*.js
+||lcw.com/Resource/Scripts/tracking/
+||bigjoy.com.tr/catalog/view/javascript/facebook_business/facebook_pixel_*.js
 ||trivago.com.tr/_next/static/chunks/web-vitals-tracker.*.js
 ||somposigorta.com.tr/assets/web/tracker.js
 ||mediamarkt.com.tr/assets/webmobile-pwa/*/libs_shared_data-consent_src_events_trackingAPI_pdpTracking_*.js
@@ -39,6 +53,8 @@
 ||sahibinden.com/ajax/counter/
 ||sahibinden.com/efes/assets/js/analytics.js
 ||todtv.com.tr/Assets/TOD/js/bc/gtmHelperFuncs.js
+||kolaygelsin.com/assets/js/newrelic.js
+||kolaygelsin.com/assets/js/new-relic.js
 ||tvplus.com.tr/analytics/
 ||e-devlet.gov.tr/themes/ankara/js/analitik*.js
 ||fenerium.com/Scripts/insider-sw-sdk.js
@@ -74,6 +90,7 @@
 ||mncdn.com/include/dynamic_click_tag.js$third-party
 ||mncdn.com/Themes/Linens/Content/js/GA4.js
 ||mncdn.com/wro/js/persona_plugin.js
+||mncdn.com/revolt-icons/revolt/newrelic.js
 !
 !Erstream Video Delivery
 ||sentry.ercdn.com^
@@ -149,9 +166,20 @@
 ||netmera.com^
 ||pixels.ingbank.com.tr^
 ||tracker.blutv.com^
+||ws.sahibinden.com^
+||collect.dolap.com^
 ||pnsdkapi.turktelekom.com.tr^
 ||revotas.com^
+||sentry-prod.enuygun.tech^
 ||segmentify.com^
+||ssgtm.glami.com.tr^
+||analytics.havelsan.com^
+||collector.lescon.com.tr^
+||selphiu.com^
+||wawlabs.com^
+||event-tracker.inditex.com^
+||measurement.gratis.com^
+||tag.atasunoptik.com.tr^
 ||useinsider.com^
 ||zbmatomoapp.ziraatbank.com.tr^
 ||trck.zirhlitoptanmarket.com^
