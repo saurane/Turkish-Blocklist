@@ -3,24 +3,40 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 0000
-! Updated: 03 Mar 2025 10:37:29 PM
+! Updated: 04 Mar 2025 10:37:29 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
+!
 !Other
 !ikas.com
 /*/sendEventV*$xhr,1p
+||ikasapps.com/klaviyo.js
+!
+/*dataroid*$script
 /banalytics.js
 /ticimax/analytics.js
 /analyticsmediator.js
-/*dataroid*$script
-/springstreams.js$domain=tlctv.com.tr|atv.com.tr|nowtv.com.tr|tv8.com.tr|showtv.com.tr|kanal7.com|dmax.com.tr
+/springstreams.js$domain=~tabii.com
+!
+!#DSM Group (Trendyol, Trendyol Milla)
+||trendyol.com/sw.js
+||trendyol.com/delphoi.js
+||*collect.trendyol.com^
+||*collect.trendyol-milla.com^
+||sentry.trendyol.com^
+||collect.trendyol.com^
+||beholder-otlp.trendyol.com^
+||demeter-tr-core-collect.trendyol.com^
+||demeter-int-ecom-collect.trendyol.com^
+||demeter-tr-milla-collect.trendyol-milla.com^
+||delphoi-tr-milla-collect.trendyol-milla.com^
+||dsmcdn.com/sfx/mergen/
+||dsmcdn.com/sfint/production/demeter-prod
+||dsmcdn.com/frontend/web/production/dom-event-tracker
+!#
 !
 !Public
-!||trendyol.com/v*/metrics
-!||tivibu.com.tr/iptvepg/frame*/jssdk/collectAgent.js
-||dsmcdn.com/sfx/mergen/*/logExporter.*.js
-||trendyol.com/sw.js
 ||pluxee.com.tr/modules/contrib/google_tag/
 ||glami.com.tr/js/compiled/webpack/promoTracker.*.js
 ||glami.com.tr/js/compiled/webpack/RemarketingServices.*.chunk.js
@@ -28,7 +44,6 @@
 ||glami.com.tr/pv/pv.gif?
 ||glami.com.tr/js/compiled/pt.js
 ||derinet.com.tr/wpm@*/app/web-pixel-*/pixel.modern.js
-||derinet.com.tr/cdn/shopifycloud/shopify/assets/shop_events_listener-*.js
 ||lcw.com/Resource/Scripts/tracking/
 ||bigjoy.com.tr/catalog/view/javascript/facebook_business/facebook_pixel_*.js
 ||trivago.com.tr/_next/static/chunks/web-vitals-tracker.*.js
@@ -44,7 +59,6 @@
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-analytics*.js
 ||pwc.com.tr/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics*.js
 ||hepsiburada.net/webtrekk/
-||trendyol.com/delphoi.js
 ||repkon.com.tr/mc.yandex.ru/metrika/
 ||turktelekom.com.tr/ttnetwsci/static/_assets/js/netmera-custom.js
 ||turktelekom.com.tr/ttnetwsci/static/_assets/js/countly.min.js
@@ -53,6 +67,9 @@
 ||sahibinden.com/ajax/counter/
 ||sahibinden.com/efes/assets/js/analytics.js
 ||todtv.com.tr/Assets/TOD/js/bc/gtmHelperFuncs.js
+||papara.com/web/Assets/js/newrelic.js
+||btcturk.com/lib/ga-events/
+||btcturk.com/lib/gtag/
 ||kolaygelsin.com/assets/js/newrelic.js
 ||kolaygelsin.com/assets/js/new-relic.js
 ||tvplus.com.tr/analytics/
@@ -80,12 +97,6 @@
 ||showtv.com.tr/scripts/js/gtmfooter.js
 ||sozcu.com.tr/lib/js/sozcu_taboola.js
 !
-!DSM Grup
-||dsmcdn.com/frontend/web/production/dom-event-tracker-*.js
-||dsmcdn.com/sfint/production/demeter-prod-*.js
-||dsmcdn.com/sfx/mergen/*/metrics-api.*.js
-||dsmcdn.com/sfx/mergen/*/metricExporter.*.js
-!
 !Medianova CDN
 ||mncdn.com/include/dynamic_click_tag.js$third-party
 ||mncdn.com/Themes/Linens/Content/js/GA4.js
@@ -108,10 +119,6 @@
 ||mncdn.com/assets*/arabamFrontEndFiles/scripts/sentry.*.js
 ||mncdn.com/assets*/arabamFrontEndFiles/scripts/2248.*.js
 ||mncdn.com/assets*/arabamFrontEndFiles/scripts/home.*.js
-!
-!E-Commerce Infrastructure
-||ikasapps.com/klaviyo.js
-||myikas.com/*/sendEventV*
 !
 !Bank Websites
 ||anadolubank.com.tr/eum/
@@ -146,17 +153,11 @@
 ||analytics.halkbank.com.tr^
 ||analyticsb2c.com^
 ||cdn-netmeraprod.turktelekom.com.tr^
-||collect.trendyol.com^
 ||countly.fibabanka.com.tr^
 ||dataroid.com^
-||demeter-int-ecom-collect.trendyol.com^
-||demeter-tr-core-collect.trendyol.com^
-||beholder-otlp.trendyol.com^
-||demeter-tr-milla-collect.trendyol-milla.com^
 ||dengage-public-data-collector-proxy.burgan.com.tr^
 ||geoloc.hurriyet.com.tr^
 ||hellosmpl.com^
-||sentry.trendyol.com^
 ||hodor-collect.arabam.com^
 ||hstats.hepsiburada.com^
 ||istatistik.arabam.com^
