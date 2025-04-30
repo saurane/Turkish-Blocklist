@@ -3,7 +3,7 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 0000
-! Updated: 07 Mar 2025 10:37:29 PM
+! Updated: 04.30.2025
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
@@ -12,8 +12,6 @@
 !ikas.com
 /*/sendEventV*$xhr,1p
 ||ikasapps.com/klaviyo.js
-!
-/ruxitagentjs
 !
 /banalytics.js
 /ticimax/analytics.js
@@ -27,6 +25,7 @@
 ||hepsiburada.net/webtrekk/
 ||leo.hepsiburada.com^
 ||hstats.hepsiburada.com^
+||metric-collector.hepsipay.com^
 !
 !# sahibinden.com
 ||ws.sahibinden.com^
@@ -197,6 +196,8 @@
 ||useinsider.com^
 ||wawlabs.com^
 ||im.mackolik.com^
+||analytics.turksat.com.tr^
 ||membrana.media^
+||collector.lescon.com.tr^
 ||stats.pardus.org.tr^
 ||zbmatomoapp.ziraatbank.com.tr^
