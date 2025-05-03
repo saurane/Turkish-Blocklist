@@ -49,6 +49,9 @@
 ||demeter-int-ecom-collect.trendyol.com^
 ||demeter-tr-milla-collect.trendyol-milla.com^
 ||delphoi-tr-milla-collect.trendyol-milla.com^
+||dsmcdn.com/sfx/mergen/*/tracing
+||dsmcdn.com/sfx/mergen/*/SemanticAttributes
+||dsmcdn.com/sfx/mergen/*/logExporter
 ||dsmcdn.com/mweb/master/gtm.service
 ||dsmcdn.com/sfint/production/demeter-prod
 ||dsmcdn.com/frontend/web/production/dom-event-tracker
