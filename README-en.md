@@ -1,10 +1,10 @@
 [Türkçe sürüm için tıklayın / Click for Turkish version](README.md)
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Turkish%20Privacy%20Filter-May%2010%2C%202025%2009%3A12%20PM-green.svg?longCache=true&style=for-the-badge"
-         alt="Turkish Privacy Filter - May 10, 2025 09:12 PM" />
-<img src="https://img.shields.io/badge/Hostlist-May%2010%2C%202025%2C%2015%3A54-green.svg?longCache=true&style=for-the-badge"
-     alt="Hostlist - May 10, 2025, 15:54" />
+    <img src="https://img.shields.io/badge/Turkish%20Privacy%20Filter-10%20May%202025%2021%3A12-green.svg?longCache=true&style=for-the-badge"
+         alt="Turkish Privacy Filter - 10 May 2025 21:12" />
+        <img src="https://img.shields.io/badge/Turkish%20Privacy%20DNS%20Filter-10%20May%202025%2021%3A12-green.svg?longCache=true&style=for-the-badge"
+         alt="Turkish Privacy Filter - 10 May 2025 21:12" />
     <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
          alt="Lisans-MPL-2.0" />
 </div>
