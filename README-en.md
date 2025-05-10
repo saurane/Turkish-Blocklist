@@ -1,8 +1,8 @@
 [Türkçe sürüm için tıklayın / Click for Turkish version](README.md)
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Turkish%20Privacy%20Filter-May%2010%2C%202025%2006%3A16%20PM-green.svg?longCache=true&style=for-the-badge"
-         alt="Turkish Privacy Filter - May 10, 2025 06:16 PM" />
+    <img src="https://img.shields.io/badge/Turkish%20Privacy%20Filter-May%2010%2C%202025%2006%3A20%20PM-green.svg?longCache=true&style=for-the-badge"
+         alt="Turkish Privacy Filter - May 10, 2025 06:20 PM" />
 <img src="https://img.shields.io/badge/Hostlist-May%2010%2C%202025%2C%2015%3A54-green.svg?longCache=true&style=for-the-badge"
      alt="Hostlist - May 10, 2025, 15:54" />
     <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
