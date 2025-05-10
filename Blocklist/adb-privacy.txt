@@ -3,7 +3,7 @@
 ! Maintainer: saurane
 ! Syntax: AdBlock
 ! Entries: 168
-! Updated: 10 May 2025 05:33:03 PM
+! Updated: 10 May 2025 05:40:40 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
