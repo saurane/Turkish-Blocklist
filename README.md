@@ -2,8 +2,8 @@
 <div align="center">
     <img src="https://img.shields.io/badge/Turkish%20Privacy%20Filter-10%20May%202025%2021%3A12-green.svg?longCache=true&style=for-the-badge"
          alt="Turkish Privacy Filter - 10 May 2025 21:12" />
-        <img src="https://img.shields.io/badge/Turkish%20Privacy%20DNS%20Filter-10%20May%202025%2021%3A12-green.svg?longCache=true&style=for-the-badge"
-         alt="Turkish Privacy DNS Filter - 10 May 2025 21:12" />
+        <img src="https://img.shields.io/badge/Turkish%20Privacy%20DNS%20Filter-10%20May%202025%2021%3A36-green.svg?longCache=true&style=for-the-badge"
+         alt="Turkish Privacy DNS Filter - 10 May 2025 21:36" />
     <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
          alt="Lisans-MPL-2.0" />
 </div>
