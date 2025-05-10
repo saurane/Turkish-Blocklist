@@ -2,44 +2,33 @@
 ! Description: Privacy filter for Turkish websites.
 ! Maintainer: saurane
 ! Syntax: AdBlock
-! Entries: 0000
-! Updated: 05.09.2025
+! Entries: 168
+! Updated: 10 May 2025 02:30:14 PM
 ! Homepage: https://github.com/saurane/Turkish-Blocklist
 ! License: https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/LICENSE
 ! Contact: https://github.com/saurane
-!
 /banalytics.js
 /ticimax/analytics.js
 /analyticsmediator.js
 /*dataroid*$script
 /springstreams.js$domain=~tabii.com
-!
-# Erstream Video Delivery
 ||sentry.ercdn.com^
 ||ercdn.net/omsdk/
 ||daioncdn.net/events?
 ||ercdn.net/dev/openvv.js
-!
-!# Medianova CDN
 ||mncdn.com/wro/js/persona_plugin.js
 ||mncdn.com/Themes/Linens/Content/js/GA4.js
 ||mncdn.com/revolt-icons/revolt/newrelic.js
 ||mncdn.com/include/dynamic_click_tag.js$third-party
-!
-!# TurkTelekom
 ||pnsdkapi.turktelekom.com.tr^
 ||cdn-netmeraprod.turktelekom.com.tr^
 ||turktelekom.com.tr/ttnetwsci/static/_assets/js/countly.min.js
 ||turktelekom.com.tr/ttnetwsci/static/_assets/js/netmera-custom.js
-!
-!# hepsiburada.com
 ||hepsiburada.net/leo/
 ||hepsiburada.net/webtrekk/
 ||leo.hepsiburada.com^
 ||hstats.hepsiburada.com^
 ||metric-collector.hepsipay.com^
-!
-!# sahibinden.com
 ||shbdn.com/rum/
 ||ws.sahibinden.com^
 ||sahibinden.com/rum/
@@ -47,13 +36,9 @@
 ||sahibinden.com/assets/analytics*.js
 ||sahibinden.com/efes/assets/js/analytics.js
 ||shbdn.com/api/*/store/?sentry_version=
-!
-!# n11.com
 ||athena-event-provider.n11.com^
 ||n11scdn.akamaized.net/custom/athena/
 ||n11scdn.akamaized.net/assets/javascripts/ha.js
-!
-!# DSM Group (Trendyol, Trendyol Milla, Dolap)
 ||trendyol.com/sw.js
 ||trendyol.com/delphoi.js
 ||collect.dolap.com^
@@ -69,8 +54,6 @@
 ||dsmcdn.com/sfint/production/demeter-prod
 ||dsmcdn.com/sfx/mergen/*/SemanticAttributes
 ||dsmcdn.com/frontend/web/production/dom-event-tracker
-!
-!# Turkcell
 ||signals.turkcell.com.tr^
 ||tvplus.com.tr/analytics/
 ||yaanimail.com/netmera_sw1.js
@@ -81,15 +64,11 @@
 ||merlincdn.net/static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
 ||merlincdn.net/pasaj_static_lib/assetsv2/desktop/scripts/shop/google-analytics-web.js
 ||merlincdn.net/pasaj_static_lib/assetsv2/desktop/scripts/shop/google-analytics-web-ga4.js
-!
-!# arabam.com
 ||istatistik.arabam.com^
 ||hodor-collect.arabam.com^
 ||mncdn.com/assets*/arabamFrontEndFiles/scripts/2248.*.js
 ||mncdn.com/assets*/arabamFrontEndFiles/scripts/home.*.js
 ||mncdn.com/assets*/arabamFrontEndFiles/scripts/sentry.*.js
-!#
-!Public
 ||marti.tech/utils/analytics/
 ||ajet.com/js/gvars.js
 ||ajet.com/tags.js
@@ -145,8 +124,6 @@
 ||vatanbilgisayar.com/Basket/PushBasketProductsToVisilabs
 ||vatanbilgisayar.com/Partial/VisilabsUserInfo/
 ||yemeksepeti.com/*/xhr/api/v*/collector
-!
-!Bank Websites
 ||anadolubank.com.tr/eum/
 ||citibank.com.tr/assets/js/z-analytics.js
 ||denizbank.com/_assets/js/analytics.js
@@ -165,13 +142,9 @@
 ||teb.com.tr/teb/scripts/js/countly.min.js
 ||yapikredi.com.tr/ngi-static/js/3rdParty/dataroid-websdk
 ||yapikredi.com.tr/ngi-static/js/ykb/dataroidCustom
-!
-!Third Party
 ||eticaret.pro/pixel/$third-party
 ||cloudfront.net/smpl-script.js$third-party
 ||digitalfikirler.com/*/ga4Integration.js$third-party
-!
-!Domains
 ||analitik.bik.gov.tr^
 ||analitik.enerji.gov.tr^
 ||av2.sozcu.com.tr^
@@ -201,5 +174,4 @@
 ||im.mackolik.com^
 ||analytics.turksat.com.tr^
 ||membrana.media^
-||collector.lescon.com.tr^
 ||stats.pardus.org.tr^
