@@ -9,10 +9,12 @@
 </div>
 <br/>
 
-| Söz dizimi | İstemciler | Turkish Privacy DNS Filter | Turkish Privacy Filter |
-| ------------ | ------------ | ------------ | ------------ |
-| AdBlock  | uBlock, AdGuard, Pi-hole, Brave Shields | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adb-privacy.txt "RAW") | 
-| DNSMasq | DNSMasq | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.txt "RAW") | - |
+| Söz dizimi | Turkish Privacy DNS Filter | Turkish Privacy Filter |
+| ------------ | ------------ | ------------ |
+| AdBlock  | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adblock.txt "RAW") | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/adb-privacy.txt "RAW") | 
+| RPZ | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/rpz.txt "RAW") | - |
+| Hosts | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/hosts.txt "RAW") | - |
+| DNSMasq | [RAW](https://raw.githubusercontent.com/saurane/Turkish-Blocklist/master/Blocklist/dnsmasq.txt "RAW") | - |
 
 ## Tespit ve araştırma yöntemleri
 [AdGuard](https://adguard.com/), [NextDNS](https://nextdns.io/), URL Scan
