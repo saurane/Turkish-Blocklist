@@ -1,15 +1,10 @@
-![Cover](https://github.com/saurane/Turkish-Blocklist/blob/master/Assets/srn-banner.png)
-
 <div align="center">
-    <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-Feb 26, 2025-green.svg?longCache=true&style=for-the-badge"
-      alt="_time_stamp_" />
-    <!-- Status -->
-    <img src="https://img.shields.io/badge/Status-Stable-blue.svg?longCache=true&style=for-the-badge"
-      alt="_time_stamp_" />
-    <!-- License -->
+    <img src="https://img.shields.io/badge/Turkish%20Privacy%20Filter-May%2010%2C%202025%2C%2015%3A49-green.svg?longCache=true&style=for-the-badge"
+         alt="Turkish Privacy Filter - May 10, 2025, 15:49" />
+<img src="https://img.shields.io/badge/Hostlist-May%2010%2C%202025%2C%2015%3A54-green.svg?longCache=true&style=for-the-badge"
+     alt="Hostlist - May 10, 2025, 15:54" />
     <img src="https://img.shields.io/badge/License-MPL 2.0-orange.svg?longCache=true&style=for-the-badge"
-      alt="Lisans-MPL-2.0" />
+         alt="Lisans-MPL-2.0" />
 </div>
 <br/>
 
