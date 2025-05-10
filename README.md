@@ -1,3 +1,4 @@
+[İngilizce sürüm için tıklayın / Click for English version](README-en.md)
 <div align="center">
     <img src="https://img.shields.io/badge/Turkish%20Privacy%20Filter-May%2010%2C%202025%2C%2016%3A35-green.svg?longCache=true&style=for-the-badge"
          alt="Turkish Privacy Filter - May 10, 2025, 16:35" />
